@@ -8,6 +8,9 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - [Bridge](https://github.com/wonderbird/kata-gof-pattern-bridge-logger)
 - [Builder](https://github.com/wonderbird/kata-gof-builder-pattern-shop-order-completion)
 - [Chain of Responsibility](https://github.com/wonderbird/kata-gof-chain-of-responsibility-pokerhands)
+- Command: ThoughtWorks Mars Rover Kata
+  - ↗️[Documented by Priyank Gupta](https://github.com/priyaaank/MarsRover/blob/master/README.md),
+  - ↗️[Documented by kata-log.rocks](https://kata-log.rocks/mars-rover-kata)
 
 **Note:**
 
