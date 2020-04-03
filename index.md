@@ -11,6 +11,7 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - Command: ThoughtWorks Mars Rover Kata
   - ↗️[Documented by Priyank Gupta](https://github.com/priyaaank/MarsRover/blob/master/README.md),
   - ↗️[Documented by kata-log.rocks](https://kata-log.rocks/mars-rover-kata)
+  - [My Solution on GitHub (work in progress)](https://github.com/wonderbird/kata-gof-pattern-command-mars-rover)
 
 **Note:**
 
