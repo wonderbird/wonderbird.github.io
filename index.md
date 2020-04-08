@@ -4,13 +4,11 @@
 
 This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](#ref-2)]:
 
-- ↗️[Adapter](https://www.codewars.com/kata/5792e2e93467db66a000009f)
-- [Bridge](https://github.com/wonderbird/kata-gof-pattern-bridge-logger)
-- [Builder](https://github.com/wonderbird/kata-gof-builder-pattern-shop-order-completion)
-- [Chain of Responsibility](https://github.com/wonderbird/kata-gof-chain-of-responsibility-pokerhands)
-- Command: ThoughtWorks Mars Rover Kata
-  - ↗️[Documented by Priyank Gupta](https://github.com/priyaaank/MarsRover/blob/master/README.md),
-  - ↗️[Documented by kata-log.rocks](https://kata-log.rocks/mars-rover-kata)
+- ↗️[Adapter - Codewars: Geese to Ducks](https://www.codewars.com/kata/5792e2e93467db66a000009f)
+- [Bridge - Logging System](https://github.com/wonderbird/kata-gof-pattern-bridge-logger)
+- [Builder - WebShop](https://github.com/wonderbird/kata-gof-builder-pattern-shop-order-completion)
+- [Chain of Responsibility - Pokerhands](https://github.com/wonderbird/kata-gof-chain-of-responsibility-pokerhands)
+- [Command - Mars Rover](https://github.com/wonderbird/kata-gof-pattern-command-mars-rover)
 
 **Note:**
 
