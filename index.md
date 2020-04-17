@@ -9,6 +9,7 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - [Builder - WebShop](https://github.com/wonderbird/kata-gof-builder-pattern-shop-order-completion)
 - [Chain of Responsibility - Pokerhands](https://github.com/wonderbird/kata-gof-chain-of-responsibility-pokerhands)
 - [Command - Mars Rover](https://github.com/wonderbird/kata-gof-pattern-command-mars-rover)
+- ↗️[Decorator - Bicycle Inventory](https://github.com/delbertlegg/Design-pattern-katas)
 
 **Note:**
 
