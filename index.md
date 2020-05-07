@@ -10,6 +10,7 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - [Chain of Responsibility - Pokerhands](https://github.com/wonderbird/kata-gof-chain-of-responsibility-pokerhands)
 - [Command - Mars Rover](https://github.com/wonderbird/kata-gof-pattern-command-mars-rover)
 - [Decorator - Bicycle Inventory](https://github.com/wonderbird/kata-gof-decorator-bicycle-inventory)
+- [EventAggregator - IRC](https://github.com/wonderbird/kata-gof-pattern-eventaggregator-irc)
 
 **Note:**
 
