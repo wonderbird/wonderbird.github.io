@@ -1,6 +1,7 @@
-﻿Welcome at Stefan Boos' personal home page.
+Welcome at Stefan Boos' personal home page.
 
 Overview
 
 * [Katas](katas.html)
 * [Minecraft](minecraft.html)
+* [Contributing](contributing.html)
