@@ -1,3 +1,8 @@
+---
+title: Minecraft
+layout: default
+---
+
 # Minecraft
 
 ## Resources

@@ -1,12 +1,17 @@
-## Contributing
+---
+title: Contributing
+layout: default
+---
+
+# Contributing
 
 To contribute to this page you need to build it locally.
 
-### Prerequisites
+## Prerequisites
 
 * Install Jekyll
 
-### Build and Preview
+## Build and Preview
 
 ```
 bundle exec jekyll serve

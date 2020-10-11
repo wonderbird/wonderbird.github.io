@@ -1,3 +1,8 @@
+---
+title: Katas
+layout: default
+---
+
 # Katas
 
 This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](#ref-2)]:
