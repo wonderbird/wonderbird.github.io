@@ -1,0 +1,10 @@
+main:
+  - title: Contributing
+    url: /pages/contributing.html
+  - title: COVID-2019
+    url: /pages/covid-2019.html
+  - title: Katas
+    url: /pages/katas.html
+  - title: Minecraft
+    url: /pages/minecraft.html
+  

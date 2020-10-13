@@ -2,10 +2,10 @@
 
 <h2>Table of Contents</h2>
 <ul>
-{% for file in site.content_root %}
+{% for menuEntry in site.data.navigation.main %}
   <li>
-    <a href="{{ file.url }}">
-      {{ file.title }}
+    <a href="{{ menuEntry.url }}">
+      {{ menuEntry.title }}
     </a>
   </li>
 {% endfor %}

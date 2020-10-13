@@ -1,4 +1,4 @@
 theme: jekyll-theme-architect
 collections:
-  content_root:
+  pages:
     output: true
