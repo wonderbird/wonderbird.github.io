@@ -3,6 +3,8 @@ main:
     url: /pages/contributing.html
   - title: COVID-2019
     url: /pages/covid-2019.html
+  - title: Code Analysis
+    url: /pages/code-analysis.html
   - title: Katas
     url: /pages/katas.html
   - title: Minecraft
