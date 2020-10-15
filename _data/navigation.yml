@@ -9,6 +9,8 @@ main:
     url: /pages/katas.html
   - title: Minecraft
     url: /pages/minecraft.html
+  - title: Networking
+    url: /pages/networking.html
   - title: Recreating Windows VMs
     url: /pages/minecraft.html
   
