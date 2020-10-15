@@ -1,3 +1,8 @@
+---
+title: Setting up Virtual Machines Rapidly with Chocolatey
+layout: default
+---
+
 # Setting up Virtual Machines Rapidly with Chocolatey
 
 ## Rationale
@@ -18,7 +23,7 @@ From your current VM instance ...
 
 1. Remove all the packages from the exported lists, which you don't need any longer
 
-**Note:**
+**Note:**¥
 
 At the moment I do not save Application Settings
 
