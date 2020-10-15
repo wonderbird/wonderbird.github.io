@@ -8,21 +8,43 @@ As a Mac user I have a Parallels virtual machine for my Windows applications. Ev
 
 The following shows my steps for recreating virtual Windows machines:
 
-1. From my current instance export all Chocolatey packages (see below)
+### Save the Current State
 
-1. Remove all the packages from the exported list, which you don't need any longer
+From your current VM instance ...
+
+1. Export all Chocolatey packages (see below)
+
+1. Export the list of all Plugins you have installed for your development environments
+
+1. Remove all the packages from the exported lists, which you don't need any longer
+
+**Note:**
+
+At the moment I do not save Application Settings
+
+### Setting Up the VM From Scratch
 
 1. Install the base Windows system from CD (or restore it from a backup)
+
+1. Install all pending Windows Updates
 
 1. Install Parallels Tools and activate the shared clipboard
 
 1. Install Chocolatey
 
-1. Install the Chocolatey packages you have exported previously
+1. Install the Chocolatey packages you have exported previously: `choco install packages.config -y`
 
-1. Update all install Chocolatey packages
+1. Update all install Chocolatey packages: `choco upgrade all`
 
-## Export Installed Chocolatey Packages
+1. Cleanup: `cleanmgr`
+
+### Finetuning
+
+1. For Docker-Desktop the Windows Subsystem for Linux is required
+
+## Appendix
+
+### Export Installed Chocolatey Packages
 
 Follow the instructions Ammaar Limbada has published on GitHub: [alimbada / ExportChocolatey.ps1](https://gist.github.com/alimbada/449ddf65b4ef9752eff3)
 
@@ -37,3 +59,9 @@ Write-Output "<packages>"
 choco list -lo -r -y | % { "   <package id=`"$($_.SubString(0, $_.IndexOf("|")))`" version=`"$($_.SubString($_.IndexOf("|") + 1))`" />" }
 Write-Output "</packages>"
 ```
+
+### Interesting Visual Studio Plugins
+
+* Resharper - installed via Chocolatey
+* [SpecFlow](https://specflow.org/)
+* [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=Elisha.CodeMetrices)
