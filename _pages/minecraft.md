@@ -31,9 +31,13 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 * David Dodge: [The Ultimate Guide to Minecraft Modding with Java in 2020](https://codakid.com/guide-to-minecraft-modding-with-java/)<br />*Another tutorial based on an older Minecraft version*
 
+* YouTube: [TechnoVision Forge Modding Tutorial 1.16](https://www.youtube.com/watch?v=JOTH1eDP99Y&list=PLDhiRTZ_vnoUI3-9z0Zg-I8tTSp3EfOia) and associated [GitHub Repository](https://github.com/TechnoVisionDev/Forge-Modding-Tutorial-1.16)<br />
+
 ### Advanced Topics
 
 * [Mod Coders Pack](https://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack)<br />*Helps decompiling the Minecraft Source Code*<br />
+
+* Mojang, Microsoft, Tom Stone: [Programmers: Play with Minecraft's inner workings!](https://www.minecraft.net/en-us/article/programmers-play-minecrafts-inner-workings)<br />*Some Open Sourced Minecraft Game Libraries*<br />
 
 ## Minecraft Server
 
