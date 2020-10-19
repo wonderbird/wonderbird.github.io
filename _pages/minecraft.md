@@ -23,14 +23,17 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 ### Good Intros
 
-* [Minecraft Forge: Getting Started](https://mcforge.readthedocs.io/en/1.15.x/gettingstarted/)<br />//Use this to download the empty examplemod and get it running//
-* suppergerrie2: [Forge tutorial (Documentation)](https://suppergerrie2.com/category/forge-tutorial/)<br />//After having an empty examplemod from above, read this to learn the basics//
-* suppergerrie2: [Forge tutorial (GitHub)](https://github.com/suppergerrie2/ForgeTutorial)
-* David Dodge: [The Ultimate Guide to Minecraft Modding with Java in 2020](https://codakid.com/guide-to-minecraft-modding-with-java/)
+* [Minecraft Forge: Getting Started](https://mcforge.readthedocs.io/en/1.15.x/gettingstarted/)<br />*Use this to download the empty examplemod and get it running*<br />
+
+* suppergerrie2: [Forge tutorial (Documentation)](https://suppergerrie2.com/category/forge-tutorial/)<br />*After having an empty examplemod from above, read this to learn the basics*<br />
+
+* suppergerrie2: [Forge tutorial (GitHub)](https://github.com/suppergerrie2/ForgeTutorial)<br />*Contains the source code for the tutorial above*<br />
+
+* David Dodge: [The Ultimate Guide to Minecraft Modding with Java in 2020](https://codakid.com/guide-to-minecraft-modding-with-java/)<br />*Another tutorial based on an older Minecraft version*
 
 ### Advanced Topics
 
-* [Mod Coders Pack](https://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack)<br />//Helps decompiling the Minecraft Source Code//
+* [Mod Coders Pack](https://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack)<br />*Helps decompiling the Minecraft Source Code*<br />
 
 ## Minecraft Server
 
