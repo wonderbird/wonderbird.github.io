@@ -38,7 +38,11 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 * [Blog der Stadt Bergisch Gladbach](https://in-gl.de/2020/03/27/liveblog-corona-in-gl-27-3/)
 * [Corona-Virus in Köln - Entwicklung der Fallzahlen](https://www.stadt-koeln.de/artikel/69443/index.html#)
 * [Stadt Köln](https://www.koeln.de)
+
+### Kitzingen und Umgebung
+
 * [Landkreis Kitzingen](https://www.kitzingen.de/buergerservice/aktuelles/aktuelles-2020/uebersichtsseite-corona/)
+* [Fallzahlen für Bayern](https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm)
 
 ### Weltweit
 

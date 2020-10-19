@@ -22,6 +22,8 @@ layout: default
 Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` environment variable points to the correct directory before you run the `gradle` commands.
 
 * David Dodge: [The Ultimate Guide to Minecraft Modding with Java in 2020](https://codakid.com/guide-to-minecraft-modding-with-java/)
+* suppergerrie2: [Forge tutorial (Documentation)](https://suppergerrie2.com/category/forge-tutorial/)
+* suppergerrie2: [Forge tutorial (GitHub)](https://github.com/suppergerrie2/ForgeTutorial)
 * [Minecraft Forge: Getting Started](https://mcforge.readthedocs.io/en/1.15.x/gettingstarted/)
 
 ## Minecraft Server
