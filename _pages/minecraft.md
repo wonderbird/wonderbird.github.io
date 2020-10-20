@@ -55,16 +55,21 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 ## Minecraft Server
 
+### Local Setup Using The Server
+
 1. Configure the server according to the [Minecraft Wiki instructions](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_server)
 
 1.  If you want to use only a single Minecraft license on two different client computers, then
 
 1.  Configure the server to be offline: [online-mode=false](https://gaming.stackexchange.com/a/351825) in `server.properties`
 
-1. Change the `displayName` in the `minecraft/launcher_profiles.json` file of one of the users so that they have different display names
+1. Change the `displayName` in the `minecraft/launcher_profiles.json` file of one of the users so that they have different display names (see How-To Geek: [How to Play Multiplayer LAN Games with a Single Minecraft Account](https://www.howtogeek.com/239649/how-to-play-multiplayer-lan-games-with-a-single-minecraft-account/)<br />*Explains how to connect to a personal Minecraft server in your local network from two computers if you have only one Minecraft license*)
+
+### Hosting a Server On Docker in the Cloud
+
+* https://www.docker.com/blog/deploying-a-minecraft-docker-server-to-the-cloud/
+* https://www.docker.com/blog/minecraft-server-docker-1/
 
 ### Crossplay: Bedrock Edition und Java Edition
 
 see: https://github.com/GeyserMC/Geyser/wiki/Setup
-
-* How-To Geek: [How to Play Multiplayer LAN Games with a Single Minecraft Account](https://www.howtogeek.com/239649/how-to-play-multiplayer-lan-games-with-a-single-minecraft-account/)<br />*Explains how to connect to a personal Minecraft server in your local network from two computers if you have only one Minecraft license*
