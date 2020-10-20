@@ -47,7 +47,7 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 ### Advanced Topics
 
-* * [bedrock.dev](https://bedrock.dev/)<br />*How to mod the Minecraft Bedrock Edition*<br />
+* [bedrock.dev](https://bedrock.dev/)<br />*How to mod the Minecraft Bedrock Edition*<br />
 
 * [Mod Coders Pack](https://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack)<br />*Helps decompiling the Minecraft Source Code*<br />
 
