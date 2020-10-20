@@ -52,3 +52,5 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 ### Crossplay: Bedrock Edition und Java Edition
 
 see: https://github.com/GeyserMC/Geyser/wiki/Setup
+
+* How-To Geek: [How to Play Multiplayer LAN Games with a Single Minecraft Account](https://www.howtogeek.com/239649/how-to-play-multiplayer-lan-games-with-a-single-minecraft-account/)<br />*Explains how to connect to a personal Minecraft server in your local network from two computers if you have only one Minecraft license*
