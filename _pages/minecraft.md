@@ -42,8 +42,8 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 ... which I have encountered while creating my first mods. I have not read them in depth but I use them as a reference.
 
-* [](http://jabelarminecraft.blogspot.com)
-* [](https://cubicoder.github.io)
+* [Jabelar's Minecraft Forge Modding Tutorials](http://jabelarminecraft.blogspot.com)
+* [Cubicoder's Minecraft Forge Tutorials](https://cubicoder.github.io)
 
 ### Advanced Topics
 
