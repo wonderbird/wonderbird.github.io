@@ -33,12 +33,21 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 * YouTube: [TechnoVision Forge Modding Tutorial 1.16](https://www.youtube.com/watch?v=JOTH1eDP99Y&list=PLDhiRTZ_vnoUI3-9z0Zg-I8tTSp3EfOia) and associated [GitHub Repository](https://github.com/TechnoVisionDev/Forge-Modding-Tutorial-1.16)<br />
 
-I will sort this later ...
-http://jabelarminecraft.blogspot.com
-https://cubicoder.github.io
-https://crafting.thedestruc7i0n.ca
+### Tools Simplifying Mod Development
+
+* [Crafting recipe generator for Minecraft Java and Bedrock](https://crafting.thedestruc7i0n.ca)
+* [Advancements generator for Minecraft](https://advancements.thedestruc7i0n.ca/)
+
+### Other Tutorial Pages ...
+
+... which I have encountered while creating my first mods. I have not read them in depth but I use them as a reference.
+
+* [](http://jabelarminecraft.blogspot.com)
+* [](https://cubicoder.github.io)
 
 ### Advanced Topics
+
+* * [bedrock.dev](https://bedrock.dev/)<br />*How to mod the Minecraft Bedrock Edition*<br />
 
 * [Mod Coders Pack](https://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack)<br />*Helps decompiling the Minecraft Source Code*<br />
 
