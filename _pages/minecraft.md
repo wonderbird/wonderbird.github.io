@@ -77,6 +77,20 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 * Michael Chiang: [Setting Up a Minecraft Server Using Docker – Part 1](https://www.docker.com/blog/minecraft-server-docker-1/)<br />*An older description of how to host a Minecraft Server on Azure*<br />
 
+### Extending Your Minecraft Server
+
+* [SpigotMC](https://www.spigotmc.org/wiki/about-spigot/)<br />*The leading community for Minecraft server owners and content creators.*<br />
+
+#### BungeeCord
+
+* SpigotMC Wiki: [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)<br />*Proxy between the player's client and the connected Minecraft servers*<br />
+
+* SpigotMC: [BungeeCord Disucssion Thread](https://www.spigotmc.org/threads/1-8-1-15-bungeecord.392/)<br />*Help and information on BungeeCord*<br />
+
+* Geoff Bourne on GitHub: [itzg/docker-bungeecord](https://github.com/itzg/docker-bungeecord)<br />*Docker image of Docker image of BungeeCord*
+
+* SpigotMC on Github: [Spigot/BungeeCord](https://github.com/SpigotMC/BungeeCord)<br />*The BungeeCord source code repository*<br />
+
 ### Crossplay: Bedrock Edition und Java Edition
 
 see: https://github.com/GeyserMC/Geyser/wiki/Setup
