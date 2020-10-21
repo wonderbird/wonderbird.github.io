@@ -71,13 +71,11 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 * Geoff Bourne on GitHub: [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server)<br />*Docker image of a minecraft server*
 
+* Minecraft Wiki: [server.properties](https://minecraft.gamepedia.com/Server.properties)<br />*Description of the parameters configured in the `server.properties`*
+
 * [The RCON protocol for Minecraft Remote Control](https://wiki.vg/RCON)<br />*The protocol description Wiki*
 
 * Michael Chiang: [Setting Up a Minecraft Server Using Docker – Part 1](https://www.docker.com/blog/minecraft-server-docker-1/)<br />*An older description of how to host a Minecraft Server on Azure*<br />
-
-### Information about Configuring a Server
-
-* 
 
 ### Crossplay: Bedrock Edition und Java Edition
 
