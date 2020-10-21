@@ -91,6 +91,10 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 * SpigotMC on Github: [Spigot/BungeeCord](https://github.com/SpigotMC/BungeeCord)<br />*The BungeeCord source code repository*<br />
 
+#### BungeePortals
+
+* SpigotMC: [BungeePortals](https://www.spigotmc.org/resources/bungeeportals.19/)<br />*Create portals to send you to another server that you have defined in your BungeeCord configuration file*<br />
+
 ### Crossplay: Bedrock Edition und Java Edition
 
 see: https://github.com/GeyserMC/Geyser/wiki/Setup
