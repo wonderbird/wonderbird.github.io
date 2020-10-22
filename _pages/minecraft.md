@@ -93,7 +93,15 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 #### BungeePortals
 
-* SpigotMC: [BungeePortals](https://www.spigotmc.org/resources/bungeeportals.19/)<br />*Create portals to send you to another server that you have defined in your BungeeCord configuration file*<br />
+* SpigotMC: [Advanced Portals](https://www.spigotmc.org/resources/advanced-portals.14356/)<br />*Create portals to send you to places inside and outside your server*<br />
+
+* SpigotMC: [BungeePortals](https://www.spigotmc.org/resources/bungeeportals.19/)<br />*OLD - Create portals to send you to another server that you have defined in your BungeeCord configuration file*<br />
+
+#### Plugins
+
+* [Advanced Portals](https://www.spigotmc.org/resources/advanced-portals.14356/)
+* [WorldGuard](https://worldguard.enginehub.org/en/latest/regions/flags/)
+* [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 
 ### Crossplay: Bedrock Edition und Java Edition
 
