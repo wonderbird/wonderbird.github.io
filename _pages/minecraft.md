@@ -77,11 +77,15 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 * Michael Chiang: [Setting Up a Minecraft Server Using Docker – Part 1](https://www.docker.com/blog/minecraft-server-docker-1/)<br />*An older description of how to host a Minecraft Server on Azure*<br />
 
+### Backing Up Your Server Data
+
+* Microsoft: [Introducing backup for Azure file shares](https://azure.microsoft.com/de-de/blog/introducing-backup-for-azure-file-shares/)
+
 ### Extending Your Minecraft Server
 
 * [SpigotMC](https://www.spigotmc.org/wiki/about-spigot/)<br />*The leading community for Minecraft server owners and content creators.*<br />
 
-#### BungeeCord
+#### BungeeCord: Switch From Server To Server
 
 * SpigotMC Wiki: [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)<br />*Proxy between the player's client and the connected Minecraft servers*<br />
 
@@ -91,17 +95,17 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 * SpigotMC on Github: [Spigot/BungeeCord](https://github.com/SpigotMC/BungeeCord)<br />*The BungeeCord source code repository*<br />
 
-#### BungeePortals
+#### Portals From Server to Server
 
 * SpigotMC: [Advanced Portals](https://www.spigotmc.org/resources/advanced-portals.14356/)<br />*Create portals to send you to places inside and outside your server*<br />
-
-* SpigotMC: [BungeePortals](https://www.spigotmc.org/resources/bungeeportals.19/)<br />*OLD - Create portals to send you to another server that you have defined in your BungeeCord configuration file*<br />
 
 #### Plugins
 
 * [Advanced Portals](https://www.spigotmc.org/resources/advanced-portals.14356/)
 * [WorldGuard](https://worldguard.enginehub.org/en/latest/regions/flags/)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
+* [TeleCraft]
+* [SetSpawns]
 
 ### Crossplay: Bedrock Edition und Java Edition
 
