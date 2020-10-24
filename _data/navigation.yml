@@ -13,4 +13,5 @@ main:
     url: /pages/networking.html
   - title: Recreating Windows VMs
     url: /pages/recreating-windows-vms.html
-  
+  - title: Update LUbuntu
+    url: /pages/update-lubuntu.html
