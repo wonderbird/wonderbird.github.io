@@ -26,6 +26,7 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 
 ### Deutschlandweit
 
+* ZDF: [Alle Zahlen und Grafiken zum Coronavirus - Covid-19-Patienten in Intensivbehandlung](https://www.zdf.de/nachrichten/heute/coronavirus-ausbreitung-infografiken-102.html)
 * Zeit Online: [Coronavirus-Karte für Deutschland](https://www.zeit.de/wissen/gesundheit/coronavirus-echtzeit-karte-deutschland-landkreise-infektionen-ausbreitung)
 * [Tagesspiegel: SARS CoV-2 in Deutschland](https://interaktiv.tagesspiegel.de/lab/karte-sars-cov-2-in-deutschland-landkreise/?utm_source=tagesspiegel.de&utm_medium=html-box-home&utm_campaign=corona)
 * [Robert Koch Institut - RKI - Fallzahlen](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html)
@@ -46,6 +47,7 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 
 ### Weltweit
 
+* Our World in Data: [Data Explorer, new cases per million, rolling 7-day average](https://ourworldindata.org/coronavirus-data-explorer?zoomToSelection=true&time=2020-08-12..latest&country=DEU~NLD~GBR~ESP~FRA~PRT~CHE~AUT~CZE~POL~SWE~NOR~DNK~BEL~LUX~ITA~USA&region=World&casesMetric=true&interval=smoothed&perCapita=true&smoothing=7&pickerMetric=total_cases&pickerSort=desc)
 * Our World in Data: [Daily confirmed COVID-19 cases, rolling 7-day average](https://ourworldindata.org/grapher/daily-covid-cases-7-day?tab=chart&time=2020-03-01..latest&country=DEU~NLD~FRA~BEL~ESP~LIE~CZE~CHE~GBR~AUT~POL~SWE~DNK)
 * [Dashboard des John Hopkins Instituts](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 * [Übersicht von OurWorldInData inkl. Verdopplungszeiten](https://ourworldindata.org/coronavirus)
