@@ -1,21 +1,27 @@
 main:
-  - title: Code Analysis
-    url: /pages/code-analysis.html
-  - title: Contributing
-    url: /pages/contributing.html
+  - title: Computers and Technology
+    url: /pages/computers.html
   - title: COVID-2019
     url: /pages/covid-2019.html
+  - title: Programming
+    url: /pages/programming.html
+
+computers:
+  - title: Jekyll
+    url: /pages/computers/jekyll.html
+  - title: Minecraft
+    url: /pages/computers/minecraft.html
+  - title: Networking
+    url: /pages/computers/networking.html
+  - title: Recreating Windows VMs
+    url: /pages/computers/recreating-windows-vms.html
+  - title: Update LUbuntu
+    url: /pages/computers/update-lubuntu.html
+
+programming:
+  - title: Code Analysis
+    url: /pages/code-analysis.html
   - title: Git
     url: /pages/git.html
   - title: Katas
     url: /pages/katas.html
-  - title: Jekyll
-    url: /pages/jekyll.html
-  - title: Minecraft
-    url: /pages/minecraft.html
-  - title: Networking
-    url: /pages/networking.html
-  - title: Recreating Windows VMs
-    url: /pages/recreating-windows-vms.html
-  - title: Update LUbuntu
-    url: /pages/update-lubuntu.html

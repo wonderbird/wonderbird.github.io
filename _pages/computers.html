@@ -1,0 +1,15 @@
+---
+title: Computers and Technology
+layout: default
+---
+<h1>Computers and Technology</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.computers %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,15 @@
+---
+title: Programming
+layout: default
+---
+<h1>Programming</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.programming %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
