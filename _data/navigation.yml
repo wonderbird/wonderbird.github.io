@@ -9,6 +9,8 @@ main:
     url: /pages/git.html
   - title: Katas
     url: /pages/katas.html
+  - title: Jekyll
+    url: /pages/jekyll.html
   - title: Minecraft
     url: /pages/minecraft.html
   - title: Networking
