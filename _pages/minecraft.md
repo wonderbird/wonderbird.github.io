@@ -57,6 +57,8 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 ### Local Setup Using The Server
 
+1. I recommend using the SpigotMC server
+
 1. Configure the server according to the [Minecraft Wiki instructions](https://minecraft.gamepedia.com/Tutorials/Setting_up_a_server)
 
 1.  If you want to use only a single Minecraft license on two different client computers, then
