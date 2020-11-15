@@ -7,3 +7,4 @@ layout: default
 ## References
 
 - [jekyll Homepage](https://jekyllrb.com/)
+- [Jekyll Codex](https://jekyllcodex.org/)

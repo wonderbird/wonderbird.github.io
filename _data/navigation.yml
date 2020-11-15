@@ -20,8 +20,8 @@ computers:
 
 programming:
   - title: Code Analysis
-    url: /pages/code-analysis.html
+    url: /pages/programming/code-analysis.html
   - title: Git
-    url: /pages/git.html
+    url: /pages/programming/git.html
   - title: Katas
-    url: /pages/katas.html
+    url: /pages/programming/katas.html
