@@ -1,5 +1,5 @@
 <div id="breadcrumbs">
-    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+    {% assign crumbs = page.url | remove:'/index.html' | remove:'/pages' | split: '/' %}
     <a href="/">Home</a>
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.last %}
