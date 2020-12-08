@@ -26,6 +26,7 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 
 ### Deutschlandweit
 
+* DIVI: [Intensivregister](https://www.intensivregister.de/#/index) - [Aktuelle Lage der Intensivbetten-Nutzung](https://www.intensivregister.de/#/aktuelle-lage/kartenansichten)
 * ZDF: [Alle Zahlen und Grafiken zum Coronavirus - Covid-19-Patienten in Intensivbehandlung](https://www.zdf.de/nachrichten/heute/coronavirus-ausbreitung-infografiken-102.html)
 * Zeit Online: [Coronavirus-Karte für Deutschland](https://www.zeit.de/wissen/gesundheit/coronavirus-echtzeit-karte-deutschland-landkreise-infektionen-ausbreitung)
 * [Tagesspiegel: SARS CoV-2 in Deutschland](https://interaktiv.tagesspiegel.de/lab/karte-sars-cov-2-in-deutschland-landkreise/?utm_source=tagesspiegel.de&utm_medium=html-box-home&utm_campaign=corona)
