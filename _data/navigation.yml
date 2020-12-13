@@ -9,6 +9,8 @@ main:
     url: /pages/rc3-remote-chaos.html
 
 computers:
+  - title: Elektronik * Basteln
+    url: /pages/computers-and-technology/elektronik-basteln.html
   - title: Jekyll
     url: /pages/computers-and-technology/jekyll.html
   - title: Minecraft
