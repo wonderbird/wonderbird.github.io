@@ -5,6 +5,8 @@ main:
     url: /pages/covid-2019.html
   - title: Programming
     url: /pages/programming.html
+  - title: rc3 - remote chaos
+    url: /pages/rc3-remote-chaos.html
 
 computers:
   - title: Jekyll
