@@ -4,6 +4,12 @@ layout: default
 ---
 # Elektronik und andere Basteleien
 
+## Projekt-Anbieter, Maker-Spaces, etc.
+
+- [Hochschule Trier: IoT Werkstatt](https://www.umwelt-campus.de/forschung/projekte/iot-werkstatt)
+- [Binary Kitchen Regensburg](https://www.binary-kitchen.de/)
+- [Blinken Area](https://wiki.blinkenarea.org/index.php/Main_Page)
+
 ## Einzelne Projekte
 
 ### Grundlagen
