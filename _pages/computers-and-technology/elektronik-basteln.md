@@ -6,6 +6,17 @@ layout: default
 
 ## Einzelne Projekte
 
+### Grundlagen
+
 - [Humo Lötrauch-Absauger](https://github.com/marove2000/humo)
-- [CO2-Ampel](https://civilize.it/t/co2-ampel-verstehbahnhof/342)
+
+### Spielerei mit LEDs
+
 - [LED Rainbow Touch](https://github.com/orithena/Lamp_Simple1Button)
+
+### CO2 Ampeln
+
+- [Hochschule Trier: CO2-Ampel](https://www.umwelt-campus.de/forschung/projekte/iot-werkstatt/ideen-zur-corona-krise)
+  - Material-Bestellung möglich bei [Fab-Lab.eu: DIY Octopus with SCD30 and Nodemcu V2](https://www.tindie.com/products/FabLab/diy-octopus-with-scd30-and-nodemcu-v2/)
+- [Heise Make: CO2-Warner für die Schule](https://www.heise.de/select/make/2020/5/2022015381334973804)
+- [Verstehbahnhof: CO2-Ampel](https://civilize.it/t/co2-ampel-verstehbahnhof/342)
