@@ -29,3 +29,11 @@ programming:
     url: /pages/programming/git.html
   - title: Katas
     url: /pages/programming/katas.html
+
+programming-git:
+  - title: Conventional Commits
+    url: /pages/programming/git/conventional-commits.html
+  - title: Restoring Lost Commits
+    url: /pages/programming/git/restoring-lost-commits.html
+  - title: Visual Logs
+    url: /pages/programming/git/visual-logs.html
