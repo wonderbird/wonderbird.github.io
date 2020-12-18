@@ -26,3 +26,16 @@ layout: default
   - Material-Bestellung möglich bei [Fab-Lab.eu: DIY Octopus with SCD30 and Nodemcu V2](https://www.tindie.com/products/FabLab/diy-octopus-with-scd30-and-nodemcu-v2/)
 - [Heise Make: CO2-Warner für die Schule](https://www.heise.de/select/make/2020/5/2022015381334973804)
 - [Verstehbahnhof: CO2-Ampel](https://civilize.it/t/co2-ampel-verstehbahnhof/342)
+
+## Grundlagen und Literatur
+
+### Elektronik Allgemein
+
+- Patrick Schnabel: [Elektronik Kompendium](https://www.elektronik-kompendium.de/)
+- Ian C. Purdie: [Electronics Tutorials](https://www.electronics-tutorials.com)
+- University of Exeter: [Physics and Astronomy Teaching Related Material on the WWW](http://newton.ex.ac.uk/teaching/CDHW/)
+
+### Microcontroller
+
+- Andreas Schwarz: [mikrocontroller.net](https://www.mikrocontroller.net/)
+- Adafruit: [Adafruit Learning System](https://learn.adafruit.com)
