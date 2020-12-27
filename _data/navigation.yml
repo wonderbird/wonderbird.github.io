@@ -3,6 +3,8 @@ main:
     url: /pages/computers-and-technology.html
   - title: COVID-2019
     url: /pages/covid-2019.html
+  - title: Online Collaboration
+    url: /pages/online-collaboration.html
   - title: Programming
     url: /pages/programming.html
   - title: rc3 - remote chaos
