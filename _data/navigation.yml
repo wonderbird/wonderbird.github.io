@@ -21,6 +21,8 @@ computers:
     url: /pages/computers-and-technology/networking.html
   - title: Recreating Windows VMs
     url: /pages/computers-and-technology/recreating-windows-vms.html
+  - title: Windows Symbolic and Hard Links
+    url: /pages/computers-and-technology/windows-symbolic-links-hard-links.html
   - title: Update LUbuntu
     url: /pages/computers-and-technology/update-lubuntu.html
 
