@@ -18,6 +18,11 @@ layout: default
 
 ### Spielerei mit LEDs
 
+- [Soldering Tutorial: Heart DiP](https://github.com/Binary-Kitchen/SolderingTutorial/tree/master/HeartDIP)
+  - [AntiKippenLights-Atmel](https://wiki.blinkenarea.org/index.php/AntiKippenLights-Atmel)
+  - [AntiKippenLights-AtmelEnglish](https://wiki.blinkenarea.org/index.php/AntiKippenLights-AtmelEnglish)
+- [DuckEnglish](https://wiki.blinkenarea.org/index.php/DuckEnglish)
+- [RC3 Kits](https://wiki.blinkenarea.org/index.php/RC3-Kits)
 - [LED Rainbow Touch](https://github.com/orithena/Lamp_Simple1Button)
 
 ### CO2 Ampeln
