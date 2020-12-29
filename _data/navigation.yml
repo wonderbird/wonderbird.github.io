@@ -11,10 +11,12 @@ main:
     url: /pages/rc3-remote-chaos.html
 
 computers:
-  - title: Elektronik * Basteln
+  - title: Elektronik & Basteln
     url: /pages/computers-and-technology/elektronik-basteln.html
   - title: Jekyll
     url: /pages/computers-and-technology/jekyll.html
+  - title: Jugend und IT
+    url: /pages/computers-and-technology/jugend-it.html
   - title: Minecraft
     url: /pages/computers-and-technology/minecraft.html
   - title: Networking
