@@ -38,8 +38,14 @@ layout: default
 
 ### Vorträge
 
-* [DevOps Disasters](https://www.devopsdisasters.net/)
-* [Was weiß Alexa (Svea, Strg+f, NDR/Funk - June 2020)]
+* [DevOps Disasters](https://media.ccc.de/v/rc3-49321-devops_disasters_3_1)
+  * Website: [DevOps Disasters](https://www.devopsdisasters.net/)
+* [Alexa, who else is listening?](https://media.ccc.de/v/rc3-466940-alexa_who_else_is_listening)
+* [Rückblick auf ein turbulentes Jahr digitale Schule](https://media.ccc.de/v/rc3-11343-ruckblick_auf_ein_turbulentes_jahr_digitale_schule)
+  * [mebis Lernplattform Bayerns](https://www.mebis.bayern.de/)
+  * [moodle](https://moodle.de/)
+  * [its learning](https://itslearning.com/de/)
+  * [Podcast: Learnfragen -> Tools](https://lernfragen.org/)
 
 ### Sonstiges
 
