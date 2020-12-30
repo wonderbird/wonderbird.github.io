@@ -32,6 +32,12 @@ layout: default
 - [Heise Make: CO2-Warner für die Schule](https://www.heise.de/select/make/2020/5/2022015381334973804)
 - [Verstehbahnhof: CO2-Ampel](https://civilize.it/t/co2-ampel-verstehbahnhof/342)
 
+### Inspiration und Kommerzielle Bausatz-Shops
+
+- [Roboter Bausatz Shop](https://www.roboter-bausatz.de/diy-elektronik/bausaetze/elektronik-bausaetze/)
+- [matches21 Elektronik Bausätze](https://www.matches21.de/spielen-basteln/bausaetze-bastelsets/elektronik/)
+- [Forscherladen](https://www.forscherladen.de/velleman-mini-kit-mk172-sound-led-stern::697-840500.html)
+
 ## Grundlagen und Literatur
 
 ### Elektronik Allgemein
