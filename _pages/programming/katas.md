@@ -15,9 +15,13 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - [Decorator - Bicycle Inventory](https://github.com/wonderbird/kata-gof-decorator-bicycle-inventory)
 - [EventAggregator - IRC](https://github.com/wonderbird/kata-gof-pattern-eventaggregator-irc)
 
-## Other Katas and Kata Solutions
+## Other Katas, Kata Solutions and Puzzles
 
 - GitHub: [SpecFlowOSS/SpecFlow-Examples - BowlingKata](https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata)
+- The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
+- [codewars](https://www.codewars.com)
+- [hackerrank](https://www.hackerrank.com/)
+- [codingame](https://www.codingame.com)
 
 **Note:**
 
