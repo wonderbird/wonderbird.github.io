@@ -11,6 +11,8 @@ main:
     url: /pages/programming.html
   - title: rc3 - remote chaos
     url: /pages/rc3-remote-chaos.html
+  - title: Solaranlagen
+    url: /pages/solaranlagen.html
 
 computers:
   - title: Elektronik & Basteln
