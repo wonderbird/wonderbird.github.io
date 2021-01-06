@@ -47,7 +47,7 @@ layout: default
 ## Domain Driven Design
 
 * [Software Architecture Camp: Module DDD](https://software-architecture-camp.de/isaqb-advanced-level/modul-ddd-domain-driven-design/)
-* [heise Software ArchitekTOUR: ]
+* [Podcast: Domain-driven Design (Part 1, German)[https://www.heise.de/developer/artikel/Episode-59-Domain-driven-Design-DDD-4300844.html] in * [heise Software ArchitekTOUR Podcast (German)](https://www.heise.de/developer/SoftwareArchitekTOUR-4076349.html), episode 59
 * [Vaughn Vernon: Domain-Driven Design Distilled](https://isbnsearch.org/isbn/9780134434421)
 * [Vaughn Vernon: Implementing Domain-Driven Design](https://isbnsearch.org/isbn/9780321834577)
 * [Eric Evans: Domain-Driven Design](https://isbnsearch.org/isbn/9780321125217)
