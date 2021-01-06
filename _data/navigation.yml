@@ -13,6 +13,8 @@ main:
     url: /pages/rc3-remote-chaos.html
   - title: Solaranlagen
     url: /pages/solaranlagen.html
+  - title: Software Architecture
+    url: /pages/software-architecture.html
 
 computers:
   - title: Elektronik & Basteln
