@@ -5,10 +5,6 @@ layout: default
 
 # Software Architecture Link Collection
 
-## Communities, Meetups
-
-* [Softwerkskammer (German)](https://www.softwerkskammer.org/)
-
 ## Curricula, Training Providers and Consultancies
 
 * [International Software Architecture Qualification Board (iSAQB)](https://www.isaqb.org/)
@@ -23,18 +19,9 @@ layout: default
 
 ### Software Architecture
 
-* [Software Engineering Radio](https://www.se-radio.net/category/episodes/)
 * [Conversations about Software Architecture (CASE Podcast)](https://www.case-podcast.org/)
 * [heise Software ArchitekTOUR Podcast (German)](https://www.heise.de/developer/SoftwareArchitekTOUR-4076349.html)
 * [INNOQ Podcast (German)](https://www.innoq.com/en/podcast/)
-
-### Software Engineering
-
-* [Greater than Code](https://www.greaterthancode.com/)
-* [Hanselminutes with Scott Hanselman](https://www.hanselminutes.com/)
-* [Weekly Dev Tips](https://www.weeklydevtips.com/)
-* [.NET Rocks](https://dotnetrocks.com/)
-* [INNOQ Security Podcast (German)](https://www.innoq.com/en/security-podcast/)
 
 ## General Material
 
