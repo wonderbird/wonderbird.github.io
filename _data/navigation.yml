@@ -9,8 +9,6 @@ main:
     url: /pages/koeln-erleben.html
   - title: Online Collaboration
     url: /pages/online-collaboration.html
-  - title: Programming
-    url: /pages/programming.html
   - title: rc3 - remote chaos
     url: /pages/rc3-remote-chaos.html
   - title: Software Crafting
@@ -36,27 +34,17 @@ computers:
   - title: Update LUbuntu
     url: /pages/computers-and-technology/update-lubuntu.html
 
-programming:
-  - title: Code Analysis
-    url: /pages/programming/code-analysis.html
-  - title: General Resources
-    url: /pages/programming/general-resources.html
-  - title: Git
-    url: /pages/programming/git.html
-  - title: Katas
-    url: /pages/programming/katas.html
-
-programming-git:
-  - title: Conventional Commits
-    url: /pages/programming/git/conventional-commits.html
-  - title: Restoring Lost Commits
-    url: /pages/programming/git/restoring-lost-commits.html
-  - title: Visual Logs
-    url: /pages/programming/git/visual-logs.html
-
 software-crafting:
-  - title: Software Crafting - General Topics
+  - title: Code Analysis
+    url: /pages/software-crafting/code-analysis.html
+  - title: General Topics
     url: /pages/software-crafting/general.html
+  - title: General Resources
+    url: /pages/software-crafting/general-resources.html
+  - title: Git
+    url: /pages/software-crafting/git.html
+  - title: Katas
+    url: /pages/software-crafting/katas.html
   - title: Leadership
     url: /pages/software-crafting/leadership.html
   - title: Methods
@@ -65,3 +53,11 @@ software-crafting:
     url: /pages/software-crafting/software-architecture.html
   - title: Software Testing
     url: /pages/software-crafting/software-testing.html
+
+software-crafting-git:
+  - title: Conventional Commits
+    url: /pages/software-crafting/git/conventional-commits.html
+  - title: Restoring Lost Commits
+    url: /pages/software-crafting/git/restoring-lost-commits.html
+  - title: Visual Logs
+    url: /pages/software-crafting/git/visual-logs.html
