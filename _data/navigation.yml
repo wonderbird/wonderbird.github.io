@@ -5,16 +5,18 @@ main:
     url: /pages/covid-2019.html
   - title: Kaffee
     url: /pages/kaffee.html
+  - title: Köln erleben
+    url: /pages/koeln-erleben.html
   - title: Online Collaboration
     url: /pages/online-collaboration.html
   - title: Programming
     url: /pages/programming.html
   - title: rc3 - remote chaos
     url: /pages/rc3-remote-chaos.html
+  - title: Software Crafting
+    url: /pages/software-crafting.html
   - title: Solaranlagen
     url: /pages/solaranlagen.html
-  - title: Software Architecture
-    url: /pages/software-architecture.html
 
 computers:
   - title: Elektronik & Basteln
@@ -37,6 +39,8 @@ computers:
 programming:
   - title: Code Analysis
     url: /pages/programming/code-analysis.html
+  - title: General Resources
+    url: /pages/programming/general-resources.html
   - title: Git
     url: /pages/programming/git.html
   - title: Katas
@@ -49,3 +53,15 @@ programming-git:
     url: /pages/programming/git/restoring-lost-commits.html
   - title: Visual Logs
     url: /pages/programming/git/visual-logs.html
+
+software-crafting:
+  - title: Software Crafting - General Topics
+    url: /pages/software-crafting/general.html
+  - title: Leadership
+    url: /pages/software-crafting/leadership.html
+  - title: Methods
+    url: /pages/software-crafting/methods.html
+  - title: Software Architecture
+    url: /pages/software-crafting/software-architecture.html
+  - title: Software Testing
+    url: /pages/software-crafting/software-testing.html
