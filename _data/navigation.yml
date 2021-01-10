@@ -17,6 +17,8 @@ main:
     url: /pages/solaranlagen.html
 
 computers:
+  - title: Ansible and macOS
+    url: /pages/computers-and-technology/ansible-macos.html
   - title: Elektronik & Basteln
     url: /pages/computers-and-technology/elektronik-basteln.html
   - title: Jekyll
