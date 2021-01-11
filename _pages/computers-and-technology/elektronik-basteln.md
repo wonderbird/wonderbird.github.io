@@ -32,13 +32,26 @@ layout: default
 - [Heise Make: CO2-Warner für die Schule](https://www.heise.de/select/make/2020/5/2022015381334973804)
 - [Verstehbahnhof: CO2-Ampel](https://civilize.it/t/co2-ampel-verstehbahnhof/342)
 
+### Sonstige Projekte
+
+- [card10 - Smart Watch](https://card10.badge.events.ccc.de/)<br>*EKG, Pulsoximeter, Magnetometer, Accelerometer - Armband - Badge*
+
+- [multigeiger - Geiger-Zähler](https://ecocurious.de/projekte/multigeiger-2/)
+  - [Landkarte](https://ecocurious.de/multigeiger-karte/)
+  - [GitHub: ecocurious2 / MultiGeiger](https://github.com/ecocurious2/MultiGeiger)
+
 ### Inspiration und Kommerzielle Bausatz-Shops
 
+- [inventr.io](https://inventr.io) *SciFi Adventure Kit teaching circuits and coding*
 - [Roboter Bausatz Shop](https://www.roboter-bausatz.de/diy-elektronik/bausaetze/elektronik-bausaetze/)
 - [matches21 Elektronik Bausätze](https://www.matches21.de/spielen-basteln/bausaetze-bastelsets/elektronik/)
 - [Forscherladen](https://www.forscherladen.de/velleman-mini-kit-mk172-sound-led-stern::697-840500.html)
 
 ## Grundlagen und Literatur
+
+### Standardwerke
+
+- Tietze, Schenk, Gamm: [Halbleiter-Schaltungstechnik (Der "Tietze-Schenk")](http://www.tietze-schenk.de)
 
 ### Elektronik Allgemein
 
@@ -50,3 +63,27 @@ layout: default
 
 - Andreas Schwarz: [mikrocontroller.net](https://www.mikrocontroller.net/)
 - Adafruit: [Adafruit Learning System](https://learn.adafruit.com)
+
+## Platinen Design
+
+* [Cadsoft Eagle Light (Freeware)](http://ftp.cadsoft.de/freeware.htm)
+* [Autodesk Eagle](https://www.autodesk.de/products/eagle/overview)
+* [Malvida Orcad](https://orcad.de.malavida.com)
+* [Altium Designer (Protel)](https://www.altium.com/de/solution/protel-pcb)
+
+## Schaltungssimulation
+
+* [Analog Devices: LTSpice / SwitcherCAD](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+* [PSpice](https://www.pspice.com)
+
+## Elektronik Versender
+
+* [TME Electronic Components](https://www.tme.eu/de/)
+* [Conrad](https://www.conrad.de)
+* [Reichelt](https://www.reichelt.de)
+* [Pollin](https://www.pollin.de)
+
+## Chip-Hersteller
+
+* [Analog Devices](https://www.analog.com/en/index.html)
+* [Texas Instruments](https://www.ti.com)

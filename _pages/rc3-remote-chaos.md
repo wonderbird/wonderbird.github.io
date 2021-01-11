@@ -28,14 +28,6 @@ layout: default
 
 * [&mu;C3 - Chaos Computer Club München](https://wiki.muc.ccc.de/)
 
-### Elektronik-Projekte
-
-* [card10 - Smart Watch](https://card10.badge.events.ccc.de/)<br>*EKG, Pulsoximeter, Magnetometer, Accelerometer - Armband - Badge*
-
-* [multigeiger - Geiger-Zähler](https://ecocurious.de/projekte/multigeiger-2/)
-  * [Landkarte](https://ecocurious.de/multigeiger-karte/)
-  * [GitHub: ecocurious2 / MultiGeiger](https://github.com/ecocurious2/MultiGeiger)
-
 ### Vorträge
 
 * [DevOps Disasters](https://media.ccc.de/v/rc3-49321-devops_disasters_3_1)
