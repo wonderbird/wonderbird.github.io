@@ -7,7 +7,14 @@ layout: default
 
 ## Communities, Meetups
 
+* [iSAQB e.V.](https://www.facebook.com/iSAQB.org)
 * [Softwerkskammer (German)](https://www.softwerkskammer.org/)
+* [REWE Digital Events](https://www.meetup.com/REWE-Digital-Events-Cologne/events/)
+* [embarc Veranstaltungskalender](https://blog.embarc.de/termin/)
+* [innoq Veranstaltungskalender](https://www.innoq.com/de/upcoming/)
+* [wps Work Place Solutions Terminkalender](https://www.wps.de/category/aktuelles_events/termine/)
+* [oose Online Vorträge](https://www.oose.de/online-vortraege/)
+* [codecentric community](https://www.codecentric.de/aktuelles/community)
 
 ## Magazines (German)
 
