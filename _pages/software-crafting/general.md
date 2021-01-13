@@ -11,6 +11,7 @@ layout: default
 
 * [Java User Group Saxony](https://jugsaxony.org/)
 * [Softwerkskammer (German)](https://www.softwerkskammer.org/)
+* [Limited WIP Society](https://www.limitedwip.org/)
 
 ### Registered Associations
 
@@ -164,6 +165,8 @@ dotnet-developer-conference.de/)
 * Joel Spolsky: [Joel on Software](http://www.joelonsoftware.com/)
 
 * Hello2morrow: [Empowering Software Craftsmanship](http://blog.hello2morrow.com/)
+
+* [Limited WIP Society Blog](https://www.limitedwip.org/blog/)
 
 * Michael Mahlberg: [agile aspects](http://agile-aspects.michaelmahlberg.com/), [shu ha ri](http://shu-ha-ri.michaelmahlberg.de/)
 
