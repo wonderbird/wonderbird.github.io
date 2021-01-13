@@ -47,6 +47,8 @@ software-crafting:
     url: /pages/software-crafting/git.html
   - title: Katas
     url: /pages/software-crafting/katas.html
+  - title: Kanban
+    url: /pages/software-crafting/kanban.html
   - title: Leadership
     url: /pages/software-crafting/leadership.html
   - title: Methods
