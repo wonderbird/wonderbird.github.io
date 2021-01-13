@@ -5,7 +5,9 @@ layout: default
 
 # Software Crafting Methods
 
-## Blogs
+## Clean Code
 
-* [Cat Swetel](https://www.catswetel.com/blog) - Lean inspired, data informed coaching
-* Michael Mahlberg: [agile aspects](http://agile-aspects.michaelmahlberg.com/), [shu ha ri](http://shu-ha-ri.michaelmahlberg.de/)
+* [Clean Code Principles](https://principles.wiki/)
+* [Clean Code Developer](https://www.clean-code-developer.com/)
+* [Refactoring.guru Catalog of Refactoring](https://refactoring.guru/refactoring/catalog)
+* Martin Fowloer: [Refactoring.com Catalog of Refactoring](http://refactoring.com/catalog)

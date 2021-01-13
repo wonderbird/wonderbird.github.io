@@ -23,13 +23,22 @@ layout: default
 * [heise Software ArchitekTOUR Podcast (German)](https://www.heise.de/developer/SoftwareArchitekTOUR-4076349.html)
 * [INNOQ Podcast (German)](https://www.innoq.com/en/podcast/)
 
-## General Material
+## General Material for Reading
 
-* [arc42 - Ressources for Software Architects](https://arc42.org/)
-* [aim42 - Architecture Improvement Method](https://www.aim42.org/)
-* [embarc: Architekturspicker](https://www.embarc.de/architektur-spicker/)
-* [innoq: Primer](https://www.innoq.com/en/topics/primer/)
-* [Eberhard Wolff](https://ewolff.com/)
+* see [Reading Material](reading-material.html)
+
+## Software Tools
+
+* [Code Scene](https://codescene.io)
+
+* [docs as code](https://docs-as-co.de)
+  * [docToolChain](https://doctoolchain.github.io/docToolchain/)
+
+* [Sonargraph](https://www.hello2morrow.com)
+
+* [Structurizr](https://structurizr.com/)
+  * [Github Repository](https://github.com/structurizr/java) 
+  * [Simon Brown: Visualise, document and explore your software architecture](https://www.youtube.com/watch?v=Ym9nhVZs89o), NDC { London }, 2017.
 
 ## Domain Driven Design
 

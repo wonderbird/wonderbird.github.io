@@ -51,6 +51,8 @@ software-crafting:
     url: /pages/software-crafting/leadership.html
   - title: Methods
     url: /pages/software-crafting/methods.html
+  - title: Reading Material
+    url: /pages/software-crafting/reading-material.html
   - title: Software Architecture
     url: /pages/software-crafting/software-architecture.html
   - title: Software Testing
