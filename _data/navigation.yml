@@ -39,6 +39,8 @@ computers:
 software-crafting:
   - title: Code Analysis
     url: /pages/software-crafting/code-analysis.html
+  - title: Conferences
+    url: /pages/software-crafting/conferences.html
   - title: General Topics
     url: /pages/software-crafting/general.html
   - title: General Resources

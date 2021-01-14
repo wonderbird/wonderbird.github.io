@@ -11,7 +11,6 @@ layout: default
 * Clarify what you want to achieve - What is the problem?
   * When have your reached your goal? -> Define Measurements
   * What is unhealthy behavior? -> Define Counter-Measurements
-  * Keywords: "6 Performance Dimensions" (Larry Macaroni & Troy Magannis)
   * Simplify visualization = Easy understanding = Acceptance
 * Achieve Focus
   * Limit WIP (and/or limit Time(box))
@@ -43,12 +42,24 @@ layout: default
 
 ## References and Materials
 
-### Blog Posts & Articles
+### Blogs
+
+* [Cat Swetel](https://www.catswetel.com/blog) - Lean inspired, data informed coaching
+* [Leanability Blog](https://www.leanability.com/de/category/blog-de/)
+* [Limited WIP Society Blog](https://www.limitedwip.org/blog/)
+* Markus Wissekal & Stefan Kinigadner: [coach.und.coach Blog](https://coach.und.coach/blog/)
+* Michael Mahlberg: [agile aspects](https://agile-aspects.michaelmahlberg.com)
+
+### Blog Posts and Articles
 
 * Troy Magannis and Larry Maccherone: [6 Performance Dimensions](https://mailchi.mp/79a876c00880/six-dimensions-of-team-performance-forecasting-and-metrics-with-troy-magennis?e=[UNIQID])
 * Leanability: [Die Vor-Queue: Vorhersagbarkeit mit Flexibilität](https://2020.leanability.com/de/blog/2012/08/die-vor-queue-vorhersehbarkeit-mit-flexibilitaet/)
-* [Leanability Blog](https://www.leanability.com/de/category/blog-de/)
-* Michael Mahlberg: [agile aspects](https://agile-aspects.michaelmahlberg.com)
+
+### Groups and Events
+
+* [Agile Breakfast Bern](https://www.swissict.ch/event/agile-breakfast-bern-agilitaet-in-der-suva/)
+* [swissICT events](https://www.swissict.ch/events/)
+* [Limited WIP Society & Events](https://www.limitedwip.org/)
 
 ### Videos
 
@@ -58,6 +69,7 @@ layout: default
 
 ### People
 
+* [Markus Wissekal](https://coach.und.coach/)
 * Klaus Leopold: [LEANability - Kanban & Kanban Flight Levels](https://www.leanability.com/de/)
 * Troy Magannis
   * [Focused Objective](https://www.focusedobjective.com)
@@ -66,6 +78,8 @@ layout: default
 
 ### Trainings
 
+* [Kanban System Design KSD1](https://www.agile-academy.com/de/kanban/trainings/kanban/) ?=? [KMP Foundation I](https://www.avega.ch/academy/kanban-advanced-kanban-system-design-kmp-1/)
+* [Kanban Management Professional KMP2](https://www.agile-academy.com/de/kanban/trainings/kanban-2/)
 * Flight Levels Academy: [Flight Levels Introduction](https://www.flightlevels.io/workshops/flight-levels-intro/) *self-paced learning*
 * [LEANability Trainings](https://2020.leanability.com/de/trainings/)
 * [Flight Levels Academy](https://www.flightlevels.io/)
