@@ -55,6 +55,8 @@ software-crafting:
     url: /pages/software-crafting/leadership.html
   - title: Methods
     url: /pages/software-crafting/methods.html
+  - title: Miscellaneous Tools
+    url: /pages/software-crafting/miscellaneous-tools.html
   - title: Reading Material
     url: /pages/software-crafting/reading-material.html
   - title: Software Architecture

@@ -4,8 +4,6 @@ layout: default
 ---
 # Conferences
 
-see separate page [Conferences](conferences.html).
-
 ## Conference Recordings
 
 Hint: For offline viewing use the Chrome plugin "Video Download Helper".

@@ -31,14 +31,20 @@ layout: default
 
 * [Code Scene](https://codescene.io)
 
+* [Enterprise Architect](https://sparxsystems.com/products/ea/shop/index.html)
+
 * [docs as code](https://docs-as-co.de)
   * [docToolChain](https://doctoolchain.github.io/docToolchain/)
+
+* [Modelio](https://www.modelio.org/) *The open source modeling environment.*
 
 * [Sonargraph](https://www.hello2morrow.com)
 
 * [Structurizr](https://structurizr.com/)
   * [Github Repository](https://github.com/structurizr/java) 
   * [Simon Brown: Visualise, document and explore your software architecture](https://www.youtube.com/watch?v=Ym9nhVZs89o), NDC { London }, 2017.
+
+* [Structure101](https://structure101.com/) - [Structure101 developer guide](http://structure101.com/help/dev/)
 
 ## Domain Driven Design
 
