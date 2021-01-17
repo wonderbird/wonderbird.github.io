@@ -6,7 +6,7 @@ layout: default
 
 ## Conference Recordings
 
-Hint: For offline viewing use the Chrome plugin "Video Download Helper".
+Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helper](https://www.downloadhelper.net/).
 
 * [API Conference YouTube Channel](https://www.youtube.com/channel/UCtmmVmkh4D-8V-sHBD_S3TQ)
 
