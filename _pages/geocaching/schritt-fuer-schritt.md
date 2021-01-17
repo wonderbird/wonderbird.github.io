@@ -1,17 +1,9 @@
 ---
-title: Geocaching für Einsteiger
+title: Schritt für Schritt
 layout: default
 ---
 
-# Geocaching für Einsteiger
-
-## Was ist Geocaching?
-
-Wir nutzen millionenschwere Satellitentechnik, um Plastikdosen im Wald zu finden.
-
-Bei Youtube gibt's ein 75 Sekunden kurzes [Erklärvideo](https://www.youtube.com/watch?v=wfGrxa5Gefg).
-
-Und jetzt, schnappe Dir Dein Handy und leg los:
+# Schritt für Schritt Anleitung für Geocaching Einsteiger
 
 ## Voraussetzungen
 

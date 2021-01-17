@@ -1,0 +1,15 @@
+---
+title: Geocaching
+layout: default
+---
+<h1>Geocaching</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.geocaching %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
