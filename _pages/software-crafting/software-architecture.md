@@ -29,6 +29,10 @@ layout: default
 
 ## Software Tools
 
+* [Bizagi Business Process Modeling](https://www.bizagi.com/?lang=en)
+
+* [BPMN Modeler (Free) for Confluence Cloud](https://marketplace.atlassian.com/apps/1215543/bpmn-modeler-free?hosting=server&tab=overview)
+
 * [Code Scene](https://codescene.io)
 
 * [Enterprise Architect](https://sparxsystems.com/products/ea/shop/index.html)
