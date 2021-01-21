@@ -15,6 +15,10 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - [Decorator - Bicycle Inventory](https://github.com/wonderbird/kata-gof-decorator-bicycle-inventory)
 - [EventAggregator - IRC](https://github.com/wonderbird/kata-gof-pattern-eventaggregator-irc)
 
+## Code Retreats
+
+- it-agile GmbH: [Code Retreat](https://www.it-agile.de/wissen/agiles-engineering/code-retreat/) *What is a code retreat?*
+
 ## Other Katas, Kata Solutions and Puzzles
 
 - GitHub: [SpecFlowOSS/SpecFlow-Examples - BowlingKata](https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata)
