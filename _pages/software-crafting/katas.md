@@ -3,11 +3,16 @@ title: Katas
 layout: default
 ---
 
+# Code Retreats
+
+- The Coderetreat Contributors: [What is a Code Retreat?](https://www.coderetreat.org/the-workshop/)
+- Podcast Episode: [Coderetreat Facilitation: 09 Constraint for first session and alternative exercises for Game of Life](https://coderetreat-facilitation.code-cop.org/2020/03/constraint-for-first-session-and.html)
+
 # Katas
 
 This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](#ref-2)]:
 
-- ↗️[Adapter - Codewars: Geese to Ducks](https://www.codewars.com/kata/5792e2e93467db66a000009f)
+- [Adapter - Codewars: Geese to Ducks](https://www.codewars.com/kata/5792e2e93467db66a000009f)
 - [Bridge - Logging System](https://github.com/wonderbird/kata-gof-pattern-bridge-logger)
 - [Builder - WebShop](https://github.com/wonderbird/kata-gof-builder-pattern-shop-order-completion)
 - [Chain of Responsibility - Pokerhands](https://github.com/wonderbird/kata-gof-chain-of-responsibility-pokerhands)
@@ -19,20 +24,28 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 
 - it-agile GmbH: [Code Retreat](https://www.it-agile.de/wissen/agiles-engineering/code-retreat/) *What is a code retreat?*
 
-## Other Katas, Kata Solutions and Puzzles
+## Other Individual Katas and Puzzles
 
+- Codingame: [How to draw the Mandelbrot set](https://www.codingame.com/playgrounds/2358/how-to-plot-the-mandelbrot-set)
+- Rosettacode: [Generate and Draw a Julia Set](https://rosettacode.org/wiki/Julia_set)
 - GitHub: [SpecFlowOSS/SpecFlow-Examples - BowlingKata](https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata)
+
+## Kata Catalogues
+
+- Steve Smith (aka ardalis): [Coding Kata Catalog](https://github.com/ardalis/kata-catalog)
+- Coding Dojo: [Kata Catalogue](https://codingdojo.org/KataCatalogue/)
+- [CodeKata.com](http://codekata.com/)
 - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
+
+## Something Completely Different
+
+- [Sonic Pi](https://sonic-pi.net/) *Sonic Pi is a code-based music creation and performance tool*
+  - GitHub: [sonic-pi-net / sonic-pi](https://github.com/sonic-pi-net/sonic-pi)
+
+## Organizations and Official Challenges
+
 - [codewars](https://www.codewars.com)
 - [hackerrank](https://www.hackerrank.com/)
 - [codingame](https://www.codingame.com)
-
-**Note:**
-
-Links associated with a "↗️" symbol point to sites I do not control.
-
-## References
-
-<a name="ref-1">[1]</a> Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides: "Design Patterns: Elements of Reusable Object-Oriented Software", Addison Wesley, 1994, pp. 151ff, [ISBN 0-201-63361-2](https://en.wikipedia.org/wiki/Special:BookSources/0-201-63361-2).
-
-<a name="ref-2">[2]</a> David Starr and others: "Pluralsight: Design Patterns Library", https://www.pluralsight.com/courses/patterns-library, last visited on Mar 18, 2020.
+- [rosettacode](https://rosettacode.org/wiki/Rosetta_Code)
+- [The International Obfuscated C Code Contest](http://www.ioccc.org/)
