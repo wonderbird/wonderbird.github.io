@@ -37,11 +37,6 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - [CodeKata.com](http://codekata.com/)
 - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
 
-## Something Completely Different
-
-- [Sonic Pi](https://sonic-pi.net/) *Sonic Pi is a code-based music creation and performance tool*
-  - GitHub: [sonic-pi-net / sonic-pi](https://github.com/sonic-pi-net/sonic-pi)
-
 ## Organizations and Official Challenges
 
 - [codewars](https://www.codewars.com)

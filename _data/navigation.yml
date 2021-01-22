@@ -73,6 +73,8 @@ software-crafting:
     url: /pages/software-crafting/software-architecture.html
   - title: Software Testing
     url: /pages/software-crafting/software-testing.html
+  - title: Sonic Pi
+    url: /pages/software-crafting/sonic-pi.html
 
 software-crafting-git:
   - title: Conventional Commits
