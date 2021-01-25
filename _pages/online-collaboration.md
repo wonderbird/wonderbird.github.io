@@ -3,12 +3,25 @@ title: Online-Collaboration
 layout: default
 ---
 
-# Online-Collaboration
+## Moderator Tools
+
+* [Synchronised Timer with QR Code](http://workshoptimer.com/)
+* [Würfel / teal dice](http://a.teall.info/dice/)
+* [Select a Person / Wheel of Names](https://wheelofnames.com/)
+
+## Online-Collaboration
 
 * [Video Conferencing: Jitsi](https://meet.jit.si/)
+* [Big Blue Button](https://bigbluebutton.org/)
 
 ## Socializing Online
 
 * Free, unlimited [wonder.me](https://www.wonder.me)
 * Free [Workadventu.re](https://workadventu.re)
 * [Gather.town](https://gather.town)
+
+## Check-In Games
+
+* https://www.workshop-spiele.de/category/online-warm-ups/
+* https://qundg.de/remote-know-how/
+* http://tscheck.in/
