@@ -79,6 +79,8 @@ software-crafting:
 software-crafting-git:
   - title: Conventional Commits
     url: /pages/software-crafting/git/conventional-commits.html
+  - title: Miscellaneous
+    url: /pages/software-crafting/git/miscellaneous.html
   - title: Restoring Lost Commits
     url: /pages/software-crafting/git/restoring-lost-commits.html
   - title: Visual Logs
