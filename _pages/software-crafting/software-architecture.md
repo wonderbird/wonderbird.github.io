@@ -27,7 +27,18 @@ layout: default
 
 * see [Reading Material](reading-material.html)
 
+## Modeling and Documentation Approaches
+
+* Gernot Starke et al.: [arc42 Template](https://arc42.org/documentation/)
+  * Gernot Starke et al.: [arc42 Documentation](https://docs.arc42.org/home/)
+  * Stefan Zörner: [DokChess als Beispiel für arc42](https://www.dokchess.de/)
+
+* Simon Brown: [The C4 Model for Visualizing Software Architecture](https://c4model.com/)
+  * Phillip Beauvoir & Jean-Baptiste Sarrodie: [C4 Model, Architecture Viewpoint and Archi 4.7](https://www.archimatetool.com/blog/2020/04/18/c4-model-architecture-viewpoint-and-archi-4-7/)
+
 ## Software Tools
+
+* [ArchiMate](https://www.archimatetool.com/) *Open source modelling toolkit to create ArchiMate models and sketches. Used by thousands of Enterprise Architects throughout the world.*
 
 * [Bizagi Business Process Modeling](https://www.bizagi.com/?lang=en)
 
