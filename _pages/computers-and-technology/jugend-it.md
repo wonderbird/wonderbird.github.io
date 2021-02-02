@@ -14,3 +14,7 @@ Im Folgenden findet Ihr Material, mit denen Ihr Jugendlichen und Kindern IT Them
   * [Pixelflut Seite des CCC Göttingen](https://cccgoe.de/wiki/Pixelflut)
 
 * Für das [Programmieren mit Minecraft](minecraft.html) habe ich einen eigene Seite
+
+* [WebTigerJython Turtle Grafik](https://webtigerjython.ethz.ch/?prog=https://www.tjgroup.ch/progs/tu/TuEx3.py)
+
+* [Niki - der Roboter](https://de.wikipedia.org/wiki/Niki_%E2%80%93_der_Roboter)
