@@ -45,6 +45,8 @@ dotnet-developer-conference.de/)
 
 * April: [API Conference](https://apiconference.net/)
 
+* April: [SEACON digital](https://www.sea-con.de/) *Software Engineering and Architecture*
+
 * May: [QCon](https://qconferences.com/)
 
 * May: [JAX](https://jax.de/)<br>*Treffpunkt für Java- und Softwarearchitektur-Enthusiasten*
