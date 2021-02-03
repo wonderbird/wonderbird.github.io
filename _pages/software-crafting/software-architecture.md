@@ -57,6 +57,5 @@ layout: default
 * [Vaughn Vernon: Domain-Driven Design Distilled](https://isbnsearch.org/isbn/9780134434421)
 * [Vaughn Vernon: Implementing Domain-Driven Design](https://isbnsearch.org/isbn/9780321834577)
 * [Eric Evans: Domain-Driven Design](https://isbnsearch.org/isbn/9780321125217)
-* [Eric Evans: Domain-Driven Design](https://isbnsearch.org/isbn/9780321125217)
 * [Eric Evans: DDD Reference](https://www.domainlanguage.com/ddd/reference/)
   * [Eric Evans - Übersetzt von Michael Plöd, Christian Stettler, Eberhard Wolff: Domain-Driven Design Referenz (German)](https://ddd-referenz.de/)
