@@ -23,6 +23,8 @@ main:
 computers:
   - title: Ansible and macOS
     url: /pages/computers-and-technology/ansible-macos.html
+  - title: C64
+    url: /pages/computers-and-technology/c64.html
   - title: Elektronik & Basteln
     url: /pages/computers-and-technology/elektronik-basteln.html
   - title: Jekyll
