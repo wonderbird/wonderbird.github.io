@@ -12,7 +12,7 @@ main:
   - title: Online Collaboration
     url: /pages/online-collaboration.html
   - title: Persönlichkeitsentwicklung
-    url: /pages/personality-development.md
+    url: /pages/personality-development.html
   - title: rc3 - remote chaos
     url: /pages/rc3-remote-chaos.html
   - title: Software Crafting
