@@ -21,6 +21,8 @@ main:
     url: /pages/solaranlagen.html
 
 computers:
+  - title: Android nach Apple iPhone Umzug
+    url: /pages/computers-and-technology/android-nach-apple-iphone-umzug.html
   - title: Ansible and macOS
     url: /pages/computers-and-technology/ansible-macos.html
   - title: C64
