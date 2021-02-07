@@ -28,6 +28,8 @@ Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helpe
 
 * January: [NDC London](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
 
+* February: [FOSDEM](https://fosdem.org/)<br>*Developers of free and open source software gather at the event in Brussels*
+
 * February: [OOP Konferenz](https://www.oop-konferenz.de/)
 dotnet-developer-conference.de/)
 
