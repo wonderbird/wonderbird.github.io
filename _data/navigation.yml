@@ -75,6 +75,8 @@ software-crafting:
     url: /pages/software-crafting/methods.html
   - title: Miscellaneous Tools
     url: /pages/software-crafting/miscellaneous-tools.html
+  - title: Mob Programming
+    url: /pages/software-crafting/mob-programming.html
   - title: Reading Material
     url: /pages/software-crafting/reading-material.html
   - title: Software Architecture
