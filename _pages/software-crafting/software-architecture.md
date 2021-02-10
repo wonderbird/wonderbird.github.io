@@ -6,4 +6,4 @@ layout: default
 
 This page has moved.
 
-If you are not redirected automatically, then please [click here](/pages/software-architecture/general.html).
+If you are not redirected automatically, then please [click here](/pages/software-architecture/software-architecture.html).
