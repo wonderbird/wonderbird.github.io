@@ -15,6 +15,8 @@ main:
     url: /pages/personality-development.html
   - title: rc3 - remote chaos
     url: /pages/rc3-remote-chaos.html
+  - title: Software Architecture
+    url: /pages/software-architecture.html
   - title: Software Crafting
     url: /pages/software-crafting.html
   - title: Solaranlagen
@@ -52,6 +54,14 @@ geocaching:
   - title: Schritt für Schritt
     url: /pages/geocaching/schritt-fuer-schritt.html
 
+software-architecture:
+  - title: Architecture Evaluation
+    url: /pages/software-architecture/architecture-evaluation.html
+  - title: General Topics
+    url: /pages/software-architecture/general.html
+  - title: Domain Driven Design (DDD)
+    url: /pages/software-architecture/domain-driven-design-ddd.html
+
 software-crafting:
   - title: Code Analysis
     url: /pages/software-crafting/code-analysis.html
@@ -79,8 +89,6 @@ software-crafting:
     url: /pages/software-crafting/mob-programming.html
   - title: Reading Material
     url: /pages/software-crafting/reading-material.html
-  - title: Software Architecture
-    url: /pages/software-crafting/software-architecture.html
   - title: Software Testing
     url: /pages/software-crafting/software-testing.html
   - title: Sonic Pi

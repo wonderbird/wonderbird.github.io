@@ -1,0 +1,15 @@
+---
+title: Software Architecture
+layout: default
+---
+<h1>Software Architecture</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.software-architecture %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
