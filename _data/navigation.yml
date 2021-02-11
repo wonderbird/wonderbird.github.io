@@ -31,8 +31,6 @@ collaboration:
 computers:
   - title: Android nach Apple iPhone Umzug
     url: /pages/computers-and-technology/android-nach-apple-iphone-umzug.html
-  - title: Ansible and macOS
-    url: /pages/computers-and-technology/ansible-macos.html
   - title: C64
     url: /pages/computers-and-technology/c64.html
   - title: Elektronik & Basteln
@@ -43,6 +41,10 @@ computers:
     url: /pages/computers-and-technology/jekyll.html
   - title: Jugend und IT
     url: /pages/computers-and-technology/jugend-it.html
+  - title: macOS and Ansible
+    url: /pages/computers-and-technology/ansible-macos.html
+  - title: macOS Bildschirmfreigabe via VNC
+    url: /pages/computers-and-technology/macos-bildschirmfreigabe.html
   - title: Minecraft
     url: /pages/computers-and-technology/minecraft.html
   - title: Networking
