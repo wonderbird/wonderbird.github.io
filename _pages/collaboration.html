@@ -1,0 +1,15 @@
+---
+title: Collaboration
+layout: default
+---
+<h1>Collaboration</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.collaboration %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
