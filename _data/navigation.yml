@@ -45,6 +45,8 @@ computers:
     url: /pages/computers-and-technology/ansible-macos.html
   - title: macOS Bildschirmfreigabe via VNC
     url: /pages/computers-and-technology/macos-bildschirmfreigabe.html
+  - title: macOS Support for XBox Game Controllers
+    url: /pages/computers-and-technology/macos-game-controller.html
   - title: Minecraft
     url: /pages/computers-and-technology/minecraft.html
   - title: Networking
