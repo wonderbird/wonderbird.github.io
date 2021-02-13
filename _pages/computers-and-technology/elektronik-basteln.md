@@ -25,6 +25,10 @@ layout: default
 - [RC3 Kits](https://wiki.blinkenarea.org/index.php/RC3-Kits)
 - [LED Rainbow Touch](https://github.com/orithena/Lamp_Simple1Button)
 
+### Drohnen und Quadcopter
+
+- bitcraze: (Crazyflie)[https://www.bitcraze.io/] *a small, versatile quadcopter for research and education*
+
 ### CO2 Ampeln
 
 - [Hochschule Trier: CO2-Ampel](https://www.umwelt-campus.de/forschung/projekte/iot-werkstatt/ideen-zur-corona-krise)
