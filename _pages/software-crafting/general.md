@@ -5,6 +5,15 @@ layout: default
 
 # General Software Crafting Topics
 
+## Getting Started
+
+If you are looking for the next (first) programming language to learn you may want to consider
+
+* [TIOBE Index](https://www.tiobe.com/tiobe-index/)<br>*The TIOBE Programming Community index is an indicator of the popularity of programming languages.*
+
+* [Stackoverflow Developer Survey](https://insights.stackoverflow.com/survey/)
+  * [Most wanted programming languages in 2020](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-wanted)
+
 ## Communities, Meetups
 
 ### Communities and User Groups
