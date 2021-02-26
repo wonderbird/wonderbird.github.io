@@ -17,3 +17,9 @@ layout: default
 * [Mob Programming Guidebook](http://www.mobprogrammingguidebook.com)
 * [Mob Programming RPG](https://github.com/willemlarsen/mobprogrammingrpg)
 * [PubMob](https://pubmob.com) *Remote Collaborative Development*
+
+## Development Environments enabling Collaboration
+
+* [Gitpod](https://www.gitpod.io/) *describe your dev environments as code*
+* [JetBrains Code With Me](https://blog.jetbrains.com/de/blog/2020/10/01/code-with-me-eap/) *for JetBrains IDEs*
+* [Visual Studio Live Share](https://visualstudio.microsoft.com/de/services/live-share/) *for VS Code and Visual Studio*
