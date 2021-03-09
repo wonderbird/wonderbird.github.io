@@ -6,6 +6,7 @@ layout: default
 ## Moderator Tools
 
 * [Synchronised Timer with QR Code](http://workshoptimer.com/)
+* [cuckoo.team(https://cuckoo.team/) *Productivity Timer for Remote Teams*
 * [Würfel / teal dice](http://a.teall.info/dice/)
 * [Select a Person / Wheel of Names](https://wheelofnames.com/)
 
