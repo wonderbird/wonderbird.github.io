@@ -11,6 +11,8 @@ main:
     url: /pages/kaffee.html
   - title: Köln erleben
     url: /pages/koeln-erleben.html
+  - title: Leseliste
+    url: /pages/leseliste.html
   - title: Persönlichkeitsentwicklung
     url: /pages/personality-development.html
   - title: rc3 - remote chaos
@@ -53,6 +55,8 @@ computers:
     url: /pages/computers-and-technology/networking.html
   - title: Recreating Windows VMs
     url: /pages/computers-and-technology/recreating-windows-vms.html
+  - title: Videoschnitt
+    url: /pages/computers-and-technology/videoschnitt.html
   - title: Windows Symbolic and Hard Links
     url: /pages/computers-and-technology/windows-symbolic-links-hard-links.html
   - title: Update LUbuntu
@@ -103,6 +107,8 @@ software-crafting:
     url: /pages/software-crafting/software-testing.html
   - title: Sonic Pi
     url: /pages/software-crafting/sonic-pi.html
+  - title: Stakeholder Management
+    url: /pages/software-crafting/stakeholder-management.html
 
 software-crafting-git:
   - title: Conventional Commits
