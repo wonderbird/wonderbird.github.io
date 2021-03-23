@@ -3,11 +3,6 @@ title: Katas
 layout: default
 ---
 
-# Code Retreats
-
-- The Coderetreat Contributors: [What is a Code Retreat?](https://www.coderetreat.org/the-workshop/)
-- Podcast Episode: [Coderetreat Facilitation: 09 Constraint for first session and alternative exercises for Game of Life](https://coderetreat-facilitation.code-cop.org/2020/03/constraint-for-first-session-and.html)
-
 # Katas
 
 This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](#ref-2)]:
@@ -22,6 +17,8 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 
 ## Code Retreats
 
+- The Coderetreat Contributors: [What is a Code Retreat?](https://www.coderetreat.org/the-workshop/)
+- Podcast Episode: [Coderetreat Facilitation: 09 Constraint for first session and alternative exercises for Game of Life](https://coderetreat-facilitation.code-cop.org/2020/03/constraint-for-first-session-and.html)
 - it-agile GmbH: [Code Retreat](https://www.it-agile.de/wissen/agiles-engineering/code-retreat/) *What is a code retreat?*
 
 ## Other Individual Katas and Puzzles
@@ -36,6 +33,10 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - Coding Dojo: [Kata Catalogue](https://codingdojo.org/KataCatalogue/)
 - [CodeKata.com](http://codekata.com/)
 - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
+
+## Kata Constraints
+
+- [Code Calistenics](https://williamdurand.fr/2013/06/03/object-calisthenics/)
 
 ## Organizations and Official Challenges
 
