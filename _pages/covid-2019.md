@@ -33,6 +33,10 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 * [Robert Koch Institut - RKI - Fallzahlen](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html)
 * [Robert Koch Institut - RKI - Übersicht über die Verteilung in Deutschland](https://corona.rki.de/)
 
+### NRW
+
+* [Conronaschutzverordnung für NRW](https://www.land.nrw/corona)
+
 ### Rösrath und Umgebung
 
 * [Corona Virus COVID-2019 Situation im Rheinisch Bergischen Kreis](https://rbk-direkt.maps.arcgis.com/apps/opsdashboard/index.html#/252af02201ee4a70bf4190b339731eee)
@@ -40,6 +44,10 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 * [Blog der Stadt Bergisch Gladbach](https://in-gl.de/2020/03/27/liveblog-corona-in-gl-27-3/)
 * [Corona-Virus in Köln - Entwicklung der Fallzahlen](https://www.stadt-koeln.de/artikel/69443/index.html#)
 * [Stadt Köln](https://www.koeln.de)
+
+### Bayern
+
+* [Zwölfte Bayerische Infektionsschutzmaßnahmenverordnung](https://www.gesetze-bayern.de/Content/Document/BayIfSMV_12)
 
 ### Kitzingen und Umgebung
 
