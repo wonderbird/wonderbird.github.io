@@ -22,6 +22,20 @@ Falls Du Dich unwohl fühlst und unsicher bist, ob Du COVID-19 hast, dann gibt D
 
 Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/nCoV.html).
 
+## Impfung
+
+* [Impfzentren in NRW](https://coronaimpfung.nrw/impfzentren)
+
+Mittlerweile ist es erlaubt, kurzfristig Impftermine auch an Personen außerhalb der Priorisierungs-Gruppen zu vergeben.
+Unter [Impfbrücke](https://impfbruecke.de/) gibt es mehr Informationen.
+
+Angebunden sind bisher unter anderem (Stand 29.03.2021):
+
+* [Impfzentrum Duisburg](https://www.duisburg.de/allgemein/fachbereiche/feuerwehr/fieberzentrum.php)
+
+Allerdings stehen für Menschen außerhalb der Prio-Gruppen in NRW offiziell noch keine Termine zur Verfügung.
+Auch zur Impfbrücke habe ich keine Informationen gefunden, welche mich einen Termin vereinbaren lassen.
+
 ## Updates zu den Zahlen des Tages
 
 ### Deutschlandweit
