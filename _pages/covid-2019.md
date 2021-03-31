@@ -22,6 +22,20 @@ Falls Du Dich unwohl fühlst und unsicher bist, ob Du COVID-19 hast, dann gibt D
 
 Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/nCoV.html).
 
+## Impfung
+
+* [Impfzentren in NRW](https://coronaimpfung.nrw/impfzentren)
+
+Mittlerweile ist es erlaubt, kurzfristig Impftermine auch an Personen außerhalb der Priorisierungs-Gruppen zu vergeben.
+Unter [Impfbrücke](https://impfbruecke.de/) gibt es mehr Informationen.
+
+Angebunden sind bisher unter anderem (Stand 29.03.2021):
+
+* [Impfzentrum Duisburg](https://www.duisburg.de/allgemein/fachbereiche/feuerwehr/fieberzentrum.php)
+
+Allerdings stehen für Menschen außerhalb der Prio-Gruppen in NRW offiziell noch keine Termine zur Verfügung.
+Auch zur Impfbrücke habe ich keine Informationen gefunden, welche mich einen Termin vereinbaren lassen.
+
 ## Updates zu den Zahlen des Tages
 
 ### Deutschlandweit
@@ -33,6 +47,10 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 * [Robert Koch Institut - RKI - Fallzahlen](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html)
 * [Robert Koch Institut - RKI - Übersicht über die Verteilung in Deutschland](https://corona.rki.de/)
 
+### NRW
+
+* [Conronaschutzverordnung für NRW](https://www.land.nrw/corona)
+
 ### Rösrath und Umgebung
 
 * [Corona Virus COVID-2019 Situation im Rheinisch Bergischen Kreis](https://rbk-direkt.maps.arcgis.com/apps/opsdashboard/index.html#/252af02201ee4a70bf4190b339731eee)
@@ -40,6 +58,10 @@ Beim Robert-Koch Institut gibt es stets gute [Hintergrund-Infos](https://www.rki
 * [Blog der Stadt Bergisch Gladbach](https://in-gl.de/2020/03/27/liveblog-corona-in-gl-27-3/)
 * [Corona-Virus in Köln - Entwicklung der Fallzahlen](https://www.stadt-koeln.de/artikel/69443/index.html#)
 * [Stadt Köln](https://www.koeln.de)
+
+### Bayern
+
+* [Zwölfte Bayerische Infektionsschutzmaßnahmenverordnung](https://www.gesetze-bayern.de/Content/Document/BayIfSMV_12)
 
 ### Kitzingen und Umgebung
 

@@ -15,6 +15,7 @@ layout: default
 * [Video Conferencing: Jitsi](https://meet.jit.si/)
 * [Big Blue Button](https://bigbluebutton.org/)
 * [TriCAT spaces](https://www.tricat-spaces.net/) *Avatar-basierte virtuelle 3D Lern- und Arbeitswelt*
+* [Wayports (Steam)](https://store.steampowered.com/app/1548970/Wayports/) *Generate your avatar and congregate in a virtual setting, with collaboration tools and an emphasis on better audio, for better messages.*
 
 ## Socializing Online
 
