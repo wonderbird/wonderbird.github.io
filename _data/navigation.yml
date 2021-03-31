@@ -13,6 +13,8 @@ main:
     url: /pages/koeln-erleben.html
   - title: Leseliste
     url: /pages/leseliste.html
+  - title: Online Games
+    url: /pages/online-games.md
   - title: Persönlichkeitsentwicklung
     url: /pages/personality-development.html
   - title: rc3 - remote chaos

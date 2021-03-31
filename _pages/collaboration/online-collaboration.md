@@ -14,6 +14,7 @@ layout: default
 
 * [Video Conferencing: Jitsi](https://meet.jit.si/)
 * [Big Blue Button](https://bigbluebutton.org/)
+* [TriCAT spaces](https://www.tricat-spaces.net/) *Avatar-basierte virtuelle 3D Lern- und Arbeitswelt*
 
 ## Socializing Online
 
