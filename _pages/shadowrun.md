@@ -16,16 +16,32 @@ layout: default
   - Shadowrun Missions / SRM00-01 *Death of a Fixer* (Season 1, mission 1) is a way to bring player characters together.
   - [All Missions]
 
-## Tools
+## Referenz-Material
 
-- [RPTools Wiki](https://wiki.rptools.info/index.php/Main_Page) *Role Playing Tools*
-  - [MapTool](https://github.com/RPTools/maptool/wiki)
+- [Shadowrun Wiki (Fandom)](https://shadowrun.fandom.com/wiki/Wiki)
+
+## Tools for Players and Game Masters
 
 - [Roll20](https://roll20.net/)
 
 - [Chummer 5a](https://github.com/chummer5a/chummer5a) *Character Generator*
 
+## Tools for Game Masters
+
+- [Fake Name Generator](https://www.fakenamegenerator.com/) *Great! Allows to select name and home by country*
+
+- [Shadowrun Mob Master](https://toktic.github.io/sr_gmt/) *A generator for NPCs and mobs of NPCs (SR5e)*
+
 - [Cyberpunk Generator Shadowrun Edition](https://rpgenerator.net/cyberpunk/runners)
+
+- [Shadowrun Grunts](http://antagonistes.com/sr5/grunts.php)
+
+- [RPTools Wiki](https://wiki.rptools.info/index.php/Main_Page) *Role Playing Tools*
+  - [MapTool](https://github.com/RPTools/maptool/wiki)
+
+- [Shadowrun Spielhilfen](https://www.shadowrun6.de/) *Tokens, Symbole, etc.*
+
+- [Probability Table for Checks](https://docs.google.com/spreadsheets/d/1Ts3pXOJ7V6-oX7NEuow_T7P4zJKIx6NRRLNZlVOrwRM/edit#gid=0)
 
 ## Karten Editoren / Battle Map Editors
 
