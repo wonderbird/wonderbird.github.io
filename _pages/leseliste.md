@@ -11,6 +11,9 @@ layout: default
 
 Legende der Symbole - siehe [unten](#legend)
 
+* Sprenger: Gut aufgestellt - Führung
+* disc biostrukur-analyse insight
+
 * 📽️ Simon Wardley: [Crossing the River by Feeling the Stones](https://www.youtube.com/watch?v=2IW9L1uNMCs) *Introduction to Wardley Maps?*
 
 * 🗃️ Qualitätsanforderungen finden
