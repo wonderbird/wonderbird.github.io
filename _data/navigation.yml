@@ -91,6 +91,8 @@ software-crafting:
     url: /pages/software-crafting/general-resources.html
   - title: Git
     url: /pages/software-crafting/git.html
+  - title: Go
+    url: /pages/software-crafting/go.html
   - title: Katas
     url: /pages/software-crafting/katas.html
   - title: Kanban

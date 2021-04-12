@@ -14,6 +14,10 @@ If you are looking for the next (first) programming language to learn you may wa
 * [Stackoverflow Developer Survey](https://insights.stackoverflow.com/survey/)
   * [Most wanted programming languages in 2020](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-wanted)
 
+This guide shows how one can learn a new programming language systematically
+
+* [Learn Go with Tests](https://github.com/quii/learn-go-with-tests)
+
 ## Communities, Meetups
 
 ### Communities and User Groups

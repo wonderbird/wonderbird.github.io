@@ -30,7 +30,7 @@ layout: default
 
 - [Fake Name Generator](https://www.fakenamegenerator.com/) *Great! Allows to select name and home by country*
 
-- [Shadowrun Mob Master](https://toktic.github.io/sr_gmt/) *A generator for NPCs and mobs of NPCs (SR5e)*
+- [Shadowrun Mob Master](https://toktic.github.io/sr_gmt/) *Great! A generator for NPCs and mobs of NPCs (SR5e)*
 
 - [Cyberpunk Generator Shadowrun Edition](https://rpgenerator.net/cyberpunk/runners)
 
