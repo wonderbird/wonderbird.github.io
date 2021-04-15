@@ -5,6 +5,11 @@ layout: default
 # Learning Go
 
 - [Learn Go with Tests](https://github.com/quii/learn-go-with-tests)
+- [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
+- [The Go Playground](https://play.golang.org/)
+  - [Slices](https://play.golang.org/p/ICCWcRGIO68)
+  - [Copy slices](https://play.golang.org/p/bTrRmYfNYCp)
+  - [Why copy a large slice](https://play.golang.org/p/Poth8JS28sc)
 
 ## Prerequisites
 
