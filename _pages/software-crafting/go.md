@@ -37,6 +37,7 @@ go get -u golang.org/x/tools/...
 ## Go Frameworks, Libraries and Software
 
 - [Awesome Go](https://awesome-go.com)
+- [Testify (assert, mock, suite)](https://github.com/stretchr/testify)
 
 ## Go Specific Details
 
