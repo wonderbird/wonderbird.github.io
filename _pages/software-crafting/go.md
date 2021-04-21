@@ -11,6 +11,15 @@ layout: default
   - [Copy slices](https://play.golang.org/p/bTrRmYfNYCp)
   - [Why copy a large slice](https://play.golang.org/p/Poth8JS28sc)
 
+## Linters
+
+Check whether error returns are handeled correctly in all method calls:
+
+```shell
+go get -u github.com/kisielk/errcheck
+errcheck
+```
+
 ## Prerequisites
 
 ### Installing Go
@@ -41,8 +50,20 @@ go get -u golang.org/x/tools/...
 
 ## Go Specific Details
 
+### General Language Aspects
+
+* [The Go Language Specification](https://golang.org/ref/spec) *... is the reference manual for Go*
+
 * Dave Cheney: [Five suggestions for setting up a Go project](https://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project) *Package conventions*
 
 * [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#named-result-parameters) *Good practices for Go*
 
 * [Testable Examples in Go](https://blog.golang.org/examples)
+
+### Specific Language Aspects
+
+* Go `map`s
+  * Dave Cheney: [If a map isn’t a reference variable, what is it?](https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it)
+  * Andrew Gerrand: [Go maps in action](https://blog.golang.org/maps) in [The Go Blog](https://blog.golang.org/)
+
+* Dave Cheney: [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
