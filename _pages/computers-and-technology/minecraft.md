@@ -111,4 +111,8 @@ Forge Mods are compiled using Java 8. Please make sure that the `JAVA_HOME` envi
 
 ### Crossplay: Bedrock Edition und Java Edition
 
-see: https://github.com/GeyserMC/Geyser/wiki/Setup
+[Geyser](https://geysermc.org/) is a plugin or standalone server acting as a bridge from the bedrock edition to the java edition servers like Spigot.
+
+Setup instructions can be found in [the GeyserMC Wiki]((https://github.com/GeyserMC/Geyser/wiki/Setup).
+A default configuration file can be generated on the [Geyser Homepage -> Config Editor](https://geysermc.org/config_editor.html).
+A docker image for standalone use is present at [bmoorman/geyser](https://hub.docker.com/r/bmoorman/geyser).
