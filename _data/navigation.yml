@@ -21,8 +21,6 @@ main:
     url: /pages/rc3-remote-chaos.html
   - title: Shadowrun
     url: /pages/shadowrun.html
-  - title: Software Architecture
-    url: /pages/software-architecture.html
   - title: Software Crafting
     url: /pages/software-crafting.html
   - title: Solaranlagen
@@ -71,14 +69,6 @@ geocaching:
     url: /pages/geocaching/ueberblick.html
   - title: Schritt für Schritt
     url: /pages/geocaching/schritt-fuer-schritt.html
-
-software-architecture:
-  - title: Architecture Evaluation
-    url: /pages/software-architecture/architecture-evaluation.html
-  - title: General Topics
-    url: /pages/software-architecture/general.html
-  - title: Domain Driven Design (DDD)
-    url: /pages/software-architecture/domain-driven-design-ddd.html
 
 software-crafting:
   - title: Code Analysis

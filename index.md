@@ -9,4 +9,8 @@
     </a>
   </li>
 {% endfor %}
+
+<h2>Where others are collaborating with me</h2>
+<ul>
+<li><a href="https://github.com/hojak/awesome-architecture">Awesome Architecture</a> <i>A collection of awesome references regarding Software Architecture.</i></li>
 </ul>
