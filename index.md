@@ -9,6 +9,7 @@
     </a>
   </li>
 {% endfor %}
+</ul>
 
 <h2>Where others are collaborating with me</h2>
 <ul>
