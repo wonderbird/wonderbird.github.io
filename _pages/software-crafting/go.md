@@ -5,20 +5,11 @@ layout: default
 # Learning Go
 
 - [Learn Go with Tests](https://github.com/quii/learn-go-with-tests)
-- [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
-- [The Go Playground](https://play.golang.org/)
-  - [Slices](https://play.golang.org/p/ICCWcRGIO68)
-  - [Copy slices](https://play.golang.org/p/bTrRmYfNYCp)
-  - [Why copy a large slice](https://play.golang.org/p/Poth8JS28sc)
 
-## Linters
+Where to go next?
 
-Check whether error returns are handeled correctly in all method calls:
-
-```shell
-go get -u github.com/kisielk/errcheck
-errcheck
-```
+- Read [The Go Programming Language](https://www.google.de/books/edition/The_Go_Programming_Language/t_rzrQEACAAJ)
+- Inspect [The Go Standard Library](https://golang.org/pkg/)
 
 ## Prerequisites
 
@@ -43,10 +34,21 @@ go get -u golang.org/x/tools/...
 - [Uninstall Go on macOS](https://blog.dharnitski.com/2019/04/06/uninstall-go-on-mac/)
 - Section [Uninstalling Go](https://golang.org/doc/manage-install#uninstalling) in [Managing Go installations](https://golang.org/doc/manage-install)
 
+## Linters
+
+Check whether error returns are handeled correctly in all method calls:
+
+```shell
+go get -u github.com/kisielk/errcheck
+errcheck
+```
+
 ## Go Frameworks, Libraries and Software
 
-- [Awesome Go](https://awesome-go.com)
-- [Testify (assert, mock, suite)](https://github.com/stretchr/testify)
+* [The Go Standard Library](https://golang.org/pkg/)
+* [Awesome Go](https://awesome-go.com)
+* [Testify (assert, mock, suite)](https://github.com/stretchr/testify)
+* [The Go Playground](https://play.golang.org/)
 
 ## Go Specific Details
 
@@ -61,6 +63,13 @@ go get -u golang.org/x/tools/...
 * [Testable Examples in Go](https://blog.golang.org/examples)
 
 ### Specific Language Aspects
+
+* [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
+
+* [The Go Playground](https://play.golang.org/)
+  * [Slices](https://play.golang.org/p/ICCWcRGIO68)
+  * [Copy slices](https://play.golang.org/p/bTrRmYfNYCp)
+  * [Why copy a large slice](https://play.golang.org/p/Poth8JS28sc)
 
 * Go `map`s
   * Dave Cheney: [If a map isn’t a reference variable, what is it?](https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it)
