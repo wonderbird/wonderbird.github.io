@@ -94,6 +94,10 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 * [Software Architecture Summit Blog](https://software-architecture-summit.de/blog/)
 
+## Articles
+
+* Martin Fowler: [Test Double](https://martinfowler.com/bliki/TestDouble.html) * - A definition of the terms "test double", "dummy", "fake", "stub", "spy" and "mock"*
+
 ## Learning Platforms
 
 * [Lynda](https://www.lynda.com)
