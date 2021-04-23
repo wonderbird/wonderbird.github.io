@@ -14,7 +14,8 @@ layout: default
 - [Schattentricks](https://www.drivethrurpg.com/product/292478/Shadowrun-Schattentricks)
 - The [ShadowRun Missions](https://forums.shadowruntabletop.com/index.php?topic=26511.0) have been running for many 'seasons', and the first two seasons are available for free from the Catalyst web site (it may take some googling to find them, but they are there). They were written back in third edition, so you'd need to change stats and matrix information -- but this is actually quite easy in most cases as you can use the standard NPCs (of various grades of professionalism) either as written or at least as a reference.
   - Shadowrun Missions / SRM00-01 *Death of a Fixer* (Season 1, mission 1) is a way to bring player characters together.
-  - [All Missions]
+  - [Publicly available Missions - Season 1](https://www.shadowruntabletop.com/missions/downloads-season-1/)
+  - [Publicly available Missions - Season 2](https://www.shadowruntabletop.com/missions/downloads-season-2/)
 
 ## Referenz-Material
 
