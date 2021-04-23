@@ -5,6 +5,10 @@ layout: default
 
 # General Software Crafting Topics
 
+> When to use iterative development? You should use iterative development only on projects that you want to succeed.
+
+Martin Fowler.
+
 ## Getting Started
 
 If you are looking for the next (first) programming language to learn you may want to consider
