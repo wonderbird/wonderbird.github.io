@@ -76,3 +76,5 @@ errcheck
   * Andrew Gerrand: [Go maps in action](https://blog.golang.org/maps) in [The Go Blog](https://blog.golang.org/)
 
 * Dave Cheney: [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
+
+* Chris James: [Concurrency, Goroutines, Channels, Race Detection and Anonymous Functions](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency)
