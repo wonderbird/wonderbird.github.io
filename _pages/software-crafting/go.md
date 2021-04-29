@@ -4,12 +4,20 @@ layout: default
 ---
 # Learning Go
 
+To get started ...
+
 - [Learn Go with Tests](https://github.com/quii/learn-go-with-tests)
 
 Where to go next?
 
-- Read [The Go Programming Language](https://www.google.de/books/edition/The_Go_Programming_Language/t_rzrQEACAAJ)
-- Inspect [The Go Standard Library](https://golang.org/pkg/)
+Read ...
+
+- [A Tour of Go](https://tour.golang.org/welcome/1) *an interactive tutorial*
+- [How to Write Go Code](https://golang.org/doc/code) *demonstrates the development of a simple Go package inside a module and introduces the go tool*
+- [Effective Go](https://golang.org/doc/effective_go) *gives tips for writing clear, idiomatic Go code*
+- [The Go Programming Language](https://www.google.de/books/edition/The_Go_Programming_Language/t_rzrQEACAAJ)
+
+and inspect [The Go Standard Library](https://golang.org/pkg/)
 
 ## Prerequisites
 
@@ -43,6 +51,10 @@ go get -u github.com/kisielk/errcheck
 errcheck
 ```
 
+## go vet
+
+... tbd
+
 ## Go Frameworks, Libraries and Software
 
 * [The Go Standard Library](https://golang.org/pkg/)
@@ -70,6 +82,7 @@ errcheck
   * [Slices](https://play.golang.org/p/ICCWcRGIO68)
   * [Copy slices](https://play.golang.org/p/bTrRmYfNYCp)
   * [Why copy a large slice](https://play.golang.org/p/Poth8JS28sc)
+  * [Sending to nil channels lasts forever](https://play.golang.org/p/IIbeAox5jKA)
 
 * Go `map`s
   * Dave Cheney: [If a map isn’t a reference variable, what is it?](https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it)
@@ -77,4 +90,8 @@ errcheck
 
 * Dave Cheney: [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
 
-* Chris James: [Concurrency, Goroutines, Channels, Race Detection and Anonymous Functions](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency)
+* Concurrency
+  * Chris James: [Concurrency, Goroutines, Channels, Race Detection and Anonymous Functions](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/concurrency)
+  * Rick Beton: [Use a sync.Mutex or a channel?](https://github.com/golang/go/wiki/MutexOrChannel)
+
+* Rob Pike: [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
