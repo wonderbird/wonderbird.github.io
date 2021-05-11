@@ -71,10 +71,26 @@ errcheck
 
 ## Go Frameworks, Libraries and Software
 
+### Exploration Tools
+
+* [The Go Playground](https://play.golang.org/)
+
+### Package Libraries
+
 * [The Go Standard Library](https://golang.org/pkg/)
 * [Awesome Go](https://awesome-go.com)
-* [Testify (assert, mock, suite)](https://github.com/stretchr/testify)
-* [The Go Playground](https://play.golang.org/)
+
+### Parsing XML
+
+* [Package encoding/xml](https://pkg.go.dev/encoding/xml?utm_source=godoc) *Simple XML 1.0 parser*
+* [XML to Go](https://www.onlinetool.io/xmltogo/) *Creates a Go struct from an XML document to facilitate reading XML*
+  * GitHub: [miku / zek](https://github.com/miku/zek) *corresponding GitHub project*
+
+### Testing
+
+* [Package testify](https://pkg.go.dev/github.com/stretchr/testify/assert) *Documentation for assert, mock, suite statements*
+  * GitHub: [stretchr / testify](https://github.com/stretchr/testify) *corresponding GitHub project*
+* [Package quick](https://golang.org/pkg/testing/quick/) *Property based testing (quickcheck / quick.Check)*
 
 ## Go Specific Details
 
