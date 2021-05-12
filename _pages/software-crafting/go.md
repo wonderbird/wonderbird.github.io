@@ -8,7 +8,12 @@ layout: default
 
 * [Getting Started](#getting-started)
 * [Language Tools](#language-tools)
+
 * [Go Frameworks, Libraries and Software](#go-frameworks,-libraries-and-software)
+  * [Exploration Tools](#exploration-tools)
+  * [Package Libraries](#package-libraries)
+  * [Frequently Used Packages](#frequently-used-packages)
+
 * [Go Specific Details](#go-specific-details)
   * [General Aspects](#general-aspects)
   * [Go Maps](#go-maps)
@@ -80,17 +85,23 @@ errcheck
 * [The Go Standard Library](https://golang.org/pkg/)
 * [Awesome Go](https://awesome-go.com)
 
-### Parsing XML
+### Frequently used Packages
+
+#### Testing
+
+* [Package testify](https://pkg.go.dev/github.com/stretchr/testify/assert) *Documentation for assert, mock, suite statements*
+  * GitHub: [stretchr / testify](https://github.com/stretchr/testify) *corresponding GitHub project*
+* [Package quick](https://golang.org/pkg/testing/quick/) *Property based testing (quickcheck / quick.Check)*
+
+#### Parsing XML
 
 * [Package encoding/xml](https://pkg.go.dev/encoding/xml?utm_source=godoc) *Simple XML 1.0 parser*
 * [XML to Go](https://www.onlinetool.io/xmltogo/) *Creates a Go struct from an XML document to facilitate reading XML*
   * GitHub: [miku / zek](https://github.com/miku/zek) *corresponding GitHub project*
 
-### Testing
+#### Miscellaneous
 
-* [Package testify](https://pkg.go.dev/github.com/stretchr/testify/assert) *Documentation for assert, mock, suite statements*
-  * GitHub: [stretchr / testify](https://github.com/stretchr/testify) *corresponding GitHub project*
-* [Package quick](https://golang.org/pkg/testing/quick/) *Property based testing (quickcheck / quick.Check)*
+* [Package fmt](https://golang.org/pkt/fmt/) *Formatted I/O with functions analogous to C's printf and scanf*
 
 ## Go Specific Details
 
