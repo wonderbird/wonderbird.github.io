@@ -92,6 +92,7 @@ errcheck
 * [Package testify](https://pkg.go.dev/github.com/stretchr/testify/assert) *Documentation for assert, mock, suite statements*
   * GitHub: [stretchr / testify](https://github.com/stretchr/testify) *corresponding GitHub project*
 * [Package quick](https://golang.org/pkg/testing/quick/) *Property based testing (quickcheck / quick.Check)*
+* [Package httptest](https://golang.org/pkg/net/http/httptest/) *Utilities for HTTP testing*
 
 #### Parsing XML
 
