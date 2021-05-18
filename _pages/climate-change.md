@@ -24,9 +24,9 @@ May 17, 2021. I have just started collecting ideas and added links to the sectio
 
 In the following I assume that you are already convinced that action is required in order to slow down global heating. Thus I present the links I consider most pragmatic and promising on top of this page.
 
-## Background Information
+## Understand The Problem: Read. Accept. Act.
 
-The resources below show the various aspects of the climate crisis impressively. Use these materials to convince others regarding the significance of the climate crisis.
+The resources below show the various aspects of the climate crisis impressively. If you doubt the climate crisis exists, then follow these links to convince yourself. Then share them to convince others.
 
 ### INBOX - Unscreened, Uncategorized Information
 
