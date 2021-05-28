@@ -9,6 +9,26 @@ layout: default
 
 Martin Fowler.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Getting Started](#getting-started)
+- [Communities, Meetups](#communities-meetups)
+  - [Communities and User Groups](#communities-and-user-groups)
+  - [Registered Associations](#registered-associations)
+  - [Consulting Companies](#consulting-companies)
+- [Conferences](#conferences)
+- [Magazines (German)](#magazines-german)
+  - [Material for Reading](#material-for-reading)
+- [Podcasts](#podcasts)
+- [Blogs](#blogs)
+- [Books](#books)
+- [Learning Platforms](#learning-platforms)
+- [Publishers Specialized on Software Crafting Learning Materials](#publishers-specialized-on-software-crafting-learning-materials)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Getting Started
 
 If you are looking for the next (first) programming language to learn you may want to consider
@@ -94,9 +114,13 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 * [Software Architecture Summit Blog](https://software-architecture-summit.de/blog/)
 
-## Articles
+## Books
+
+* David Thomas and Andrew Hunt: "The Pragmatic Programmer, 20th Anniversary Edition", The Pragmatic Bookshelf, September 2019. ISBN 9780135957059. https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
 
 * Martin Fowler: [Test Double](https://martinfowler.com/bliki/TestDouble.html) * - A definition of the terms "test double", "dummy", "fake", "stub", "spy" and "mock"*
+
+* Caspers Jones: "Software Methodologies - A Quantitative Guide", CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
 
 ## Learning Platforms
 
