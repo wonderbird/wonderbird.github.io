@@ -118,6 +118,7 @@ errcheck
 * [How to Write Go Code](https://golang.org/doc/code) - Demonstrates the development of a simple Go package inside a module and introduces the go tool.
 
 * [Effective Go](https://golang.org/doc/effective_go) - Tips for writing clear, idiomatic Go code.
+  * [Embedding](https://golang.org/doc/effective_go#embedding)
 
 * [The Go Programming Language](https://www.google.de/books/edition/The_Go_Programming_Language/t_rzrQEACAAJ)
 
