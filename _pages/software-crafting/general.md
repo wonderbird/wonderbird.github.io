@@ -20,10 +20,11 @@ Martin Fowler.
   - [Consulting Companies](#consulting-companies)
 - [Conferences](#conferences)
 - [Magazines (German)](#magazines-german)
-  - [Material for Reading](#material-for-reading)
 - [Podcasts](#podcasts)
 - [Blogs](#blogs)
+- [Individual Articles](#individual-articles)
 - [Books](#books)
+- [Websites](#websites)
 - [Learning Platforms](#learning-platforms)
 - [Publishers Specialized on Software Crafting Learning Materials](#publishers-specialized-on-software-crafting-learning-materials)
 
@@ -83,10 +84,6 @@ see separate page [Conferences](conferences.html).
 
 * [DZone](https://dzone.com)<br>*knowledge, tools, and strategies technology professionals need to build the future*
 
-### Material for Reading
-
-* see [Reading Material](reading-material.html)
-
 ## Podcasts
 
 * [Software Engineering Radio](https://www.se-radio.net/category/episodes/)
@@ -114,13 +111,21 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 * [Software Architecture Summit Blog](https://software-architecture-summit.de/blog/)
 
+## Individual Articles
+
+* Martin Fowler: [Test Double](https://martinfowler.com/bliki/TestDouble.html) - A definition of the terms "test double", "dummy", "fake", "stub", "spy" and "mock"
+
 ## Books
 
-* David Thomas and Andrew Hunt: "The Pragmatic Programmer, 20th Anniversary Edition", The Pragmatic Bookshelf, September 2019. ISBN 9780135957059. https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/
+* David Thomas and Andrew Hunt: [The Pragmatic Programmer, 20th Anniversary Edition](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/), The Pragmatic Bookshelf, September 2019. ISBN 9780135957059.
 
-* Martin Fowler: [Test Double](https://martinfowler.com/bliki/TestDouble.html) * - A definition of the terms "test double", "dummy", "fake", "stub", "spy" and "mock"*
+* Nicole Forsgen, Jez Humble and Gene Kim: [Accelerate: The Science of DevOps](https://itrevolution.com/book/accelerate/), IT Revolution Press, 2018. ISBN 9781942788331.
 
-* Caspers Jones: "Software Methodologies - A Quantitative Guide", CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
+* Caspers Jones: [Software Methodologies - A Quantitative Guide](https://www.routledge.com/Software-Methodologies-A-Quantitative-Guide/Jones/p/book/9781138033085), CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
+
+## Websites
+
+* Jez Humble: [Continous Delivery](https://continuousdelivery.com) - A comprehensive summary on continuous delivery.
 
 ## Learning Platforms
 
