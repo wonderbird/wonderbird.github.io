@@ -7,6 +7,8 @@ layout: default
 
 * 16Personalities: [Persönlichkeitstest](https://www.16personalities.com/free-personality-test)
 
+* Mike Rother: [Toyota Kata](http://www-personal.umich.edu/~mrother/Homepage.html) - Practice scientific thinking, develop the creativity & adaptiveness of your team.
+
 ## Antreiber-Test
 
 * Urs Spreng, Coaching-Kompetenzzentrum: [Antreiber-Test](https://www.coaching-kompetenzzentrum.ch/tests/antreibertest) *mit Excel Datei*
