@@ -12,7 +12,11 @@ layout: default
 Legende der Symbole - siehe [unten](#legend)
 
 * Sprenger: Gut aufgestellt - Führung
-* disc biostrukur-analyse insight
+* disg biostrukur-analyse insight
+
+* 🗃️ [5 Whys - Recommended Books](http://5whys.com/recommended-books/) - Book list by Roy Osherove.
+
+* 🗃️ [ThoughtWorks TechRadar](https://www.thoughtworks.com/de/radar)
 
 * 📽️ Simon Wardley: [Crossing the River by Feeling the Stones](https://www.youtube.com/watch?v=2IW9L1uNMCs) *Introduction to Wardley Maps?*
 
