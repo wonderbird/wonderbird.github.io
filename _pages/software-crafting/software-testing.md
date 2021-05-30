@@ -5,9 +5,21 @@ layout: default
 
 # Software Testing
 
-> Testing is not something that we should only start once a feature or a release is “dev complete.” Because testing is so essential, we should be doing it all the time as an integral part of the development process. Automated unit and acceptance tests should be run against every commit to version control to give developers fast feedback on their changes. Developers should be able to run all automated tests on their workstations in order to triage and fix defects. Testers should be performing exploratory testing continuously against the latest builds to come out of CI. No one should be saying they are “done” with any work until all relevant automated tests have been written and are passing.
+## Rationale
 
-in [Accelerate: The Science of DevOps](https://itrevolution.com/book/accelerate/), p. 79 f.
+All literature I have found up to now agrees that automated software testing is an essential integral part of the software development process.
+
+The most prominent and accepted examples are given in the following works:
+
+* Nicole Forsgen, Jez Humble and Gene Kim: [Accelerate: The Science of DevOps](https://itrevolution.com/book/accelerate/), IT Revolution Press, 2018. ISBN 9781942788331.
+
+* Gene Kim, Jez Humble, Patrick Debois, and John Willis: [The DevOps Handbook](https://itrevolution.com/the-devops-handbook/), IT Revolution Press, 2016. ISBN 1942788002.
+
+* Robert C. Martin: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.google.de/books/edition/Clean_Code/_i6bDeoCQzsC?hl=de&gbpv=0), Pearson Education, 2008. ISBN 978-0132350884.
+
+In chapter 4 "Technical Practices" of [Accelerate: The Science of DevOps](https://itrevolution.com/book/accelerate/) the authors write
+
+> Testing is not something that we should only start once a feature or a release is “dev complete.” Because testing is so essential, we should be doing it all the time as an integral part of the development process. Automated unit and acceptance tests should be run against every commit to version control to give developers fast feedback on their changes. Developers should be able to run all automated tests on their workstations in order to triage and fix defects. Testers should be performing exploratory testing continuously against the latest builds to come out of CI. No one should be saying they are “done” with any work until all relevant automated tests have been written and are passing.
 
 **Annotations**
 
