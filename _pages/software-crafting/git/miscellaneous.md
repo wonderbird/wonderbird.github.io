@@ -5,7 +5,48 @@ layout: default
 
 # Miscellaneous Git Topics
 
-## Merging An Other Git Repository
+## Getting Started
+
+As an introduction I recommend chapters 1 (Overview, History), 2 (Basics) and 3 (Branching, Merging) of the [Pro Git Book](https://git-scm.com/book/en/v2).
+
+## Transfer Uncommited Changes Via Patch File
+
+If you don't want to use branches, merging and pull requests to bring changes over, then you can resort to patch files.
+
+### Quick Solution
+
+Assume you are in a branch A of your repository on machine A
+
+```shell
+# Export all unstaged changes to a file "some.patch"
+git diff > some.patch
+```
+
+Then on machine B, check out the same branch A and
+
+```shell
+# Apply the patch to the other repository
+git apply some.patch
+```
+
+### Special Cases
+
+```shell
+# Consider the staged files only
+git diff --cached > some.patch
+
+# Include binary files like .mp3 files
+git diff --cached --binary > some.patch
+
+# Consider both staged and unstaged files
+git diff HEAD > some.patch
+```
+
+### References
+
+* Stackoverflow: [Create a git patch from the uncommitted changes in the current working directory](https://stackoverflow.com/questions/5159185/create-a-git-patch-from-the-uncommitted-changes-in-the-current-working-directory?answertab=votes#tab-top)
+
+## Merge With An Other Git Repository
 
 Assume you have created a local git repository on your computer. Now you want to upload it to your favorite host. For this purpose you create a fresh repository at the remote.
 
