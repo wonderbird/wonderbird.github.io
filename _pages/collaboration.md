@@ -3,6 +3,19 @@ title: Online-Collaboration
 layout: default
 ---
 
+## Check-In Games
+
+* [Online Warm-ups](https://www.workshop-spiele.de/category/online-warm-ups/)
+* [Remote Know How](https://qundg.de/remote-know-how/)
+* [tscheck.in](http://tscheck.in/)
+
+## Methods
+
+* [Liberating Structures](https://liberatingstructures.com/)
+* [Management 3.0 Practices](https://management30.com/practice/)
+* [Retromat](https://retromat.org/)
+* [The Fearless Journey Game](https://fearlessjourney.info/) *... highlights your Team’s hard-to-reach Goal and inspires new strategies to reach it.*
+
 ## Moderator Tools
 
 * [Synchronised Timer with QR Code](http://workshoptimer.com/)
@@ -22,20 +35,6 @@ layout: default
 * Free, unlimited [wonder.me](https://www.wonder.me)
 * Free [Workadventu.re](https://workadventu.re)
 * [Gather.town](https://gather.town)
-
-## Retros
-
-* [Retromat](https://retromat.org/)
-
-## Check-In Games
-
-* [Online Warm-ups](https://www.workshop-spiele.de/category/online-warm-ups/)
-* [Remote Know How](https://qundg.de/remote-know-how/)
-* [tscheck.in](http://tscheck.in/)
-
-## Methods
-
-* [The Fearless Journey Game](https://fearlessjourney.info/) *... highlights your Team’s hard-to-reach Goal and inspires new strategies to reach it.*
 
 ## Intercultural Communication
 
