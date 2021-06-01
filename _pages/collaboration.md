@@ -9,6 +9,7 @@ layout: default
 
 - [Check-In Games](#check-in-games)
 - [Methods](#methods)
+- [Voting Tools](#voting-tools)
 - [Moderator Tools](#moderator-tools)
 - [Online-Collaboration](#online-collaboration)
 - [Socializing Online](#socializing-online)
@@ -29,6 +30,17 @@ layout: default
 * [Management 3.0 Practices](https://management30.com/practice/)
 * [Retromat](https://retromat.org/)
 * [The Fearless Journey Game](https://fearlessjourney.info/) - highlights your Team’s hard-to-reach Goal and inspires new strategies to reach it.
+
+# Voting Tools
+
+Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for sharing your links with me :-)
+
+* [slido](https://sli.do) - Q&A and polls.
+* [VOXR - Smart Conferencing](https://voxr.org/de) - Conference management platform including Q&A and polls.
+* [Mentimeter](https://www.mentimeter.com/) - Live polls, quizzes, word clouds, Q&A and more.
+* [Voting / Polling Module of TEDME](https://tedme.com/home/voting) - Live polls.
+* [Swipe](https://www.swipe.to/) - Polls, Q&A, slide and presentation sharing.
+* [Poll Everywhere](https://www.polleverywhere.com/) - Q&A, fpolls, feedback, integration into presentations.
 
 # Moderator Tools
 
