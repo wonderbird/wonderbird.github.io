@@ -41,6 +41,8 @@ Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for sharing y
 * [Voting / Polling Module of TEDME](https://tedme.com/home/voting) - Live polls.
 * [Swipe](https://www.swipe.to/) - Polls, Q&A, slide and presentation sharing.
 * [Poll Everywhere](https://www.polleverywhere.com/) - Q&A, fpolls, feedback, integration into presentations.
+* Netzwerkknoten GmbH: [Entscheiden in selbstorganisierten Teams – systemisches Konsensieren](https://www.netzwerkknoten.com/entscheiden-in-selbstorganisierten-teams-systemisches-konsensieren) (German) - This method measures resistance and may be better than strict democracy in a team or company setting.
+  * [Acceptify.net](https://www.acceptify.at/de/start) - Implements systemic consensing as a web service.
 
 # Moderator Tools
 
