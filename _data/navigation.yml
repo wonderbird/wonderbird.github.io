@@ -99,6 +99,8 @@ software-crafting:
     url: /pages/software-crafting/miscellaneous-tools.html
   - title: Mob Programming
     url: /pages/software-crafting/mob-programming.html
+  - title: Rockstar
+    url: /pages/software-crafting/rockstar.html
   - title: Software Testing
     url: /pages/software-crafting/software-testing.html
   - title: Sonic Pi
