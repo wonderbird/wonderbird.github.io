@@ -87,6 +87,8 @@ errcheck
 
 ### Package Libraries
 
+* [pkg.go.dev](https://pkg.go.dev/) - Search the centralized and curated resources from across the Go ecosystem.
+  * Go.dev: [About](https://go.dev/about/#adding-a-package) - How to add your package documentation to Go.dev.
 * [The Go Standard Library](https://golang.org/pkg/)
 * [Awesome Go](https://awesome-go.com)
 
