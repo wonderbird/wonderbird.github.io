@@ -110,6 +110,7 @@ errcheck
 #### Miscellaneous
 
 * [Package fmt](https://golang.org/pkt/fmt/) - Formatted I/O with functions analogous to C's printf and scanf.
+* [Package bufio](https://golang.org/pkg/bufio/) - Buffered I/O.
 
 ## Go Specific Details
 
@@ -131,6 +132,8 @@ errcheck
 * [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments) - Good practices for Go.
 
 * [Testable Examples in Go](https://blog.golang.org/examples)
+
+* Mitchell Hashimoto: [Advanced Testing with Go](https://speakerdeck.com/mitchellh/advanced-testing-with-go?slide=53) - Slidedeck with various aspects of testing.
 
 ### Slices, Errors and Reflection
 
