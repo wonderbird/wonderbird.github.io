@@ -135,6 +135,8 @@ errcheck
 
 * Mitchell Hashimoto: [Advanced Testing with Go](https://speakerdeck.com/mitchellh/advanced-testing-with-go?slide=53) - Slidedeck with various aspects of testing.
 
+* Kyle Quest: [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/#anameclose_http_resp_bodyaclosinghttpresponsebody)
+
 ### Slices, Errors and Reflection
 
 * [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
@@ -147,6 +149,13 @@ errcheck
 
 * Dave Cheney: [If a map isn’t a reference variable, what is it?](https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it)
 * Andrew Gerrand: [Go maps in action](https://blog.golang.org/maps) in [The Go Blog](https://blog.golang.org/)
+
+### `defer`
+
+* Inanc Gumus: [Go Defer Simplified with Practical Visuals](https://blog.learngoprogramming.com/golang-defer-simplified-77d3b2b817ff)
+* Inanc Gumus: [5 Gotchas of Defer in Go — Part I](https://blog.learngoprogramming.com/gotchas-of-defer-in-go-1-8d070894cb01)
+* Inanc Gumus: [5 More Gotchas of Defer in Go — Part II](https://blog.learngoprogramming.com/5-gotchas-of-defer-in-go-golang-part-ii-cc550f6ad9aa)
+* Inanc Gumus: [5 More Gotchas of Defer in Go — Part III](https://blog.learngoprogramming.com/5-gotchas-of-defer-in-go-golang-part-iii-36a1ab3d6ef1)
 
 ### Concurrency
 
