@@ -5,9 +5,26 @@ layout: default
 
 # Miscellaneous Git Topics
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Getting Started](#getting-started)
+- [Links](#links)
+- [Transfer Uncommited Changes Via Patch File](#transfer-uncommited-changes-via-patch-file)
+- [Merge With An Other Git Repository](#merge-with-an-other-git-repository)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Getting Started
 
 As an introduction I recommend chapters 1 (Overview, History), 2 (Basics) and 3 (Branching, Merging) of the [Pro Git Book](https://git-scm.com/book/en/v2).
+
+A quick overview is given in
+
+## Links
+
+* [Git rebase from remote fork repo](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa) - How to sync your fork (containing open pull requests).
 
 ## Transfer Uncommited Changes Via Patch File
 
