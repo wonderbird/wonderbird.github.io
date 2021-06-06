@@ -4,8 +4,20 @@ layout: default
 ---
 # Elektronik und andere Basteleien
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Projekt-Anbieter, Maker-Spaces, etc.](#projekt-anbieter-maker-spaces-etc)
+- [Einzelne Projekte](#einzelne-projekte)
+- [Elektronik](#elektronik)
+- [Mechanische Komponenten und Gehäuse](#mechanische-komponenten-und-geh%C3%A4use)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Projekt-Anbieter, Maker-Spaces, etc.
 
+- [Dingfabrik Köln](https://dingfabrik.de/) - Fablab in Köln.
 - [Hochschule Trier: IoT Werkstatt](https://www.umwelt-campus.de/forschung/projekte/iot-werkstatt)
 - [Binary Kitchen Regensburg](https://www.binary-kitchen.de/)
 - [Blinken Area](https://wiki.blinkenarea.org/index.php/Main_Page)
@@ -51,43 +63,51 @@ layout: default
 - [matches21 Elektronik Bausätze](https://www.matches21.de/spielen-basteln/bausaetze-bastelsets/elektronik/)
 - [Forscherladen](https://www.forscherladen.de/velleman-mini-kit-mk172-sound-led-stern::697-840500.html)
 
-## Grundlagen und Literatur
+## Elektronik
 
-### Standardwerke
+### Grundlagen und Literatur
+
+#### Standardwerke
 
 - Tietze, Schenk, Gamm: [Halbleiter-Schaltungstechnik (Der "Tietze-Schenk")](http://www.tietze-schenk.de)
 
-### Elektronik Allgemein
+#### Elektronik Allgemein
 
 - Patrick Schnabel: [Elektronik Kompendium](https://www.elektronik-kompendium.de/)
 - Ian C. Purdie: [Electronics Tutorials](https://www.electronics-tutorials.com)
 - University of Exeter: [Physics and Astronomy Teaching Related Material on the WWW](http://newton.ex.ac.uk/teaching/CDHW/)
 
-### Microcontroller
+#### Microcontroller
 
 - Andreas Schwarz: [mikrocontroller.net](https://www.mikrocontroller.net/)
 - Adafruit: [Adafruit Learning System](https://learn.adafruit.com)
 
-## Platinen Design
+### Platinen Design
 
 * [Cadsoft Eagle Light (Freeware)](http://ftp.cadsoft.de/freeware.htm)
 * [Autodesk Eagle](https://www.autodesk.de/products/eagle/overview)
 * [Malvida Orcad](https://orcad.de.malavida.com)
 * [Altium Designer (Protel)](https://www.altium.com/de/solution/protel-pcb)
 
-## Schaltungssimulation
+### Schaltungssimulation
 
 * [Analog Devices: LTSpice / SwitcherCAD](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 * [PSpice](https://www.pspice.com)
 
-## Elektronik Versender
+### Elektronik Versender
 
 * [TME Electronic Components](https://www.tme.eu/de/)
 * [Conrad](https://www.conrad.de)
 * [Reichelt](https://www.reichelt.de)
 * [Pollin](https://www.pollin.de)
 
-## Chip-Hersteller
+### Chip-Hersteller
 
 * [Analog Devices](https://www.analog.com/en/index.html)
 * [Texas Instruments](https://www.ti.com)
+
+## Mechanische Komponenten und Gehäuse
+
+Die folgenden Links habe ich noch  nicht ausprobiert. Ich sammle hier, um beim nächsten Projekt mal eine Anfrage zu starten:
+
+* [Luthe Druck und Medienservice e.K.](https://www.luthe-druck.de/laser-cutting) - Druck, Lasercutting, Lasergravur.
