@@ -25,7 +25,7 @@ layout: default
 
 * Roy Osherove: The Art of Unit Testing, 2nd Edittion, Manning Publications Co. November 2013. ISBN 9781617290893. https://www.manning.com/books/the-art-of-unit-testing-second-edition
 
-## Rationale
+## Rationale for Testing (in General)
 
 All literature I have found up to now agrees that automated software testing is an essential integral part of the software development process.
 
@@ -49,13 +49,6 @@ More prominent and widely accepted opinions are given in the following works (so
 
 * Robert C. Martin: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.google.de/books/edition/Clean_Code/_i6bDeoCQzsC?hl=de&gbpv=0), Pearson Education, 2008. ISBN 978-0132350884.
 
-**Annotations**
-
-| Annotation | Description |
-| ---------- | ----------- |
-| 🤝 | Link was provided by [Daniel Spicher](https://twitter.com/dsp_de) via [Michael Mahlberg](https://twitter.com/MMahlberg). Thank you! :-) |
-| 🔓 | Open Access Publication :-) |
-
 ## Websites and Articles on Testing
 
 * [ISTQB: International Software Testing Qualification Board](https://www.istqb.org/) - The international standard in training and certification of software testers.
@@ -63,6 +56,13 @@ More prominent and widely accepted opinions are given in the following works (so
 * Roy Osherove: [The four most common root causes that slow down enterprise continuous delivery](https://pipelinedriven.org/article/the-four-most-common-root-causes-that-slow-down-enterprise-continuous-delivery) - Anti-Patterns reducing team performance.
 
 ## Research on TDD
+
+**Annotations**
+
+| Annotation | Description |
+| ---------- | ----------- |
+| 🤝 | Link was provided by [Daniel Spicher](https://twitter.com/dsp_de) via [Michael Mahlberg](https://twitter.com/MMahlberg). Thank you! :-) |
+| 🔓 | Open Access Publication :-) |
 
 * Caspers Jones: "Chapter 59: Test-Driven Development (TDD)" in Caspers Jones: [Software Methodologies - A Quantitative Guide](https://www.routledge.com/Software-Methodologies-A-Quantitative-Guide/Jones/p/book/9781138033085), pp. 467 - 471, CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
 
