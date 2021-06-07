@@ -5,6 +5,26 @@ layout: default
 
 # Software Testing
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Books on Testing](#books-on-testing)
+- [Rationale](#rationale)
+- [Websites and Articles on Testing](#websites-and-articles-on-testing)
+- [Research on TDD](#research-on-tdd)
+- [Miscellaneous](#miscellaneous)
+- [Tools and Ideas](#tools-and-ideas)
+  - [Property Based Testing](#property-based-testing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Books on Testing
+
+* Andreas Spillner, Tilo Linz: [Basiswissen Softwaretest](https://www.google.de/books/edition/Basiswissen_Softwaretest/kl-bDwAAQBAJ?hl=de&gbpv=0) (in German) - Aus- und Weiterbildung zum Certified Tester – Foundation Level nach ISTQB®-Standard.
+
+* Roy Osherove: The Art of Unit Testing, 2nd Edittion, Manning Publications Co. November 2013. ISBN 9781617290893. https://www.manning.com/books/the-art-of-unit-testing-second-edition
+
 ## Rationale
 
 All literature I have found up to now agrees that automated software testing is an essential integral part of the software development process.
@@ -41,10 +61,6 @@ More prominent and widely accepted opinions are given in the following works (so
 * [ISTQB: International Software Testing Qualification Board](https://www.istqb.org/) - The international standard in training and certification of software testers.
 
 * Roy Osherove: [The four most common root causes that slow down enterprise continuous delivery](https://pipelinedriven.org/article/the-four-most-common-root-causes-that-slow-down-enterprise-continuous-delivery) - Anti-Patterns reducing team performance.
-
-## Books on Testing
-
-* Roy Osherove: The Art of Unit Testing, 2nd Edittion, Manning Publications Co. November 2013. ISBN 9781617290893. https://www.manning.com/books/the-art-of-unit-testing-second-edition
 
 ## Research on TDD
 
