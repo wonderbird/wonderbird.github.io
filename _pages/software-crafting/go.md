@@ -98,8 +98,10 @@ errcheck
 
 * [Package testify](https://pkg.go.dev/github.com/stretchr/testify/assert) - Documentation for assert, mock, suite statements (GitHub: [stretchr / testify](https://github.com/stretchr/testify))
 * [Package quick](https://golang.org/pkg/testing/quick/) - Property based testing (quickcheck / quick.Check).
+* [Package fuzz(beta)](https://blog.golang.org/fuzz-beta) - Fuzzing = automated testing which continuously manipulates inputs to a program to find issues such as panics or bugs.
 * [Package httptest](https://golang.org/pkg/net/http/httptest/) - Utilities for HTTP testing.
 * [Package mattetti / filebuffer](https://github.com/mattetti/filebuffer) - byte buffer backed file-like interfaces, in-memory alternative to io.File
+
 
 #### Parsing XML
 

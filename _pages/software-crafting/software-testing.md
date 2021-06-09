@@ -5,7 +5,27 @@ layout: default
 
 # Software Testing
 
-## Rationale
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Books on Testing](#books-on-testing)
+- [Rationale](#rationale)
+- [Websites and Articles on Testing](#websites-and-articles-on-testing)
+- [Research on TDD](#research-on-tdd)
+- [Miscellaneous](#miscellaneous)
+- [Tools and Ideas](#tools-and-ideas)
+  - [Property Based Testing](#property-based-testing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Books on Testing
+
+* Andreas Spillner, Tilo Linz: [Basiswissen Softwaretest](https://www.google.de/books/edition/Basiswissen_Softwaretest/kl-bDwAAQBAJ?hl=de&gbpv=0) (in German) - Aus- und Weiterbildung zum Certified Tester – Foundation Level nach ISTQB®-Standard.
+
+* Roy Osherove: The Art of Unit Testing, 2nd Edittion, Manning Publications Co. November 2013. ISBN 9781617290893. https://www.manning.com/books/the-art-of-unit-testing-second-edition
+
+## Rationale for Testing (in General)
 
 All literature I have found up to now agrees that automated software testing is an essential integral part of the software development process.
 
@@ -29,24 +49,20 @@ More prominent and widely accepted opinions are given in the following works (so
 
 * Robert C. Martin: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.google.de/books/edition/Clean_Code/_i6bDeoCQzsC?hl=de&gbpv=0), Pearson Education, 2008. ISBN 978-0132350884.
 
-**Annotations**
-
-| Annotation | Description |
-| ---------- | ----------- |
-| 🤝 | Link was provided by [Daniel Spicher](https://twitter.com/dsp_de) via [Michael Mahlberg](https://twitter.com/MMahlberg). Thank you! :-) |
-| 🔓 | Open Access Publication :-) |
-
 ## Websites and Articles on Testing
 
 * [ISTQB: International Software Testing Qualification Board](https://www.istqb.org/) - The international standard in training and certification of software testers.
 
 * Roy Osherove: [The four most common root causes that slow down enterprise continuous delivery](https://pipelinedriven.org/article/the-four-most-common-root-causes-that-slow-down-enterprise-continuous-delivery) - Anti-Patterns reducing team performance.
 
-## Books on Testing
-
-* Roy Osherove: The Art of Unit Testing, 2nd Edittion, Manning Publications Co. November 2013. ISBN 9781617290893. https://www.manning.com/books/the-art-of-unit-testing-second-edition
-
 ## Research on TDD
+
+**Annotations**
+
+| Annotation | Description |
+| ---------- | ----------- |
+| 🤝 | Link was provided by [Daniel Spicher](https://twitter.com/dsp_de) via [Michael Mahlberg](https://twitter.com/MMahlberg). Thank you! :-) |
+| 🔓 | Open Access Publication :-) |
 
 * Caspers Jones: "Chapter 59: Test-Driven Development (TDD)" in Caspers Jones: [Software Methodologies - A Quantitative Guide](https://www.routledge.com/Software-Methodologies-A-Quantitative-Guide/Jones/p/book/9781138033085), pp. 467 - 471, CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
 
