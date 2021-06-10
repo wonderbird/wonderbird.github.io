@@ -11,7 +11,8 @@ layout: default
 
 Legende der Symbole - siehe [unten](#legend)
 
-Eoin Woods: [Democratising Software Architecture](https://speakerdeck.com/eoinwoods/democratising-software-architecture)
+* Liz Keogh: [Estimating Complexity](https://lizkeogh.com/2013/07/21/estimating-complexity/) - Thanks Michael :-)
+* Eoin Woods: [Democratising Software Architecture](https://speakerdeck.com/eoinwoods/democratising-software-architecture)
 * Sprenger: Gut aufgestellt - Führung
 * disg biostrukur-analyse insight
 
