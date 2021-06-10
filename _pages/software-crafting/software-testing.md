@@ -94,3 +94,12 @@ Engineering, vol. 43, no. 7, pp. 597-614, 1 July 2017, DOI:https://doi.org/10.11
 * David R. MacIver: [HypothesisWorks / hypothesis](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python) - Property based testing for python.
 
 * [Go Package quick](https://golang.org/pkg/testing/quick/) - Property based testing for Go.
+
+### Fuzzing / Fuzz Testing
+
+* Vincent Blanchon: [Go: Fuzz Testing in Go](https://medium.com/a-journey-with-go/go-fuzz-testing-in-go-deb36abc971f) - A short introductory article for Go.
+* Dmitry Vyukov: [go-fuzz](https://github.com/dvyukov/go-fuzz) - A coverage-guided fuzzing solution for testing of Go packages.
+* Google: [gofuzz](https://github.com/google/gofuzz) - A library for populating go objects with random values.
+* [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - A coverage-guided, in-process fuzzer for the JVM platform.
+* [Atheris](https://github.com/google/atheris) - A Coverage-Guided, Native Python Fuzzer.
+* [OSS-Fuzz](https://google.github.io/oss-fuzz/) - Combining modern fuzzing techniques with scalable, distributed execution for open source projects.
