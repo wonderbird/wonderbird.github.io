@@ -96,6 +96,8 @@ errcheck
 
 #### Testing
 
+* [Ginkgo](https://onsi.github.io/ginkgo/) - A Golang BDD Testing Framework.
+  * [Getting Started with BDD in Go Using Ginkgo](https://semaphoreci.com/community/tutorials/getting-started-with-bdd-in-go-using-ginkgo) - Introduction into the BDD Framework Ginkgo.
 * [Package testify](https://pkg.go.dev/github.com/stretchr/testify/assert) - Documentation for assert, mock, suite statements (GitHub: [stretchr / testify](https://github.com/stretchr/testify))
 * [Package quick](https://golang.org/pkg/testing/quick/) - Property based testing (quickcheck / quick.Check).
 * [Package fuzz(beta)](https://blog.golang.org/fuzz-beta) - Fuzzing = automated testing which continuously manipulates inputs to a program to find issues such as panics or bugs.
