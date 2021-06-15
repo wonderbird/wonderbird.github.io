@@ -4,6 +4,10 @@ layout: default
 ---
 # Knaban - Impulses and Ideas
 
+## Introduction
+
+* David J. Anderson: [LSSC12: The Systems Thinking Approach to Introducing Kanban - David J. Anderson](https://vimeo.com/46272041)
+
 ## Central Ideas
 
 * Finish started work
@@ -26,7 +30,9 @@ layout: default
 
 ### Prioritizing
 
-* Triage Tables amd Cost of Delay
+* mauvisoft: [Download Posters](https://mauvisoft.com/downloads/) - Differet posters in different languages: Triage Tables, Dependency Management, Cost of Delay, Understanding Lead Time.
+
+* Triage Tables and Cost of Delay
 * Quantify first, then prioritize
 * Problem: How do you quantify in complex domains with high uncertainty?
 * Read Troy Magannis work
@@ -52,6 +58,7 @@ layout: default
 
 ### Blog Posts and Articles
 
+* kanbanize: [How to Apply the Kanban Maturity Model with a digital Kanban Tool](https://kanbanize.com/kanban-resources/kanban-software/kanban-maturity-model)
 * Troy Magannis and Larry Maccherone: [6 Performance Dimensions](https://mailchi.mp/79a876c00880/six-dimensions-of-team-performance-forecasting-and-metrics-with-troy-magennis?e=[UNIQID])
 * Leanability: [Die Vor-Queue: Vorhersagbarkeit mit Flexibilität](https://2020.leanability.com/de/blog/2012/08/die-vor-queue-vorhersehbarkeit-mit-flexibilitaet/)
 
@@ -63,12 +70,14 @@ layout: default
 
 ### Videos
 
+* Vimeo: [David J Anderson: Working with Triage Tables Webinar Recording](https://vimeo.com/4406745389)
 * YouTube: [Klaus Leopold: Ship Building Simulation](https://www.youtube.com/watch?v=iIc9ttGurUo)
 * YouTube: [#FlightClub](https://www.youtube.com/playlist?list=PLacsUAvpF9E-rhGW_-KffqwsUYwjdfV-m)
 * YouTube: [Flight Levels Academy](https://www.youtube.com/channel/UCapV3U6lXcd4sy0iCOK9mug)
 
 ### People
 
+* [David J Anderson School of Managemet](https://djaa.com/)
 * [Markus Wissekal](https://coach.und.coach/)
 * Klaus Leopold: [LEANability - Kanban & Kanban Flight Levels](https://www.leanability.com/de/)
 * Troy Magannis
