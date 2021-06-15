@@ -95,7 +95,9 @@ software-crafting:
     url: /pages/software-crafting/leadership.html
   - title: Methods
     url: /pages/software-crafting/methods.html
-  - title: Miscellaneous Tools
+  - title: Miro App Development
+    url: /pages/software-crafting/miro-app-development.html
+  - title: Miro App Development
     url: /pages/software-crafting/miscellaneous-tools.html
   - title: Mob Programming
     url: /pages/software-crafting/mob-programming.html
