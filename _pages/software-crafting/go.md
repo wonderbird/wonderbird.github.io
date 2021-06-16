@@ -33,7 +33,7 @@ To get started ...
 
 Where to go next?
 
-Follow the documents listed in the section [General Aspects](#general-aspects) and inspect the [Package Libraries](#package-libraries).
+Practice some [code katas](katas.html), follow the documents listed in the section [General Aspects](#general-aspects) and inspect the [Package Libraries](#package-libraries).
 
 ### Prerequisites
 
@@ -99,6 +99,7 @@ errcheck
 * [Ginkgo](https://onsi.github.io/ginkgo/) - A Golang BDD Testing Framework.
   * [Getting Started with BDD in Go Using Ginkgo](https://semaphoreci.com/community/tutorials/getting-started-with-bdd-in-go-using-ginkgo) - Introduction into the BDD Framework Ginkgo.
 * [Package testify](https://pkg.go.dev/github.com/stretchr/testify/assert) - Documentation for assert, mock, suite statements (GitHub: [stretchr / testify](https://github.com/stretchr/testify))
+* [David Cheney: How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) - Introduction to benchmarking.
 * [Package quick](https://golang.org/pkg/testing/quick/) - Property based testing (quickcheck / quick.Check).
 * [Package fuzz(beta)](https://blog.golang.org/fuzz-beta) - Fuzzing = automated testing which continuously manipulates inputs to a program to find issues such as panics or bugs.
 * [Package httptest](https://golang.org/pkg/net/http/httptest/) - Utilities for HTTP testing.
@@ -123,6 +124,9 @@ errcheck
 * [A Tour of Go](https://tour.golang.org/welcome/1) - An interactive tutorial.
 
 * [How to Write Go Code](https://golang.org/doc/code) - Demonstrates the development of a simple Go package inside a module and introduces the go tool.
+
+* [Using Go Modules](https://blog.golang.org/using-go-modules) - How to setup a Go module and manage dependencies.
+  * [Stackoverflow: How to point Go module dependency in go.mod to a latest commit in a repo?](https://stackoverflow.com/questions/53682247/how-to-point-go-module-dependency-in-go-mod-to-a-latest-commit-in-a-repo)
 
 * [Effective Go](https://golang.org/doc/effective_go) - Tips for writing clear, idiomatic Go code.
   * [Embedding](https://golang.org/doc/effective_go#embedding)
@@ -169,3 +173,7 @@ errcheck
 * [Go package context](https://golang.org/pkg/context/)
 * Michael Štrba: [Context should go away for Go 2](https://faiface.github.io/post/context-should-go-away-go2/)
 * Jack Lindamood: [How to correctly use context.Context in Go 1.7](https://medium.com/@cep21/how-to-correctly-use-context-context-in-go-1-7-8f2c0fafdf39)
+
+## Tools Easing the Programmer's Life
+
+* [Gitpod: Go Quickstart](https://www.gitpod.io/docs/quickstart/go) - Quickly setup a free, cloud hosted go development environment.
