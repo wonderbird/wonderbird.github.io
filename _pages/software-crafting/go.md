@@ -27,9 +27,10 @@ layout: default
 
 ## Getting Started
 
-To get started ...
+To get started, either ... or ...
 
-- [Learn Go with Tests](https://github.com/quii/learn-go-with-tests)
+- Work through [For the Love of Go: Fundamentals](https://bitfieldconsulting.com/books/fundamentals) - addresses complete beginners (I have not read it yet).
+- [Learn Go with Tests](https://github.com/quii/learn-go-with-tests) - helped me as an experienced developer to learn Go quickly.
 
 Where to go next?
 
