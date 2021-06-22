@@ -43,6 +43,8 @@ computers:
     url: /pages/computers-and-technology/elektronik-basteln.html
   - title: iPhone Klingelton erstellen
     url: /pages/computers-and-technology/iphone-klingelton-erstellen.html
+  - title: Install ZSH and Oh My ZSH on macOS
+    url: /pages/computers-and-technology/install-zsh-and-oh-my-zsh.md
   - title: Jekyll
     url: /pages/computers-and-technology/jekyll.html
   - title: Jugend und IT
