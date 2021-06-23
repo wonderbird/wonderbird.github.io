@@ -25,4 +25,4 @@ bundle exec jekyll serve
 
 ## References
 
-An overview of Jekyll and all relevant references are collected on the sub-page [Generating Websites with Jekyll](_pages/jekyll.md).
+An overview of Jekyll and all relevant references are collected on the sub-page [Generating Websites with Jekyll](_pages/computers-and-technology/jekyll.md).
