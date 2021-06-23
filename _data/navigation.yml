@@ -89,6 +89,8 @@ software-crafting:
     url: /pages/software-crafting/git.html
   - title: Go
     url: /pages/software-crafting/go.html
+  - title: Heroku
+    url: /pages/software-crafting/heroku.html
   - title: Katas
     url: /pages/software-crafting/katas.html
   - title: Kanban
