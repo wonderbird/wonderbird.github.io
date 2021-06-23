@@ -6,12 +6,13 @@
 
 Install the following tools once:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)<br>macOS users need to add ruby and the gem folder to the path as described during the installation with Homebrew.
 
 Then execute the following commands in the working directory:
 
 ```sh
 gem install bundler jekyll
+bundle install
 ```
 
 ### Local Development
