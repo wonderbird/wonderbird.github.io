@@ -7,6 +7,9 @@ layout: default
 
 ## Tools
 
+* [Mob Time](https://mobti.me/) - A collaborative timer for your mob team.
+* [Synchronised Timer with QR Code](http://workshoptimer.com/)
+* [cuckoo.team](https://cuckoo.team/) - Productivity Timer for Remote Teams.
 * [Agility - Web based Mob Timer](https://agility.jahed.dev)
 * [Mobster Mob Timer for Mac](http://mobster.cc) - [GitHub Repo](https://github.com/dillonkearns/mobster)
 * [mob.sh](https://mob.sh) *Smooth mob hand-over*

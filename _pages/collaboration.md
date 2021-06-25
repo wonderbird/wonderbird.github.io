@@ -46,8 +46,8 @@ Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for sharing y
 
 # Moderator Tools
 
-* [Synchronised Timer with QR Code](http://workshoptimer.com/)
-* [cuckoo.team](https://cuckoo.team/) - Productivity Timer for Remote Teams.
+You can find a collection of timers on the [Mob Programming](software-crafting/mob-programming.html) page.
+
 * [Würfel / teal dice](http://a.teall.info/dice/)
 * [Select a Person / Wheel of Names](https://wheelofnames.com/)
 
