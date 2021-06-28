@@ -61,7 +61,10 @@ You can find a collection of timers on the [Mob Programming](software-crafting/m
 # Socializing Online
 
 * Free, unlimited [wonder.me](https://www.wonder.me)
-* Free [Workadventu.re](https://workadventu.re)
+* Free [Workadventu.re](https://workadventu.re) - ... was used (or adopted) for [remote chaos experience r3](https://events.ccc.de/2020/12/31/rc3-es-war-einmal-kein-congress/)
+  * [How To Work Adventure](https://howto.rc3.world/workadventure.en.html) - How the CCC built the rc3.world and resources on how you can build your own world.
+  * [GitHub: thecodingmachine / workadventure](https://github.com/thecodingmachine/workadventure) - the original repository.
+  * [Git.Binary-Kitchen.de: noby / workadventure](https://git.binary-kitchen.de/noby/workadventure) - a fork I might test ... (no promise; said so on June 28, 2021).
 * [Gather.town](https://gather.town)
 
 # Intercultural Communication
