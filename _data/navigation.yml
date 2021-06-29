@@ -23,7 +23,7 @@ main:
     url: /pages/rc3-remote-chaos.html
   - title: Sailing
     url: /pages/sailing.html
-    - title: Shadowrun
+  - title: Shadowrun
     url: /pages/shadowrun.html
   - title: Software Crafting
     url: /pages/software-crafting.html
