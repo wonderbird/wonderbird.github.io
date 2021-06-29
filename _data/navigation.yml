@@ -4,11 +4,11 @@ main:
   - title: Collaboration
     url: /pages/collaboration.html
   - title: Computers and technology
-    url: /pages/computers-and-technology.html
+    url: /pages/computers-and-technology/
   - title: COVID-2019
     url: /pages/covid-2019.html
   - title: Geocaching
-    url: /pages/geocaching.html
+    url: /pages/geocaching/
   - title: Kaffee
     url: /pages/kaffee.html
   - title: Köln erleben
@@ -26,7 +26,7 @@ main:
   - title: Shadowrun
     url: /pages/shadowrun.html
   - title: Software Crafting
-    url: /pages/software-crafting.html
+    url: /pages/software-crafting/
   - title: Solaranlagen
     url: /pages/solaranlagen.html
 
