@@ -21,7 +21,9 @@ main:
     url: /pages/personality-development.html
   - title: rc3 - remote chaos
     url: /pages/rc3-remote-chaos.html
-  - title: Shadowrun
+  - title: Sailing
+    url: /pages/sailing.html
+    - title: Shadowrun
     url: /pages/shadowrun.html
   - title: Software Crafting
     url: /pages/software-crafting.html
