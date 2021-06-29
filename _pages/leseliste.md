@@ -11,14 +11,17 @@ layout: default
 
 Legende der Symbole - siehe [unten](#legend)
 
-* Liz Keogh: [Estimating Complexity](https://lizkeogh.com/2013/07/21/estimating-complexity/) - Thanks Michael :-)
-* Eoin Woods: [Democratising Software Architecture](https://speakerdeck.com/eoinwoods/democratising-software-architecture)
-* Sprenger: Gut aufgestellt - Führung
-* disg biostrukur-analyse insight
+* 📰 Liz Keogh: [Estimating Complexity](https://lizkeogh.com/2013/07/21/estimating-complexity/) - Thanks Michael :-)
+
+* 📰 Eoin Woods: [Democratising Software Architecture](https://speakerdeck.com/eoinwoods/democratising-software-architecture)
+
+* 📖 Rainer Sprenger: Gut aufgestellt - Führung
 
 * 🗃️ [5 Whys - Recommended Books](http://5whys.com/recommended-books/) - Book list by Roy Osherove.
 
 * 🗃️ [ThoughtWorks TechRadar](https://www.thoughtworks.com/de/radar)
+
+* 📽️ predic8: [Microservices schneiden - Schnitt und Architektur](https://www.youtube.com/watch?v=1REgyrRowNw)
 
 * 📽️ Simon Wardley: [Crossing the River by Feeling the Stones](https://www.youtube.com/watch?v=2IW9L1uNMCs) *Introduction to Wardley Maps?*
 
@@ -41,3 +44,5 @@ Legende der Symbole - siehe [unten](#legend)
 * 📰 Ein Artikel - (#U+1F4F0; :newspaper:)
 
 * 🗃️ Eine Übersicht (Artikel, Website, etc.) - (#U+1F5C3; :card_file_box:)
+
+* 📖 Ein Buch - (#U+1F4D6; :open_book:)
