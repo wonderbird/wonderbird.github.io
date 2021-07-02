@@ -2,7 +2,7 @@
 title: Jekyll
 layout: default
 ---
-# Generating Websites with jekyll
+# Generating Websites with Jekyll
 
 ## Prerequisites
 
@@ -21,6 +21,12 @@ bundle add webrick
 ```
 
 from inside the Jekyll site directory.
+
+### Authentication and Restricted Access
+
+The [jekyll-auth](https://github.com/benbalter/jekyll-auth) module allows to restrict access. It uses GitHub OAuth and allows to manage user access via GitHub organizations and teams.
+
+Note, that the [Getting Started](https://github.com/benbalter/jekyll-auth/blob/master/docs/getting-started.md) guide needs some further explanations. You can find the necessary details in my personal repository [wonderbird / experiment-with-jekyll-auth](https://github.com/wonderbird/experiment-with-jekyll-auth). I have commented an [issue for jekyll-auth](https://github.com/benbalter/jekyll-auth/issues/141#issuecomment-870213536) in this context.
 
 ## Further Information
 
