@@ -45,7 +45,9 @@ After having inserted a video into the timeline apply the following transofrmati
 
 ### 3. Export the rendered video in a "intermediate" folder
 
-Use the following settings when exporting from DaVinci Resolve:
+When exporting HD videos I use the vimeo preset.
+
+As an alternative, for slow screen recordings in 720p I use the following settings:
 
 * vimeo 720p Format
 * Container: MP4
@@ -54,7 +56,7 @@ Use the following settings when exporting from DaVinci Resolve:
 
 ### 4. Compress the video using ffmpeg
 
-FFMPEG can shrink videos without losing much quality. The following command reduces the video to a size suited for mobile phone:
+FFMPEG can shrink videos significantly. The following command reduces the video to a size suited for mobile phone:
 
 ```
 # Optimum quality : size ratio for screen recordings
@@ -76,5 +78,5 @@ ffmpeg -i input.mov -vcodec libx264 -crf 24 -vf scale=480:270  output.avi
 
 ## Some Personal Notes
 
-* My camera profile: 1920 x 1080, H.264 Linear PCM
+* My camera profile: 1920 x 1080, H.265 Linear PCM
 * Keywords: MP4 MPG MPEG AVI Movie Filme Videoschnitt Export DaVinci Resolve
