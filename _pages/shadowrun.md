@@ -23,31 +23,34 @@ layout: default
 
 ## Tools for Players and Game Masters
 
-- [Roll20](https://roll20.net/)
+- [Roll20](https://roll20.net/) - Online Virtual Table Top with Shadowrun support.
 
-- [Chummer 5a](https://github.com/chummer5a/chummer5a) *Character Generator*
+- [FoundryVTT](https://foundryvtt.com) - Host your Virtual Table Top on your PC. Allows many plugins.
+
+- [Chummer 5a](https://github.com/chummer5a/chummer5a) - Character generator and carreer management tool.
 
 ## Tools for Game Masters
 
-- [Fake Name Generator](https://www.fakenamegenerator.com/) *Great! Allows to select name and home by country*
+- [Fake Name Generator](https://www.fakenamegenerator.com/) - Allows to select name and home by country.
 
-- [Shadowrun Mob Master](https://toktic.github.io/sr_gmt/) *Great! A generator for NPCs and mobs of NPCs (SR5e)*
+- [Shadowrun Mob Master](https://toktic.github.io/sr_gmt/) - A generator for NPCs and mobs of NPCs (SR5e).
 
 - [Cyberpunk Generator Shadowrun Edition](https://rpgenerator.net/cyberpunk/runners)
 
 - [Shadowrun Grunts](http://antagonistes.com/sr5/grunts.php)
 
-- [RPTools Wiki](https://wiki.rptools.info/index.php/Main_Page) *Role Playing Tools*
+- [RPTools Wiki](https://wiki.rptools.info/index.php/Main_Page) - Role Playing Tools.
   - [MapTool](https://github.com/RPTools/maptool/wiki)
 
-- [Shadowrun Spielhilfen](https://www.shadowrun6.de/) *Tokens, Symbole, etc.*
+- [Shadowrun Game Tools](https://www.shadowrun6.de/) - Tokens, Symbols, etc.
 
 - [Probability Table for Checks](https://docs.google.com/spreadsheets/d/1Ts3pXOJ7V6-oX7NEuow_T7P4zJKIx6NRRLNZlVOrwRM/edit#gid=0)
 
 ## Karten Editoren / Battle Map Editors
 
-* [Dungeondraft](https://dungeondraft.net/) *can export / import to MapTool*
-  * [Cartography Assets](https://cartographyassets.com/) *Sharing Platform*
+* [Dungeondraft](https://dungeondraft.net/) - can export / import to MapTool, Virtual Table Tops, jpg, png and many more.
+  * [Cartography Assets](https://cartographyassets.com/) - Asset sharing platform.
+    * [Cartography Assets: Cyberpunk](https://cartographyassets.com/asset-tag/cyberpunk/) - Cyberpunk assets.
   * [Gnome Factory Free Assets](https://www.patreon.com/posts/41738999)
   * [Modern Plumbing Free Assets](https://cartographyassets.com/assets/5542/modern-plumbing/)
   * [Star Wars Free Assets](https://cartographyassets.com/assets/5369/star-wars-asset-pack-i/)
@@ -61,6 +64,14 @@ layout: default
 
 # Assets
 
-- [Kartensymbole](https://www.shadowrun6.de/index.php/spielhilfen-2/symbole-und-icons/63-shadowrun-5/238-sr5-kartensymbole.html)
+- [Map symbols](https://www.shadowrun6.de/index.php/spielhilfen-2/symbole-und-icons/63-shadowrun-5/238-sr5-kartensymbole.html)
+
 - [SR5 Grundregelwerk Deutsch](https://www.pegasusdigital.de/product/123269/Shadowrun-5-Grundregelwerk)
-- [Pläne und Karten](https://www.shadowrun6.de/index.php/fanstuff-2/plaene-und-karten.html)
+
+- [Maps and plans (German)](https://www.shadowrun6.de/index.php/fanstuff-2/plaene-und-karten.html)
+
+# YouTube Role Play Parties
+
+- [Orkenspalter TV Shadowrun - Pen & Paper Let's Plays (German)](https://www.youtube.com/playlist?list=PL9lrD0EiOevRPivCfFsPIpFTqB3HRDHPS)
+
+- [Chummers in Paradise](https://www.youtube.com/playlist?list=PLgx-yUu4qNmFkygsBIfMDkNLrecq7RomW) - Shadowrun Chummers in Paradise Campaign (30 Episodes).
