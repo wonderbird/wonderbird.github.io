@@ -1,10 +1,9 @@
 ---
-title: Videoschnitt
+title: Redirection
 layout: default
 ---
+# Redirection
 
-# Videoschnitt
+This page has moved.
 
-* [Kdenlive](https://kdenlive.org/en/) *Open Source Video Editor*
-* [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) *Professional Editing, Color,
-Effects and Audio Post!*
+If you are not redirected automatically, then please [click here](video-editing.html).
