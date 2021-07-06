@@ -20,7 +20,7 @@ bundle install
 To watch your changes while editing:
 
 ```sh
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 ## References
