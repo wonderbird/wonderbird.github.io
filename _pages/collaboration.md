@@ -28,6 +28,8 @@ layout: default
 
 * [Liberating Structures](https://liberatingstructures.com/)
 * [Management 3.0 Practices](https://management30.com/practice/)
+* [Curing Stale Stand-Ups with Ask Kanban!](https://blog.huge.io/ending-stale-stand-ups-with-ask-kanban-64de6c084d60) - A collection of hints to get more engagement into standup meetings.
+* [Scrumlr.io](https://scrumlr.io) - Tool for moderating Lean Coffees, Retros and other formats.
 * [Retromat](https://retromat.org/)
 * [The Fearless Journey Game](https://fearlessjourney.info/) - highlights your Team’s hard-to-reach Goal and inspires new strategies to reach it.
 
