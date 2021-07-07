@@ -18,7 +18,7 @@ layout: default
 
 ## Status of This Document
 
-May 17, 2021. I have just started collecting ideas and added links to the section [INBOX - Unscreened, Uncategorized Information](#inbox---unscreened-uncategorized-information)
+May 17 - July 7, 2021. I have started collecting ideas and added links to the section [INBOX - Unscreened, Uncategorized Information](#inbox---unscreened-uncategorized-information)
 
 ## About This Document
 
@@ -27,6 +27,14 @@ In the following I assume that you are already convinced that action is required
 ## Understand The Problem: Read. Accept. Act.
 
 The resources below show the various aspects of the climate crisis impressively. If you doubt the climate crisis exists, then follow these links to convince yourself. Then share them to convince others.
+
+### Ongoing Research Projects
+
+* [EXHAUSTION](https://www.exhaustion.eu/) - Mitigate disease and premature death caused in Europe by climate change.
+
+### Closed Research Projects - Open for Public Participation
+
+* [hackAIR](https://www.hackair.eu/) - Publicly access, collect and improve air quality information in Europe.
 
 ### INBOX - Unscreened, Uncategorized Information
 
