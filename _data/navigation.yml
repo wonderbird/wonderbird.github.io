@@ -91,8 +91,6 @@ software-crafting:
     url: /pages/software-crafting/general-resources.html
   - title: Git
     url: /pages/software-crafting/git/index.html
-  - title: Go
-    url: /pages/software-crafting/go.html
   - title: Heroku
     url: /pages/software-crafting/heroku.html
   - title: Katas
@@ -111,12 +109,10 @@ software-crafting:
     url: /pages/software-crafting/mob-programming.html
   - title: Plugins for IDEs and Web Browsers
     url: /pages/software-crafting/plugins/index.html
-  - title: Rockstar
-    url: /pages/software-crafting/rockstar.html
+  - title: Programming Languages
+    url: /pages/software-crafting/programming-languages/index.html
   - title: Software Testing
     url: /pages/software-crafting/software-testing.html
-  - title: Sonic Pi
-    url: /pages/software-crafting/sonic-pi.html
   - title: Stakeholder Management
     url: /pages/software-crafting/stakeholder-management.html
 
@@ -137,3 +133,11 @@ software-crafting-plugins:
     url: /pages/software-crafting/plugins/jetbrains-intellij-idea-plugins.html
   - title: Visual Studio Code Plugins
     url: /pages/software-crafting/plugins/vs-code-plugins.html
+
+software-crafting-programming-languages:
+  - title: Go
+    url: /pages/software-crafting/programming-languages/go.html
+  - title: Rockstar
+    url: /pages/software-crafting/programming-languages/rockstar.html
+  - title: Sonic Pi
+    url: /pages/software-crafting/programming-languages/sonic-pi.html
