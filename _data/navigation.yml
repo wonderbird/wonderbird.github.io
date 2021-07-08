@@ -90,7 +90,7 @@ software-crafting:
   - title: General Resources
     url: /pages/software-crafting/general-resources.html
   - title: Git
-    url: /pages/software-crafting/git.html
+    url: /pages/software-crafting/git/index.html
   - title: Go
     url: /pages/software-crafting/go.html
   - title: Heroku
