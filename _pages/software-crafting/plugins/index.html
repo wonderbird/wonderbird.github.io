@@ -1,0 +1,15 @@
+---
+title: Plugins for IDEs and Web Browsers
+layout: default
+---
+<h1>Plugins for IDEs and Web Browsers</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.software-crafting-plugins %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>

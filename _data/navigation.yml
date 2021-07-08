@@ -109,6 +109,8 @@ software-crafting:
     url: /pages/software-crafting/miscellaneous-tools.html
   - title: Mob Programming
     url: /pages/software-crafting/mob-programming.html
+  - title: Plugins for IDEs and Web Browsers
+    url: /pages/software-crafting/plugins/index.html
   - title: Rockstar
     url: /pages/software-crafting/rockstar.html
   - title: Software Testing
@@ -127,3 +129,11 @@ software-crafting-git:
     url: /pages/software-crafting/git/restoring-lost-commits.html
   - title: Visual Logs
     url: /pages/software-crafting/git/visual-logs.html
+
+software-crafting-plugins:
+  - title: Chrome Plugins
+    url: /pages/software-crafting/plugins/chrome-plugins.html
+  - title: JetBrains IntelliJ / Goland / Rider Plugins
+    url: /pages/software-crafting/plugins/jetbrains-intellij-idea-plugins.html
+  - title: Visual Studio Code Plugins
+    url: /pages/software-crafting/plugins/vs-code-plugins.html
