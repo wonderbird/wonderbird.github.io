@@ -1,13 +1,9 @@
 ---
-title: Methods
+title: Redirection
 layout: default
 ---
+# Redirection
 
-# Software Crafting Methods
+This page has moved.
 
-## Clean Code
-
-* [Clean Code Principles](https://principles.wiki/)
-* [Clean Code Developer](https://www.clean-code-developer.com/)
-* [Refactoring.guru Catalog of Refactoring](https://refactoring.guru/refactoring/catalog)
-* Martin Fowloer: [Refactoring.com Catalog of Refactoring](http://refactoring.com/catalog)
+If you are not redirected automatically, then please [click here](clean-code.html).

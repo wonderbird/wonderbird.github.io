@@ -79,16 +79,18 @@ geocaching:
     url: /pages/geocaching/schritt-fuer-schritt.html
 
 software-crafting:
+  - title: Clean Code
+    url: /pages/software-crafting/clean-code.html
   - title: Code Analysis
     url: /pages/software-crafting/code-analysis.html
   - title: Conferences
     url: /pages/software-crafting/conferences.html
   - title: Docker
     url: /pages/software-crafting/docker.html
-  - title: General Topics
-    url: /pages/software-crafting/general.html
   - title: General Resources
     url: /pages/software-crafting/general-resources.html
+  - title: General Topics
+    url: /pages/software-crafting/general.html
   - title: Git
     url: /pages/software-crafting/git/index.html
   - title: Heroku
@@ -99,8 +101,6 @@ software-crafting:
     url: /pages/software-crafting/kanban.html
   - title: Leadership
     url: /pages/software-crafting/leadership.html
-  - title: Methods
-    url: /pages/software-crafting/methods.html
   - title: Miro App Development
     url: /pages/software-crafting/miro-app-development.html
   - title: Miscellaneous Tools
