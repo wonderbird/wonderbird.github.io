@@ -69,6 +69,8 @@ dotnet-developer-conference.de/)
 
 * July: [NDC Melbourne](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
 
+* [TDD Conference](http://tddconf.com/) - Examine how far we've gotten with our TDD practice, and what we see as the next steps ([YouTube: TDDconf 2021](https://www.youtube.com/watch?v=-_noEVCR__I))
+
 * August: [NDC Minnesota](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
 
 * September: [NDC Oslo](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
