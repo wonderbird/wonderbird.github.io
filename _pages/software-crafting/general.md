@@ -95,7 +95,7 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Andy Hunt: [Toolshed Technologies Blog](https://toolshed.com/posts.html)
 
--[Liz Keogh](https://lizkeogh.com) - Lean and Agile consultant, core member of the BDD community, contributor to JBehave and others.
+- [Liz Keogh](https://lizkeogh.com) - Lean and Agile consultant, core member of the BDD community, contributor to JBehave and others.
 
 - [codecentric blog](https://blog.codecentric.de/)
 
