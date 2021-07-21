@@ -137,6 +137,8 @@ software-crafting-plugins:
 software-crafting-programming-languages:
   - title: Go
     url: /pages/software-crafting/programming-languages/go.html
+  - title: Python
+    url: /pages/software-crafting/programming-languages/python.html
   - title: Rockstar
     url: /pages/software-crafting/programming-languages/rockstar.html
   - title: Sonic Pi
