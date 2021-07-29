@@ -22,6 +22,12 @@ The following plugins help(ed) me in my daily work.
 * [CodeMetrics](https://plugins.jetbrains.com/plugin/12159-codemetrics) - Inlay indicators based on a customizable complexity calculation for Java files.
 * [MetricsReloaded](https://plugins.jetbrains.com/plugin/93-metricsreloaded) - Lines of Code and file count metrics for all languages supported by your IDE and many more metrics for Java.
 
+### Rider (C#)
+
+* [MoqComlete](https://plugins.jetbrains.com/plugin/12659-moqcomplete) - Code completion for Moq.
+* [SpecFlow for Rider](https://plugins.jetbrains.com/plugin/15957-specflow-for-rider) - Syntax highlighting, smart navigation and auto-completion for Gherkin files.
+* [Structured Logging](https://plugins.jetbrains.com/plugin/12832-structured-logging) - Hightlight log message templates and analyzers for them.
+
 ### Support for languages not native to JetBrains IDEs
 
 * [NodeJS](https://plugins.jetbrains.com/plugin/6098-node-js) - Run, debug, profile Node.js applications and Mocha tests.
