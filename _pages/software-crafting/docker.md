@@ -28,6 +28,7 @@ layout: default
 
 * [prom/prometheus](https://hub.docker.com/r/prom/prometheus) Prometheus is a systems and service monitoring system
 * [portainer/portainer](https://hub.docker.com/r/portainer/portainer) Making Docker management easy. https://portainer.io
+* [dorowu/ubuntu-desktop-lxde-vnc](https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc) Provide HTML5 VNC interface to access Ubuntu LXDE and LXQt desktop environment (XWindows, HTTP). [GitHub Repository](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
 
 ##Aufräumen
 
