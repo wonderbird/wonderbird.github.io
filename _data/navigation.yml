@@ -145,5 +145,7 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/python.html
   - title: Rockstar
     url: /pages/software-crafting/programming-languages/rockstar.html
+  - title: Shell Scripting
+    url: /pages/software-crafting/programming-languages/shell-scripting.html
   - title: Sonic Pi
     url: /pages/software-crafting/programming-languages/sonic-pi.html
