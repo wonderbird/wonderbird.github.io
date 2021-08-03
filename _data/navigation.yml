@@ -139,10 +139,14 @@ software-crafting-plugins:
     url: /pages/software-crafting/plugins/vs-code-plugins.html
 
 software-crafting-programming-languages:
+  - title: C#
+    url: /pages/software-crafting/programming-languages/csharp.html
   - title: Go
     url: /pages/software-crafting/programming-languages/go.html
   - title: Python
     url: /pages/software-crafting/programming-languages/python.html
+  - title: JavaScript and Node.js
+    url: /pages/software-crafting/programming-languages/javascript-and-nodejs.html
   - title: Rockstar
     url: /pages/software-crafting/programming-languages/rockstar.html
   - title: Shell Scripting
