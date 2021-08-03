@@ -11,6 +11,8 @@ layout: default
 
 Legende der Symbole - siehe [unten](#legend)
 
+* 📰 Gernot Starke: [Quality-Driven Software Architecture](https://dev.to/gernotstarke/quality-driven-software-architecture-3i9m)
+
 * 📰 Liz Keogh: [Estimating Complexity](https://lizkeogh.com/2013/07/21/estimating-complexity/) - Thanks Michael :-)
 
 * 📰 Eoin Woods: [Democratising Software Architecture](https://speakerdeck.com/eoinwoods/democratising-software-architecture)
