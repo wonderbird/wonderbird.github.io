@@ -26,8 +26,15 @@ layout: default
 - [Roll20](https://roll20.net/) - Online Virtual Table Top with Shadowrun support.
 
 - [FoundryVTT](https://foundryvtt.com) - Host your Virtual Table Top on your PC. Allows many plugins.
+  - [Media Optimization Guide](https://foundryvtt.com/article/media/) - Folder structure, file naming, optimizing assets.
 
 - [Chummer 5a](https://github.com/chummer5a/chummer5a) - Character generator and carreer management tool.
+
+```bash
+# Rename all files in a folder:
+# replace ' ' by '-' and convert all to lowercase
+OLDIFS=$IFS; IFS=$'\n'; for FILE in $(ls -1); do LCFILE=$(echo $FILE | sed 's/\ /-/g' | tr '[:upper:]' '[:lower:]'); mv "$FILE" "$LCFILE"; done; IFS=$OLDIFS
+```
 
 ## Tools for Game Masters
 
