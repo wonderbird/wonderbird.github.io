@@ -8,6 +8,8 @@ layout: default
 
 Maintaining your locally installed Node.js versions using the [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm) is recommended. The linked GitHub project page shows instructions to install nvm.
 
+On Windows you can install `nvm` using [Chocolatey](https://community.chocolatey.org/packages/nvm).
+
 The normal Node.js release cycle is 6 months. Even though the release cycle of the long term stable version of Node.js (LTS) is 30 months, I recommend keeping your projects compatible with a recent version of Node.js. Otherwise you may run into larger work when you want to upgrade from the old to the new LTS version.
 
 ## Links
