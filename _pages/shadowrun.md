@@ -25,6 +25,8 @@ layout: default
 
 - [Roll20](https://roll20.net/) - Online Virtual Table Top with Shadowrun support.
 
+- [Encounter Library](https://www.encounterlibrary.com/) - showing you how to use the tools of a DM (FoundryVTT, DungeonDraft).
+
 - [FoundryVTT](https://foundryvtt.com) - Host your Virtual Table Top on your PC. Allows many plugins.
   - [Media Optimization Guide](https://foundryvtt.com/article/media/) - Folder structure, file naming, optimizing assets.
 
