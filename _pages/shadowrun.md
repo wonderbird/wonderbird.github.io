@@ -5,7 +5,20 @@ layout: default
 
 # Shadowrun
 
-## Missions for New Groups
+## How I Prepare a Scene
+
+1. Find a source of inspiration, e.g. a source book or do an internet search for technical drawings, architecture sketches, rendered maps, etc.
+1. Draw the scene in [DungeonDraft](https://dungeondraft.net/)1. Start small and rough, don't elaborate details, draw only the bare minimum.
+1. Export the drawing as **Universal VTT**. Grid off, Lighting off, Brightness 100%, Focus 100%, Overlay Level 100%, Camera Filter None, Grid Presets Custom, Grid PPI 100 pixels.
+1. Import the drawing into [FoundryVTT](https://foundryvtt.com/). Use the [Universal Battlemap Importer](https://foundryvtt.com/packages/dd-import/) module for importing the scene. Image Type / Extension **webp**.
+1. Populate your map in Foundry VTT.
+
+At this point you have a minimal map. If you have added walls, doors and windows in DungeonDraft already, then these should work in Foundry VTT. The next step to add lights in DungeonDraft and then update the Foundry VTT scene.
+
+I'll show that later ...
+
+## Link Collection
+### Missions for New Groups
 
 - Food Fight, e.g. part of the SR5E Digital Starter Box
 - Fast Food Fight, e.g. part of the SR5E Digital Starter Box
@@ -17,11 +30,11 @@ layout: default
   - [Publicly available Missions - Season 1](https://www.shadowruntabletop.com/missions/downloads-season-1/)
   - [Publicly available Missions - Season 2](https://www.shadowruntabletop.com/missions/downloads-season-2/)
 
-## Referenz-Material
+### Reference Materials
 
 - [Shadowrun Wiki (Fandom)](https://shadowrun.fandom.com/wiki/Wiki)
 
-## Tools for Players and Game Masters
+### Tools for Players and Game Masters
 
 - [Roll20](https://roll20.net/) - Online Virtual Table Top with Shadowrun support.
 
@@ -38,7 +51,7 @@ layout: default
 OLDIFS=$IFS; IFS=$'\n'; for FILE in $(ls -1); do LCFILE=$(echo $FILE | sed 's/\ /-/g' | tr '[:upper:]' '[:lower:]'); mv "$FILE" "$LCFILE"; done; IFS=$OLDIFS
 ```
 
-## Tools for Game Masters
+### Tools for Game Masters
 
 - [Fake Name Generator](https://www.fakenamegenerator.com/) - Allows to select name and home by country.
 
@@ -55,7 +68,7 @@ OLDIFS=$IFS; IFS=$'\n'; for FILE in $(ls -1); do LCFILE=$(echo $FILE | sed 's/\ 
 
 - [Probability Table for Checks](https://docs.google.com/spreadsheets/d/1Ts3pXOJ7V6-oX7NEuow_T7P4zJKIx6NRRLNZlVOrwRM/edit#gid=0)
 
-## Karten Editoren / Battle Map Editors
+### (Battle) Map Editors
 
 * [Dungeondraft](https://dungeondraft.net/) - can export / import to MapTool, Virtual Table Tops, jpg, png and many more.
   * [Cartography Assets](https://cartographyassets.com/) - Asset sharing platform.
@@ -71,7 +84,7 @@ OLDIFS=$IFS; IFS=$'\n'; for FILE in $(ls -1); do LCFILE=$(echo $FILE | sed 's/\ 
 
 * [Dungeon Alchimist(TM)](https://www.kickstarter.com/projects/1024146278/dungeon-alchemisttm/)
 
-# Assets
+### Assets
 
 - [Map symbols](https://www.shadowrun6.de/index.php/spielhilfen-2/symbole-und-icons/63-shadowrun-5/238-sr5-kartensymbole.html)
 
@@ -79,7 +92,7 @@ OLDIFS=$IFS; IFS=$'\n'; for FILE in $(ls -1); do LCFILE=$(echo $FILE | sed 's/\ 
 
 - [Maps and plans (German)](https://www.shadowrun6.de/index.php/fanstuff-2/plaene-und-karten.html)
 
-# YouTube Role Play Parties
+### My Favourite YouTube Role Play Parties
 
 - [Orkenspalter TV Shadowrun - Pen & Paper Let's Plays (German)](https://www.youtube.com/playlist?list=PL9lrD0EiOevRPivCfFsPIpFTqB3HRDHPS)
 
