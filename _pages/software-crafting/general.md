@@ -113,6 +113,12 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Martin Fowler: [Test Double](https://martinfowler.com/bliki/TestDouble.html) - A definition of the terms "test double", "dummy", "fake", "stub", "spy" and "mock"
 
+### Tools
+
+- [Choose an open source license](https://choosealicense.com/) - Overview on permissions, conditions and restrictions imposed by various open source licenses.
+
+- [gitignore.io](https://gitignore.io/) - Generate `.gitignore` rules addressing specific languages, tool chains, code editors and IDEs.
+
 ### Books
 
 - David Thomas and Andrew Hunt: [The Pragmatic Programmer, 20th Anniversary Edition](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/), The Pragmatic Bookshelf, September 2019. ISBN 9780135957059.
