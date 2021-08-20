@@ -19,10 +19,12 @@ layout: default
 - [Podcasts](#podcasts)
 - [Blogs](#blogs)
 - [Individual Articles](#individual-articles)
+- [Tools](#tools)
 - [Books](#books)
 - [Websites](#websites)
 - [Learning Platforms](#learning-platforms)
 - [Publishers Specialized on Software Crafting Learning Materials](#publishers-specialized-on-software-crafting-learning-materials)
+- [Cites](#cites)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
