@@ -5,10 +5,6 @@ layout: default
 
 ## General Software Crafting Topics
 
-> When to use iterative development? You should use iterative development only on projects that you want to succeed.
-
-Martin Fowler.
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -97,6 +93,8 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - [Liz Keogh](https://lizkeogh.com) - Lean and Agile consultant, core member of the BDD community, contributor to JBehave and others.
 
+- [Martin Fowler](https://martinfowler.com/bliki/BeckDesignRules.html) - 
+
 - [codecentric blog](https://blog.codecentric.de/)
 
 - [gotopia;](https://gotopia.tech/articles)
@@ -113,11 +111,18 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Martin Fowler: [Test Double](https://martinfowler.com/bliki/TestDouble.html) - A definition of the terms "test double", "dummy", "fake", "stub", "spy" and "mock"
 
+- Martin Fowler: [Beck Design Rules](https://martinfowler.com/bliki/BeckDesignRules.html) - Passes the tests, Reveals intention, No duplication, Fewest elements
+
 ### Tools
 
 - [Choose an open source license](https://choosealicense.com/) - Overview on permissions, conditions and restrictions imposed by various open source licenses.
 
 - [gitignore.io](https://gitignore.io/) - Generate `.gitignore` rules addressing specific languages, tool chains, code editors and IDEs.
+
+- [RabbitMQ](https://www.rabbitmq.com/) - Open source message broker.
+
+- [ZeroMQ](https://zeromq.org/) - An open-source universal messaging library.
+  - GitHub: [NetMQ](https://github.com/zeromq/netmq) - C# port of the lightweight messaging library ZeroMQ.
 
 ### Books
 
@@ -145,3 +150,18 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 - [Pragmatic Bookshelf](https://pragprog.com)
 - [Packt Pub](https://www.packtpub.com)
 - [Humble Bundle](https://www.humblebundle.com)
+
+### Cites
+
+> When to use iterative development? You should use iterative development only on projects that you want to succeed.
+>
+> -- Martin Fowler.
+
+> Kent Beck came up with his four rules of simple design while he was developing ExtremeProgramming in the late 1990's. I express them like this:
+> 
+> - Passes the tests
+> - Reveals intention
+> - No duplication
+> - Fewest elements
+>
+> -- Martin Fowler
