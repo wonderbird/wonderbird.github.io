@@ -146,6 +146,8 @@ errcheck
 
 * Kyle Quest: [50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/#anameclose_http_resp_bodyaclosinghttpresponsebody)
 
+* Oleg Zaytsev and others: [Unexpected Go](https://unexpected-go.com/) - Unexpected golang behaviors.
+
 ### Slices, Errors and Reflection
 
 * [Go Slices: usage and internals](https://blog.golang.org/slices-intro)
