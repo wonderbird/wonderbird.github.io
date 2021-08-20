@@ -9,7 +9,9 @@ layout: default
 
 - [Check-In Games](#check-in-games)
 - [Methods](#methods)
-- [Voting Tools](#voting-tools)
+- [Voting and Decision Making Tools](#voting-and-decision-making-tools)
+  - [Decision by Chance](#decision-by-chance)
+  - [Systematic Group Decision Finding](#systematic-group-decision-finding)
 - [Moderator Tools](#moderator-tools)
 - [Online-Collaboration](#online-collaboration)
 - [Socializing Online](#socializing-online)
@@ -33,9 +35,14 @@ layout: default
 * [Retromat](https://retromat.org/)
 * [The Fearless Journey Game](https://fearlessjourney.info/) - highlights your Team’s hard-to-reach Goal and inspires new strategies to reach it.
 
-# Voting Tools
+# Voting and Decision Making Tools
 
-Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for sharing your links with me :-)
+## Decision by Chance
+
+* [Streichholz ziehen](https://www.streichholzziehen.de/) - Who draws the shortest match, random choice of 1 of 2 - 8 players.
+* [teal dice](http://a.teall.info/dice/) - 3D dice roller.
+
+## Systematic Group Decision Finding
 
 * [slido](https://sli.do) - Q&A and polls.
 * [VOXR - Smart Conferencing](https://voxr.org/de) - Conference management platform including Q&A and polls.
@@ -45,6 +52,8 @@ Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for sharing y
 * [Poll Everywhere](https://www.polleverywhere.com/) - Q&A, fpolls, feedback, integration into presentations.
 * Netzwerkknoten GmbH: [Entscheiden in selbstorganisierten Teams – systemisches Konsensieren](https://www.netzwerkknoten.com/entscheiden-in-selbstorganisierten-teams-systemisches-konsensieren) (German) - This method measures resistance and may be better than strict democracy in a team or company setting.
   * [Acceptify.net](https://www.acceptify.at/de/start) - Implements systemic consensing as a web service.
+
+Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for your contribution :-)
 
 # Moderator Tools
 
