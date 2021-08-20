@@ -143,6 +143,8 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/csharp.html
   - title: Go
     url: /pages/software-crafting/programming-languages/go.html
+  - title: Powershell
+    url: /pages/software-crafting/programming-languages/powershell.html
   - title: Python
     url: /pages/software-crafting/programming-languages/python.html
   - title: JavaScript and Node.js
@@ -153,3 +155,5 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/shell-scripting.html
   - title: Sonic Pi
     url: /pages/software-crafting/programming-languages/sonic-pi.html
+  - title: X++
+    url: /pages/software-crafting/programming-languages/x++.html
