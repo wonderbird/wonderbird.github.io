@@ -8,16 +8,15 @@ layout: default
 ## How I Prepare a Scene
 
 1. Find a source of inspiration, e.g. a source book or do an internet search for technical drawings, architecture sketches, rendered maps, etc.
-1. Draw the scene in [DungeonDraft](https://dungeondraft.net/)1. Start small and rough, don't elaborate details, draw only the bare minimum.
-1. Export the drawing as **Universal VTT**. Grid off, Lighting off, Brightness 100%, Focus 100%, Overlay Level 100%, Camera Filter None, Grid Presets Custom, Grid PPI 100 pixels.
+1. Draw the scene in [DungeonDraft](https://dungeondraft.net/)
+1. Export the drawing as **Universal VTT**. Grid off, Lighting on, Brightness 100%, Focus 100%, Overlay Level 100%, Camera Filter None, Grid Presets Custom, Grid PPI 100 pixels.
 1. Import the drawing into [FoundryVTT](https://foundryvtt.com/). Use the [Universal Battlemap Importer](https://foundryvtt.com/packages/dd-import/) module for importing the scene. Image Type / Extension **webp**.
 1. Populate your map in Foundry VTT.
 
-At this point you have a minimal map. If you have added walls, doors and windows in DungeonDraft already, then these should work in Foundry VTT. The next step to add lights in DungeonDraft and then update the Foundry VTT scene.
-
-I'll show that later ...
+At this point you have a map. If you have added walls, doors and windows in DungeonDraft already, then these should work in Foundry VTT.
 
 ## Link Collection
+
 ### Missions for New Groups
 
 - Food Fight, e.g. part of the SR5E Digital Starter Box
@@ -42,8 +41,11 @@ I'll show that later ...
 
 - [FoundryVTT](https://foundryvtt.com) - Host your Virtual Table Top on your PC. Allows many plugins.
   - [Media Optimization Guide](https://foundryvtt.com/article/media/) - Folder structure, file naming, optimizing assets.
+  - [Shadowrun 5e for Foundry VTT](https://foundryvtt.com/packages/shadowrun5e) - Shadowrun 5e package description.
+  - [SR5-FoundryVTT - Item Compendium Import](https://github.com/smilligan93/SR5-FoundryVTT/wiki/Item-Compendium-Import) - How to import the items from Chummer5e.
+  - [PDFoundry](https://github.com/Djphoenix719/PDFoundry) - PDF viewer allowing to use the links in imported Chummer5e items to Shadowrun source books.
 
-- [Chummer 5a](https://github.com/chummer5a/chummer5a) - Character generator and carreer management tool.
+- [Chummer 5a](https://github.com/chummer5a/chummer5a) - Character generator, carreer management, rule book quick access tool.
 
 ```bash
 # Rename all files in a folder:
