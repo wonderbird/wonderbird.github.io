@@ -44,6 +44,7 @@ At this point you have a map. If you have added walls, doors and windows in Dung
   - [Shadowrun 5e for Foundry VTT](https://foundryvtt.com/packages/shadowrun5e) - Shadowrun 5e package description.
   - [SR5-FoundryVTT - Item Compendium Import](https://github.com/smilligan93/SR5-FoundryVTT/wiki/Item-Compendium-Import) - How to import the items from Chummer5e.
   - [PDFoundry](https://github.com/Djphoenix719/PDFoundry) - PDF viewer allowing to use the links in imported Chummer5e items to Shadowrun source books.
+  - [Trigger Happy](https://foundryvtt.com/packages/trigger-happy/) - Trigger events when your players interact with the scene.
 
 - [Chummer 5a](https://github.com/chummer5a/chummer5a) - Character generator, carreer management, rule book quick access tool.
 
