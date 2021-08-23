@@ -28,6 +28,12 @@ layout: default
 
 ## Tools
 
+### Boards, Metrics, Charts and Diagrams
+
+* [Kaiten](https://en.kaiten.io/kanban) - Kanban Boards, Metrics and Charts
+
+* [nave](https://getnave.com/kanban-dashboards) - Advanced Kanban Charts
+
 ### Prioritizing
 
 * mauvisoft: [Download Posters](https://mauvisoft.com/downloads/) - Differet posters in different languages: Triage Tables, Dependency Management, Cost of Delay, Understanding Lead Time.
@@ -47,6 +53,10 @@ layout: default
 * Flight Level 3 = Find a strategy for all teams
 
 ## References and Materials
+
+### Portals
+
+* [Kanban University](http://edu.kanban.university)
 
 ### Blogs
 
@@ -87,7 +97,7 @@ layout: default
 
 ### Trainings
 
-* [Kanban System Design KSD1](https://www.agile-academy.com/de/kanban/trainings/kanban/) ?=? [KMP Foundation I](https://www.avega.ch/academy/kanban-advanced-kanban-system-design-kmp-1/)
+* [Kanban System Design KSD1](https://www.agile-academy.com/de/kanban/trainings/kanban/) = [KMP Foundation I](https://www.avega.ch/academy/kanban-advanced-kanban-system-design-kmp-1/)
 * [Kanban Management Professional KMP2](https://www.agile-academy.com/de/kanban/trainings/kanban-2/)
 * Flight Levels Academy: [Flight Levels Introduction](https://www.flightlevels.io/workshops/flight-levels-intro/) *self-paced learning*
 * [LEANability Trainings](https://2020.leanability.com/de/trainings/)
@@ -102,6 +112,7 @@ layout: default
 * Klaus Leopold: [Agilität neu denken](https://books.google.de/books?id=wmL1vQEACAAJ&dq=klaus+leopold+agilität+neu+denken&hl=de&sa=X&ved=2ahUKEwjjmual3ZnuAhWJ26QKHaECBxsQ6AEwAHoECAIQAg)
 * Richard Rummelt: [Good Strategy Bad Strategy](https://books.google.de/books?id=nTU65JgxgOAC&printsec=frontcover&dq=Good+Strategy+Bad+Strategy&hl=de&sa=X&ved=2ahUKEwisxMSw3ZnuAhURuqQKHdlUCh4Q6AEwAHoECAMQAg#v=onepage&q=Good%20Strategy%20Bad%20Strategy&f=false)
 * Chris McChesney e.a.: [The four Disciplines of Execution](https://books.google.de/books?id=VprjCwAAQBAJ&printsec=frontcover&dq=The+four+Disciplines+of+Execution&hl=de&sa=X&ved=2ahUKEwifkMzD3ZnuAhVKPewKHQMlChgQ6AEwAHoECAAQAg#v=onepage&q=The%20four%20Disciplines%20of%20Execution&f=false)
+* David J. Anderson: [Kanban: Evolutionäres Change Management für IT-Organisationen](https://isbnsearch.org/isbn/9783898647304) - note: a new edition is in the making
 
 ## Other Books
 
