@@ -45,6 +45,16 @@ Practice some [code katas](katas.html), follow the documents listed in the secti
 - [Set GOPATH](https://github.com/golang/go/wiki/SettingGOPATH)
 - [Install Golint](http://networkbit.ch/golang-golint/#install_golint)
 - [JetBrains Goland](https://www.jetbrains.com/go/) - also available for free in [JetBrains' Early Access Program](https://www.jetbrains.com/resources/eap/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+  - [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go) - Extension by the Go Team at Google. Follow installation instructions below.
+    - [Getting Started with VS Code Go](https://www.youtube.com/watch?v=1MXIGYrMk80) - An 8 min introduction video into using the VS Code Go extension
+    - [GitHub: golang/vscode-go/docs/features.md](https://github.com/golang/vscode-go/blob/master/docs/features.md#%23run-and-test-in-the-editor) - Overview and detailed documentation of the Go extension features.
+    - [Tools](https://marketplace.visualstudio.com/items?itemName=golang.Go#tools) - Go extension instructions on how to install the required Go tools (tl;dr `Go: Install/Update Tools` command).
+    - [Go Debugging Documentation](https://github.com/golang/vscode-go/blob/master/docs/debugging.md) - Explains how to attach the Go extension to Delve, the go debugger.
+  - [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer) - Test Explorer for Visual Studio Code
+    - [Go Test Explorer](https://marketplace.visualstudio.com/items?itemName=ethan-reesor.vscode-go-test-adapter) - Required Test Explorer adapter for Go.
+    - To use VS Code's native testing UI instead by setting `testExplorer.useNativeTesting` to true in your VS Code settings
+  - [Go Outliner](https://marketplace.visualstudio.com/items?itemName=766b.go-outliner) - Shows Go file outline in a sidebar. Requires `go get -u github.com/766b/go-outliner`.
 
 #### Installation Notes
 
