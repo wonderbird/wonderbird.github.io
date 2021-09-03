@@ -23,7 +23,7 @@ The following plugins help(ed) me in my daily work.
 
 ### JavaScript and TypeScript based languages
 
-* [CodeMetrics (TypeScript, JavaScript, Lua)](https://github.com/kisstkondoros/codemetrics) - Computes complexity in TypeScript / JavaScript / Lua files.
+* [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics) - Computes complexity in TypeScript / JavaScript / Lua files ([GitHub: CodeMetrics](https://github.com/kisstkondoros/codemetrics)).
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code.
 * [JS Refactor](https://marketplace.visualstudio.com/items?itemName=cmstead.jsrefactor) - Javascript automated refactoring tool for Visual Studio Code.
 * [Javascript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster) - Use code actions to do repetitive tasks for you.
