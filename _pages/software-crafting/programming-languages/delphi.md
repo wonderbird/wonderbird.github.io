@@ -18,7 +18,11 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 
 The following extensions are useful:
 
-- [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal) - Note the instructions on installing dependencies.
+- [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal) - Note the extension's instructions on installing dependencies.
+- [Pascal-Formatter](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal-formatter) - installs automatically together with [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal).
+
+Apart from that, refer to the language agnostic extensions in [Visual Studio Code Plugins](../plugins/vs-code-plugins.html)
+
 
 ## Questions
 
