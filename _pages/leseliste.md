@@ -11,6 +11,8 @@ layout: default
 
 Legende der Symbole - siehe [unten](#legend)
 
+* Martin Fowler: [Microservices](https://martinfowler.com/articles/microservices.html) - a definition of this new architectural term (2014).
+
 * Gernot Starke: [arc42 in Aktion: Praktische Tipps zur Architekturdokumentation](https://www.hanser-elibrary.com/doi/book/10.3139/9783446449381) - [2. Auflage in Vorbereitung](https://www.hanser-kundencenter.de/fachbuch/artikel/9783446463806)
 
 * 📰 Gernot Starke: [Quality-Driven Software Architecture](https://dev.to/gernotstarke/quality-driven-software-architecture-3i9m)
