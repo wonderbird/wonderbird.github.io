@@ -24,6 +24,13 @@ The following extensions are useful:
 Apart from that, refer to the language agnostic extensions in [Visual Studio Code Plugins](../plugins/vs-code-plugins.html)
 
 
+## Know How
+
+- Create line breaks in string messages: `'Hello'#13#10'World'`
+- Path and file name operations: `TPath`, `TFile` (cross platform)
+- Path of the current executable: `TPath.GetLibraryPath` (on iOS this may be the ZIP file containing the executable)
+
+
 ## Questions
 
 While learning Delphi I have encountered the following questions:
@@ -31,11 +38,6 @@ While learning Delphi I have encountered the following questions:
 Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstance>.Free()` in a `TForm.FormDestroy` method? (see section "Wiring the Buttons to the Code" in [Learn to Program with Delphi Community Edition: Part 5 - Putting the Calculator Together](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part5))
 
 ## Services and Microservices
-
-### Developing RAD Server Packages
-
-- 
-
 
 ### Links Regarding Services and Microservices
 
@@ -46,6 +48,30 @@ Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstanc
   - [DockerHub: radstudio/paserver](https://hub.docker.com/r/radstudio/paserver) - Docker container to host RAD Server services.
 - [Docker-Bereitstellung für RAD Server](https://docwiki.embarcadero.com/RADStudio/Sydney/de/Docker-Bereitstellung_f%C3%BCr_RAD_Server) - Overview on hosting Delphi services in Linux based Docker containers.
 
+### Example: Customer Relationship Management
+
+This example is explained in detail in the video "Delphi Apps als Docker-Container bereitstellen" which Olaf Monien and Holger Flick presented during the [Code Rage 2021](https://lp.embarcadero.com/CodeRageGermany2021).
+
+#### Accessing a SQL Lite Database
+
+##### Configure the DB Connection
+
+1. Drag a `FireDAC Connection` onto the designer of your DataSource (Repository) class. Note that the right (grey) side of the FireDAC configuration dialog shows the default settings.
+2. Select **Driver ID** `sQLite`
+3. Configure **Locking Mode** `Normal` (`Exclusive` mode will hinder development because the running application will lock the DB. However `Exclusive` mode may be the best for a production ready application)
+4. Configure **Database** file path
+5. Caveat: **JournalMode** facilitates logging all activities on the DB. If you are using many insert / delete operations, the DB will grow quickly. Also inserting many records at once will take much time, if **JournalMode** is `Persist`. If you don't need the Journal, then select `Delete` here.
+6. In the FireDAC **Object Inspector** set **LoginPrompt** to `False`. SQLite does not provide username / password authentication, but you may want to consider encrypting the DB.
+
+##### Create a Query
+
+1. Drag a `FireDAC Query` onto your DataSource (Repository) class designer.
+2. From the **Object Inspector** dialog open the `FireDAC Query Editor`
+3. Configure your SQL query with parameters and design time defaults for the parameters
+
+##### Preparing the Application at Runtime
+
+1. In the `BeforeConnect` event handler check whether the DB file exists and then assign the path to `Connection.Params.Database`.
 
 ## General Delphi Links
 
