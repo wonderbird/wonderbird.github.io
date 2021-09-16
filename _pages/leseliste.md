@@ -11,7 +11,11 @@ layout: default
 
 Legende der Symbole - siehe [unten](#legend)
 
+* [TEDMonterey: Adam Grant: How to stop languishing and start finding flow](https://www.ted.com/talks/adam_grant_how_to_stop_languishing_and_start_finding_flow) - A talk about motivation by mastery, flow and purpose.
+
 * Martin Fowler: [Microservices](https://martinfowler.com/articles/microservices.html) - a definition of this new architectural term (2014).
+
+* Martin Fowler: [Patterns of Enterprise Application Architecture](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 
 * Gernot Starke: [arc42 in Aktion: Praktische Tipps zur Architekturdokumentation](https://www.hanser-elibrary.com/doi/book/10.3139/9783446449381) - [2. Auflage in Vorbereitung](https://www.hanser-kundencenter.de/fachbuch/artikel/9783446463806)
 
