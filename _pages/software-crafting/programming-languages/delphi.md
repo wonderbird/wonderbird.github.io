@@ -12,6 +12,43 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 
 * [Learn to Program with Delphi Community Edition: Part 2 - Building and Debugging](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part2) - Learn basic Delphi by writing a simple calculator.
 
+## Unit Testing
+
+- [Von 0 auf 100 - DUnitX - Ein Testframework für Delphi](https://www.youtube.com/watch?v=2WPlVAz-cTU) - German video introduction to DUnitX and Test Insight.
+  - [Delphi-PRAXIS: Von 0 auf 100 - DUnitX - Ein Testframework für Delphi](https://www.delphipraxis.net/202317-von-0-auf-100-dunitx-ein-testframework-fuer-delphi-3.html) - Forum to discuss questions regarding DUnitX.
+
+### Install DUnitX Expert into Delphi
+
+[DUnitX](https://github.com/VSoftTechnologies/DUnitX) includes a UI component.
+
+The following installation steps are taken from the video [Von 0 auf 100 - DUnitX - Ein Testframework für Delphi](https://www.youtube.com/watch?v=2WPlVAz-cTU):
+
+1. Clone the DUnitX master branch: `git clone https://github.com/VSoftTechnologies/DUnitX.git`
+1. Open the Delphi project matching your IDE from `DUnitX\Expert`
+1. Right click the `DUnitX_IDE_Expert_...bpl` project and select **Install**
+1. **File &rarr; New &rarr; Other** now contains **Delphi Projects &rarr; DUnitX &rarr; DUnitX Project** and **DUnitX Test Unit**
+1. Select **Tools &rarr; Options / Environment Options &rarr; Environment Variables** and add a **User Environment Variable** named **DUnitX** with the path to the checked out sources as its value.
+
+Note:
+
+When installing the expert, I received an exception about the expert being registered twice. I ignored it ... Is it possible that the DUnitX Expert is already present in Delphi 10.4.2 Sydney?
+
+### Test Insight
+
+[Test Insight](https://bitbucket.org/sglienke/testinsight/wiki/Home) is a unit testing IDE Plugin for Delphi which eases unit test development.
+
+After installation you can access TestInsight in the IDE by selecting View->TestInsight Explorer.
+
+In order to make TestInsight work with your project it needs to have the TESTINSIGHT compiler directive 
+defined in the project. You can do that quickly with the context menu in the project manager.
+
+In your application you need to use the TestInsight.&lt;framework&gt; unit for the framework you are using.
+Just call the RunRegisteredTests routine or manually register the Listener/Logger to your test framework.
+
+## Simplify Daily Work
+
+- [Default Keyboard Shortcuts](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Default_Keyboard_Shortcuts)
+
 ## Visual Studio Code Plugins
 
 [Visual Studio Code](https://code.visualstudio.com/) is an alternative to using the Embarcadero RAD Studio code editor.
@@ -22,7 +59,6 @@ The following extensions are useful:
 - [Pascal-Formatter](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal-formatter) - installs automatically together with [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal).
 
 Apart from that, refer to the language agnostic extensions in [Visual Studio Code Plugins](../plugins/vs-code-plugins.html)
-
 
 ## Know How
 
@@ -37,6 +73,7 @@ While learning Delphi I have encountered the following questions:
 
 Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstance>.Free()` in a `TForm.FormDestroy` method? (see section "Wiring the Buttons to the Code" in [Learn to Program with Delphi Community Edition: Part 5 - Putting the Calculator Together](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part5))
 
+A: No. No garbage collector. Cleaning up is your responsibility.
 ## Services and Microservices
 
 ### Links Regarding Services and Microservices
@@ -75,9 +112,19 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 
 ## General Delphi Links
 
+### Getting Started Documentation
+
 - [Learn to Program with Community Edition](https://blogs.embarcadero.com/learn-to-program-with-community-edition/) - Learn basic Delphi and C++ Builder by writing a simple calculator.
+- [Delphi Boot Camp Recording](https://blogs.embarcadero.com/delphi-boot-camp-with-100-off-delphi/) - 5 videos introducing Delphi development.
+- Maco Canttú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) - A compendium introducing object pascal and Delphi to beginners.
 - [Help for RAD Studio 10.4 Sydney](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Main_Page) - Official documentation wiki for Delphi.
   - [Tutorials](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Tutorials)
 - [YouTube: EmbarcaderoTechNet](https://www.youtube.com/user/EmbarcaderoTechNet) - The "Embarcadero Technologies" YouTube channel.
-- [RADStudio IDE Keyboard Shortcuts Guide](https://blogs.embarcadero.com/radstudio-ide-keyboard-shortcuts-guide/) - with printable keyboard cheat sheet.
 - [GitHub: Embarcadero](https://github.com/Embarcadero) - Embarcadero on GitHub.
+
+### Utilities
+
+- [RADStudio IDE Keyboard Shortcuts Guide](https://blogs.embarcadero.com/radstudio-ide-keyboard-shortcuts-guide/) - with printable keyboard cheat sheet.
+- [DUnitX](https://github.com/VSoftTechnologies/DUnitX) - Test framework, taking ideas from DUnit, NUnit and other test frameworks.
+  - [Delphi-Praxis: DUnitX Forum](https://en.delphipraxis.net/forum/36-dunitx/) - Disucss DUnitX topics.
+- [Test Insight](https://bitbucket.org/sglienke/testinsight/wiki/Home) - Delphi plugin simplifying unit test development.
