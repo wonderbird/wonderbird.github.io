@@ -45,6 +45,10 @@ defined in the project. You can do that quickly with the context menu in the pro
 In your application you need to use the TestInsight.&lt;framework&gt; unit for the framework you are using.
 Just call the RunRegisteredTests routine or manually register the Listener/Logger to your test framework.
 
+### Further Information on Unit Testing
+
+- [Unit Testing Overview](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Unit_Testing_Overview) - Getting started with DUnit based unit testing.
+
 ## Simplify Daily Work
 
 - [Default Keyboard Shortcuts](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Default_Keyboard_Shortcuts)
