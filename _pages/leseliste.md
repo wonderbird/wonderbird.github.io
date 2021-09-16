@@ -5,19 +5,23 @@ layout: default
 
 # Leseliste
 
+## Geek Cartoons
+
+- [xkcd](https://xkcd.com/) - A webcomic of romance,
+sarcasm, math, and language.
+- [Dilbert](https://dilbert.com/)
+
 ## Weiterbildung
 
 ... nach (interessant) x (gerade evtl. hilfreich)
 
 Legende der Symbole - siehe [unten](#legend)
 
-* [TEDMonterey: Adam Grant: How to stop languishing and start finding flow](https://www.ted.com/talks/adam_grant_how_to_stop_languishing_and_start_finding_flow) - A talk about motivation by mastery, flow and purpose.
+* 📰 Martin Fowler: [Microservices](https://martinfowler.com/articles/microservices.html) - a definition of this new architectural term (2014).
 
-* Martin Fowler: [Microservices](https://martinfowler.com/articles/microservices.html) - a definition of this new architectural term (2014).
+* 📖 Martin Fowler: [Patterns of Enterprise Application Architecture](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
 
-* Martin Fowler: [Patterns of Enterprise Application Architecture](https://www.amazon.de/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
-
-* Gernot Starke: [arc42 in Aktion: Praktische Tipps zur Architekturdokumentation](https://www.hanser-elibrary.com/doi/book/10.3139/9783446449381) - [2. Auflage in Vorbereitung](https://www.hanser-kundencenter.de/fachbuch/artikel/9783446463806)
+* 📰 Gernot Starke: [arc42 in Aktion: Praktische Tipps zur Architekturdokumentation](https://www.hanser-elibrary.com/doi/book/10.3139/9783446449381) - [2. Auflage in Vorbereitung](https://www.hanser-kundencenter.de/fachbuch/artikel/9783446463806)
 
 * 📰 Gernot Starke: [Quality-Driven Software Architecture](https://dev.to/gernotstarke/quality-driven-software-architecture-3i9m)
 
@@ -44,6 +48,8 @@ Legende der Symbole - siehe [unten](#legend)
 * innoq: [cards42.org](https://cards42.org/)
 
 * 📰 Heise: [DSGVO: So nutzen Sie Ihre Auskunftsrechte](https://www.heise.de/newsticker/meldung/DSGVO-So-nutzen-Sie-Ihre-Auskunftsrechte-4429886.html)
+
+* 📽️ [TEDMonterey: Adam Grant: How to stop languishing and start finding flow](https://www.ted.com/talks/adam_grant_how_to_stop_languishing_and_start_finding_flow) - A talk about motivation by mastery, flow and purpose.
 
 <a name="legend">
 ## Legende
