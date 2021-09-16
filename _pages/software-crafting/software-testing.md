@@ -87,6 +87,10 @@ Engineering, vol. 43, no. 7, pp. 597-614, 1 July 2017, DOI:https://doi.org/10.11
 
 ## Tools and Ideas
 
+- [TextTest regression tests](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/main/texttests) - Test-Based Approval tests for the GildedRose refactoring kata.
+
+- [MailDev](https://github.com/maildev/maildev) - test your project's generated emails during development.
+
 ### Property Based Testing
 
 * Koen Claessen: [QuickCheck: Automatic testing of Haskell programs](https://hackage.haskell.org/package/QuickCheck) - Property based testing for Haskell ([associated GitHub project](https://github.com/nick8325/quickcheck))
