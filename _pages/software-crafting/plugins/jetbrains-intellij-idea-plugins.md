@@ -28,7 +28,7 @@ The following plugins help(ed) me in my daily work.
 
 ### Rider (C#)
 
-* [MoqComlete](https://plugins.jetbrains.com/plugin/12659-moqcomplete) - Code completion for Moq.
+* [MoqComplete](https://plugins.jetbrains.com/plugin/12659-moqcomplete) - Code completion for Moq.
 * [SpecFlow for Rider](https://plugins.jetbrains.com/plugin/15957-specflow-for-rider) - Syntax highlighting, smart navigation and auto-completion for Gherkin files.
 * [Structured Logging](https://plugins.jetbrains.com/plugin/12832-structured-logging) - Hightlight log message templates and analyzers for them.
 
