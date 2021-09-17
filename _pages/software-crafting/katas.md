@@ -26,6 +26,9 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 
 - it-agile GmbH: [Code Retreat](https://www.it-agile.de/wissen/agiles-engineering/code-retreat/) - What is a code retreat?
 
+- [Cyber Dojo](https://cyber-dojo.org/creator/home) - a platform to host and facilitate coding dojos for solo, group and classroom adventures.
+  - [Cyber Dojo start-points](https://github.com/cyber-dojo-start-points) - on GitHub.
+
 ## Other Individual Katas and Puzzles
 
 - Codingame: [How to draw the Mandelbrot set](https://www.codingame.com/playgrounds/2358/how-to-plot-the-mandelbrot-set)

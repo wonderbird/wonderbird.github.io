@@ -87,6 +87,9 @@ Engineering, vol. 43, no. 7, pp. 597-614, 1 July 2017, DOI:https://doi.org/10.11
 
 ## Tools and Ideas
 
+- [Approval Tests](https://approvaltests.com/) - simplify testing by taking a snapshot of the results and confirming that they have not changed. Allows getting legacy code under control.
+  - [How Approval Testing can support Behavior Driven Development](https://specflow.org/bdd/approval-testing-support-bdd/)
+
 - [TextTest regression tests](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/main/texttests) - Test-Based Approval tests for the GildedRose refactoring kata.
 
 - [MailDev](https://github.com/maildev/maildev) - test your project's generated emails during development.
