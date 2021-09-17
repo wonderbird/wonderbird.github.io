@@ -22,7 +22,7 @@ The following plugins help(ed) me in my daily work.
 * [CodeMetrics](https://plugins.jetbrains.com/plugin/12159-codemetrics) - Inlay indicators based on a customizable complexity calculation for Java files.
 * [MetricsReloaded](https://plugins.jetbrains.com/plugin/93-metricsreloaded) - Lines of Code and file count metrics for all languages supported by your IDE and many more metrics for Java.
 
-### Java
+### Java / JavaScript
 
 * [SonarLint](https://plugins.jetbrains.com/plugin/7973-sonarlint) - Find and fix bugs, vulnerabilities and code smells as you write code.
 
