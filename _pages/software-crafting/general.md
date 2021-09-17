@@ -105,6 +105,10 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Joel Spolsky: [Joel on Software](http://www.joelonsoftware.com/)
 
+- Peter Kofler: [Code Cop](http://blog.code-cop.org/)
+
+- [Gregor Riegler](http://gregorriegler.com/blog)
+
 - Hello2morrow: [Empowering Software Craftsmanship](http://blog.hello2morrow.com/)
 
 - [Software Architecture Summit Blog](https://software-architecture-summit.de/blog/)
