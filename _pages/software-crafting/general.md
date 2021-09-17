@@ -136,6 +136,8 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Caspers Jones: [Software Methodologies - A Quantitative Guide](https://www.routledge.com/Software-Methodologies-A-Quantitative-Guide/Jones/p/book/9781138033085), CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
 
+- C. Ravindranath Pandian: [Applied Software Risk Management](https://doi.org/10.1201/9780849305313) - A Guide for Software Project Managers.
+
 ### Websites
 
 - Jez Humble: [Continous Delivery](https://continuousdelivery.com) - A comprehensive summary on continuous delivery.
