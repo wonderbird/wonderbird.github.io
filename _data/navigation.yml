@@ -91,8 +91,6 @@ software-crafting:
     url: /pages/software-crafting/conferences.html
   - title: Docker
     url: /pages/software-crafting/docker.html
-  - title: General Resources
-    url: /pages/software-crafting/general-resources.html
   - title: General Topics
     url: /pages/software-crafting/general.html
   - title: Git

@@ -19,7 +19,7 @@ layout: default
 - [Podcasts](#podcasts)
 - [Blogs](#blogs)
 - [Individual Articles](#individual-articles)
-- [Tools](#tools)
+- [Tools and Resources](#tools-and-resources)
 - [Books](#books)
 - [Websites](#websites)
 - [Learning Platforms](#learning-platforms)
@@ -115,11 +115,13 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Martin Fowler: [Beck Design Rules](https://martinfowler.com/bliki/BeckDesignRules.html) - Passes the tests, Reveals intention, No duplication, Fewest elements
 
-### Tools
+### Tools and Resources
 
 - [Choose an open source license](https://choosealicense.com/) - Overview on permissions, conditions and restrictions imposed by various open source licenses.
 
 - [gitignore.io](https://gitignore.io/) - Generate `.gitignore` rules addressing specific languages, tool chains, code editors and IDEs.
+
+- [Flaticon](https://www.flaticon.com) - Open Source Icons, Graphics, Pictures, Cliparts.
 
 - [RabbitMQ](https://www.rabbitmq.com/) - Open source message broker.
 
