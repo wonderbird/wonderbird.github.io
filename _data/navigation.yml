@@ -145,6 +145,8 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/delphi.html
   - title: Go
     url: /pages/software-crafting/programming-languages/go.html
+  - title: Java
+    url: /pages/software-crafting/programming-languages/java.html
   - title: Powershell
     url: /pages/software-crafting/programming-languages/powershell.html
   - title: Python
