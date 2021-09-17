@@ -17,9 +17,13 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 
 ## Code Retreats
 
+- [Coderetreat](https://www.coderetreat.org/) - Facilitates community events to practice professional software development.
+  - [What is a Code Retreat?](https://www.coderetreat.org/the-workshop/)
+
 - [Softwerkskammer Wien: Moar Coderetreats](https://github.com/swkWien/sessions/issues/46) - Organizers of Zero Overhead Coderetreats.
-- The Coderetreat Contributors: [What is a Code Retreat?](https://www.coderetreat.org/the-workshop/)
+
 - Podcast Episode: [Coderetreat Facilitation: 09 Constraint for first session and alternative exercises for Game of Life](https://coderetreat-facilitation.code-cop.org/2020/03/constraint-for-first-session-and.html)
+
 - it-agile GmbH: [Code Retreat](https://www.it-agile.de/wissen/agiles-engineering/code-retreat/) - What is a code retreat?
 
 ## Other Individual Katas and Puzzles
@@ -34,6 +38,7 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - Coding Dojo: [Kata Catalogue](https://codingdojo.org/KataCatalogue/)
 - [CodeKata.com](http://codekata.com/)
 - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
+- [Peter Kofler (Code Cop)](https://github.com/codecop) - Code Cop's repositories have some katas.
 
 ## Kata Constraints
 
