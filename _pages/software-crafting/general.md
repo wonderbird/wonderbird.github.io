@@ -136,6 +136,16 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - David Thomas and Andrew Hunt: [The Pragmatic Programmer, 20th Anniversary Edition](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/), The Pragmatic Bookshelf, September 2019. ISBN 9780135957059.
 
+- Kent Beck: [Test Driven Development](https://www.oreilly.com/library/view/test-driven-development/0321146530/) - By Example.
+
+- Kent Beck: [Extreme Programming Explained](https://www.oreilly.com/library/view/extreme-programming-explained/0321278658/)
+
+- Michael Feathers: [Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)
+
+- Martin Fowler: [Refactoring](https://martinfowler.com/books/refactoring.html)
+
+- Robert C. Martin: [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
+
 - Nicole Forsgen, Jez Humble and Gene Kim: [Accelerate: The Science of DevOps](https://itrevolution.com/book/accelerate/), IT Revolution Press, 2018. ISBN 9781942788331.
 
 - Caspers Jones: [Software Methodologies - A Quantitative Guide](https://www.routledge.com/Software-Methodologies-A-Quantitative-Guide/Jones/p/book/9781138033085), CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
