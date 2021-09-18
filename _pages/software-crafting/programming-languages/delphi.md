@@ -31,6 +31,7 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 
 ### Getting Started Documentation
 
+- [Delphi Basics](http://www.delphibasics.co.uk/) - introduction to Delphi for newcomers, and ready reference for experienced programmers.
 - [Learn to Program with Community Edition](https://blogs.embarcadero.com/learn-to-program-with-community-edition/) - Learn basic Delphi and C++ Builder by writing a simple calculator.
 - [Delphi Boot Camp Recording](https://blogs.embarcadero.com/delphi-boot-camp-with-100-off-delphi/) - 5 videos introducing Delphi development.
 - [Help for RAD Studio 10.4 Sydney](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Main_Page) - Official documentation wiki for Delphi.
@@ -38,6 +39,9 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 - [YouTube: EmbarcaderoTechNet](https://www.youtube.com/user/EmbarcaderoTechNet) - The "Embarcadero Technologies" YouTube channel.
 - [GitHub: Embarcadero](https://github.com/Embarcadero) - Embarcadero on GitHub.
 
+## Language References
+
+- [Using the RTL (Run-Time Library)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Using_the_RTL_(Run-Time_Library)) - Reference about the System and other standard libraries.
 ## Books
 
 - Maco Canttú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) - A compendium introducing object pascal and Delphi to beginners.
