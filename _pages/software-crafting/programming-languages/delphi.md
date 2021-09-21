@@ -43,9 +43,10 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 ## Language References
 
 - [Using the RTL (Run-Time Library)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Using_the_RTL_(Run-Time_Library)) - Reference about the System and other standard libraries.
+
 ## Books
 
-- Maco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) - A compendium introducing object pascal and Delphi to beginners.
+- Marco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) - A compendium introducing object pascal and Delphi to beginners.
   - [ObjectPascalHandbook104](https://github.com/MarcoDelphiBooks/ObjectPascalHandbook104) - GitHub Code Repository accompanying the book.
   - [Object Pascal Handbook Delphi 10.4 Sydney Edition](https://www.marcocantu.com/objectpascal/) - Official homepage of the book.
 
@@ -138,6 +139,25 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 - Path of the current executable: `TPath.GetLibraryPath` (on iOS this may be the ZIP file containing the executable)
 
 
+## Useful Components and IDE Extensions
+
+### Open Source OR Free for Personal Use
+
+#### Coding Support
+
+- [CodeSite](https://raize.com/codesite/) - logging system with specialized log viewers.
+- [Delphi Mocks](https://github.com/VSoftTechnologies/Delphi-Mocks) - simple mocking framework for Delphi.
+- [JEDI Component Library JCL](https://github.com/project-jedi/jcl) - thoroughly tested and fully documented utility functions and non-visual classes.
+- [JEDI Visual Component Library](https://github.com/project-jedi/jvcl) - over 600 Delphi visual and non-visual Delphi/C++Builder components.
+- [LockBox 3](https://github.com/TurboPack/LockBox3) - cryptography library.
+- [MMX Code Explorer](https://www.mmx-delphi.de/) - refactoring Browser with Delphi Pascal support.
+- [Spring4d](https://bitbucket.org/sglienke/spring4d/src/master/) - dependency injection framework (keywords: inversion of control / IoC container).
+- [Virtual Treeview](https://www.jam-software.de/virtual-treeview) - treeview control.
+
+### License Required
+
+- [madExcept](http://madshi.net/madExceptDescription.htm) - exception reporter facilitating crash analysis.
+
 ## Questions
 
 While learning Delphi I have encountered the following questions:
@@ -146,7 +166,8 @@ While learning Delphi I have encountered the following questions:
 
 Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstance>.Free()` in a `TForm.FormDestroy` method? (see section "Wiring the Buttons to the Code" in [Learn to Program with Delphi Community Edition: Part 5 - Putting the Calculator Together](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part5))
 
-A: If you use an interface as the variable type, then reference counters are used and the instance is freed automatically. If you don't use an interface as the variable type, then the instance is must be cleaned up.
+A: If you use an interface as the variable type, then reference counters are used and the instance is freed automatically. If you don't use an interface as the variable type, then the instance is must be cleaned up. The entire story about memory management with ownership, weak references and reference counting is told in chapter "13 Objects and Memory" in Maco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021).
+
 ## Services and Microservices
 
 ### Links Regarding Services and Microservices
