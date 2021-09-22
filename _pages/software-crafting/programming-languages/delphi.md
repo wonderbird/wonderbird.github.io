@@ -11,11 +11,13 @@ layout: default
 
 - [Download and Install](#download-and-install)
 - [Getting Started](#getting-started)
+- [Language References](#language-references)
 - [Books](#books)
 - [Unit Testing](#unit-testing)
 - [Simplify Daily Work](#simplify-daily-work)
 - [Visual Studio Code Plugins](#visual-studio-code-plugins)
 - [Know How](#know-how)
+- [Useful Components and IDE Extensions](#useful-components-and-ide-extensions)
 - [Questions](#questions)
 - [Services and Microservices](#services-and-microservices)
 
@@ -42,7 +44,8 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 
 ## Language References
 
-- [Using the RTL (Run-Time Library)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Using_the_RTL_(Run-Time_Library)) - Reference about the System and other standard libraries.
+- [RTL](https://docwiki.embarcadero.com/RADStudio/Sydney/en/RTL) - Reference about the standard libraries.
+- [System](https://docwiki.embarcadero.com/Libraries/Sydney/en/System) - Contains the Delphi run-time library (RTL) units, classes, functions, types, variables, and constants.
 
 ## Books
 
@@ -137,7 +140,18 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 - Create line breaks in string messages: `'Hello'#13#10'World'`
 - Path and file name operations: `TPath`, `TFile` (cross platform)
 - Path of the current executable: `TPath.GetLibraryPath` (on iOS this may be the ZIP file containing the executable)
+- Implementing Smart Pointers is described in [1], pp. 436
 
+### Good Practices
+
+- From every constructor call the base constructor first. This ensures that all members are initialized when a derived constructor expects them to be. [1], p. 389
+- Every destructor should be virtual. This ensures that all memory allocated by derived classes gets freed even if you call `Free` for a base type [1], p. 389
+- From every destructor call the base destructor last. This ensures that all memory allocated by parent classes gets freed after depending memory has been freed in derived classes [1], p. 389
+- In a destructor never assume the object has been fully initialized, because the constructor might throw an exception while still allocating objects. Thus, always check `assigned(object)` before `object.Free` in the destructor [1], p.390
+
+#### References
+
+[1] Marco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021)
 
 ## Useful Components and IDE Extensions
 
