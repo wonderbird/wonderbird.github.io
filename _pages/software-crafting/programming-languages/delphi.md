@@ -149,7 +149,7 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 - From every destructor call the base destructor last. This ensures that all memory allocated by parent classes gets freed after depending memory has been freed in derived classes [1], p. 389
 - In a destructor never assume the object has been fully initialized, because the constructor might throw an exception while still allocating objects. Thus, always check `assigned(object)` before `object.Free` in the destructor [1], p.390
 
-#### References
+### References
 
 [1] Marco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021)
 
