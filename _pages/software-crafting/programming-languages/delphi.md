@@ -12,7 +12,6 @@ layout: default
 - [Download and Install](#download-and-install)
 - [Getting Started](#getting-started)
 - [Language References](#language-references)
-- [Books](#books)
 - [Unit Testing](#unit-testing)
 - [Simplify Daily Work](#simplify-daily-work)
 - [Visual Studio Code Plugins](#visual-studio-code-plugins)
@@ -20,6 +19,7 @@ layout: default
 - [Useful Components and IDE Extensions](#useful-components-and-ide-extensions)
 - [Questions](#questions)
 - [Services and Microservices](#services-and-microservices)
+- [Links and References](#links-and-references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -222,3 +222,8 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
   - [ObjectPascalHandbook104](https://github.com/MarcoDelphiBooks/ObjectPascalHandbook104) - GitHub Code Repository accompanying the book.
   - [Object Pascal Handbook Delphi 10.4 Sydney Edition](https://www.marcocantu.com/objectpascal/) - Official homepage of the book.
 
+### Blogs
+
+- [Uwe Raabe](https://www.uweraabe.de/Blog/) - by the author of the MMX Code Explorer.
+
+- [tmssoftware.com](https://www.tmssoftware.com/site/blog.asp) - software development company providing Delphi components, project work and training services.
