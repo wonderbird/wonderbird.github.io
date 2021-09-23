@@ -42,16 +42,14 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 - [YouTube: EmbarcaderoTechNet](https://www.youtube.com/user/EmbarcaderoTechNet) - The "Embarcadero Technologies" YouTube channel.
 - [GitHub: Embarcadero](https://github.com/Embarcadero) - Embarcadero on GitHub.
 
+At the end of the page you can find further references including the [Books](#books) section.
+
+The Object Pascal Handbook is a good read [[1](#ref-1)].
+
 ## Language References
 
 - [RTL](https://docwiki.embarcadero.com/RADStudio/Sydney/en/RTL) - Reference about the standard libraries.
 - [System](https://docwiki.embarcadero.com/Libraries/Sydney/en/System) - Contains the Delphi run-time library (RTL) units, classes, functions, types, variables, and constants.
-
-## Books
-
-- Marco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) - A compendium introducing object pascal and Delphi to beginners.
-  - [ObjectPascalHandbook104](https://github.com/MarcoDelphiBooks/ObjectPascalHandbook104) - GitHub Code Repository accompanying the book.
-  - [Object Pascal Handbook Delphi 10.4 Sydney Edition](https://www.marcocantu.com/objectpascal/) - Official homepage of the book.
 
 ### Probably Interesting Books
 
@@ -140,18 +138,14 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 - Create line breaks in string messages: `'Hello'#13#10'World'`
 - Path and file name operations: `TPath`, `TFile` (cross platform)
 - Path of the current executable: `TPath.GetLibraryPath` (on iOS this may be the ZIP file containing the executable)
-- Implementing Smart Pointers is described in [1], pp. 436
+- Implementing Smart Pointers is described in [[1](#ref-1)], pp. 436
 
 ### Good Practices
 
-- From every constructor call the base constructor first. This ensures that all members are initialized when a derived constructor expects them to be. [1], p. 389
-- Every destructor should be virtual. This ensures that all memory allocated by derived classes gets freed even if you call `Free` for a base type [1], p. 389
-- From every destructor call the base destructor last. This ensures that all memory allocated by parent classes gets freed after depending memory has been freed in derived classes [1], p. 389
-- In a destructor never assume the object has been fully initialized, because the constructor might throw an exception while still allocating objects. Thus, always check `assigned(object)` before `object.Free` in the destructor [1], p.390
-
-### References
-
-[1] Marco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021)
+- From every constructor call the base constructor first. This ensures that all members are initialized when a derived constructor expects them to be [[1](#ref-1)], p. 389
+- Every destructor should be virtual. This ensures that all memory allocated by derived classes gets freed even if you call `Free` for a base type [[1](#ref-1)], p. 389
+- From every destructor call the base destructor last. This ensures that all memory allocated by parent classes gets freed after depending memory has been freed in derived classes [[1](#ref-1)], p. 389
+- In a destructor never assume the object has been fully initialized, because the constructor might throw an exception while still allocating objects. Thus, always check `assigned(object)` before `object.Free` in the destructor [[1](#ref-1)], p.390
 
 ## Useful Components and IDE Extensions
 
@@ -181,6 +175,8 @@ While learning Delphi I have encountered the following questions:
 Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstance>.Free()` in a `TForm.FormDestroy` method? (see section "Wiring the Buttons to the Code" in [Learn to Program with Delphi Community Edition: Part 5 - Putting the Calculator Together](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part5))
 
 A: If you use an interface as the variable type, then reference counters are used and the instance is freed automatically. If you don't use an interface as the variable type, then the instance is must be cleaned up. The entire story about memory management with ownership, weak references and reference counting is told in chapter "13 Objects and Memory" in Maco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021).
+
+Note that in chapter "Smart Pointers in Object Pascal" [[1](#ref-1)], Marco Cantú introduces a Smart Pointer implementation for Delphi &lt; 10.4 and another one for Delphi &rt;= 10.4. Erik Bilsen disucsses the latter solution in his blog entry [Custom Managed Records for Smart Pointers](https://blog.grijjy.com/2020/08/12/custom-managed-records-for-smart-pointers/).
 
 ## Services and Microservices
 
@@ -217,4 +213,12 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 ##### Preparing the Application at Runtime
 
 1. In the `BeforeConnect` event handler check whether the DB file exists and then assign the path to `Connection.Params.Database`.
+
+## Links and References
+
+### Books
+
+<a name="ref-1">[1]</a> Marco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) - A compendium introducing object pascal and Delphi to beginners.
+  - [ObjectPascalHandbook104](https://github.com/MarcoDelphiBooks/ObjectPascalHandbook104) - GitHub Code Repository accompanying the book.
+  - [Object Pascal Handbook Delphi 10.4 Sydney Edition](https://www.marcocantu.com/objectpascal/) - Official homepage of the book.
 
