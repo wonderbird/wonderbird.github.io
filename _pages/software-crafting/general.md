@@ -146,6 +146,10 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Robert C. Martin: [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
 
+-  E. Gamma, R. Helm, R. E. Johnson, J. Vlissides: [Design Patterns. Elements of Reusable Object-Oriented Software.](https://dl.acm.org/doi/book/10.5555/186897)
+
+- Martin Fowler: [Patterns of Enterprise Application Architecture](https://dl.acm.org/doi/10.5555/579257)
+
 - Nicole Forsgen, Jez Humble and Gene Kim: [Accelerate: The Science of DevOps](https://itrevolution.com/book/accelerate/), IT Revolution Press, 2018. ISBN 9781942788331.
 
 - Caspers Jones: [Software Methodologies - A Quantitative Guide](https://www.routledge.com/Software-Methodologies-A-Quantitative-Guide/Jones/p/book/9781138033085), CRC Press Taylor & Francis Group, LLC, 2018. ISBN 978-1-138-03308-5.
