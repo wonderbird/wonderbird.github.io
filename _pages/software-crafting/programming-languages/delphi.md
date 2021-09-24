@@ -11,15 +11,30 @@ layout: default
 
 - [Download and Install](#download-and-install)
 - [Getting Started](#getting-started)
+  - [Getting Started Documentation](#getting-started-documentation)
 - [Language References](#language-references)
+  - [Probably Interesting Books](#probably-interesting-books)
 - [Unit Testing](#unit-testing)
+  - [Test Insight](#test-insight)
+  - [DUnitX](#dunitx)
+  - [Delphi.Mocks](#delphimocks)
+  - [Further Information on Unit Testing](#further-information-on-unit-testing)
 - [Simplify Daily Work](#simplify-daily-work)
 - [Visual Studio Code Plugins](#visual-studio-code-plugins)
 - [Know How](#know-how)
+  - [Good Practices](#good-practices)
+  - [Programming Patterns](#programming-patterns)
 - [Useful Components and IDE Extensions](#useful-components-and-ide-extensions)
+  - [Open Source OR Free for Personal Use](#open-source-or-free-for-personal-use)
+  - [License Required](#license-required)
 - [Questions](#questions)
+  - [Memory Management](#memory-management)
 - [Services and Microservices](#services-and-microservices)
+  - [Links Regarding Services and Microservices](#links-regarding-services-and-microservices)
+  - [Example: Customer Relationship Management](#example-customer-relationship-management)
 - [Links and References](#links-and-references)
+  - [Books](#books)
+  - [Blogs](#blogs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -147,6 +162,10 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 - From every destructor call the base destructor last. This ensures that all memory allocated by parent classes gets freed after depending memory has been freed in derived classes [[1](#ref-1)], p. 389
 - In a destructor never assume the object has been fully initialized, because the constructor might throw an exception while still allocating objects. Thus, always check `assigned(object)` before `object.Free` in the destructor [[1](#ref-1)], p.390
 
+### Programming Patterns
+
+- [MVVM Starter Kit](https://blog.grijjy.com/2018/01/22/mvvm-starter-kit-part-1-of-3/) - part 1 of 3 blog posts introducing MVVM.
+
 ## Useful Components and IDE Extensions
 
 ### Open Source OR Free for Personal Use
@@ -155,6 +174,7 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 
 - [CodeSite](https://raize.com/codesite/) - logging system with specialized log viewers.
 - [Delphi Mocks](https://github.com/VSoftTechnologies/Delphi-Mocks) - simple mocking framework for Delphi.
+- [https://bitbucket.org/sglienke/dsharp](https://bitbucket.org/sglienke/dsharp/src/master/) - MVVM and mocks for Delphi.
 - [JEDI Component Library JCL](https://github.com/project-jedi/jcl) - thoroughly tested and fully documented utility functions and non-visual classes.
 - [JEDI Visual Component Library](https://github.com/project-jedi/jvcl) - over 600 Delphi visual and non-visual Delphi/C++Builder components.
 - [LockBox 3](https://github.com/TurboPack/LockBox3) - cryptography library.
@@ -227,3 +247,5 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 - [Uwe Raabe](https://www.uweraabe.de/Blog/) - by the author of the MMX Code Explorer.
 
 - [tmssoftware.com](https://www.tmssoftware.com/site/blog.asp) - software development company providing Delphi components, project work and training services.
+
+- [grijjy](https://blog.grijjy.com/) - software development company.
