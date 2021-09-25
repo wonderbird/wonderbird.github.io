@@ -122,6 +122,14 @@ Notes:
 
 - [Von 0 auf 100 - Delphi.Mocks ein Mock-Framework für Delphi](https://www.youtube.com/watch?v=BjMW4VW1UgA) - video introduction to Delphi.Mocks.
 
+- [Delphi-Mocks Parameter Matchers](https://www.finalbuilder.com/resources/blogs/delphi-mocks-parameter-matchers) - place tighter controls on verifying that a mocked interface/object method is called.
+
+### Delphi Code Coverage
+
+- [Delphi Code Coverage](https://github.com/DelphiCodeCoverage/DelphiCodeCoverage) - creates code coverage reports based on detailed MAP files.
+
+- [Delphi Code Coverage Wizard](https://github.com/trident-job/delphi-code-coverage-wizard) - wizard to setup and build scripts for [Delphi Code Coverage](https://github.com/DelphiCodeCoverage/DelphiCodeCoverage).
+
 ### Further Information on Unit Testing
 
 - [Unit Testing Overview](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Unit_Testing_Overview) - Getting started with DUnit based unit testing.
@@ -241,6 +249,10 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 <a name="ref-1">[1]</a> Marco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) - A compendium introducing object pascal and Delphi to beginners.
   - [ObjectPascalHandbook104](https://github.com/MarcoDelphiBooks/ObjectPascalHandbook104) - GitHub Code Repository accompanying the book.
   - [Object Pascal Handbook Delphi 10.4 Sydney Edition](https://www.marcocantu.com/objectpascal/) - Official homepage of the book.
+
+<a name="ref-2">[2]</a> Nick Hodges: [Coding in Delhpi](https://isbnsearch.org/isbn/1941266037)
+
+<a name="ref-3">[3]</a> Nick Hodges: [More Coding in Delhpi](https://isbnsearch.org/isbn/194126610X)
 
 ### Blogs
 

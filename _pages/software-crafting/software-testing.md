@@ -23,7 +23,9 @@ layout: default
 
 * Andreas Spillner, Tilo Linz: [Basiswissen Softwaretest](https://www.google.de/books/edition/Basiswissen_Softwaretest/kl-bDwAAQBAJ?hl=de&gbpv=0) (in German) - Aus- und Weiterbildung zum Certified Tester – Foundation Level nach ISTQB®-Standard.
 
-* Roy Osherove: The Art of Unit Testing, 2nd Edittion, Manning Publications Co. November 2013. ISBN 9781617290893. https://www.manning.com/books/the-art-of-unit-testing-second-edition
+* Roy Osherove: [The Art of Unit Testing](https://www.manning.com/books/the-art-of-unit-testing-second-edition), 2nd Edition, Manning Publications Co. November 2013. ISBN 9781617290893.
+
+* Gerard Meszaros: [xUnit Test Patterns](https://isbnsearch.org/isbn/0131495054) - Refactoring Test Code.
 
 ## Rationale for Testing (in General)
 
@@ -45,9 +47,11 @@ More prominent and widely accepted opinions are given in the following works (so
 
 * Gene Kim, Jez Humble, Patrick Debois, and John Willis: [The DevOps Handbook](https://itrevolution.com/the-devops-handbook/), IT Revolution Press, 2016. ISBN 1942788002.
 
-* Michael Feathers: [Working Effectively with Legacy Code](https://www.google.de/books/edition/Working_Effectively_with_Legacy_Code/fB6s_Z6g0gIC?hl=de&gbpv=0). USA, Pearson Education, 2004. ISBN 9780132931755, 0132931753
+* Nick Hodges: [Coding in Delhpi](https://isbnsearch.org/isbn/1941266037), Nepeta Enterprises, 2014. ISBN 1941266037.
 
 * Robert C. Martin: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.google.de/books/edition/Clean_Code/_i6bDeoCQzsC?hl=de&gbpv=0), Pearson Education, 2008. ISBN 978-0132350884.
+
+* Michael Feathers: [Working Effectively with Legacy Code](https://www.google.de/books/edition/Working_Effectively_with_Legacy_Code/fB6s_Z6g0gIC?hl=de&gbpv=0). USA, Pearson Education, 2004. ISBN 9780132931755, 0132931753
 
 ## Websites and Articles on Testing
 
