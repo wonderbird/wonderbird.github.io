@@ -18,6 +18,7 @@ layout: default
   - [Test Insight](#test-insight)
   - [DUnitX](#dunitx)
   - [Delphi.Mocks](#delphimocks)
+  - [Delphi Code Coverage](#delphi-code-coverage)
   - [Further Information on Unit Testing](#further-information-on-unit-testing)
 - [Simplify Daily Work](#simplify-daily-work)
 - [Visual Studio Code Plugins](#visual-studio-code-plugins)
@@ -118,7 +119,32 @@ Notes:
 
 - DUnitX can create NUnit compatible output for use in a build server and test result monitoring environment.
 
-### Delphi.Mocks
+### Mock Frameworks
+
+#### Spring4D (Spring.Mocking)
+
+##### Attention
+
+If you are using the Community Edition of Delphi, then you need to compile the Spring4D projects from within the Delphi IDE. Otherwise, the `Build.exe` will not create `.dcu` files in the `Library` subfolder.
+
+1. In the Delphi IDE create all projects in `...\spring4d\Packages\Delphi10Sydney\Spring4D.groupproj`
+2. Run `Build.exe` with build configuration `Debug` and `Update Delphi Registry` checked for your Delphi version
+
+
+##### Links
+
+- [GitHub: Spring4D](https://bitbucket.org/sglienke/spring4d/src/master/)
+  - [docs.spring4d.org](http://docs.spring4d.org/) - Spring4D reference documentation.
+
+- [Mocking in Spring4D](https://probucon.de/blog/2019/12/mocking-with-spring4d/) - Getting started with Mocking in Spring4D.
+
+- [Quickly Learn Mocking In Delphi With Spring4D](https://blogs.embarcadero.com/quickly-learn-mocking-in-delphi-with-spring4d/) - Video introduction to mocking with Spring4D
+
+#### Delphi.Mocks
+
+- [GitHub: Delphi.Mocks](https://github.com/VSoftTechnologies/Delphi-Mocks) - GitHub project of Delphi.Mocks.
+
+- [Introducing Delphi Mocks](https://www.finalbuilder.com/resources/blogs/introducing-delphi-mocks) - What is an automatic mock framework?
 
 - [Von 0 auf 100 - Delphi.Mocks ein Mock-Framework für Delphi](https://www.youtube.com/watch?v=BjMW4VW1UgA) - video introduction to Delphi.Mocks.
 
@@ -181,7 +207,6 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 #### Coding Support
 
 - [CodeSite](https://raize.com/codesite/) - logging system with specialized log viewers.
-- [Delphi Mocks](https://github.com/VSoftTechnologies/Delphi-Mocks) - simple mocking framework for Delphi.
 - [https://bitbucket.org/sglienke/dsharp](https://bitbucket.org/sglienke/dsharp/src/master/) - MVVM and mocks for Delphi.
 - [JEDI Component Library JCL](https://github.com/project-jedi/jcl) - thoroughly tested and fully documented utility functions and non-visual classes.
 - [JEDI Visual Component Library](https://github.com/project-jedi/jvcl) - over 600 Delphi visual and non-visual Delphi/C++Builder components.
@@ -261,3 +286,9 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 - [tmssoftware.com](https://www.tmssoftware.com/site/blog.asp) - software development company providing Delphi components, project work and training services.
 
 - [grijjy](https://blog.grijjy.com/) - software development company.
+
+- [VSoft Technologies Blog](https://www.finalbuilder.com/resources/blogs) - the authors of [Delphi Mocks](#delphi.mocks).
+
+### Miscellaneous
+
+- [Delphi Magazine](http://www.delphimagazine.com/)
