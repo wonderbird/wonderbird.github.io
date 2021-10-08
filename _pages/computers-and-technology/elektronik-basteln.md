@@ -67,6 +67,10 @@ layout: default
 
 ### Grundlagen und Literatur
 
+#### Einstieg
+
+- Forrest Mims: [Engineer's Mini Notebooks](http://www.forrestmims.com/engineers_mini_notebook.html) - getting kids starting at about 12 to electronics.
+- Hackaday: [Forrest Mims, Radio Shack, and the Notebooks that Launched a Thousand Carreers](https://hackaday.com/2017/01/18/forrest-mims-radio-shack-and-the-notebooks-that-launched-a-thousand-careers/#more-238011) - article about Forrest Mims and the Engineer's Notebooks.
 #### Standardwerke
 
 - Tietze, Schenk, Gamm: [Halbleiter-Schaltungstechnik (Der "Tietze-Schenk")](http://www.tietze-schenk.de)

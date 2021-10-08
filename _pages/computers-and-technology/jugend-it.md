@@ -8,6 +8,8 @@ Im Folgenden findet Ihr Material, mit denen Ihr Jugendlichen und Kindern IT Them
 
 ## Programmieren lernen
 
+* [Little Hackers: Learning to Code for Early Readers](https://www.kickstarter.com/projects/littlehackers/little-hackers-learning-to-code-for-early-readers?lang=de) - Kickstarter Projekt für Kinder ab 6 (Englisch).
+
 * Pixelflut
   * [Pixel-Competition auf dem rc3](https://www.pixel-competition.de)
   * [Wiki des mag.lab zur Pixel-Competition](https://wiki.maglab.space/wiki/PixelCompetition)
