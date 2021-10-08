@@ -11,6 +11,7 @@ The following plugins help(ed) me in my daily work.
 ### Software design and documentation
 
 * [AsciiDoc](https://github.com/asciidoctor/asciidoctor-vscode) - Live preview, syntax highlighting and snippets for AsciiDoc.
+* [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Markdown linting and style checking.
 * [PlantUML](https://github.com/qjebbs/vscode-plantuml) - Rich PlantUML support.
 
 ### Language agnostic developer tools
@@ -19,7 +20,7 @@ The following plugins help(ed) me in my daily work.
 * [GitGraph](https://github.com/mhutchie/vscode-git-graph) - View a Git Graph of your repository, and perform Git actions from the graph.
 * [GitLens](https://github.com/eamodio/vscode-gitlens) - Visualize code authorship, explore Git repositories, comparison commands and more.
 * [Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) - Collaborate using Visual Studio Code.
-* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) - Searches workspace for comment tags like TODO and FIXME, and displays them in a tree view in the explorer pane. 
+* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) - Searches workspace for comment tags like TODO and FIXME, and displays them in a tree view in the explorer pane.
 
 ### JavaScript and TypeScript based languages
 
