@@ -292,3 +292,17 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 ### Miscellaneous
 
 - [Delphi Magazine](http://www.delphimagazine.com/)
+
+## Criticism
+
+After having used Delphi 10.4 for several weeks, the following issues are bothering me:
+
+### Delphi 10.4 IDE
+
+- The refactoring tool seems unreliable. Sometimes the refactoring is incomplete and I have to rename types or methods by hand.
+- Introducing folders into an existing project is not intuitive. When trying to do so I had issues with removing an obsolete file from the project - it turned out that the project view just didn't refresh properly.
+- In some cases, the code editor does not refresh compiler warnings once they have been cured.
+
+### DUnitX and TestInsight
+
+- TestInsight sometimes does not refresh test status correctly. Sometimes I need to clear the TestInsight window, re-run all tests and then only see that a test has turned from red to green.
