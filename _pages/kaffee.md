@@ -5,6 +5,34 @@ layout: default
 
 # Kaffee
 
+## Kaffeeröstereien und unsere Lieblingssorten
+
+* [Ernst Kaffeerösterei (Köln)](https://www.ernst-kaffee.de/)
+  * [House Blend](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=86) - Schokolade, Mandel, Beeren
+  * [Mombuca Espresso](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=189) - Praline, Nougat, Schokolade
+
+* [Langeooger Kaffeerösterei](https://www.langeooger.shop/)
+  * [Strandmischung](https://www.langeooger.shop/p/langeooger-strandmischung) - Feine Schokoladennote und ein kräftiger Körper
+  * [Wattmischung](https://www.langeooger.shop/p/langeooger-wattmischung) - Feine Schokoladennote und ein kräftiger Körper
+
+* [Kaffeesaurus (u.a. in Köln)](https://kaffeesaurus.com/)
+  * [Kaffeesaurus Saurus Blend](https://kaffeesaurus.com/produkt/saurus-blend) - Stark und cremig, dunkle Schokolade, Bourbon
+  * [DECAF Espresso / Filter](https://kaffeesaurus.com/produkt/decaf-espresso-filter) - Dunkle Schokolade, Bourbon
+
+* [Kaffeerösterei Mahou (Bonn)](https://www.mahou-coffeehouse.com/)
+  * [Espresso No 2 Hallo Sonnenschein](https://www.mahou-coffeehouse.com/product-page/no-2-hallo-sonnenschein) - mild-nussig, kräftig-schokoladig
+
+* [Rösterei Monopol (Stralsund)](https://kaffee-monopol.de/shop/index.html)
+  * [Monopol 6](https://kaffee-monopol.de/shop/kaffee/46-monopol-6.html) - Aromen von Schokolade und Nuss
+
+## Empfehlungen von Freunden
+
+Hier haben wir noch nicht bestellt:
+
+* [Vee's Kaffee und Bohnen GmbH (München)](https://vees-coffee.com/de/)
+
+## Tipps
+
 * Heimbarista: [Espressomühle reinigen und pflegen - Schritt für Schritt erklärt](https://www.heimbarista.com/articles/9-espressomuhle-reinigen-und-pflegen-schritt-fur-schritt-erklart)
 * Youtube: [Reinigung Eureka Mignon Puristico](https://www.youtube.com/watch?v=Hn42I3afsk8)
 * Youtube: [Eureka Mignon Silenzio Mahlscheibenwechsel](https://www.youtube.com/watch?v=pbN2QR6eS_U)
