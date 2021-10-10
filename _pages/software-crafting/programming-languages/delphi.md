@@ -66,6 +66,7 @@ The Object Pascal Handbook is a good read [[1](#ref-1)].
 
 - [RTL](https://docwiki.embarcadero.com/RADStudio/Sydney/en/RTL) - Reference about the standard libraries.
 - [System](https://docwiki.embarcadero.com/Libraries/Sydney/en/System) - Contains the Delphi run-time library (RTL) units, classes, functions, types, variables, and constants.
+- [Date and Time Support](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Date_and_Time_Support) - Delphi types, routines, and variables that add Date and Time support.
 
 ### Probably Interesting Books
 
@@ -129,7 +130,6 @@ If you are using the Community Edition of Delphi, then you need to compile the S
 
 1. In the Delphi IDE create all projects in `...\spring4d\Packages\Delphi10Sydney\Spring4D.groupproj`
 2. Run `Build.exe` with build configuration `Debug` and `Update Delphi Registry` checked for your Delphi version
-
 
 ##### Links
 
@@ -212,7 +212,7 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 - [JEDI Visual Component Library](https://github.com/project-jedi/jvcl) - over 600 Delphi visual and non-visual Delphi/C++Builder components.
 - [LockBox 3](https://github.com/TurboPack/LockBox3) - cryptography library.
 - [MMX Code Explorer](https://www.mmx-delphi.de/) - refactoring Browser with Delphi Pascal support.
-- [Spring4d](https://bitbucket.org/sglienke/spring4d/src/master/) - dependency injection framework (keywords: inversion of control / IoC container).
+- [Spring4d](https://bitbucket.org/sglienke/spring4d/src/master/) - collections, enumberables, dependency injection, encryption, reflection, inversion of control / IoC container.
 - [Virtual Treeview](https://www.jam-software.de/virtual-treeview) - treeview control.
 
 ### License Required
