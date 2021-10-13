@@ -17,7 +17,7 @@ layout: default
 - [Unit Testing](#unit-testing)
   - [Test Insight](#test-insight)
   - [DUnitX](#dunitx)
-  - [Delphi.Mocks](#delphimocks)
+  - [Mock Frameworks](#mock-frameworks)
   - [Delphi Code Coverage](#delphi-code-coverage)
   - [Further Information on Unit Testing](#further-information-on-unit-testing)
 - [Simplify Daily Work](#simplify-daily-work)
@@ -25,6 +25,8 @@ layout: default
 - [Know How](#know-how)
   - [Good Practices](#good-practices)
   - [Programming Patterns](#programming-patterns)
+  - [FireDAC Database Access](#firedac-database-access)
+  - [Other Libraries](#other-libraries)
 - [Useful Components and IDE Extensions](#useful-components-and-ide-extensions)
   - [Open Source OR Free for Personal Use](#open-source-or-free-for-personal-use)
   - [License Required](#license-required)
@@ -34,8 +36,13 @@ layout: default
   - [Links Regarding Services and Microservices](#links-regarding-services-and-microservices)
   - [Example: Customer Relationship Management](#example-customer-relationship-management)
 - [Links and References](#links-and-references)
+  - [Link Collections on Delphi and Pascal](#link-collections-on-delphi-and-pascal)
   - [Books](#books)
   - [Blogs](#blogs)
+  - [Magazines](#magazines)
+- [Criticism](#criticism)
+  - [Delphi 10.4 IDE](#delphi-104-ide)
+  - [DUnitX and TestInsight](#dunitx-and-testinsight)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -46,6 +53,8 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 ## Getting Started
 
 - [Learn to Program with Delphi Community Edition: Part 2 - Building and Debugging](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part2) - Learn basic Delphi by writing a simple calculator.
+
+- [Samples Repositories](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Samples_Repositories) - Information about the samples repositories on Embarcadero RAD Studio.
 
 ### Getting Started Documentation
 
@@ -93,7 +102,7 @@ Just call the RunRegisteredTests routine or manually register the Listener/Logge
 
 In **Tools &rarr; Options / Fremdhersteller (3rd party providers?) &rarr; TestInsight** check the **Run Continous Tests Silently** checkbox.
 
-#### Miscellaneous
+#### Other Topics
 
 - **Tools &rarr; Options / Fremdhersteller (3rd party providers?) &rarr; TestInsight** allows changing the ports used by TestInsight at a later point of time.
 
@@ -200,7 +209,16 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 
 - [MVVM Starter Kit](https://blog.grijjy.com/2018/01/22/mvvm-starter-kit-part-1-of-3/) - part 1 of 3 blog posts introducing MVVM.
 
-### Miscellaneous
+### FireDAC Database Access
+
+- [Defining Connection (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Defining_Connection_(FireDAC)) - Shows how to create a connection programmatically.
+- [FireDAC](https://docwiki.embarcadero.com/RADStudio/Sydney/en/FireDAC) - Overview page regarding FireDAC.
+- [General (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/General_(FireDAC)) - Overview on FireDAC architecture.
+- [Executing Commands (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Executing_Commands_(FireDAC)) - ExecSQL.
+- [Using SQLite with FireDAC](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Using_SQLite_with_FireDAC) - Introduction and overview on using SQLite databases with FireDAC.
+- [DLL-Entwicklung (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/DLL_Development_(FireDAC)) - Considerations for using FireDAC within a DLL (Wait Cursor, FFDGUIxSilentMode, prevent TFDGUIxWaitCursor exception)
+
+### Other Libraries
 
 - [System.Assert (RTL)](https://docwiki.embarcadero.com/Libraries/Sydney/en/System.Assert) - Create an assertion, i.e. make an expectation (invariant) explicit.
 
@@ -298,7 +316,7 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 
 - [VSoft Technologies Blog](https://www.finalbuilder.com/resources/blogs) - the authors of [Delphi Mocks](#delphi.mocks).
 
-### Miscellaneous
+### Magazines
 
 - [Delphi Magazine](http://www.delphimagazine.com/)
 
