@@ -45,7 +45,7 @@ To learn and get started with Delphi you can use the [Delphi Community Edition](
 
 ## Getting Started
 
-* [Learn to Program with Delphi Community Edition: Part 2 - Building and Debugging](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part2) - Learn basic Delphi by writing a simple calculator.
+- [Learn to Program with Delphi Community Edition: Part 2 - Building and Debugging](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part2) - Learn basic Delphi by writing a simple calculator.
 
 ### Getting Started Documentation
 
@@ -200,6 +200,10 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 
 - [MVVM Starter Kit](https://blog.grijjy.com/2018/01/22/mvvm-starter-kit-part-1-of-3/) - part 1 of 3 blog posts introducing MVVM.
 
+### Miscellaneous
+
+- [System.Assert (RTL)](https://docwiki.embarcadero.com/Libraries/Sydney/en/System.Assert) - Create an assertion, i.e. make an expectation (invariant) explicit.
+
 ## Useful Components and IDE Extensions
 
 ### Open Source OR Free for Personal Use
@@ -268,6 +272,11 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 1. In the `BeforeConnect` event handler check whether the DB file exists and then assign the path to `Connection.Params.Database`.
 
 ## Links and References
+
+### Link Collections on Delphi and Pascal
+
+- [Awesome Delphi](https://project-awesome.org/Fr0sT-Brutal/awesome-delphi) - A snapshot of the Awesome Pascal list just before it changed its scope from Delphi to Pascal.
+- [Awesome Pascal](https://github.com/Fr0sT-Brutal/awesome-pascal)
 
 ### Books
 
