@@ -211,6 +211,7 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 
 ### FireDAC Database Access
 
+- [Quickly Learn How To Connect And Manage A SQLite Database For Delphi/C++ Builder With SQLite Sample App](https://blogs.embarcadero.com/quickly-learn-how-to-connect-and-manage-a-sqlite-database-for-delphi-c-builder-with-sqlite-sample-app) - Blog Article.
 - [Defining Connection (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Defining_Connection_(FireDAC)) - Shows how to create a connection programmatically.
 - [FireDAC](https://docwiki.embarcadero.com/RADStudio/Sydney/en/FireDAC) - Overview page regarding FireDAC.
 - [General (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/General_(FireDAC)) - Overview on FireDAC architecture.
