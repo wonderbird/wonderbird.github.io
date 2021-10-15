@@ -26,9 +26,9 @@ Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helpe
 
 ## Conference Dates
 
-* January: [NDC London](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
+* January: [NDC London](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
-* February: [FOSDEM](https://fosdem.org/)<br>*Developers of free and open source software gather at the event in Brussels*
+* February: [FOSDEM](https://fosdem.org/) - Developers of free and open source software gather at the event in Brussels.
 
 * February: [OOP Konferenz](https://www.oop-konferenz.de/)
 dotnet-developer-conference.de/)
@@ -39,6 +39,8 @@ dotnet-developer-conference.de/)
 
 * February: [BASTA!](https://basta.net/)
 
+* Spring: [Agile Meets Architecture](https://www.agile-meets-architecture.com/)
+
 * March: [Javaland](https://www.javaland.eu/de/home/)
 
 * March: [Software Architecture Summit](https://software-architecture-summit.de/programm/)
@@ -47,11 +49,11 @@ dotnet-developer-conference.de/)
 
 * April: [API Conference](https://apiconference.net/)
 
-* April: [SEACON digital](https://www.sea-con.de/) *Software Engineering and Architecture*
+* April: [SEACON digital](https://www.sea-con.de/) - Software Engineering and Architecture.
 
 * May: [QCon](https://qconferences.com/)
 
-* May: [JAX](https://jax.de/)<br>*Treffpunkt für Java- und Softwarearchitektur-Enthusiasten*
+* May: [JAX](https://jax.de/) - Meeting spot for Java and software architecture enthusiasts.
 
 * May: [Microsoft Build](https://mybuild.microsoft.com/)
 
@@ -67,13 +69,13 @@ dotnet-developer-conference.de/)
 
 * June/July: [Devoxx France](https://devoxx.com/)
 
-* July: [NDC Melbourne](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
+* July: [NDC Melbourne](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
 * [TDD Conference](http://tddconf.com/) - Examine how far we've gotten with our TDD practice, and what we see as the next steps ([YouTube: TDDconf 2021](https://www.youtube.com/watch?v=-_noEVCR__I))
 
-* August: [NDC Minnesota](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
+* August: [NDC Minnesota](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
-* September: [NDC Oslo](https://ndcconferences.com/)<br>*NDC Conferences delivers high-end events for software developers*
+* September: [NDC Oslo](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
 * September: [Software Architecture Summit](https://software-architecture-summit.de/programm/)
 
@@ -95,9 +97,11 @@ dotnet-developer-conference.de/)
 
 * November: [QCon](https://qconferences.com/)
 
+* November: [Kanban Community Days - KCD](https://kcd21.eu/)
+
 * November: [DDC Dotnet Developer Conference](https://www.dotnet-developer-conference.de/)
 
-* November: [W-JAX](https://jax.de/)<br>*Treffpunkt für Java- und Softwarearchitektur-Enthusiasten*)
+* November: [W-JAX](https://jax.de/) - Meeting spot for Java and software architecture enthusiasts.
 
 * December: [IT Tage](https://www.ittage.informatik-aktuell.de/konferenz/einfuehrung.html)
 
