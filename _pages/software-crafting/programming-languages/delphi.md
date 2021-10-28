@@ -107,7 +107,7 @@ While learning Delphi I have encountered the following questions:
 
 Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstance>.Free()` in a `TForm.FormDestroy` method? (see section "Wiring the Buttons to the Code" in [Learn to Program with Delphi Community Edition: Part 5 - Putting the Calculator Together](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part5))
 
-A: If you use an interface as the variable type, then reference counters are used and the instance is freed automatically. If you don't use an interface as the variable type, then the instance is must be cleaned up. The entire story about memory management with ownership, weak references and reference counting is told in chapter "13 Objects and Memory" in Maco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021).
+A: If you use an interface as the variable type, then reference counters are used and the instance is freed automatically. If you don't use an interface as the variable type, then the instance is must be cleaned up. The entire story about memory management with ownership, weak references and reference counting is told in chapter "13 Objects and Memory" in Maco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) [[1](#ref-1)].
 
 Note that in chapter "Smart Pointers in Object Pascal" [[1](#ref-1)], Marco Cantú introduces a Smart Pointer implementation for Delphi &lt; 10.4 and another one for Delphi &gt;= 10.4. Erik Bilsen disucsses the latter solution in his blog entry [Custom Managed Records for Smart Pointers](https://blog.grijjy.com/2020/08/12/custom-managed-records-for-smart-pointers/).
 
