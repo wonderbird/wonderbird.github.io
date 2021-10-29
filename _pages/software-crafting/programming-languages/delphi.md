@@ -4,93 +4,152 @@ layout: default
 ---
 # Delphi
 
-<!-- doctoc --maxlevel 2 _pages/software-crafting/programming-languages/delphi.md -->
+<!-- doctoc --maxlevel 3 _pages/software-crafting/programming-languages/delphi.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Download and Install](#download-and-install)
 - [Getting Started](#getting-started)
-  - [Getting Started Documentation](#getting-started-documentation)
-- [Language References](#language-references)
-  - [Probably Interesting Books](#probably-interesting-books)
-- [Unit Testing](#unit-testing)
-  - [Test Insight](#test-insight)
-  - [DUnitX](#dunitx)
-  - [Mock Frameworks](#mock-frameworks)
-  - [Delphi Code Coverage](#delphi-code-coverage)
-  - [Further Information on Unit Testing](#further-information-on-unit-testing)
-- [Simplify Daily Work](#simplify-daily-work)
-- [Visual Studio Code Plugins](#visual-studio-code-plugins)
-- [Know How](#know-how)
-  - [Good Practices](#good-practices)
-  - [Programming Patterns](#programming-patterns)
+  - [Download and Install](#download-and-install)
+  - [Getting Started by Example](#getting-started-by-example)
+  - [Next Things to Read and Do](#next-things-to-read-and-do)
+- [Improving Daily Work](#improving-daily-work)
+  - [Language References](#language-references)
+  - [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [Know How, Tips and Tricks](#know-how-tips-and-tricks)
+  - [Coding Support: Components and IDE Extensions for Delphi RAD Studio](#coding-support-components-and-ide-extensions-for-delphi-rad-studio)
+  - [Visual Studio Code Plugins](#visual-studio-code-plugins)
+- [Techniques](#techniques)
+  - [Unit Testing](#unit-testing)
+  - [Services and Microservices](#services-and-microservices)
   - [FireDAC Database Access](#firedac-database-access)
-  - [Other Libraries](#other-libraries)
-- [Useful Components and IDE Extensions](#useful-components-and-ide-extensions)
-  - [Open Source OR Free for Personal Use](#open-source-or-free-for-personal-use)
-  - [License Required](#license-required)
-- [Questions](#questions)
-  - [Memory Management](#memory-management)
-- [Services and Microservices](#services-and-microservices)
-  - [Links Regarding Services and Microservices](#links-regarding-services-and-microservices)
-  - [Example: Customer Relationship Management](#example-customer-relationship-management)
+  - [Accessing a SQL Lite Database via FireDAC](#accessing-a-sql-lite-database-via-firedac)
+  - [Miscellaneous Programming Libraries](#miscellaneous-programming-libraries)
 - [Links and References](#links-and-references)
   - [Link Collections on Delphi and Pascal](#link-collections-on-delphi-and-pascal)
   - [Books](#books)
   - [Blogs](#blogs)
   - [Magazines](#magazines)
-- [Criticism](#criticism)
+- [Criticism and Troubleshooting](#criticism-and-troubleshooting)
   - [Delphi 10.4 IDE](#delphi-104-ide)
   - [DUnitX and TestInsight](#dunitx-and-testinsight)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Download and Install
+## Getting Started
+
+### Download and Install
 
 To learn and get started with Delphi you can use the [Delphi Community Edition](https://www.embarcadero.com/products/delphi/starter/free-download?aldSet=en-GB).
 
-## Getting Started
+### Getting Started by Example
 
 - [Learn to Program with Delphi Community Edition: Part 2 - Building and Debugging](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part2) - Learn basic Delphi by writing a simple calculator.
 
 - [Samples Repositories](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Samples_Repositories) - Information about the samples repositories on Embarcadero RAD Studio.
 
-### Getting Started Documentation
+### Next Things to Read and Do
 
 - [Delphi Basics](http://www.delphibasics.co.uk/) - introduction to Delphi for newcomers, and ready reference for experienced programmers.
+
 - [Learn to Program with Community Edition](https://blogs.embarcadero.com/learn-to-program-with-community-edition/) - Learn basic Delphi and C++ Builder by writing a simple calculator.
+
 - [Delphi Boot Camp Recording](https://blogs.embarcadero.com/delphi-boot-camp-with-100-off-delphi/) - 5 videos introducing Delphi development.
+
 - [Developer Skill Sprints](https://www.youtube.com/playlist?list=PLwUPJvR9mZHhZTajVWsgaFPLtDA-t1Xwc) - Fast programming tips, tricks and techniques.
+
 - [Help for RAD Studio 10.4 Sydney](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Main_Page) - Official documentation wiki for Delphi.
   - [Tutorials](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Tutorials)
+
 - [YouTube: EmbarcaderoTechNet](https://www.youtube.com/user/EmbarcaderoTechNet) - The "Embarcadero Technologies" YouTube channel.
+
 - [GitHub: Embarcadero](https://github.com/Embarcadero) - Embarcadero on GitHub.
 
 At the end of the page you can find further references including the [Books](#books) section.
 
 The Object Pascal Handbook is a good read [[1](#ref-1)].
 
-## Language References
+## Improving Daily Work
+
+### Language References
 
 - [RTL](https://docwiki.embarcadero.com/RADStudio/Sydney/en/RTL) - Reference about the standard libraries.
+
 - [System](https://docwiki.embarcadero.com/Libraries/Sydney/en/System) - Contains the Delphi run-time library (RTL) units, classes, functions, types, variables, and constants.
+
 - [Date and Time Support](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Date_and_Time_Support) - Delphi types, routines, and variables that add Date and Time support.
 
-### Probably Interesting Books
+### Keyboard Shortcuts
 
-- Huw Collingbourne: [The Little Book Of Delphi Programming: Learn To Program with Object Pascal](https://www.amazon.de/Little-Book-Delphi-Programming-Program/dp/1913132099/)
-- Nick Hodges: [Coding in Delphi](https://www.amazon.de/Coding-Delphi-Nick-Hodges/dp/1941266037/)
+- [Default Keyboard Shortcuts](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Default_Keyboard_Shortcuts) - a table showing all shortcuts.
 
-## Unit Testing
+- [RADStudio IDE Keyboard Shortcuts Guide](https://blogs.embarcadero.com/radstudio-ide-keyboard-shortcuts-guide/) - with printable keyboard cheat sheet.
 
-### Test Insight
+### Know How, Tips and Tricks
+
+#### Good Practices
+
+- From every constructor call the base constructor first. This ensures that all members are initialized when a derived constructor expects them to be [[1](#ref-1)], p. 389
+- Every destructor should be virtual. This ensures that all memory allocated by derived classes gets freed even if you call `Free` for a base type [[1](#ref-1)], p. 389
+- From every destructor call the base destructor last. This ensures that all memory allocated by parent classes gets freed after depending memory has been freed in derived classes [[1](#ref-1)], p. 389
+- In a destructor never assume the object has been fully initialized, because the constructor might throw an exception while still allocating objects. Thus, always check `assigned(object)` before `object.Free` in the destructor [[1](#ref-1)], p.390
+
+#### Tips and Tricks
+
+- Create line breaks in string messages: `'Hello'#13#10'World'`
+- Path and file name operations: `TPath`, `TFile` (cross platform)
+- Path of the current executable: `TPath.GetLibraryPath` (on iOS this may be the ZIP file containing the executable)
+- Implementing Smart Pointers is described in [[1](#ref-1)], pp. 436
+
+#### Memory Management Insights
+
+While learning Delphi I have encountered the following questions:
+
+Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstance>.Free()` in a `TForm.FormDestroy` method? (see section "Wiring the Buttons to the Code" in [Learn to Program with Delphi Community Edition: Part 5 - Putting the Calculator Together](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part5))
+
+A: If you use an interface as the variable type, then reference counters are used and the instance is freed automatically. If you don't use an interface as the variable type, then the instance is must be cleaned up. The entire story about memory management with ownership, weak references and reference counting is told in chapter "13 Objects and Memory" in Maco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021) [[1](#ref-1)].
+
+Note that in chapter "Smart Pointers in Object Pascal" [[1](#ref-1)], Marco Cantú introduces a Smart Pointer implementation for Delphi &lt; 10.4 and another one for Delphi &gt;= 10.4. Erik Bilsen disucsses the latter solution in his blog entry [Custom Managed Records for Smart Pointers](https://blog.grijjy.com/2020/08/12/custom-managed-records-for-smart-pointers/).
+
+### Coding Support: Components and IDE Extensions for Delphi RAD Studio
+
+#### Open Source OR Free for Personal Use
+
+- [CodeSite](https://raize.com/codesite/) - logging system with specialized log viewers.
+- [https://bitbucket.org/sglienke/dsharp](https://bitbucket.org/sglienke/dsharp/src/master/) - MVVM and mocks for Delphi.
+- [JEDI Component Library JCL](https://github.com/project-jedi/jcl) - thoroughly tested and fully documented utility functions and non-visual classes.
+- [JEDI Visual Component Library](https://github.com/project-jedi/jvcl) - over 600 Delphi visual and non-visual Delphi/C++Builder components.
+- [LockBox 3](https://github.com/TurboPack/LockBox3) - cryptography library.
+- [MMX Code Explorer](https://www.mmx-delphi.de/) - refactoring Browser with Delphi Pascal support.
+- [Spring4d](https://bitbucket.org/sglienke/spring4d/src/master/) - collections, enumberables, dependency injection, encryption, reflection, inversion of control / IoC container.
+- [Virtual Treeview](https://www.jam-software.de/virtual-treeview) - treeview control.
+
+#### License Required
+
+- [madExcept](http://madshi.net/madExceptDescription.htm) - exception reporter facilitating crash analysis.
+
+### Visual Studio Code Plugins
+
+[Visual Studio Code](https://code.visualstudio.com/) is an alternative to using the Embarcadero RAD Studio code editor.
+
+The following extensions are useful:
+
+- [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal) - Note the extension's instructions on installing dependencies.
+- [Pascal-Formatter](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal-formatter) - installs automatically together with [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal).
+
+Apart from that, refer to the language agnostic extensions in [Visual Studio Code Plugins](../plugins/vs-code-plugins.html)
+
+## Techniques
+
+### Unit Testing
+
+#### Test Insight
 
 [Test Insight](https://bitbucket.org/sglienke/testinsight/wiki/Home) is a unit testing IDE Plugin for Delphi which eases unit test development.
 
 After installation you can access TestInsight in the IDE by selecting **View &rarr; TestInsight Explorer**.
 
-#### Adapting your Project
+##### Adapting your Project
 
 In order to make TestInsight work with your project it needs to have the `TESTINSIGHT` compiler directive 
 defined in the project. You can do that quickly with the context menu in the project manager.
@@ -98,20 +157,20 @@ defined in the project. You can do that quickly with the context menu in the pro
 In your application you need to use the TestInsight.&lt;framework&gt; unit for the framework you are using.
 Just call the RunRegisteredTests routine or manually register the Listener/Logger to your test framework.
 
-#### Continously Testing (Watch Tests)
+##### Continously Testing (Watch Tests)
 
 In **Tools &rarr; Options / Fremdhersteller (3rd party providers?) &rarr; TestInsight** check the **Run Continous Tests Silently** checkbox.
 
-#### Other Topics
+##### Other Topics
 
 - **Tools &rarr; Options / Fremdhersteller (3rd party providers?) &rarr; TestInsight** allows changing the ports used by TestInsight at a later point of time.
 
-### DUnitX
+#### DUnitX
 
 - [Von 0 auf 100 - DUnitX - Ein Testframework für Delphi](https://www.youtube.com/watch?v=2WPlVAz-cTU) - German video introduction to DUnitX and Test Insight.
   - [Delphi-PRAXIS: Von 0 auf 100 - DUnitX - Ein Testframework für Delphi](https://www.delphipraxis.net/202317-von-0-auf-100-dunitx-ein-testframework-fuer-delphi-3.html) - Forum to discuss questions regarding DUnitX.
 
-#### Installing the DUnitX Expert into Delphi
+##### Installing the DUnitX Expert into Delphi
 
 [DUnitX](https://github.com/VSoftTechnologies/DUnitX) includes a UI component.
 
@@ -129,18 +188,18 @@ Notes:
 
 - DUnitX can create NUnit compatible output for use in a build server and test result monitoring environment.
 
-### Mock Frameworks
+#### Mock Frameworks
 
-#### Spring4D (Spring.Mocking)
+##### Spring4D (Spring.Mocking)
 
-##### Attention
+###### Attention
 
 If you are using the Community Edition of Delphi, then you need to compile the Spring4D projects from within the Delphi IDE. Otherwise, the `Build.exe` will not create `.dcu` files in the `Library` subfolder.
 
 1. In the Delphi IDE create all projects in `...\spring4d\Packages\Delphi10Sydney\Spring4D.groupproj`
 2. Run `Build.exe` with build configuration `Debug` and `Update Delphi Registry` checked for your Delphi version
 
-##### Links
+###### Spring4D Links
 
 - [GitHub: Spring4D](https://bitbucket.org/sglienke/spring4d/src/master/)
   - [docs.spring4d.org](http://docs.spring4d.org/) - Spring4D reference documentation.
@@ -149,7 +208,7 @@ If you are using the Community Edition of Delphi, then you need to compile the S
 
 - [Quickly Learn Mocking In Delphi With Spring4D](https://blogs.embarcadero.com/quickly-learn-mocking-in-delphi-with-spring4d/) - Video introduction to mocking with Spring4D
 
-#### Delphi.Mocks
+##### Delphi.Mocks
 
 - [GitHub: Delphi.Mocks](https://github.com/VSoftTechnologies/Delphi-Mocks) - GitHub project of Delphi.Mocks.
 
@@ -159,13 +218,13 @@ If you are using the Community Edition of Delphi, then you need to compile the S
 
 - [Delphi-Mocks Parameter Matchers](https://www.finalbuilder.com/resources/blogs/delphi-mocks-parameter-matchers) - place tighter controls on verifying that a mocked interface/object method is called.
 
-### Delphi Code Coverage
+#### Delphi Code Coverage
 
 - [Delphi Code Coverage](https://github.com/DelphiCodeCoverage/DelphiCodeCoverage) - creates code coverage reports based on detailed MAP files.
 
 - [Delphi Code Coverage Wizard](https://github.com/trident-job/delphi-code-coverage-wizard) - wizard to setup and build scripts for [Delphi Code Coverage](https://github.com/DelphiCodeCoverage/DelphiCodeCoverage).
 
-### Further Information on Unit Testing
+#### Further Information on Unit Testing
 
 - [Unit Testing Overview](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Unit_Testing_Overview) - Getting started with DUnit based unit testing.
 - [DUnitX Overview](https://docwiki.embarcadero.com/RADStudio/Sydney/en/DUnitX_Overview)
@@ -174,40 +233,16 @@ If you are using the Community Edition of Delphi, then you need to compile the S
   - [Delphi-Praxis: DUnitX Forum](https://en.delphipraxis.net/forum/36-dunitx/) - Disucss DUnitX topics.
 - [Test Insight](https://bitbucket.org/sglienke/testinsight/wiki/Home) - Delphi plugin simplifying unit test development.
 
-## Simplify Daily Work
+### Services and Microservices
 
-- [Default Keyboard Shortcuts](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Default_Keyboard_Shortcuts) - a table showing all shortcuts.
+#### Links Regarding Services and Microservices
 
-- [RADStudio IDE Keyboard Shortcuts Guide](https://blogs.embarcadero.com/radstudio-ide-keyboard-shortcuts-guide/) - with printable keyboard cheat sheet.
-
-## Visual Studio Code Plugins
-
-[Visual Studio Code](https://code.visualstudio.com/) is an alternative to using the Embarcadero RAD Studio code editor.
-
-The following extensions are useful:
-
-- [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal) - Note the extension's instructions on installing dependencies.
-- [Pascal-Formatter](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal-formatter) - installs automatically together with [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal).
-
-Apart from that, refer to the language agnostic extensions in [Visual Studio Code Plugins](../plugins/vs-code-plugins.html)
-
-## Know How
-
-- Create line breaks in string messages: `'Hello'#13#10'World'`
-- Path and file name operations: `TPath`, `TFile` (cross platform)
-- Path of the current executable: `TPath.GetLibraryPath` (on iOS this may be the ZIP file containing the executable)
-- Implementing Smart Pointers is described in [[1](#ref-1)], pp. 436
-
-### Good Practices
-
-- From every constructor call the base constructor first. This ensures that all members are initialized when a derived constructor expects them to be [[1](#ref-1)], p. 389
-- Every destructor should be virtual. This ensures that all memory allocated by derived classes gets freed even if you call `Free` for a base type [[1](#ref-1)], p. 389
-- From every destructor call the base destructor last. This ensures that all memory allocated by parent classes gets freed after depending memory has been freed in derived classes [[1](#ref-1)], p. 389
-- In a destructor never assume the object has been fully initialized, because the constructor might throw an exception while still allocating objects. Thus, always check `assigned(object)` before `object.Free` in the destructor [[1](#ref-1)], p.390
-
-### Programming Patterns
-
-- [MVVM Starter Kit](https://blog.grijjy.com/2018/01/22/mvvm-starter-kit-part-1-of-3/) - part 1 of 3 blog posts introducing MVVM.
+- [Überblick über RAD Server](https://docwiki.embarcadero.com/RADStudio/Sydney/de/%C3%9Cberblick_%C3%BCber_RAD_Server) - Overview on RAD Server for developing service oriented architectures.
+  - [RAD Server Deep Dive Webinar](https://www.youtube.com/playlist?list=PLwUPJvR9mZHgccq4EfTcsCngRqpTmm_wn) - Detailed introduction into service oriented architecture development in Delphi.
+    - [Demo: RAD Server Development](https://youtu.be/f8rAGLnop4s?t=1008) - Starting point of "Develop a RAD Server application package" in the first video. Uses a "Retail Store" business scenario - users check-in via mobile app and receive special offers of the day by their location.
+    - [Demo: Embedded Auto Documentation API](https://www.youtube.com/watch?v=f8rAGLnop4s&t=2085s) - Starting point of Swagger API documentation generator.
+  - [DockerHub: radstudio/paserver](https://hub.docker.com/r/radstudio/paserver) - Docker container to host RAD Server services.
+- [Docker-Bereitstellung für RAD Server](https://docwiki.embarcadero.com/RADStudio/Sydney/de/Docker-Bereitstellung_f%C3%BCr_RAD_Server) - Overview on hosting Delphi services in Linux based Docker containers.
 
 ### FireDAC Database Access
 
@@ -219,57 +254,11 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 - [Using SQLite with FireDAC](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Using_SQLite_with_FireDAC) - Introduction and overview on using SQLite databases with FireDAC.
 - [DLL-Entwicklung (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/DLL_Development_(FireDAC)) - Considerations for using FireDAC within a DLL (Wait Cursor, FFDGUIxSilentMode, prevent TFDGUIxWaitCursor exception)
 
-### Other Libraries
+### Accessing a SQL Lite Database via FireDAC
 
-- [System.Assert (RTL)](https://docwiki.embarcadero.com/Libraries/Sydney/en/System.Assert) - Create an assertion, i.e. make an expectation (invariant) explicit.
+- [GitHub: Repository Pattern](https://github.com/wonderbird/gof-patterns/tree/main/Repository) - Programmatically using a SQLite DB via FireDAC.
 
-## Useful Components and IDE Extensions
-
-### Open Source OR Free for Personal Use
-
-#### Coding Support
-
-- [CodeSite](https://raize.com/codesite/) - logging system with specialized log viewers.
-- [https://bitbucket.org/sglienke/dsharp](https://bitbucket.org/sglienke/dsharp/src/master/) - MVVM and mocks for Delphi.
-- [JEDI Component Library JCL](https://github.com/project-jedi/jcl) - thoroughly tested and fully documented utility functions and non-visual classes.
-- [JEDI Visual Component Library](https://github.com/project-jedi/jvcl) - over 600 Delphi visual and non-visual Delphi/C++Builder components.
-- [LockBox 3](https://github.com/TurboPack/LockBox3) - cryptography library.
-- [MMX Code Explorer](https://www.mmx-delphi.de/) - refactoring Browser with Delphi Pascal support.
-- [Spring4d](https://bitbucket.org/sglienke/spring4d/src/master/) - collections, enumberables, dependency injection, encryption, reflection, inversion of control / IoC container.
-- [Virtual Treeview](https://www.jam-software.de/virtual-treeview) - treeview control.
-
-### License Required
-
-- [madExcept](http://madshi.net/madExceptDescription.htm) - exception reporter facilitating crash analysis.
-
-## Questions
-
-While learning Delphi I have encountered the following questions:
-
-### Memory Management
-
-Q: Does Delphi have a Garbage Collector? Why do I have to call `<MyObjectInstance>.Free()` in a `TForm.FormDestroy` method? (see section "Wiring the Buttons to the Code" in [Learn to Program with Delphi Community Edition: Part 5 - Putting the Calculator Together](https://community.embarcadero.com/blogs/entry/Learn-DelphiCE-Part5))
-
-A: If you use an interface as the variable type, then reference counters are used and the instance is freed automatically. If you don't use an interface as the variable type, then the instance is must be cleaned up. The entire story about memory management with ownership, weak references and reference counting is told in chapter "13 Objects and Memory" in Maco Cantú: [Object Pascal Handbook](https://lp.embarcadero.com/Object-Pascal-Handbook-2021).
-
-Note that in chapter "Smart Pointers in Object Pascal" [[1](#ref-1)], Marco Cantú introduces a Smart Pointer implementation for Delphi &lt; 10.4 and another one for Delphi &rt;= 10.4. Erik Bilsen disucsses the latter solution in his blog entry [Custom Managed Records for Smart Pointers](https://blog.grijjy.com/2020/08/12/custom-managed-records-for-smart-pointers/).
-
-## Services and Microservices
-
-### Links Regarding Services and Microservices
-
-- [Überblick über RAD Server](https://docwiki.embarcadero.com/RADStudio/Sydney/de/%C3%9Cberblick_%C3%BCber_RAD_Server) - Overview on RAD Server for developing service oriented architectures.
-  - [RAD Server Deep Dive Webinar](https://www.youtube.com/playlist?list=PLwUPJvR9mZHgccq4EfTcsCngRqpTmm_wn) - Detailed introduction into service oriented architecture development in Delphi.
-    - [Demo: RAD Server Development](https://youtu.be/f8rAGLnop4s?t=1008) - Starting point of "Develop a RAD Server application package" in the first video. Uses a "Retail Store" business scenario - users check-in via mobile app and receive special offers of the day by their location.
-    - [Demo: Embedded Auto Documentation API](https://www.youtube.com/watch?v=f8rAGLnop4s&t=2085s) - Starting point of Swagger API documentation generator.
-  - [DockerHub: radstudio/paserver](https://hub.docker.com/r/radstudio/paserver) - Docker container to host RAD Server services.
-- [Docker-Bereitstellung für RAD Server](https://docwiki.embarcadero.com/RADStudio/Sydney/de/Docker-Bereitstellung_f%C3%BCr_RAD_Server) - Overview on hosting Delphi services in Linux based Docker containers.
-
-### Example: Customer Relationship Management
-
-This example is explained in detail in the video "Delphi Apps als Docker-Container bereitstellen" which Olaf Monien and Holger Flick presented during the [Code Rage 2021](https://lp.embarcadero.com/CodeRageGermany2021).
-
-#### Accessing a SQL Lite Database
+#### Step by Step: Using FireDAC from the Visual Designer
 
 ##### Configure the DB Connection
 
@@ -286,9 +275,15 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 2. From the **Object Inspector** dialog open the `FireDAC Query Editor`
 3. Configure your SQL query with parameters and design time defaults for the parameters
 
-##### Preparing the Application at Runtime
+##### Prepare the Application at Runtime
 
 1. In the `BeforeConnect` event handler check whether the DB file exists and then assign the path to `Connection.Params.Database`.
+
+### Miscellaneous Programming Libraries
+
+- [MVVM Starter Kit](https://blog.grijjy.com/2018/01/22/mvvm-starter-kit-part-1-of-3/) - part 1 of 3 blog posts introducing MVVM.
+
+- [System.Assert (RTL)](https://docwiki.embarcadero.com/Libraries/Sydney/en/System.Assert) - Create an assertion, i.e. make an expectation (invariant) explicit.
 
 ## Links and References
 
@@ -307,6 +302,8 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 
 <a name="ref-3">[3]</a> Nick Hodges: [More Coding in Delhpi](https://isbnsearch.org/isbn/194126610X)
 
+<a name="ref-4">[4]</a> Huw Collingbourne: [The Little Book Of Delphi Programming: Learn To Program with Object Pascal](https://www.amazon.de/Little-Book-Delphi-Programming-Program/dp/1913132099/)
+
 ### Blogs
 
 - [Uwe Raabe](https://www.uweraabe.de/Blog/) - by the author of the MMX Code Explorer.
@@ -321,7 +318,7 @@ This example is explained in detail in the video "Delphi Apps als Docker-Contain
 
 - [Delphi Magazine](http://www.delphimagazine.com/)
 
-## Criticism
+## Criticism and Troubleshooting
 
 After having used Delphi 10.4 for several weeks, the following issues are bothering me:
 
