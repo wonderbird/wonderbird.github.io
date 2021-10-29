@@ -328,6 +328,7 @@ After having used Delphi 10.4 for several weeks, the following issues are bother
 ### Delphi 10.4 IDE
 
 - The refactoring tool seems unreliable. Sometimes the refactoring is incomplete and I have to rename types or methods by hand.
+  - **Refactoring &rarr; Inline Variable** does not work.
 - Introducing folders into an existing project is not intuitive. When trying to do so I had issues with removing an obsolete file from the project - it turned out that the project view just didn't refresh properly.
 - In some cases, the code editor does not refresh compiler warnings once they have been cured.
 
