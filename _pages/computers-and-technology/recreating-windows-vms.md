@@ -7,7 +7,7 @@ layout: default
 
 ## Rationale
 
-As a Mac user I have a Parallels virtual machine for my Windows applications. Every now and then the machine has accumulated so many applications I install for test purposes, that it consumes a large amount of disk space, is slow and the software is outdated. Thus, I destroy the machine regularly and set it up from scratch. In this, the [Chocolatey](https://www.chocolatey.org) package manager comes in as a great helper. It streamlines the re-installation of my virtual machine.
+As a Mac user I have a virtual machine for my Windows applications (Parallels or in Azure). Every now and then the machine has accumulated so many applications I install for test purposes, that it consumes a large amount of disk space, is slow and the software is outdated. Thus, I destroy the machine regularly and set it up from scratch. In this, the [Chocolatey](https://www.chocolatey.org) package manager comes in as a great helper. It streamlines the re-installation of my virtual machine.
 
 ## Recreate a Windows VM
 
@@ -23,7 +23,7 @@ From your current VM instance ...
 
 1. Remove all the packages from the exported lists, which you don't need any longer
 
-**Note:**¥
+**Note:**
 
 At the moment I do not save Application Settings
 
@@ -33,9 +33,11 @@ At the moment I do not save Application Settings
 
 1. Install all pending Windows Updates
 
-1. Install Parallels Tools and activate the shared clipboard
+1. (Parallels) Install Parallels Tools and activate the shared clipboard
 
 1. Install Chocolatey
+
+1. (Azure VM) Install a means to share data with your remote pc, e.g. NextCloud.
 
 1. Install the Chocolatey packages you have exported previously: `choco install packages.config -y`
 
@@ -51,9 +53,19 @@ At the moment I do not save Application Settings
 
 ### Export Installed Chocolatey Packages
 
+Hint: Upgrade your chocolatey packages first: `choco upgrade all`
+
+#### Easy way: ChocolateyGUI
+
+1. Install ChocolateyGUI: `choco install chocolateygui`
+
+1. Click the **Save** button to export all installed packages.
+
+#### Without ChocolateyGUI
+
 Follow the instructions Ammaar Limbada has published on GitHub: [alimbada / ExportChocolatey.ps1](https://gist.github.com/alimbada/449ddf65b4ef9752eff3)
 
-```
+```shell
 #Put this in Export-Chocolatey.ps1 file and run it:
 #.\Export-Chocolatey.ps1 > packages.config
 #You can install the packages using
