@@ -85,6 +85,12 @@ The Object Pascal Handbook is a good read [[1](#ref-1)].
 
 - [RADStudio IDE Keyboard Shortcuts Guide](https://blogs.embarcadero.com/radstudio-ide-keyboard-shortcuts-guide/) - with printable keyboard cheat sheet.
 
+### Static Code Analysis
+
+- [Robust and Powerful Pascal Analyzer for Delphi on Windows](https://blogs.embarcadero.com/robust-and-powerful-pascal-analyzer-for-delphi-on-windows/) - Product presentation for Pascal Analyzer (PAL).
+
+- [New Major Release for Delphi Code Analyzer v2.4 with Free Download](https://blogs.embarcadero.com/new-major-release-for-delphi-code-analyzer-v2-4-with-free-download/) - Product presentation for a DelphiParser, a static code analyzer.
+
 ### Know How, Tips and Tricks
 
 #### Good Practices
@@ -304,7 +310,9 @@ If you are using the Community Edition of Delphi, then you need to compile the S
 
 <a name="ref-4">[4]</a> Huw Collingbourne: [The Little Book Of Delphi Programming: Learn To Program with Object Pascal](https://www.amazon.de/Little-Book-Delphi-Programming-Program/dp/1913132099/)
 
-### Blogs
+### Blogs and Forums
+
+- [Delphi-PRAXIS](https://www.delphipraxis.net/) - German forum on Delphi and associated development tools.
 
 - [Uwe Raabe](https://www.uweraabe.de/Blog/) - by the author of the MMX Code Explorer.
 
