@@ -60,6 +60,7 @@ This guide shows how one can learn a new programming language systematically
 - [innoq Veranstaltungskalender](https://www.innoq.com/de/upcoming/)
 - [wps Work Place Solutions Terminkalender](https://www.wps.de/category/aktuelles_events/termine/)
 - [oose Online Vorträge](https://www.oose.de/online-vortraege/)
+- [J.B. Rainsberger](https://www.jbrains.ca/) - teaching programmers how to design software well. 
 - [codecentric community](https://www.codecentric.de/aktuelles/community)
 
 ### Conferences

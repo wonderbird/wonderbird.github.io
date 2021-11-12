@@ -11,6 +11,8 @@ layout: default
 * Code Climate: [Code Climate Products Velocity and Quality](https://codeclimate.com), last visited on Oct. 13, 2020
 * Changhui Xu: [Code Coverage in .NET Core Projects](https://codeburst.io/code-coverage-in-net-core-projects-c3d6536fd7d7), last visited on Oct. 13, 2020
 
+I am (have been) evaluating [CodeScene](https://codescene.com). On this page I am sharing my lessons learned: [My CodeScene Documentation](codescene.html)
+
 ## Some projects I have instrumented with code analysis
 
 The links show the repository in GitHub. Click the badges to go to the linked code analysis tools. Most tools are configured in the CI script available in the respective `.github/` subfolder of the repository.

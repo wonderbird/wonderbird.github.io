@@ -85,6 +85,12 @@ The Object Pascal Handbook is a good read [[1](#ref-1)].
 
 - [RADStudio IDE Keyboard Shortcuts Guide](https://blogs.embarcadero.com/radstudio-ide-keyboard-shortcuts-guide/) - with printable keyboard cheat sheet.
 
+### Static Code Analysis
+
+- [Robust and Powerful Pascal Analyzer for Delphi on Windows](https://blogs.embarcadero.com/robust-and-powerful-pascal-analyzer-for-delphi-on-windows/) - Product presentation for Pascal Analyzer (PAL).
+
+- [New Major Release for Delphi Code Analyzer v2.4 with Free Download](https://blogs.embarcadero.com/new-major-release-for-delphi-code-analyzer-v2-4-with-free-download/) - Product presentation for a DelphiParser, a static code analyzer.
+
 ### Know How, Tips and Tricks
 
 #### Good Practices
@@ -249,8 +255,8 @@ If you are using the Community Edition of Delphi, then you need to compile the S
 - [Quickly Learn How To Connect And Manage A SQLite Database For Delphi/C++ Builder With SQLite Sample App](https://blogs.embarcadero.com/quickly-learn-how-to-connect-and-manage-a-sqlite-database-for-delphi-c-builder-with-sqlite-sample-app) - Blog Article.
 - [Defining Connection (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Defining_Connection_(FireDAC)) - Shows how to create a connection programmatically.
 - [FireDAC](https://docwiki.embarcadero.com/RADStudio/Sydney/en/FireDAC) - Overview page regarding FireDAC.
-- [General (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/General_(FireDAC)) - Overview on FireDAC architecture.
-- [Executing Commands (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Executing_Commands_(FireDAC)) - ExecSQL.
+  - [General (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/General_(FireDAC)) - Overview on FireDAC architecture.
+  - [Executing Commands (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Executing_Commands_(FireDAC)) - ExecSQL.
 - [Using SQLite with FireDAC](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Using_SQLite_with_FireDAC) - Introduction and overview on using SQLite databases with FireDAC.
 - [DLL-Entwicklung (FireDAC)](https://docwiki.embarcadero.com/RADStudio/Sydney/en/DLL_Development_(FireDAC)) - Considerations for using FireDAC within a DLL (Wait Cursor, FFDGUIxSilentMode, prevent TFDGUIxWaitCursor exception)
 
@@ -304,7 +310,11 @@ If you are using the Community Edition of Delphi, then you need to compile the S
 
 <a name="ref-4">[4]</a> Huw Collingbourne: [The Little Book Of Delphi Programming: Learn To Program with Object Pascal](https://www.amazon.de/Little-Book-Delphi-Programming-Program/dp/1913132099/)
 
-### Blogs
+### Blogs and Forums
+
+- [Delphi-PRAXIS](https://www.delphipraxis.net/) - German forum on Delphi and associated development tools.
+
+- [Delphi Sorcery](https://delphisorcery.blogspot.com/) - blog by Stefan Glienke, the developer behind TestInsight and Spring4D).
 
 - [Uwe Raabe](https://www.uweraabe.de/Blog/) - by the author of the MMX Code Explorer.
 

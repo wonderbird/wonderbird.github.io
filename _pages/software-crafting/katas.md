@@ -37,6 +37,7 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 
 ## Kata Catalogues
 
+- Emily Bache: [github://emilybache](https://github.com/emilybache) - many katas, front page lists refactoring katas.
 - Steve Smith (aka ardalis): [Coding Kata Catalog](https://github.com/ardalis/kata-catalog)
 - Coding Dojo: [Kata Catalogue](https://codingdojo.org/KataCatalogue/)
 - [CodeKata.com](http://codekata.com/)
