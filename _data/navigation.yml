@@ -89,6 +89,8 @@ software-crafting:
     url: /pages/software-crafting/clean-code.html
   - title: Code Analysis
     url: /pages/software-crafting/code-analysis.html
+  - title: CodeScene
+    url: /pages/software-crafting/codescene.html
   - title: Conferences
     url: /pages/software-crafting/conferences.html
   - title: Docker
