@@ -24,14 +24,23 @@ To request a free trial period, click **Try for Free** on [CodeScene Pricing](ht
 
 #### Running on Docker
 
-1. Run the commands in section **Git Repository Access** of [[2]](ref-2) to generate an SSH key allowing the `codescene` user read access to the git repositories.
+##### Warning
 
+ The docker instance will contain an **unprotected SSH key** saved in `codescene/.ssh`. This will allow the `codescene` user read access to your git repositories. For your repositories, create a **separate dedicated user** with **minimal access rights** and think about information security. In addition, consider this problematic key in your **backup strategy**.
+
+##### Running
+
+- Follow the instructions in section **Example: Run CodeScene using docker** of of [[2]]
+
+- For git repository access the instructions include the commands showing in section **Git Repository Access** of [[2]](ref-2).
 
 #### Special Use Cases
 
 - [github://empear-analytics/docker-codescene-nginx-self-signed-ssl](https://github.com/empear-analytics/docker-codescene-nginx-self-signed-ssl#prepare-the-host-and-reverse-proxy-configuration-for-letsencrypt-ssl-certificate) - Example: Using SSL with CodeScene behind an nginx reverse proxy on Docker
 
-### Maintenance
+### Maintenance Considerations
+
+- How to securely backup the **unprotected private SSH key** stored in the `codescene/.ssh` directory?
 
 - [Database Backup](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#db-backup)
 
