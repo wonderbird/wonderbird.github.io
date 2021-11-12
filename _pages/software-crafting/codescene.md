@@ -37,9 +37,11 @@ To request a free trial period, click **Try for Free** on [CodeScene Pricing](ht
 
 ### Troubleshooting
 
-- [DB Performance](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#external-db-performance) - hints addressing the performance (the DB is usually not a bottleneck).
+- [Java Memory Configuration](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#configure-the-available-memory) - RAM is critical! The JVM should have 50-60% of a 4 GB machine or 300-500 MB in a kubernetes pod.
 
 - [Enable full stack traces](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#avoid-missing-stack-traces) - ensure that full stack traces are printed to facilitate troubleshooting java exceptions.
+
+- [DB Performance](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#external-db-performance) - hints addressing the performance (the DB is usually not a bottleneck).
 
 ### References
 
