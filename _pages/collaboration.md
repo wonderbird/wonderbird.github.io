@@ -59,6 +59,7 @@ Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for your cont
 
 You can find a collection of timers on the [Mob Programming](software-crafting/mob-programming.html) page.
 
+* [Timeanddate Timer](https://www.timeanddate.com/timer/) - Create a countdown timer for a given time period.
 * [Webcountdown](https://www.webcountdown.de/) - Create a countdown timer for a time and date in the future.
 * [Würfel / teal dice](http://a.teall.info/dice/)
 * [Select a Person / Wheel of Names](https://wheelofnames.com/)
