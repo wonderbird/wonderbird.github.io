@@ -43,6 +43,13 @@ To request a free trial period, click **Try for Free** on [CodeScene Pricing](ht
 
 - [DB Performance](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#external-db-performance) - hints addressing the performance (the DB is usually not a bottleneck).
 
+### Outlook
+
+[dockerhub://empear/codescene](https://hub.docker.com/r/empear/codescene) suggests configuring the following plugins:
+
+- Code Coverage Plugin
+- SonarQube Plugin
+
 ### References
 
 <a name="ref-1">[1]</a> [CodeScene.com](https://codescene.com) - The official CodeScene website.
