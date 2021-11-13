@@ -19,9 +19,12 @@ layout: default
 * `docker build -t friendlyhello .` baut das Dockerfile im Verzeichnis "." und gibt dem Image das Tag (-t) "friendlyhello"
 * `docker exec -it foo /bin/bash` verbindet eine Bash mit dem Container foo
 * `docker cp` kopiert eine Datei vom Docker Container auf den Host
+* `docker logs --follow codescene` hängt sich an die logs des containers "codescene" an
 * `docker logs -t myprometheus` zeigt die letzten logs des containers "myprometheus" (auch dann, wenn der container beendet wurde).
 * `docker run ... -v /some/path/file.txt:/target/in/container/file.txt ...` macht file.txt im container verfügbar
+* `docker run ... --env MYVARIABLE=value` run a container with environment variable configured
 * `docker run ... --network="mynetwork"` startet den Container im angegebenen Docker Netzwerk
+* `docker run ... --memory="4096m"` weißt dem Container beim Start 4GB RAM zu
 * `docker network list` zeigt alle Docker Netzwerke an
 
 ## Interessante Docker Container
