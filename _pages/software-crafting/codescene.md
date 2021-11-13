@@ -30,7 +30,7 @@ To request a free trial period, click **Try for Free** on [CodeScene Pricing](ht
 
 ##### Running
 
-- Follow the instructions in section **Example: Run CodeScene using docker** of of [[2]]
+- Follow the instructions in section **Example: Run CodeScene using docker** of of [[2]](ref-2)
 
 - For git repository access the instructions include the commands showing in section **Git Repository Access** of [[2]](ref-2).
 
@@ -38,11 +38,42 @@ To request a free trial period, click **Try for Free** on [CodeScene Pricing](ht
 
 - [github://empear-analytics/docker-codescene-nginx-self-signed-ssl](https://github.com/empear-analytics/docker-codescene-nginx-self-signed-ssl#prepare-the-host-and-reverse-proxy-configuration-for-letsencrypt-ssl-certificate) - Example: Using SSL with CodeScene behind an nginx reverse proxy on Docker
 
+### Configuration
+
+#### Configuration of the Trial Version
+
+- Add [Users and Roles](https://docs.enterprise.codescene.io/versions/4.5.0/configuration/users-and-roles.html)
+
+#### Configuration of the Final Installation
+
+- Configuring LDAP is described in section **Single Sign-On** of [Users and Roles](https://docs.enterprise.codescene.io/versions/4.5.0/configuration/users-and-roles.html#single-sign-on)
+
+- Follow the instructions in [CodeScene usage pattern: workflows, users, and how to successfully roll-out CodeScene](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/codescene-usage-patterns.html)
+
+### Create Projects
+
+- [Run an Analysis](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/run-an-analysis.html)
+  - Note: SSH remotes don't start with `ssh://` but directly with the user name
+
 ### Maintenance Considerations
 
 - How to securely backup the **unprotected private SSH key** stored in the `codescene/.ssh` directory?
 
 - [Database Backup](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#db-backup)
+
+#### Inspecting the Running CodeScene Container
+
+```shell
+# display and follow the container logs
+docker logs --follow codescene
+
+# display the resources allocated by the container continuously
+docker stats codescene
+
+# display the running processes and their resource allocation
+docker exec -it codescene /bin/bash
+$ top
+```
 
 ### Troubleshooting
 
