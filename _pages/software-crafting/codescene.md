@@ -5,6 +5,23 @@ layout: default
 
 ## CodeScene
 
+### Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Request Free Trial Period](#request-free-trial-period)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Create Projects](#create-projects)
+- [Maintenance Considerations](#maintenance-considerations)
+- [Troubleshooting](#troubleshooting)
+- [Outlook](#outlook)
+- [References](#references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Request Free Trial Period
 
 To request a free trial period, click **Try for Free** on [CodeScene Pricing](https://codescene.com/pricing)
@@ -57,9 +74,19 @@ To request a free trial period, click **Try for Free** on [CodeScene Pricing](ht
 
 ### Maintenance Considerations
 
+#### Open Questions
+
 - How to securely backup the **unprotected private SSH key** stored in the `codescene/.ssh` directory?
 
+#### Additional Information
+
 - [Database Backup](https://docs.enterprise.codescene.io/versions/4.5.0/getting-started/installation.html#db-backup)
+
+#### Quick and Dirty Backup
+
+Compress and **encrypt** the `codescene` folder, e.g. with [7-zip](https://7-zip.org).
+
+Encrypting is important, because the folder contains your **private ssh key**, all repositories and the CodeScene configuration.
 
 #### Inspecting the Running CodeScene Container
 
