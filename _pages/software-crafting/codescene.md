@@ -45,6 +45,14 @@ To request a free trial period, click **Try for Free** on [CodeScene Pricing](ht
 
  The docker instance will contain an **unprotected SSH key** saved in `codescene/.ssh`. This will allow the `codescene` user read access to your git repositories. For your repositories, create a **separate dedicated user** with **minimal access rights** and think about information security. In addition, consider this problematic key in your **backup strategy**.
 
+##### Important for Windows Users: Bind Mount File Sharing Performance
+
+Recommendation: When running the docker container on Windows, then run `docker` from a shell from inside your WSL2 linux distribution. Please also ensure that WSL2, docker and your Linux distro are integrated correctly - see [Docker Desktop WSL2 backend](https://docs.docker.com/desktop/windows/wsl/).
+
+Rationale: See section **Awesome mounts performance** in [Docker Desktop: WSL 2 Best practices](https://www.docker.com/blog/docker-desktop-wsl-2-best-practices/).
+
+(I am currently testing this advice &rarr; ) This is expected to speed up analysis tremendously.
+
 ##### Running
 
 - Follow the instructions in section **Example: Run CodeScene using docker** of of [[2]](ref-2)
