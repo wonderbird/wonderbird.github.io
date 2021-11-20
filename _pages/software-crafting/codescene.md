@@ -5,6 +5,8 @@ layout: default
 
 ## CodeScene
 
+Video: [Guide Refactorings With Behavioral Code Analysis - Adam Tornhill - DDD Europe 2019](https://www.youtube.com/watch?v=okT9xZc6UtY) - Shows the rationale and field of application for CodeScene.
+
 ### Request Free Trial Period
 
 To request a free trial period, click **Try for Free** on [CodeScene Pricing](https://codescene.com/pricing)
