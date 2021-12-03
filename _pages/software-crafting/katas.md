@@ -31,6 +31,7 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 
 ## Other Individual Katas and Puzzles
 
+- Christian Clausen: [five-lines](https://github.com/thedrlambda/five-lines) - A difficult refactoring kata addressed in the book "5 Lines of Code"
 - Codingame: [How to draw the Mandelbrot set](https://www.codingame.com/playgrounds/2358/how-to-plot-the-mandelbrot-set)
 - Rosettacode: [Generate and Draw a Julia Set](https://rosettacode.org/wiki/Julia_set)
 - GitHub: [SpecFlowOSS/SpecFlow-Examples - BowlingKata](https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata)
