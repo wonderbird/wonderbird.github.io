@@ -2,9 +2,9 @@
 title: Python
 layout: default
 ---
-# Python
+## Python
 
-## Installing Python on macOS
+### Installing Python on macOS
 
 Note, that macOS comes with Python 2.7 pre-installed. If you are new to Python, I recommend using version 3 instead.
 
@@ -20,3 +20,8 @@ To install Python 3 on macOS the following steps are recommended:
 To re-activate the pre-installed python use `pyenv global system`
 
 Please note that when using `pip` for installing Python applications, you may need to add `$HOME/.local/bin` to your `$PATH`.
+
+### Links
+
+- [https://devguide.python.org/](https://devguide.python.org/) - The guide for developers of Python.
+- [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) - Python code style recommendations.
