@@ -5,6 +5,17 @@ layout: default
 
 ## Katas
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Organizations and Official Challenges](#organizations-and-official-challenges)
+- [Kata Catalogues](#kata-catalogues)
+- [Individual Katas and Puzzles](#individual-katas-and-puzzles)
+- [Kata Constraints: Harden the Exercises](#kata-constraints-harden-the-exercises)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Organizations and Official Challenges
 
 - [codewars](https://www.codewars.com) - Train your skills by solving katas.
@@ -20,6 +31,7 @@ layout: default
 - Emily Bache: [github://emilybache](https://github.com/emilybache) - many katas, front page lists refactoring katas.
 - Steve Smith (aka ardalis): [Coding Kata Catalog](https://github.com/ardalis/kata-catalog)
 - Coding Dojo: [Kata Catalogue](https://codingdojo.org/KataCatalogue/)
+- CCD School: [Coding Dojo](https://ccd-school.de/coding-dojo/) - various katas of different categories.
 - [CodeKata.com](http://codekata.com/)
 - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
 - [Peter Kofler (Code Cop)](https://github.com/codecop) - Code Cop's repositories have some katas.
@@ -27,7 +39,15 @@ layout: default
 
 ### Individual Katas and Puzzles
 
-- Christian Clausen: [five-lines](https://github.com/thedrlambda/five-lines) - A difficult refactoring kata addressed in the book "5 Lines of Code"
+#### Refactoring
+
+- David Denton: [Refactoring Golf](https://github.com/daviddenton/refactoring-golf)
+- Christian Clausen: [five-lines](https://github.com/thedrlambda/five-lines) - A difficult refactoring kata addressed in the book "5 Lines of Code".
+- Emily Bache: [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)
+- Gregor Riegler: [Expense Report](https://github.com/gregorriegler/expensereport)
+
+#### Miscellaneous
+
 - Codingame: [How to draw the Mandelbrot set](https://www.codingame.com/playgrounds/2358/how-to-plot-the-mandelbrot-set)
 - Rosettacode: [Generate and Draw a Julia Set](https://rosettacode.org/wiki/Julia_set)
 - GitHub: [SpecFlowOSS/SpecFlow-Examples - BowlingKata](https://github.com/SpecFlowOSS/SpecFlow-Examples/tree/master/BowlingKata)
