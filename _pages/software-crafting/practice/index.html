@@ -1,0 +1,15 @@
+---
+title: Practice
+layout: default
+---
+<h1>Practice</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.software-crafting-practice %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>

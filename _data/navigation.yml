@@ -103,8 +103,6 @@ software-crafting:
     url: /pages/software-crafting/git/index.html
   - title: Heroku
     url: /pages/software-crafting/heroku.html
-  - title: Katas
-    url: /pages/software-crafting/katas.html
   - title: Kanban
     url: /pages/software-crafting/kanban.html
   - title: Leadership
@@ -117,6 +115,8 @@ software-crafting:
     url: /pages/software-crafting/mob-programming.html
   - title: Plugins for IDEs and Web Browsers
     url: /pages/software-crafting/plugins/index.html
+  - title: Practice
+    url: /pages/software-crafting/practice/index.html
   - title: Programming Languages
     url: /pages/software-crafting/programming-languages/index.html
   - title: Software Testing
@@ -141,6 +141,12 @@ software-crafting-plugins:
     url: /pages/software-crafting/plugins/jetbrains-intellij-idea-plugins.html
   - title: Visual Studio Code Plugins
     url: /pages/software-crafting/plugins/vs-code-plugins.html
+
+software-crafting-practice:
+  - title: Coding Dojos and Code Retreats
+    url: /pages/software-crafting/practice/coding-dojos-and-code-retreats.html
+  - title: Katas
+    url: /pages/software-crafting/practice/katas.html
 
 software-crafting-programming-languages:
   - title: C#
