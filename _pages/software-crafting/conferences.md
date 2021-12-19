@@ -103,6 +103,8 @@ dotnet-developer-conference.de/)
 
 * November: [W-JAX](https://jax.de/) - Meeting spot for Java and software architecture enthusiasts.
 
+* December: [Tools for agile Teams](https://www.tools4agileteams.com/agenda/) - Agility for Teams and Businesses on all levels.
+
 * December: [IT Tage](https://www.ittage.informatik-aktuell.de/konferenz/einfuehrung.html)
 
 * December: [Chaos Communication Congress](https://events.ccc.de/)
