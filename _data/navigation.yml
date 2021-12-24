@@ -157,14 +157,14 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/go.html
   - title: Java
     url: /pages/software-crafting/programming-languages/java.html
+  - title: JavaScript and Node.js
+    url: /pages/software-crafting/programming-languages/javascript-and-nodejs.html
   - title: Jupyter Notebooks
     url: /pages/software-crafting/programming-languages/jupyter-notebooks.html
   - title: Powershell
     url: /pages/software-crafting/programming-languages/powershell.html
   - title: Python
     url: /pages/software-crafting/programming-languages/python.html
-  - title: JavaScript and Node.js
-    url: /pages/software-crafting/programming-languages/javascript-and-nodejs.html
   - title: Rockstar
     url: /pages/software-crafting/programming-languages/rockstar.html
   - title: Shell Scripting
