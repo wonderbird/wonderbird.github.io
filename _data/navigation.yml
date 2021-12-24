@@ -157,6 +157,8 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/go.html
   - title: Java
     url: /pages/software-crafting/programming-languages/java.html
+  - title: Jupyter Notebooks
+    url: /pages/software-crafting/programming-languages/jupyter-notebooks.html
   - title: Powershell
     url: /pages/software-crafting/programming-languages/powershell.html
   - title: Python
