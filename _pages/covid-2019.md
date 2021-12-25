@@ -70,6 +70,7 @@ Auch zur Impfbrücke habe ich keine Informationen gefunden, welche mich einen Te
 
 ### Weltweit
 
+* Our World in Data: [SARS-CoV-2 variants in analyzed sequences, Germany](https://ourworldindata.org/grapher/covid-variants-area?country=~DEU)
 * Our World in Data: [Germany in Data Explorer, new cases per million, rolling 7-day average](https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&time=2021-07-01..latest&facet=none&pickerSort=desc&pickerMetric=total_cases&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+Population=true&Align+outbreaks=false&country=~DEU)
 * Our World in Data: [Europe in Data Explorer, new cases per million, rolling 7-day average](https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&time=2020-08-12..latest&facet=none&pickerSort=desc&pickerMetric=total_cases&Metric=Confirmed+cases&Interval=7-day+rolling+average&Relative+to+Population=true&Align+outbreaks=false&country=DEU~NLD~GBR~ESP~FRA~PRT~CHE~AUT~CZE~POL~SWE~NOR~DNK~BEL~LUX~ITA~USA~UKR~ROU~SRB~GRC~BGR~HRV~IRL~BIH~OWID_KOS~FIN~CYP)
 * Our World in Data: [Daily confirmed COVID-19 cases, rolling 7-day average](https://ourworldindata.org/grapher/daily-covid-cases-7-day?tab=chart&time=2020-03-01..latest&country=DEU~NLD~FRA~BEL~ESP~LIE~CZE~CHE~GBR~AUT~POL~SWE~DNK)
