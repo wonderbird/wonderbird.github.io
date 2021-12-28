@@ -2,7 +2,8 @@
 title: Forward X11 from Linux to macOS
 layout: default
 ---
-# Forward X11 from Linux to macOS
+
+## Forward X11 from Linux to macOS
 
 The following steps helped me forwarding the DISPLAY of a linux VM hosted in Azure to my local macBook:
 
