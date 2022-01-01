@@ -1,0 +1,21 @@
+---
+title: Static Websites
+layout: default
+---
+<h2>Static Websites</h2>
+
+<h3>Motivation</h3>
+
+In his talk <a href="https://media.ccc.de/v/rc3-2021-cwtv-343-make-it-static">Make it static!</a>, avocadoom presents the advantages of static websites and shows how to get started. In the outlook, he also addresses some advanced concepts.
+
+<h3>More Details</h3>
+
+<ul>
+    {% for menuEntry in site.data.navigation.software-crafting-static-websites %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>

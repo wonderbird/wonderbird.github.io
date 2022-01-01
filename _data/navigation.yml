@@ -55,8 +55,6 @@ computers:
     url: /pages/computers-and-technology/iphone-klingelton-erstellen.html
   - title: Install ZSH and Oh My ZSH on macOS
     url: /pages/computers-and-technology/install-zsh-and-oh-my-zsh.md
-  - title: Jekyll
-    url: /pages/computers-and-technology/jekyll.html
   - title: Jugend und IT
     url: /pages/computers-and-technology/jugend-it.html
   - title: macOS and Ansible
@@ -125,6 +123,8 @@ software-crafting:
     url: /pages/software-crafting/software-testing.html
   - title: Stakeholder Management
     url: /pages/software-crafting/stakeholder-management.html
+  - title: Static Websites
+    url: /pages/software-crafting/static-websites/index.html
 
 software-crafting-git:
   - title: Conventional Commits
@@ -175,3 +175,11 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/sonic-pi.html
   - title: X++
     url: /pages/software-crafting/programming-languages/x++.html
+
+software-crafting-static-websites:
+  - title: GitHub SFTP Publishing
+    url: /pages/software-crafting/static-websites/github-sftp-publishing.html
+  - title: Hugo
+    url: /pages/software-crafting/static-websites/hugo.html
+  - title: Jekyll
+    url: /pages/software-crafting/static-websites/jekyll.html
