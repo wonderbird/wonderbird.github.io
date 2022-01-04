@@ -10,6 +10,8 @@ layout: default
 
 - [unittest](https://docs.python.org/3/library/unittest.html) - unit testing framework.
 
+- [Structuring Your Project](https://docs.python-guide.org/writing/structure/) - suggested Python 3 project structure.
+
 - [Implementing an Interface in Python](https://realpython.com/python-interface/) - informal and formal interfaces and abstract base classes.
 
 - [Data Classes](https://docs.python.org/3/library/dataclasses.html) - mutable named tuples with default values.
