@@ -125,6 +125,8 @@ software-crafting:
     url: /pages/software-crafting/stakeholder-management.html
   - title: Static Websites
     url: /pages/software-crafting/static-websites/index.html
+  - title: Visual Studio Code Dev Container
+    url:  /pages/software-crafting/vscode-dev-container.html
 
 software-crafting-git:
   - title: Conventional Commits
@@ -163,6 +165,8 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/javascript-and-nodejs.html
   - title: Jupyter Notebooks
     url: /pages/software-crafting/programming-languages/jupyter-notebooks.html
+  - title: Perl
+    url: /pages/software-crafting/programming-languages/perl.html
   - title: Powershell
     url: /pages/software-crafting/programming-languages/powershell.html
   - title: Python
