@@ -153,6 +153,8 @@ software-crafting-practice:
     url: /pages/software-crafting/practice/katas.html
 
 software-crafting-programming-languages:
+  - title: Awk
+    url: /pages/software-crafting/programming-languages/awk.html
   - title: C#
     url: /pages/software-crafting/programming-languages/csharp.html
   - title: Delphi
