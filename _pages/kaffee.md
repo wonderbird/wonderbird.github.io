@@ -10,6 +10,7 @@ layout: default
 * [Ernst Kaffeerösterei (Köln)](https://www.ernst-kaffee.de/)
   * [House Blend](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=86) - Schokolade, Mandel, Beeren
   * [Mombuca Espresso](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=189) - Praline, Nougat, Schokolade
+  * [Adado Espresso](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=210) - Beeren, Schokolade, Wein
 
 * [Langeooger Kaffeerösterei](https://www.langeooger.shop/)
   * [Strandmischung](https://www.langeooger.shop/p/langeooger-strandmischung) - Feine Schokoladennote und ein kräftiger Körper
