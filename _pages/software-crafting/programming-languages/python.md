@@ -27,8 +27,13 @@ Note, that macOS comes with Python 2.7 pre-installed. If you are new to Python, 
 To install Python 3 on macOS the following steps are recommended:
 
 1. Install [pyenv](https://github.com/pyenv/pyenv#installation)
-1. The installation instructions end with installing a python version. Choose the [version number of the latest stable Python build](https://www.python.org/downloads/) here (at the time of writing this was version `3.9.6`).
+   - Follow the instructions in [Homebrew in macOS](https://github.com/pyenv/pyenv#homebrew-in-macos)
+   - Pay special attention to the [verification step](https://github.com/pyenv/pyenv/wiki#how-to-verify-that-i-have-set-up-pyenv-correctly) of [Build Environment einrichten](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
+
+1. The installation instructions end with installing a python version. Choose the [version number of the latest stable Python build](https://www.python.org/downloads/) here (at the time of writing this was version `3.10`): `pyenv install 3.10-dev`.
+
 1. Now you can switch the global python version to the installed one: `pyenv global 3.9.6`
+
 1. Restart your shell and verify the `python --version`
 
 **Remember:**
