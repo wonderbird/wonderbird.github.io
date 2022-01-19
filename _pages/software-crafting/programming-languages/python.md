@@ -32,7 +32,7 @@ To install Python 3 on macOS the following steps are recommended:
 
 1. The installation instructions end with installing a python version. Choose the [version number of the latest stable Python build](https://www.python.org/downloads/) here (at the time of writing this was version `3.10`): `pyenv install 3.10-dev`.
 
-1. Now you can switch the global python version to the installed one: `pyenv global 3.9.6`
+1. Now you can switch the global python version to the installed one: `pyenv global 3.10-dev`
 
 1. Restart your shell and verify the `python --version`
 
