@@ -66,6 +66,7 @@ You can find a collection of timers on the [Mob Programming](software-crafting/m
 
 # Online-Collaboration
 
+* [QR Code Generator](https://www.qrcode-generator.de/) - Create QR codes for URLs, VCards, Images and everything else.
 * [Video Conferencing: Jitsi](https://meet.jit.si/)
 * [Big Blue Button](https://bigbluebutton.org/)
 * [TriCAT spaces](https://www.tricat-spaces.net/) - Avatar-based virtual 3D learning and work world.
