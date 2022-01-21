@@ -16,6 +16,13 @@ layout: default
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Cheat Sheet
+
+```sh
+# Which files have changed after a special date?
+git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --after="2022-01-21 10:00"
+```
+
 ## Getting Started
 
 As an introduction I recommend chapters 1 (Overview, History), 2 (Basics) and 3 (Branching, Merging) of the [Pro Git Book](https://git-scm.com/book/en/v2).
