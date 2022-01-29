@@ -2,10 +2,9 @@
 title: Kaffee
 layout: default
 ---
-
-# Kaffee
-
 ## Kaffeeröstereien und unsere Lieblingssorten
+
+Für jede Espresso Sorte habe ich das vom Händer angegebene Geschmacksprofil übernommen. Die Mischungen enthalten keine Zusatzstoffe sondern erhalten ihr Aroma aus den Bohnen und der Röstung.
 
 * [Ernst Kaffeerösterei (Köln)](https://www.ernst-kaffee.de/)
   * [House Blend](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=86) - Schokolade, Mandel, Beeren
@@ -25,6 +24,9 @@ layout: default
 
 * [Rösterei Monopol (Stralsund)](https://kaffee-monopol.de/shop/index.html)
   * [Monopol 6](https://kaffee-monopol.de/shop/kaffee/46-monopol-6.html) - Aromen von Schokolade und Nuss
+
+* [Public Coffee Roasters (Hamburg)](https://publiccoffeeroasters.com/produkte/)
+  * [BIO Espresso Blend Public a FAIR](https://publiccoffeeroasters.com/produkt/espresso-blend-public-a-fair/) - Schokolade, geröstete Haselnuss und Akzente von Ahornsirup.
 
 ## Empfehlungen von Freunden
 
