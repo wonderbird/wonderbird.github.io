@@ -125,6 +125,8 @@ software-crafting:
     url: /pages/software-crafting/stakeholder-management.html
   - title: Static Websites
     url: /pages/software-crafting/static-websites/index.html
+  - title: UML
+    url: /pages/software-crafting/uml.html
   - title: Visual Studio Code Dev Container
     url:  /pages/software-crafting/vscode-dev-container.html
 

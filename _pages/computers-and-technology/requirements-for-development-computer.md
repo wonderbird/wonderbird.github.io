@@ -1,12 +1,12 @@
 ---
 title: Requirements for a Software Development Computer (Compute Instance)
-layout: Default
+layout: default
 ---
-# Requirements for a Software Development Computer (Compute Instance)
+## Requirements for a Software Development Computer (Compute Instance)
 
 The following list shows the requirements I am considering when buying my next development computer or when creating my next cloud computing instance used for development.
 
-## Hardware
+### Hardware
 
 - RAM and hard disk must be replaceable
 - >= 32 GB RAM
