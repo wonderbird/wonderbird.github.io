@@ -2,7 +2,9 @@
 title: Clean Code
 layout: default
 ---
-# Clean Code
+## Clean Code
+
+### References
 
 - [Clean Code Cheat Sheet](https://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.1.pdf)
 - [Clean Code Principles](https://principles.wiki/)

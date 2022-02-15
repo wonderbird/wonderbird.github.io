@@ -2,9 +2,13 @@
 title: Code Analysis
 layout: default
 ---
-# Code Analysis
+## Code Analysis
 
-## References
+### Tools
+
+* [cloc](https://github.com/AlDanial/cloc) - counts blank lines, comment lines, and physical lines of source code in many programming languages.
+
+### References
 
 * Coveralls: [Test Coverage History & Statistics](https://coveralls.io), last visited on Oct. 13, 2020
 * Shields.io: [Quality metadata badges for open source projects](https://shields.io), last visited on Oct. 13, 2020
@@ -13,7 +17,7 @@ layout: default
 
 I am (have been) evaluating [CodeScene](https://codescene.com). On this page I am sharing my lessons learned: [My CodeScene Documentation](codescene.html)
 
-## Some projects I have instrumented with code analysis
+### Some projects I have instrumented with code analysis
 
 The links show the repository in GitHub. Click the badges to go to the linked code analysis tools. Most tools are configured in the CI script available in the respective `.github/` subfolder of the repository.
 
