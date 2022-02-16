@@ -1,6 +1,16 @@
 <p>Welcome at Stefan Boos' personal home page.</p>
 
-<h2>Table of Contents</h2>
+<h2>Latest Posts</h2>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      {{ post.date | date_to_string}}: <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Link Collection</h2>
 <ul>
 {% for menuEntry in site.data.navigation.main %}
   <li>
