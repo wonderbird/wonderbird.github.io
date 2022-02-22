@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-d3
 title:  "Applied Software Forensics - Hotspot Analysis for HospitalRun"
 ---
 
@@ -43,19 +43,7 @@ What has been excluded from the analysis?
 
 #### Hotspots Overview
 
-![Hotspots Overview](/assets/images/hospitalrun/hotspots-all.png)
-
-#### Hotspots of Frontend
-
-![Hotspots of Frontend](/assets/images/hospitalrun/hotspots-frontend.png)
-
-#### Hotspots of Server
-
-![Hotspots of Server](/assets/images/hospitalrun/hotspots-server.png)
-
-#### Hotspots of Components
-
-![Hotspots of Components](/assets/images/hospitalrun/hotspots-components.png)
+{% include_relative 2022-02-21-hotspots.html %}
 
 ### Executing a Hotspot Analysis For Individual Repositories
 
