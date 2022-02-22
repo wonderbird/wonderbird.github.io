@@ -43,19 +43,19 @@ What has been excluded from the analysis?
 
 #### Hotspots Overview
 
-![Hotspots Overview](/assets/hospitalrun/hotspots-all.png)
+![Hotspots Overview](/assets/images/hospitalrun/hotspots-all.png)
 
 #### Hotspots of Frontend
 
-![Hotspots of Frontend](/assets/hospitalrun/hotspots-frontend.png)
+![Hotspots of Frontend](/assets/images/hospitalrun/hotspots-frontend.png)
 
 #### Hotspots of Server
 
-![Hotspots of Server](/assets/hospitalrun/hotspots-server.png)
+![Hotspots of Server](/assets/images/hospitalrun/hotspots-server.png)
 
 #### Hotspots of Components
 
-![Hotspots of Components](/assets/hospitalrun/hotspots-components.png)
+![Hotspots of Components](/assets/images/hospitalrun/hotspots-components.png)
 
 ### Executing a Hotspot Analysis For Individual Repositories
 
