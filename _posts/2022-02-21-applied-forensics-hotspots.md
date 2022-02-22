@@ -43,7 +43,16 @@ What has been excluded from the analysis?
 
 #### Hotspots Overview
 
-{% include_relative 2022-02-21-hotspots.html %}
+{% include 2022-02-21-hospitalrun-hotspots.html %}
+
+This **interactive** diagram shows the hotspots of HospitalRun as large, dark red circles.
+
+#### Top 10 Hotspots
+
+The following table shows the top 10 hotspots in HospitalRun:
+
+<!-- {% assign row = site.data.hospitalrun[0] %}
+{{ row[module] }} -->
 
 ### Executing a Hotspot Analysis For Individual Repositories
 

@@ -30,7 +30,7 @@ var svg = d3.select("#hotspots-overview").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin + "," + margin + ")");
 
-d3.json("/assets/js/hotspots.json", function(error, root) {
+d3.json("/assets/js/hospitalrun-hotspots.json", function(error, root) {
   var focus = root,
       nodes = pack.nodes(root);
 
