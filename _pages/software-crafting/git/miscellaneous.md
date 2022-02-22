@@ -3,7 +3,7 @@ title: Miscellaneous Git Topics
 layout: default
 ---
 
-# Miscellaneous Git Topics
+## Miscellaneous Git Topics
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -20,6 +20,7 @@ layout: default
 
 ```sh
 # Which files have changed after a special date?
+# This is actually also the input format for code maat (https://github.com/adamtornhill/code-maat)
 git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --after="2022-01-21 10:00"
 ```
 
@@ -27,11 +28,12 @@ git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --after="2022-0
 
 As an introduction I recommend chapters 1 (Overview, History), 2 (Basics) and 3 (Branching, Merging) of the [Pro Git Book](https://git-scm.com/book/en/v2).
 
-A quick overview is given in
+## Writing Commit Messages
 
-## Links
-
-* [Git rebase from remote fork repo](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa) - How to sync your fork (containing open pull requests).
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- [Conventional Commits](conventional-commits.html)
+- [Using Git Commit Message Templates to Write Better Commit Messages](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)
+- [Creating a commit with multiple authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)
 
 ## Transfer Uncommited Changes Via Patch File
 
@@ -66,9 +68,9 @@ git diff --cached --binary > some.patch
 git diff HEAD > some.patch
 ```
 
-### References
+### References Regarding Patch File Transfer
 
-* Stackoverflow: [Create a git patch from the uncommitted changes in the current working directory](https://stackoverflow.com/questions/5159185/create-a-git-patch-from-the-uncommitted-changes-in-the-current-working-directory?answertab=votes#tab-top)
+- Stackoverflow: [Create a git patch from the uncommitted changes in the current working directory](https://stackoverflow.com/questions/5159185/create-a-git-patch-from-the-uncommitted-changes-in-the-current-working-directory?answertab=votes#tab-top)
 
 ## Merge With An Other Git Repository
 
@@ -94,11 +96,13 @@ git push --set-upstream origin main
 git push
 ```
 
-### References
+### References Regarding Merging With An Other Git Repository
 
-* Github: [Merging an upstream repository into your fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork)
+- Github: [Merging an upstream repository into your fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork)
 
-* Github: [Configuring a remote for a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+- Github: [Configuring a remote for a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 
-* Stackoverflow: [Git refusing to merge unrelated histories on rebase
+- Stackoverflow: [Git refusing to merge unrelated histories on rebase
 ](https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase)
+
+- [Git rebase from remote fork repo](https://gist.github.com/ravibhure/a7e0918ff4937c9ea1c456698dcd58aa) - How to sync your fork (containing open pull requests).
