@@ -51,6 +51,7 @@ This **interactive** diagram shows the hotspots of HospitalRun as large, dark re
 
 The following table shows the top 10 hotspots in HospitalRun:
 
+<!-- force rebuild of jekyll page -->
 <!-- {% assign row = site.data.hospitalrun[0] %}
 {{ row[module] }} -->
 
