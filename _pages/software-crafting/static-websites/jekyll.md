@@ -91,6 +91,10 @@ and re-install your Ruby gems
 $ bundle install
 ```
 
+#### Publishing to GitHub Pages
+
+Please refer to the [jekyll: GitHub Actions](https://jekyllrb.com/docs/continuous-integration/github-actions/) guide for setting up the latest jekyll version with GitHub pages.
+
 #### Authentication and Restricted Access
 
 The [jekyll-auth](https://github.com/benbalter/jekyll-auth) module allows to restrict access. It uses GitHub OAuth and allows to manage user access via GitHub organizations and teams.
