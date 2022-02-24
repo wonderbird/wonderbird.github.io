@@ -1,4 +1,4 @@
-name: Deploy Jekyll to GHPages
+name: Deploy to GitHub Pages
 
 on:
   push:
