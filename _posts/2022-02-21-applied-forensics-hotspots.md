@@ -9,9 +9,6 @@ title:  "Applied Software Forensics - Hotspot Analysis for HospitalRun"
 
 - [Results](#results)
   - [Hotspots Overview](#hotspots-overview)
-  - [Hotspots of Frontend](#hotspots-of-frontend)
-  - [Hotspots of Server](#hotspots-of-server)
-  - [Hotspots of Components](#hotspots-of-components)
 - [Executing a Hotspot Analysis For Individual Repositories](#executing-a-hotspot-analysis-for-individual-repositories)
   - [Prerequisites](#prerequisites)
   - [Prepare Complexity (LOC) and Effort (Change Frequencies)](#prepare-complexity-loc-and-effort-change-frequencies)
@@ -51,6 +48,7 @@ This **interactive** diagram shows the hotspots of HospitalRun as large, dark re
 
 The following table shows the top 10 hotspots in HospitalRun:
 
+<!-- force rebuild of jekyll page -->
 <!-- {% assign row = site.data.hospitalrun[0] %}
 {{ row[module] }} -->
 
