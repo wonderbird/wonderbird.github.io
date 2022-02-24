@@ -97,6 +97,8 @@ software-crafting:
     url: /pages/software-crafting/docker.html
   - title: Events
     url: /pages/software-crafting/events.html
+  - title: Funding and Getting Funded
+    url: /pages/software-crafting/funding.html
   - title: General Topics
     url: /pages/software-crafting/general.html
   - title: Git
