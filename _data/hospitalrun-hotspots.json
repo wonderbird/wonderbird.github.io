@@ -1,0 +1,52 @@
+[
+    {
+        "module": "frontend/src/patients/view/ViewPatient.tsx",
+        "revisions": "46",
+        "code": "165"
+    },
+    {
+        "module": "frontend/src/__tests__/HospitalRun.test.tsx",
+        "revisions": "39",
+        "code": "141"
+    },
+    {
+        "module": "frontend/src/patients/patient-slice.ts",
+        "revisions": "36",
+        "code": "228"
+    },
+    {
+        "module": "frontend/src/HospitalRun.tsx",
+        "revisions": "34",
+        "code": "65"
+    },
+    {
+        "module": "frontend/src/__tests__/patients/view/ViewPatient.test.tsx",
+        "revisions": "34",
+        "code": "273"
+    },
+    {
+        "module": "frontend/src/patients/related-persons/RelatedPersonTab.tsx",
+        "revisions": "30",
+        "code": "104"
+    },
+    {
+        "module": "frontend/src/__tests__/patients/patient-slice.test.ts",
+        "revisions": "28",
+        "code": "367"
+    },
+    {
+        "module": "frontend/src/user/user-slice.ts",
+        "revisions": "27",
+        "code": "129"
+    },
+    {
+        "module": "frontend/src/__tests__/patients/new/NewPatient.test.tsx",
+        "revisions": "27",
+        "code": "141"
+    },
+    {
+        "module": "frontend/src/patients/new/NewPatient.tsx",
+        "revisions": "27",
+        "code": "103"
+    }
+]
