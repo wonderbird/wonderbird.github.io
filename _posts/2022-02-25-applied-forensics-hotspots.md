@@ -49,13 +49,20 @@ This **interactive** diagram shows the hotspots of HospitalRun as large, dark re
 The following table shows the top {{ site.data.hospitalrun-hotspots.size }} hotspots in HospitalRun.
 
 <table>
-
   <thead>
-  <tr>
-    <th>Revisions</th>
-    <th>Code</th>
-    <th style="text-align: left">Module</th>
-  </tr>
+    <caption>Hotspots</caption>
+    <tr style="vertical-align:bottom">
+      <th rowspan="2">Revisions</th>
+      <th rowspan="2">LOC</th>
+      <th colspan="4">Complexity</th>
+      <th rowspan="2" style="text-align: left">Module</th>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <th>Mean</th>
+      <th>SDev</th>
+      <th>Max</th>
+    </tr>
   </thead>
 
   <tbody>
@@ -63,6 +70,10 @@ The following table shows the top {{ site.data.hospitalrun-hotspots.size }} hots
     <tr>
       <td>{{ hotspot.revisions }}</td>
       <td>{{ hotspot.code }}</td>
+      <td>{{ hotspot.total }}</td>
+      <td>{{ hotspot.mean }}</td>
+      <td>{{ hotspot.sd }}</td>
+      <td>{{ hotspot.max }}</td>
       <td style="text-align: left">{{ hotspot.module }}</td>
     </tr>
     {% endfor %}
@@ -119,7 +130,7 @@ for FILE in $(cat cloc-exclude-files.txt); do sed -i '' "/$FILE,/d" "${SUT}_freq
 ```sh
 # Set the folder containing your https://github.com/adamtornhill/maat-scripts python3 branch checkout
 export MAAT_SCRIPTS=$HOME/source/learn/your-code-as-a-crime-scene/maat-scripts
-python "$MAAT_SCRIPTS/merge/merge_comp_freqs.py" "${SUT}_freqs.csv" "${SUT}_lines.csv"
+python "$MAAT_SCRIPTS/merge/merge_comp_freqs.py" "${SUT}_freqs.csv" "${SUT}_lines.csv" > hotspots.csv
 ```
 
 The output is a csv formatted table of hotspots sorted by criticality.
@@ -129,7 +140,7 @@ In the sections above I have generated a JSON file from the csv output and used 
 ```sh
 # Prerequisite: Install the d3-dsv npm package. It brings the csv2json command
 npm install -g d3-dsv
-csv2json -o  top15hotspots.jsond top15hotspots.csv
+csv2json -o hotspots.json hotspots.csv
 ```
 
 #### Visualize hotspots
@@ -166,3 +177,13 @@ done
 ```
 
 Now `export SUT=all` and apply the code from sections [Merge complexity (LOC) and effort](#merge-complexity-loc-and-effort) and [Visualize hotspots](#visualize-hotspots) to `all_freqs.csv` and `all_lines.csv`.
+
+### Calculate Complexity Trends
+
+```sh
+# For each hotspot candidate cd to its repository and execute the complexity_analysis:
+cd ../frontend
+python "$MAAT_SCRIPTS/miner/complexity_analysis.py" "src/patients/view/ViewPatient.tsx"
+
+# I have copied the hotspots.csv to hotspots-complexity.csv and appended the additional columns
+```
