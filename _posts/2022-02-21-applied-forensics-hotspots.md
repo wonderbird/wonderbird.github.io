@@ -44,13 +44,16 @@ What has been excluded from the analysis?
 
 This **interactive** diagram shows the hotspots of HospitalRun as large, dark red circles.
 
+<!--
+
 #### Top 10 Hotspots
 
-The following table shows the top 10 hotspots in HospitalRun:
+The following table shows the top 10 hotspots in HospitalRun
 
-<!-- force rebuild of jekyll page -->
-<!-- {% assign row = site.data.hospitalrun[0] %}
-{{ row[module] }} -->
+{% assign row = site.data.hospitalrun[0] %}
+{{ row[module] }}
+
+-->
 
 ### Executing a Hotspot Analysis For Individual Repositories
 
