@@ -1,7 +1,4 @@
 theme: jekyll-theme-architect
-
-repository: wonderbird/my-github-pages
-
 collections:
   pages:
     output: true
