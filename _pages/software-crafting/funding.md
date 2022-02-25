@@ -12,6 +12,7 @@ The following initiatives and platforms provide money for putting ideas into som
 These sites offer general sponsorship for individuals and ideas. There is no constraint on what is supported.
 
 - [Buy Me a Coffee](https://www.buymeacoffee.com/)
+- [Ko-fi](https://ko-fi.com/)
 - [Flattr](https://flattr.com/)
 
 ### Sponsorship For Creative Ideas and Projects
