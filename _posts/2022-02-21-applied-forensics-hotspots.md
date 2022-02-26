@@ -3,6 +3,7 @@ layout: post-with-d3
 title:  "Applied Software Forensics - Hotspot Analysis for HospitalRun"
 ---
 
+<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-02-21-applied-forensics-hotspots.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -16,8 +17,6 @@ title:  "Applied Software Forensics - Hotspot Analysis for HospitalRun"
   - [Merge complexity (LOC) and effort](#merge-complexity-loc-and-effort)
   - [Visualize hotspots](#visualize-hotspots)
 - [Executing a Combined Hotspot Analysis For Multiple Repositories](#executing-a-combined-hotspot-analysis-for-multiple-repositories)
-- [Judge Power of Names](#judge-power-of-names)
-- [Calculate Complexity Trends](#calculate-complexity-trends)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -54,31 +53,18 @@ The following table shows the top 10 hotspots in HospitalRun.
 <table>
   <thead>
     <caption>Hotspots</caption>
-    <tr style="vertical-align:bottom">
-      <th rowspan="2">Good Name?</th>
-      <th rowspan="2">Revisions</th>
-      <th rowspan="2">LOC</th>
-      <th colspan="4">Complexity</th>
-      <th rowspan="2" style="text-align: left">Module</th>
-    </tr>
     <tr>
-      <th>Total</th>
-      <th>Mean</th>
-      <th>SDev</th>
-      <th>Max</th>
+      <th>Revisions</th>
+      <th>LOC</th>
+      <th style="text-align: left">Module</th>
     </tr>
   </thead>
 
   <tbody>
     {% for hotspot in site.data.hospitalrun-hotspots %}
     <tr>
-      <td>{{ hotspot.is_good_name }}</td>
       <td>{{ hotspot.revisions }}</td>
       <td>{{ hotspot.code }}</td>
-      <td>{{ hotspot.total }}</td>
-      <td>{{ hotspot.mean }}</td>
-      <td>{{ hotspot.sd }}</td>
-      <td>{{ hotspot.max }}</td>
       <td style="text-align: left">{{ hotspot.module }}</td>
     </tr>
     {% endfor %}
@@ -182,19 +168,3 @@ done
 ```
 
 Now `export SUT=all` and apply the code from sections [Merge complexity (LOC) and effort](#merge-complexity-loc-and-effort) and [Visualize hotspots](#visualize-hotspots) to `all_freqs.csv` and `all_lines.csv`.
-
-### Judge Power of Names
-
-- Add a column **is_good_name** to your `hotspots.csv` file.
-- For each file, judge whether the file name is good and enter **yes** or **no** into the new column.
-- If unsure, leave the new column blank.
-
-### Calculate Complexity Trends
-
-```sh
-# For each hotspot candidate cd to its repository and execute the complexity_analysis:
-cd ../frontend
-python "$MAAT_SCRIPTS/miner/complexity_analysis.py" "src/patients/view/ViewPatient.tsx"
-
-# I have copied the hotspots.csv to hotspots-complexity.csv and appended the additional columns
-```
