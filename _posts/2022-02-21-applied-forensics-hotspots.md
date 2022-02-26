@@ -9,12 +9,15 @@ title:  "Applied Software Forensics - Hotspot Analysis for HospitalRun"
 
 - [Results](#results)
   - [Hotspots Overview](#hotspots-overview)
+  - [Top 10 Hotspots](#top-10-hotspots)
 - [Executing a Hotspot Analysis For Individual Repositories](#executing-a-hotspot-analysis-for-individual-repositories)
   - [Prerequisites](#prerequisites)
   - [Prepare Complexity (LOC) and Effort (Change Frequencies)](#prepare-complexity-loc-and-effort-change-frequencies)
   - [Merge complexity (LOC) and effort](#merge-complexity-loc-and-effort)
   - [Visualize hotspots](#visualize-hotspots)
 - [Executing a Combined Hotspot Analysis For Multiple Repositories](#executing-a-combined-hotspot-analysis-for-multiple-repositories)
+- [Judge Power of Names](#judge-power-of-names)
+- [Calculate Complexity Trends](#calculate-complexity-trends)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -44,14 +47,15 @@ What has been excluded from the analysis?
 
 This **interactive** diagram shows the hotspots of HospitalRun as large, dark red circles.
 
-#### Top {{ site.data.hospitalrun-hotspots.size }} Hotspots
+#### Top 10 Hotspots
 
-The following table shows the top {{ site.data.hospitalrun-hotspots.size }} hotspots in HospitalRun.
+The following table shows the top 10 hotspots in HospitalRun.
 
 <table>
   <thead>
     <caption>Hotspots</caption>
     <tr style="vertical-align:bottom">
+      <th rowspan="2">Good Name?</th>
       <th rowspan="2">Revisions</th>
       <th rowspan="2">LOC</th>
       <th colspan="4">Complexity</th>
@@ -68,6 +72,7 @@ The following table shows the top {{ site.data.hospitalrun-hotspots.size }} hots
   <tbody>
     {% for hotspot in site.data.hospitalrun-hotspots %}
     <tr>
+      <td>{{ hotspot.is_good_name }}</td>
       <td>{{ hotspot.revisions }}</td>
       <td>{{ hotspot.code }}</td>
       <td>{{ hotspot.total }}</td>
@@ -177,6 +182,12 @@ done
 ```
 
 Now `export SUT=all` and apply the code from sections [Merge complexity (LOC) and effort](#merge-complexity-loc-and-effort) and [Visualize hotspots](#visualize-hotspots) to `all_freqs.csv` and `all_lines.csv`.
+
+### Judge Power of Names
+
+- Add a column **is_good_name** to your `hotspots.csv` file.
+- For each file, judge whether the file name is good and enter **yes** or **no** into the new column.
+- If unsure, leave the new column blank.
 
 ### Calculate Complexity Trends
 
