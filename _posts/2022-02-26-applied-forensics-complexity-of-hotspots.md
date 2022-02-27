@@ -59,79 +59,41 @@ title:  "Applied Software Forensics - Complexity of Hotspots in HospitalRun"
 
 #### Trends for Selected Hotspots
 
-##### ViewPatient.tsx and ViewPatient.test.tsx
+##### ViewPatient.tsx
 
-<!-- Thumbnails: mogrify -format png -auto-orient -thumbnail 250x90 -path thumbnails '*.png' -->
-<!-- Thumbnails: mogrify -format png -auto-orient -thumbnail 400x114 -path thumbnails '*.png' -->
-<div id="ViewPatient" class="links">
-  <a href="/assets/img/hospitalrun/ViewPatient.tsx.Total-Trend.png" title="Total Complexity for ViewPatient.tsx">
-    <img src="/assets/img/hospitalrun/thumbnails/ViewPatient.tsx.Total-Trend.png" alt="Total Complexity for ViewPatient.tsx" />
-  </a>
-  <a href="/assets/img/hospitalrun/ViewPatient.tsx.SD-Trend.png" title="Standard Deviation of Complexity for ViewPatient.tsx">
-    <img src="/assets/img/hospitalrun/thumbnails/ViewPatient.tsx.SD-Trend.png" alt="Standard Deviation of Complexity for ViewPatient.tsx" />
-  </a>
-  <a href="/assets/img/hospitalrun/ViewPatient.tsx.Mean-Trend.png" title="Mean Complexity for ViewPatient.tsx">
-    <img src="/assets/img/hospitalrun/thumbnails/ViewPatient.tsx.Mean-Trend.png" alt="Mean Complexity for ViewPatient.tsx" />
-  </a>
-</div>
-<script>
-  document.getElementById('ViewPatient').onclick = function (event) {
-    event = event || window.event
-    var target = event.target || event.srcElement
-    var link = target.src ? target.parentNode : target
-    var options = { index: link, event: event }
-    var links = this.getElementsByTagName('a')
-    blueimp.Gallery(links, options)
-  }
-</script>
+{% include gallery.html id="ViewPatient" folder="hospitalrun"
+   images="ViewPatient.tsx.Total-Trend.png,ViewPatient.tsx.SD-Trend.png,ViewPatient.tsx.Mean-Trend.png"
+   captions="Total Complexity for ViewPatient.tsx,Standard Deviation of Complexity for ViewPatient.tsx,Mean Complexity for ViewPatient.tsx" %}
 
-##### HospitalRun.tsx and HospitalRun.test.tsx
+##### ViewPatient.test.tsx
 
-<div id="HospitalRun" class="links">
-  <a href="/assets/img/hospitalrun/HospitalRun.tsx.Total-Trend.png" title="Total Complexity for HospitalRun.tsx">
-    <img src="/assets/img/hospitalrun/thumbnails/HospitalRun.tsx.Total-Trend.png" alt="Total Complexity for HospitalRun.tsx" />
-  </a>
-  <a href="/assets/img/hospitalrun/HospitalRun.tsx.SD-Trend.png" title="Standard Deviation of Complexity for HospitalRun.tsx">
-    <img src="/assets/img/hospitalrun/thumbnails/HospitalRun.tsx.SD-Trend.png" alt="Standard Deviation of Complexity for HospitalRun.tsx" />
-  </a>
-  <a href="/assets/img/hospitalrun/HospitalRun.tsx.Mean-Trend.png" title="Mean Complexity for HospitalRun.tsx">
-    <img src="/assets/img/hospitalrun/thumbnails/HospitalRun.tsx.Mean-Trend.png" alt="Mean Complexity for HospitalRun.tsx" />
-  </a>
-</div>
-<script>
-  document.getElementById('HospitalRun').onclick = function (event) {
-    event = event || window.event
-    var target = event.target || event.srcElement
-    var link = target.src ? target.parentNode : target
-    var options = { index: link, event: event }
-    var links = this.getElementsByTagName('a')
-    blueimp.Gallery(links, options)
-  }
-</script>
+{% include gallery.html id="ViewPatientTest" folder="hospitalrun"
+   images="ViewPatient.test.tsx.Total-Trend.png,ViewPatient.test.tsx.SD-Trend.png,ViewPatient.test.tsx.Mean-Trend.png"
+   captions="Total Complexity for ViewPatient.test.tsx,Standard Deviation of Complexity for ViewPatient.test.tsx,Mean Complexity for ViewPatient.test.tsx" %}
 
-##### patient-slice.ts and patient-slice.test.ts
+##### HospitalRun.tsx
 
-<div id="patient-slice" class="links">
-  <a href="/assets/img/hospitalrun/patient-slice.ts.Total-Trend.png" title="Total Complexity for patient-slice.ts">
-    <img src="/assets/img/hospitalrun/thumbnails/patient-slice.ts.Total-Trend.png" alt="Total Complexity for patient-slice.ts" />
-  </a>
-  <a href="/assets/img/hospitalrun/patient-slice.ts.SD-Trend.png" title="Standard Deviation of Complexity for patient-slice.ts">
-    <img src="/assets/img/hospitalrun/thumbnails/patient-slice.ts.SD-Trend.png" alt="Standard Deviation of Complexity for patient-slice.ts" />
-  </a>
-  <a href="/assets/img/hospitalrun/patient-slice.ts.Mean-Trend.png" title="Mean Complexity for patient-slice.ts">
-    <img src="/assets/img/hospitalrun/thumbnails/patient-slice.ts.Mean-Trend.png" alt="Mean Complexity for patient-slice.ts" />
-  </a>
-</div>
-<script>
-  document.getElementById('patient-slice').onclick = function (event) {
-    event = event || window.event
-    var target = event.target || event.srcElement
-    var link = target.src ? target.parentNode : target
-    var options = { index: link, event: event }
-    var links = this.getElementsByTagName('a')
-    blueimp.Gallery(links, options)
-  }
-</script>
+{% include gallery.html id="HospitalRun" folder="hospitalrun"
+   images="HospitalRun.tsx.Total-Trend.png,HospitalRun.tsx.SD-Trend.png,HospitalRun.tsx.Mean-Trend.png"
+   captions="Total Complexity for HospitalRun.tsx,Standard Deviation of Complexity for HospitalRun.tsx,Mean Complexity for HospitalRun.tsx" %}
+
+##### HospitalRun.test.tsx
+
+{% include gallery.html id="HospitalRunTest" folder="hospitalrun"
+   images="HospitalRun.test.tsx.Total-Trend.png,HospitalRun.test.tsx.SD-Trend.png,HospitalRun.test.tsx.Mean-Trend.png"
+   captions="Total Complexity for HospitalRun.test.tsx,Standard Deviation of Complexity for HospitalRun.test.tsx,Mean Complexity for HospitalRun.test.tsx" %}
+
+##### patient-slice.ts
+
+{% include gallery.html id="patient-slice" folder="hospitalrun"
+   images="patient-slice.ts.Total-Trend.png,patient-slice.ts.SD-Trend.png,patient-slice.ts.Mean-Trend.png"
+   captions="Total Complexity for patient-slice.ts,Standard Deviation of Complexity for patient-slice.ts,Mean Complexity for patient-slice.ts" %}
+
+##### patient-slice.test.ts
+
+{% include gallery.html id="patient-slice-test" folder="hospitalrun"
+   images="patient-slice.test.ts.Total-Trend.png,patient-slice.test.ts.SD-Trend.png,patient-slice.test.ts.Mean-Trend.png"
+   captions="Total Complexity for patient-slice.test.ts,Standard Deviation of Complexity for patient-slice.test.ts,Mean Complexity for patient-slice.test.ts" %}
 
 ### Extending the Hotspot Analysis
 
@@ -161,11 +123,6 @@ python "$MAAT_SCRIPTS/miner/complexity_analysis.py" "src/patients/view/ViewPatie
 #### Visualize Complexity Trends
 
 ```sh
-FULL_PATH=frontend/src/patients/view/ViewPatient.tsx
-SUB_PATH=${FULL_PATH/frontend\//}
-
-REPO="${FULL_PATH/\/src*/}" && cd "../$REPO"
-
 # Find oud the first and last revision by inspecting the git log, e.g.
 git log --pretty=format:'[%h] %ad %an %s' --date=short --after=2019-11-06 --before=2019-11-11 # First considered commit in 2019
 git log --pretty=format:'[%h] %ad %an %s' --date=short --after=2020-11-06 --before=2020-11-08 # Last considered commit in 2020
@@ -174,14 +131,22 @@ git log --pretty=format:'[%h] %ad %an %s' --date=short --after=2020-11-06 --befo
 FIRST_REVISION=$(git log --pretty=format:'%h' --after=2019-11-06 --before=2019-11-11) && git log ${FIRST_REVISION}~1..${FIRST_REVISION} --
 LAST_REVISION=$(git log --pretty=format:'%h' --after=2020-11-06 --before=2020-11-08) && git log ${LAST_REVISION}~1..${LAST_REVISION} --
 
+# For every hotspot:
+
+# Give the FULL_PATH of the file of interest - repository folder and file name are derived automatically.
+FULL_PATH=frontend/src/__tests__/patients/patient-slice.test.ts \
+  && SUB_PATH=${FULL_PATH/frontend\//} \
+  && REPO="${FULL_PATH/\/src*/}" && cd "../$REPO"
+
+# Get the evolution of the complexity
 python "$MAAT_SCRIPTS/miner/git_complexity_trend.py" --start $FIRST_REVISION --end $LAST_REVISION --file "$SUB_PATH" > ../analysis/trend_data.csv
 
-# total (growth of complexity)
-python3 "$MAAT_SCRIPTS/plot/plot.py" --column 2 --file ../analysis/trend_data.csv
+# Total (growth of complexity)
+python "$MAAT_SCRIPTS/plot/plot.py" --column 2 --file ../analysis/trend_data.csv
 
-# standard deviation of complexity
-python3 "$MAAT_SCRIPTS/plot/plot.py" --column 4 --file ../analysis/trend_data.csv
+# Standard deviation of complexity
+python "$MAAT_SCRIPTS/plot/plot.py" --column 4 --file ../analysis/trend_data.csv
 
-# mean of complexity
-python3 "$MAAT_SCRIPTS/plot/plot.py" --column 3 --file ../analysis/trend_data.csv
+# Mean of complexity
+python "$MAAT_SCRIPTS/plot/plot.py" --column 3 --file ../analysis/trend_data.csv
 ```

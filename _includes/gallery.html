@@ -1,0 +1,44 @@
+{% comment %}
+USAGE:
+
+{% include gallery.html id="ViewPatient" folder="hospitalrun" images="ViewPatient.tsx.Total-Trend.png,ViewPatient.tsx.SD-Trend.png,ViewPatient.tsx.Mean-Trend.png" captions="Total Complexity for ViewPatient.tsx,Standard Deviation of Complexity for ViewPatient.tsx,Mean Complexity for ViewPatient.tsx" %}
+
+    id        unique id used as the id of the gallery.
+
+    folder    subdirectory in /assets/img which contains the images.
+
+    images    file names of the images to include into the gallery.
+              it is assumed that the folder contains a "thumbnails"
+              subfolder which contains a thumbnail version of each
+              image. The file names are separated with a comma.
+
+    captions  Title for each image. Titles are separated by comma.
+              Must contain as many entries as images.
+
+{% endcomment %}
+
+<!-- To create thumbnails: mogrify -format png -auto-orient -thumbnail 400x114 -path thumbnails '*.png' -->
+
+{% assign folder = include.folder %}
+{% assign images = include.images | split: ',' %}
+{% assign captions = include.captions | split: ',' %}
+{% assign endIndex = images.size | minus: 1 %}
+
+<div id="{{ include.id }}" class="links">
+    {% for i in (0..endIndex) %}
+    <a href="/assets/img/{{ folder }}/{{ images[i] }}" title="{{ captions[i] }}">
+      <img src="/assets/img/{{ folder }}/thumbnails/{{ images[i] }}" alt="{{ captions[i] }}" />
+    </a>
+    {% endfor %}
+</div>
+
+<script>
+document.getElementById('{{ include.id }}').onclick = function (event) {
+    event = event || window.event
+    var target = event.target || event.srcElement
+    var link = target.src ? target.parentNode : target
+    var options = { index: link, event: event }
+    var links = this.getElementsByTagName('a')
+    blueimp.Gallery(links, options)
+}
+</script>
