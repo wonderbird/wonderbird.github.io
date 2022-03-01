@@ -27,13 +27,16 @@ In chapter 15 of [Your Code as a Crime Scene](https://pragprog.com/titles/atcrim
 
 #### Start Simple and Then Elaborate As Needed
 
-1. Perform a hotspot analysis to gain a high level view of codebase's condition
-2. Check temporal coupling starting with individual modules
-3. If you know the codebase: Specify significant architectural boundaries
-4. Analyze temporal coupling on architectural level to spot surprising modification patterns
-5. Measure code churn
+The links in the following step-by-step instructions lead to the results and the instructions on how perform the corresponding analysis:
+
+1. Perform a [hotspot analysis](2022-02-21-applied-forensics-hotspots.html) to gain a high level view of codebase's condition
+1. Inspect [complexity trends](2022-02-26-applied-forensics-complexity-of-hotspots.html) for hotspot candidates
+1. Check temporal coupling starting with individual modules
+1. If you know the codebase: Specify significant architectural boundaries
+1. Analyze temporal coupling on architectural level to spot surprising modification patterns
+1. Measure code churn
 
 #### Support Collaboration
 
 1. Use a knowledge map as communication aid
-2. If multiple teams are working on the code: Track parallel work and investigate parallel work modules with fractal figures
+1. If multiple teams are working on the code: Track parallel work and investigate parallel work modules with fractal figures

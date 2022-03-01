@@ -65,11 +65,15 @@ title:  "Applied Software Forensics - Complexity of Hotspots in HospitalRun"
    images="ViewPatient.tsx.Total-Trend.png,ViewPatient.tsx.SD-Trend.png,ViewPatient.tsx.Mean-Trend.png"
    captions="Total Complexity for ViewPatient.tsx,Standard Deviation of Complexity for ViewPatient.tsx,Mean Complexity for ViewPatient.tsx" %}
 
+The overall complexity of `ViewPatient` has been growing steadily over the past year. The nearly constant values of mean complexity and standard deviation indicate that the growth is caused by an increase of file length.
+
 ##### ViewPatient.test.tsx
 
 {% include gallery.html id="ViewPatientTest" folder="hospitalrun"
    images="ViewPatient.test.tsx.Total-Trend.png,ViewPatient.test.tsx.SD-Trend.png,ViewPatient.test.tsx.Mean-Trend.png"
    captions="Total Complexity for ViewPatient.test.tsx,Standard Deviation of Complexity for ViewPatient.test.tsx,Mean Complexity for ViewPatient.test.tsx" %}
+
+The tests for `ViewPatient` show the same evolution as the class itself. Mean and standard deviation of complexity show an increase towards the end of the observed time period.
 
 ##### HospitalRun.tsx
 
@@ -77,11 +81,17 @@ title:  "Applied Software Forensics - Complexity of Hotspots in HospitalRun"
    images="HospitalRun.tsx.Total-Trend.png,HospitalRun.tsx.SD-Trend.png,HospitalRun.tsx.Mean-Trend.png"
    captions="Total Complexity for HospitalRun.tsx,Standard Deviation of Complexity for HospitalRun.tsx,Mean Complexity for HospitalRun.tsx" %}
 
+The total complexity of `HospitalRun.tsx` has grown strongly for a while in the past year. At some point the development team has removed much of the accumulated complexity. The mean and standard deviation curves mirror this trend.
+
+Still, the name of the module does not reveal its intention and it does not give guidance for what should be a part of the file and what is out of scope.
+
 ##### HospitalRun.test.tsx
 
 {% include gallery.html id="HospitalRunTest" folder="hospitalrun"
    images="HospitalRun.test.tsx.Total-Trend.png,HospitalRun.test.tsx.SD-Trend.png,HospitalRun.test.tsx.Mean-Trend.png"
    captions="Total Complexity for HospitalRun.test.tsx,Standard Deviation of Complexity for HospitalRun.test.tsx,Mean Complexity for HospitalRun.test.tsx" %}
+
+The trends of `HospitalRun.test.tsx` are similar to the trends of `HospitalRun.tsx`. It seems as if both files already have the attention of the development team.
 
 ##### patient-slice.ts
 
@@ -89,11 +99,26 @@ title:  "Applied Software Forensics - Complexity of Hotspots in HospitalRun"
    images="patient-slice.ts.Total-Trend.png,patient-slice.ts.SD-Trend.png,patient-slice.ts.Mean-Trend.png"
    captions="Total Complexity for patient-slice.ts,Standard Deviation of Complexity for patient-slice.ts,Mean Complexity for patient-slice.ts" %}
 
+The `patient-slice.ts` file has grown in complexity during the past year. However, towards the end of the observed time period, the trend has was reversed and the complexity metric improved. The mean and standard deviation of complexity were rather steady during the entire year.
+
 ##### patient-slice.test.ts
 
 {% include gallery.html id="patient-slice-test" folder="hospitalrun"
    images="patient-slice.test.ts.Total-Trend.png,patient-slice.test.ts.SD-Trend.png,patient-slice.test.ts.Mean-Trend.png"
    captions="Total Complexity for patient-slice.test.ts,Standard Deviation of Complexity for patient-slice.test.ts,Mean Complexity for patient-slice.test.ts" %}
+
+Like in the other cases above, the tests trends are similar to the trends of the module under test.
+
+#### Conclusions
+
+`ViewPatient.tsx` and `ViewPatient.test.tsx` raise concerns. The growing trend of total complexity in both files suggests that the amount of code in `ViewPatient.tsx` is increasing. This is supported by the nearly constant shape of mean and standard deviation.
+
+Did `ViewPatient.tsx` attract too many responsibilities?
+Is this the reason for why the complexity in `ViewPatient.test.tsx` is growing?
+
+The modules `HospitalRun.tsx`, `HospitalRun.test.tsx`, `patient-slice.ts` and `patient-slice.test.ts` have accumulated much complexity during the past year. However, at some point the development team reversed this trend. It seems as if these files have been taken care of.
+
+ Still, the name of the `HospitalRun` module could be improved. The current name does not tell what kind of code should be part of it. This attracts complexity, because the name does not indicate a clear separation of concerns.
 
 ### Extending the Hotspot Analysis
 
