@@ -11,6 +11,7 @@ title:  "Applied Software Forensics - Complexity of Hotspots in HospitalRun"
 - [Results](#results)
   - [Hotspots Enriched With Name Quality and Complexity Measures](#hotspots-enriched-with-name-quality-and-complexity-measures)
   - [Trends for Selected Hotspots](#trends-for-selected-hotspots)
+  - [Conclusions](#conclusions)
 - [Extending the Hotspot Analysis](#extending-the-hotspot-analysis)
   - [Judge Power of Names](#judge-power-of-names)
   - [Calculate Complexity](#calculate-complexity)
