@@ -61,7 +61,7 @@ title:  "Applied Software Forensics - Complexity of Hotspots in HospitalRun"
 
 ##### ViewPatient.tsx
 
-{% include gallery.html id="ViewPatient" folder="hospitalrun"
+{% include gallery.html id="ViewPatient" folder="hospitalrun/analysis"
    images="ViewPatient.tsx.Total-Trend.png,ViewPatient.tsx.SD-Trend.png,ViewPatient.tsx.Mean-Trend.png"
    captions="Total Complexity for ViewPatient.tsx,Standard Deviation of Complexity for ViewPatient.tsx,Mean Complexity for ViewPatient.tsx" %}
 
@@ -69,7 +69,7 @@ The overall complexity of `ViewPatient` has been growing steadily over the past 
 
 ##### ViewPatient.test.tsx
 
-{% include gallery.html id="ViewPatientTest" folder="hospitalrun"
+{% include gallery.html id="ViewPatientTest" folder="hospitalrun/analysis"
    images="ViewPatient.test.tsx.Total-Trend.png,ViewPatient.test.tsx.SD-Trend.png,ViewPatient.test.tsx.Mean-Trend.png"
    captions="Total Complexity for ViewPatient.test.tsx,Standard Deviation of Complexity for ViewPatient.test.tsx,Mean Complexity for ViewPatient.test.tsx" %}
 
@@ -77,7 +77,7 @@ The tests for `ViewPatient` show the same evolution as the class itself. Mean an
 
 ##### HospitalRun.tsx
 
-{% include gallery.html id="HospitalRun" folder="hospitalrun"
+{% include gallery.html id="HospitalRun" folder="hospitalrun/analysis"
    images="HospitalRun.tsx.Total-Trend.png,HospitalRun.tsx.SD-Trend.png,HospitalRun.tsx.Mean-Trend.png"
    captions="Total Complexity for HospitalRun.tsx,Standard Deviation of Complexity for HospitalRun.tsx,Mean Complexity for HospitalRun.tsx" %}
 
@@ -87,7 +87,7 @@ Still, the name of the module does not reveal its intention and it does not give
 
 ##### HospitalRun.test.tsx
 
-{% include gallery.html id="HospitalRunTest" folder="hospitalrun"
+{% include gallery.html id="HospitalRunTest" folder="hospitalrun/analysis"
    images="HospitalRun.test.tsx.Total-Trend.png,HospitalRun.test.tsx.SD-Trend.png,HospitalRun.test.tsx.Mean-Trend.png"
    captions="Total Complexity for HospitalRun.test.tsx,Standard Deviation of Complexity for HospitalRun.test.tsx,Mean Complexity for HospitalRun.test.tsx" %}
 
@@ -95,7 +95,7 @@ The trends of `HospitalRun.test.tsx` are similar to the trends of `HospitalRun.t
 
 ##### patient-slice.ts
 
-{% include gallery.html id="patient-slice" folder="hospitalrun"
+{% include gallery.html id="patient-slice" folder="hospitalrun/analysis"
    images="patient-slice.ts.Total-Trend.png,patient-slice.ts.SD-Trend.png,patient-slice.ts.Mean-Trend.png"
    captions="Total Complexity for patient-slice.ts,Standard Deviation of Complexity for patient-slice.ts,Mean Complexity for patient-slice.ts" %}
 
@@ -103,7 +103,7 @@ The `patient-slice.ts` file has grown in complexity during the past year. Howeve
 
 ##### patient-slice.test.ts
 
-{% include gallery.html id="patient-slice-test" folder="hospitalrun"
+{% include gallery.html id="patient-slice-test" folder="hospitalrun/analysis"
    images="patient-slice.test.ts.Total-Trend.png,patient-slice.test.ts.SD-Trend.png,patient-slice.test.ts.Mean-Trend.png"
    captions="Total Complexity for patient-slice.test.ts,Standard Deviation of Complexity for patient-slice.test.ts,Mean Complexity for patient-slice.test.ts" %}
 
