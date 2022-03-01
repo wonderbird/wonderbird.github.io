@@ -55,45 +55,83 @@ Please check the list of [IntelliJ IDEA Plugins](../plugins/jetbrains-intellij-i
 
 #### Switching Between Multiple Versions of Java
 
+##### Works For Both Java And Gradle
+
+1. Install [sdkman](https://sdkman.io)
+
+1. Install java and gradle
+
+   ```sh
+   # Install latest
+   sdk install java
+   sdk install gradle
+
+   # Install an alternative version
+   sdk install java 11-ms
+   sdk install gradle 6.7.1
+   ```
+
+1. Select a default version for java and gradle
+
+   ```sh
+   sdk default java 11.0.14-ms
+   sdk default gradle 6.7.1
+   ```
+
+1. Use a different version of java and gradle in the current shell (restored to `default` in the next shell)
+
+   ```sh
+   sdk use java 11-ms
+   sdk use gradle 6.7.1
+   ```
+
+##### Works For Java, Doesn't Work For Gradle
+
 1. Install [jenv](htts://jenv.be)
 
-```shell
-brew install jenv
-# Remember to add the initialization code to .zshrc or .bashrc
-# Restart your shell
-```
+   ```shell
+   brew install jenv
+   # Remember to add the initialization code to .zshrc or .bashrc
+   # Restart your shell
+   ```
 
 1. Install some Java versions using [Homebrew](htts://brew.io)
 
-```shell
-brew tap homebrew/cask-versions
-brew install temurin
-brew install temurin11
-```
+   ```shell
+   brew tap homebrew/cask-versions
+   brew install temurin
+   brew install temurin11
+   ```
 
 1. Find out the Java version paths
 
-```shell
-/usr/libexec/java_home -V
-```
+   ```shell
+   /usr/libexec/java_home -V
+   ```
 
 1. Register the Java version paths with jenv
 
-```shell
-jenv add ... # for each Java version you'd like to switch to
-```
+   ```shell
+   jenv add ... # for each Java version you'd like to switch to
+   ```
 
 1. Verify
 
-```shell
-jenv versions
-```
+   ```shell
+   jenv versions
+   ```
 
 1. Switch Java version (e.g. 11)
 
-```shell
-jenv global 11
-```
+   ```shell
+   jenv global 11
+   ```
+
+1. In a specific directory, select a different Java version (e.g. 17)
+
+   ```shell
+   jenv local 17
+   ```
 
 ### Links
 

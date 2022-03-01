@@ -3,12 +3,14 @@ layout: post-with-d3
 title:  "Applied Software Forensics - Hotspot Analysis for HospitalRun"
 ---
 
+<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-02-21-applied-forensics-hotspots.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Results](#results)
   - [Hotspots Overview](#hotspots-overview)
+  - [Top 10 Hotspots](#top-10-hotspots)
 - [Executing a Hotspot Analysis For Individual Repositories](#executing-a-hotspot-analysis-for-individual-repositories)
   - [Prerequisites](#prerequisites)
   - [Prepare Complexity (LOC) and Effort (Change Frequencies)](#prepare-complexity-loc-and-effort-change-frequencies)
@@ -46,11 +48,29 @@ This **interactive** diagram shows the hotspots of HospitalRun as large, dark re
 
 #### Top 10 Hotspots
 
-The following table shows the top 10 hotspots in HospitalRun:
+The following table shows the top 10 hotspots in HospitalRun.
 
-<!-- force rebuild of jekyll page -->
-<!-- {% assign row = site.data.hospitalrun[0] %}
-{{ row[module] }} -->
+<table>
+  <thead>
+    <caption>Hotspots</caption>
+    <tr>
+      <th>Revisions</th>
+      <th>LOC</th>
+      <th style="text-align: left">Module</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for hotspot in site.data.hospitalrun-hotspots %}
+    <tr>
+      <td>{{ hotspot.revisions }}</td>
+      <td>{{ hotspot.code }}</td>
+      <td style="text-align: left">{{ hotspot.module }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
 
 ### Executing a Hotspot Analysis For Individual Repositories
 
@@ -101,7 +121,17 @@ for FILE in $(cat cloc-exclude-files.txt); do sed -i '' "/$FILE,/d" "${SUT}_freq
 ```sh
 # Set the folder containing your https://github.com/adamtornhill/maat-scripts python3 branch checkout
 export MAAT_SCRIPTS=$HOME/source/learn/your-code-as-a-crime-scene/maat-scripts
-python "$MAAT_SCRIPTS/merge/merge_comp_freqs.py" "${SUT}_freqs.csv" "${SUT}_lines.csv"
+python "$MAAT_SCRIPTS/merge/merge_comp_freqs.py" "${SUT}_freqs.csv" "${SUT}_lines.csv" > hotspots.csv
+```
+
+The output is a csv formatted table of hotspots sorted by criticality.
+
+In the sections above I have generated a JSON file from the csv output and used it as data source for this Jekyll page:
+
+```sh
+# Prerequisite: Install the d3-dsv npm package. It brings the csv2json command
+npm install -g d3-dsv
+csv2json -o hotspots.json hotspots.csv
 ```
 
 #### Visualize hotspots

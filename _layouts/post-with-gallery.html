@@ -4,49 +4,19 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/blueimp-gallery.min.css' | relative_url }}" media="screen" type="text/css" >
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-    <style>
 
-        .node {
-          cursor: pointer;
-        }
-        
-        .node:hover {
-          stroke: #000;
-          stroke-width: 1.5px;
-        }
-        
-        .node--root {
-          stroke: #777;
-          stroke-width: 2px;
-        }
-        
-        .node--leaf {
-          fill: white;
-          stroke: #777;
-          stroke-width: 1px;
-        }
-        
-        .label {
-          font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-          text-anchor: middle;
-          fill: white;
-        }
-        
-        .label,
-        .node--root,
-        .node--leaf {
-          pointer-events: none;
-        }
-        
-    </style>
-        
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
 {% seo %}
   </head>
 
   <body>
-    <script src="{{ '/assets/js/d3/d3.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/blueimp-gallery.min.js' | relative_url }}"></script>
 
     <header>
       <div class="inner">
@@ -69,10 +39,7 @@
         {% include breadcrumbs.html %}
         
         <section id="main-content">
-            <h2>{{ page.title }}</h2>
-            <p>{{ page.date | date_to_string }}</p>
-
-            {{ content }}
+          {{ content }}
         </section>
 
         <aside id="sidebar">
@@ -96,6 +63,45 @@
       </div>
     </div>
 
+    <!-- The Gallery as lightbox dialog, should be a document body child element -->
+    <div
+    id="blueimp-gallery"
+    class="blueimp-gallery blueimp-gallery-controls"
+    aria-label="image gallery"
+    aria-modal="true"
+    role="dialog"
+    >
+    <div class="slides" aria-live="polite"></div>
+    <h3 class="title"></h3>
+    <a
+      class="prev"
+      aria-controls="blueimp-gallery"
+      aria-label="previous slide"
+      aria-keyshortcuts="ArrowLeft"
+    ></a>
+    <a
+      class="next"
+      aria-controls="blueimp-gallery"
+      aria-label="next slide"
+      aria-keyshortcuts="ArrowRight"
+    ></a>
+    <a
+      class="close"
+      aria-controls="blueimp-gallery"
+      aria-label="close"
+      aria-keyshortcuts="Escape"
+    ></a>
+    <a
+      class="play-pause"
+      aria-controls="blueimp-gallery"
+      aria-label="play slideshow"
+      aria-keyshortcuts="Space"
+      aria-pressed="false"
+      role="button"
+    ></a>
+    <ol class="indicator"></ol>
+    </div>
+    
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
