@@ -3,6 +3,28 @@ layout: post
 title:  "HospitalRun Architecture"
 ---
 
+<!-- doctoc --maxlevel 5 _posts/2022-03-01-hospitalrun-architecture.md -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Status And Support Standard](#status-and-support-standard)
+- [Thanks](#thanks)
+- [Introduction and Goals](#introduction-and-goals)
+  - [Requirements Overview](#requirements-overview)
+  - [Quality Goals](#quality-goals)
+- [Building Block View](#building-block-view)
+  - [HospitalRun Composite Structure](#hospitalrun-composite-structure)
+- [Concepts](#concepts)
+  - [aim42 - Issues, Improvements, Evaluation](#aim42---issues-improvements-evaluation)
+    - [Issue List](#issue-list)
+  - [Setup the Development Environment](#setup-the-development-environment)
+    - [How to Start?](#how-to-start)
+    - [How NOT to Start?](#how-not-to-start)
+    - [Troubleshooting the Development Environment Setup](#troubleshooting-the-development-environment-setup)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Status And Support Standard
 
 This document is a work in progress. Its purpose is to help me understand the [HospitalRun](https://hospitalrun.io/) software architecture.
@@ -14,22 +36,6 @@ Please assume that I will need some days to answer your questions.
 ### Thanks
 
 This architecture document is structured as proposed in [arc42](https://docs.arc42.org/home/). Many thanks to [Gernot Starke](https://github.com/gernotstarke) and all other [arc42](https://docs.arc42.org/home/) contributors for this template ❤️.
-
-<!-- doctoc --maxlevel 5 _posts/2022-02-19-hospitalrun-architecture.md -->
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Introduction and Goals](#introduction-and-goals)
-  - [Requirements Overview](#requirements-overview)
-  - [Quality Goals](#quality-goals)
-- [Building Block View](#building-block-view)
-  - [HospitalRun Composite Structure](#hospitalrun-composite-structure)
-- [Concepts](#concepts)
-  - [aim42 - Issues, Improvements, Evaluation](#aim42---issues-improvements-evaluation)
-  - [Setup the Development Environment](#setup-the-development-environment)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### Introduction and Goals
 
@@ -62,13 +68,19 @@ As of Feb. 16, 2022 the [HospitalRun Homepage](https://hospitalrun.io/) lists th
 
 #### HospitalRun Composite Structure
 
-The following diagram is based on the table in the [Contributing Guide](https://github.com/HospitalRun/hospitalrun/blob/master/.github/CONTRIBUTING.md) as of Feb. 16, 2022.
+The following diagram is based on the results of the [Applied Software Forensics](/2022/02/18/applied-forensics-announcement.html) analysis I conducted at the beginning of 2022.
 
-![HospitalRun Composite Structure](/assets/images/hospitalrun/composite-structure.drawio.png)
+Caveat:
 
-##### TODO: cli component is not documented on [Contributing Guide](https://github.com/HospitalRun/hospitalrun/blob/master/.github/CONTRIBUTING.md)
+The data considered for the architecture diagrams is taken from late 2020 (releases 2.0.0-alpha.7 and 2.0.0-alpha.5, respectively). So these diagrams and the associated text **might be outdated**.
 
-The corresponding Github repositories are located below [https://github.com/hospitalrun/](https://github.com/hospitalrun/).
+![Composite Structure of the HospitalRun System](/assets/img/hospitalrun/architecture/composite-structure.drawio.png)
+
+| Repository | Description |
+| --         | --- |
+| [frontend](https://github.com/HospitalRun/hospitalrun-frontend) | User interface of the HospitalRun application |
+| [server](https://github.com/HospitalRun/hospitalrun-server)     | Backend services for the frontend |
+| [components](https://github.com/HospitalRun/components)         | Typescript component library used by the frontend |
 
 ### Concepts
 
@@ -76,12 +88,15 @@ The corresponding Github repositories are located below [https://github.com/hosp
 
 ##### Issue List
 
-- In the top level directory of the mono repository, the `yarn` command shows a large number of deprecation warnings and outdated dependencies
-- The current stable Node.js version 16 is not supported by `node-gyp` - it causes the [Error When Installing node-sass: gyp Compile Errors](#error-when-installing-node-sass-gyp-compile-errors)
-- The `node-sass` dependency is deprecated, see [Github: node-sass](https://github.com/sass/node-sass) [Github: node-gyp docs](https://github.com/nodejs/node-gyp/tree/master/docs)
-- The `node-sass` dependency is outdated. Versions 4.13.0 and 4.14.0, respectively, are used while current is 7.0.1.
-- The mono repository cannot be built according to the Monorepo Contributing Guide in the [Contributing Guide](https://github.com/HospitalRun/hospitalrun/blob/master/.github/CONTRIBUTING.md). See [Error When Issuing `yarn workspaces run build`: (typescript) Error: .../Container.tsx(33,25): semantic error TS2769: No overload matches this call.](#error-when-issuing-yarn-workspaces-run-build-typescript-error-containertsx3325-semantic-error-ts2769-no-overload-matches-this-call) and [HospitalRun Issue #363: Error while building the project](https://github.com/HospitalRun/hospitalrun/issues/363)
-- When running `npm install` in both the [hospitalrun-frontend](https://github.com/HospitalRun/hospitalrun-frontend/) and in the [hospitalrun-server](https://github.com/HospitalRun/hospitalrun-server/), many deprecation warnings are shown. Some of them seem to be severe.
+- When running `npm install` for version 2.0.0-alpha.7 of [hospitalrun-frontend](https://github.com/HospitalRun/hospitalrun-frontend/) and for version 2.0.0-alpha.5 of [hospitalrun-server](https://github.com/HospitalRun/hospitalrun-server/), many deprecation warnings are shown. Some of them seem to be severe.
+
+###### Mono Repository Specific Issue List
+
+- In the top level directory of the [mono repository](https://github.com/HospitalRun/hospitalrun), the `yarn` command shows a large number of deprecation warnings and outdated dependencies
+- The [current stable Node.js version 16](https://nodejs.org/en/) is not supported by `node-gyp` - it causes the [Error When Installing node-sass: gyp Compile Errors](#error-when-installing-node-sass-gyp-compile-errors)
+- The `node-sass` dependency is deprecated, see [Github: node-sass](https://github.com/sass/node-sass) and [Github: node-gyp docs](https://github.com/nodejs/node-gyp/tree/master/docs)
+- The `node-sass` dependency is outdated. Versions 4.13.0 and 4.14.0, respectively, are used while [current is 7.0.1](https://github.com/sass/node-sass).
+- The [mono repository](https://github.com/HospitalRun/hospitalrun) cannot be built according to the section **Monorepo Contributing Guide** in the [Contributing Guide](https://github.com/HospitalRun/hospitalrun/blob/master/.github/CONTRIBUTING.md). See [Error When Issuing `yarn workspaces run build`: (typescript) Error: .../Container.tsx(33,25): semantic error TS2769: No overload matches this call.](#error-when-issuing-yarn-workspaces-run-build-typescript-error-containertsx3325-semantic-error-ts2769-no-overload-matches-this-call) and [HospitalRun Issue #363: Error while building the project](https://github.com/HospitalRun/hospitalrun/issues/363)
 
 #### Setup the Development Environment
 
