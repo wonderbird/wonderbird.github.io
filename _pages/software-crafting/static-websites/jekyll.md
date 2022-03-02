@@ -4,6 +4,22 @@ layout: default
 ---
 ## Generating Websites with Jekyll
 
+<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_pages/software-crafting/static-websites/jekyll.md -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Prerequisites](#prerequisites)
+  - [Ruby](#ruby)
+  - [Jekyll](#jekyll)
+- [Local Development](#local-development)
+- [Troubleshooting](#troubleshooting)
+- [Liquid Template Language](#liquid-template-language)
+- [Authentication and Restricted Access](#authentication-and-restricted-access)
+- [Further Information](#further-information)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Prerequisites
 
 #### Ruby
@@ -91,7 +107,12 @@ and re-install your Ruby gems
 $ bundle install
 ```
 
-#### Authentication and Restricted Access
+### Liquid Template Language
+
+- [Liquid](https://shopify.github.io/liquid/) - Template language description at Shopify.
+- [Liquid (Shopify) Cheat Sheet](https://www.shopify.com/partners/shopify-cheat-sheet)
+
+### Authentication and Restricted Access
 
 The [jekyll-auth](https://github.com/benbalter/jekyll-auth) module allows to restrict access. It uses GitHub OAuth and allows to manage user access via GitHub organizations and teams.
 
