@@ -124,16 +124,6 @@ export MAAT_SCRIPTS=$HOME/source/learn/your-code-as-a-crime-scene/maat-scripts
 python "$MAAT_SCRIPTS/merge/merge_comp_freqs.py" "${SUT}_freqs.csv" "${SUT}_lines.csv" > hotspots.csv
 ```
 
-The output is a csv formatted table of hotspots sorted by criticality.
-
-In the sections above I have generated a JSON file from the csv output and used it as data source for this Jekyll page:
-
-```sh
-# Prerequisite: Install the d3-dsv npm package. It brings the csv2json command
-npm install -g d3-dsv
-csv2json -o hotspots.json hotspots.csv
-```
-
 #### Visualize hotspots
 
 ```sh
