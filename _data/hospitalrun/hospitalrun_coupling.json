@@ -1,0 +1,1 @@
+[{"entity":"frontend/src/HospitalRun.tsx","coupled":"frontend/src/__tests__/HospitalRun.test.tsx","degree":"36","average-revs":"31"},{"entity":"frontend/src/HospitalRun.tsx","coupled":"frontend/src/user/user-slice.ts","degree":"30","average-revs":"26"}]

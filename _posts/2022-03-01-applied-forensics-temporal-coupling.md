@@ -30,9 +30,15 @@ The column "SoC" in the following table shows how often each file has been commi
 
 #### Coupling of Individual Modules
 
+The following diagram depicts the coupling between hotspots and their dependencies. The percentage gives the amount of coupling and the `revs` value is the average revisions:
+
+![Coupling of Individual Modules](/assets/img/hospitalrun/analysis/coupling.drawio.png)
+
+The basis of the diagram are these coupling tables:
+
 <table>
   <thead>
-    <caption>Coupling of views/ViewPatient.tsx</caption>
+    <caption>Coupling of view/ViewPatient.tsx</caption>
     <tr>
       <th style="text-align: left">entity</th>
       <th style="text-align: left">coupled</th>
@@ -42,7 +48,53 @@ The column "SoC" in the following table shows how often each file has been commi
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.viewpatient-coupling %}
+    {% for entry in site.data.hospitalrun.viewpatient_coupling %}
+    <tr>
+      <td style="text-align: left">{{ entry.entity }}</td>
+      <td style="text-align: left">{{ entry.coupled }}</td>
+      <td>{{ entry.degree }}</td>
+      <td>{{ entry.average-revs }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <caption>Coupling of src/HospitalRun.tsx</caption>
+    <tr>
+      <th style="text-align: left">entity</th>
+      <th style="text-align: left">coupled</th>
+      <th>degree</th>
+      <th>average-revs</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for entry in site.data.hospitalrun.hospitalrun_coupling %}
+    <tr>
+      <td style="text-align: left">{{ entry.entity }}</td>
+      <td style="text-align: left">{{ entry.coupled }}</td>
+      <td>{{ entry.degree }}</td>
+      <td>{{ entry.average-revs }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <caption>Coupling of patient-slice.ts</caption>
+    <tr>
+      <th style="text-align: left">entity</th>
+      <th style="text-align: left">coupled</th>
+      <th>degree</th>
+      <th>average-revs</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for entry in site.data.hospitalrun.patient-slice_coupling %}
     <tr>
       <td style="text-align: left">{{ entry.entity }}</td>
       <td style="text-align: left">{{ entry.coupled }}</td>
@@ -81,10 +133,25 @@ docker run -v "$PWD":/data -it code-maat-app -l /data/all_evo.log -c git -a coup
 
 #### Filter By Hotspot
 
-Using the [Rainbow CSV Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) you can filter the `all_coupling.csv` file by hotspot name. The following queries where used to create individual CSV files per hotspot:
+The [Rainbow CSV Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) allows experimenting with CSV file filters in a WYSIWIG way.
 
-```sql
-SELECT * WHERE LIKE(a1, '%view/ViewPatient%') || LIKE(a2, '%view/ViewPatient%') ORDER BY a3, a4 DESC WITH (header)
+Once you have found the filter query, you can use the [RBQL CLI](https://www.npmjs.com/package/rbql#using-rbql-as-command-line-tool) to filter the CSV file from the command line:
+
+```sh
+# Install the rbql cli
+npm install -g rbql
+
+export QUERY="SELECT * WHERE LIKE(a1, '%view/ViewPatient%') || LIKE(a2, '%view/ViewPatient%') ORDER BY a3, a4 DESC WITH (header)"; \
+rbql-js --delim "," --query "$QUERY" < all_coupling.csv > viewpatient_coupling.csv
+
+export QUERY="SELECT * WHERE LIKE(a1, '%src/HospitalRun.tsx%') || LIKE(a2, '%src/HospitalRun.tsx%') ORDER BY a3, a4 DESC WITH (header)"; \
+echo $QUERY; rbql-js --delim "," --query "$QUERY" < all_coupling.csv > hospitalrun_coupling.csv
+
+export QUERY="SELECT * WHERE LIKE(a1, '%patient-slice.ts%') || LIKE(a2, '%patient-slice.ts%') ORDER BY a3, a4 DESC WITH (header)"; \
+rbql-js --delim "," --query "$QUERY" < all_coupling.csv > patient-slice_coupling.csv
+
+# Convert the csv files to json for processing them with jekyll (just for this website)
+csv2json -o viewpatient_coupling.json viewpatient_coupling.csv; \
+csv2json -o hospitalrun_coupling.json hospitalrun_coupling.csv; \
+csv2json -o patient-slice_coupling.json patient-slice_coupling.csv;
 ```
-
-Save the file(s) as `viewpatient_coupling.csv`.
