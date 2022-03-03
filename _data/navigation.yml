@@ -187,6 +187,8 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/x++.html
 
 software-crafting-static-websites:
+  - title: Automatic Browser Refresh on File Change
+    url: /pages/software-crafting/static-websites/automatic-browser-refresh.html
   - title: GitHub SFTP Publishing
     url: /pages/software-crafting/static-websites/github-sftp-publishing.html
   - title: Hugo
