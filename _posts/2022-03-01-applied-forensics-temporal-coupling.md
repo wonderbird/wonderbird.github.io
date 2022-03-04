@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-with-latest-d3
 title:  "Applied Software Forensics - Temporal Coupling in HospitalRun"
 ---
 
@@ -31,6 +31,10 @@ The column "SoC" in the following table shows how often each file has been commi
 #### Coupling of Individual Modules
 
 The following diagram depicts the coupling between hotspots and their dependencies. The percentage gives the amount of coupling and the `revs` value is the average revisions:
+
+<div id="hotspots-overview">
+</div>
+{% include d3-chord-diagram.html %}
 
 ![Coupling of Individual Modules](/assets/img/hospitalrun/analysis/coupling.drawio.png)
 

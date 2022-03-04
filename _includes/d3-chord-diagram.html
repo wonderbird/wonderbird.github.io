@@ -1,0 +1,70 @@
+<!-- This script is based on https://www.d3indepth.com/chords/ -->
+<!-- and on https://www.d3-graph-gallery.com/graph/chord_colors.html -->
+<script>
+
+// TODO: learn how to use the data bindings for current analysis. Stopped here: https://www.d3indepth.com/chords/
+console.error('Stefan Boos says: There are TODOs in the code!')
+
+const targetElementSelector = "#hotspots-overview"
+
+const parent = document.querySelector(targetElementSelector)
+const parentWidth = parent.offsetWidth
+const outerDiameter = parentWidth
+const center = parentWidth / 2
+
+const svg = d3.select(targetElementSelector)
+    .append("svg")
+        .attr("width", outerDiameter)
+        .attr("height", outerDiameter)
+    .append("g")
+        .attr("transform", "translate(" + center + "," + center + ")")
+
+// create a matrix
+const matrix = [
+  [0,  5871, 8916, 2868],
+  [ 1951, 0, 2060, 6171],
+  [ 8010, 16145, 0, 8045],
+  [ 1013,   990,  940, 0]
+]
+
+// 4 groups, so create a vector of 4 colors
+const colors = [ "#440154ff", "#31668dff", "#37b578ff", "#fde725ff"]
+
+// give this matrix to d3.chord(): it will calculates all the info we need to draw arc and ribbon
+const chordGenerator = d3.chord()
+    .padAngle(0.05)
+    .sortSubgroups(d3.descending)
+
+const chords = chordGenerator(matrix)
+
+// add the groups on the outer part of the circle
+const outerRadius = outerDiameter / 2
+const margin = 10
+const innerRadius = outerRadius - margin
+
+svg
+  .datum(chords)
+  .append("g")
+  .selectAll("g")
+  .data(function(d) { return d.groups; })
+  .join("g")
+  .append("path")
+    .style("fill", (d,i) => colors[i])
+    .style("stroke", "black")
+    .attr("d", d3.arc()
+      .innerRadius(innerRadius)
+      .outerRadius(outerRadius)
+    )
+
+// Add the links between groups
+const ribbonGenerator = d3.ribbon().radius(innerRadius);
+
+svg
+  .append("g")
+  .selectAll("path")
+  .data(chords)
+  .join("path")
+    .attr("d", ribbonGenerator)
+    .style("fill", d => colors[d.source.index]) // colors depend on the source group. Change to target otherwise.
+    .style("stroke", "black")
+</script>
