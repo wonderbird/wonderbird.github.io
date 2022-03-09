@@ -1,70 +1,85 @@
-<!-- This script is based on https://www.d3indepth.com/chords/ -->
-<!-- and on https://www.d3-graph-gallery.com/graph/chord_colors.html -->
+<!-- This script is based on https://observablehq.com/@d3/chord-dependency-diagram -->
 <script>
+  const targetElementSelector = "#hotspots-overview"
 
-// TODO: learn how to use the data bindings for current analysis. Stopped here: https://www.d3indepth.com/chords/
-console.error('Stefan Boos says: There are TODOs in the code!')
+  const parent = document.querySelector(targetElementSelector)
+  const parentWidth = parent.offsetWidth
+  const outerDiameter = parentWidth
+  const center = parentWidth / 2
 
-const targetElementSelector = "#hotspots-overview"
-
-const parent = document.querySelector(targetElementSelector)
-const parentWidth = parent.offsetWidth
-const outerDiameter = parentWidth
-const center = parentWidth / 2
-
-const svg = d3.select(targetElementSelector)
+  const svg = d3.select(targetElementSelector)
     .append("svg")
-        .attr("width", outerDiameter)
-        .attr("height", outerDiameter)
+    .attr("width", outerDiameter)
+    .attr("height", outerDiameter)
     .append("g")
-        .attr("transform", "translate(" + center + "," + center + ")")
+    .attr("transform", "translate(" + center + "," + center + ")")
 
-// create a matrix
-const matrix = [
-  [0,  5871, 8916, 2868],
-  [ 1951, 0, 2060, 6171],
-  [ 8010, 16145, 0, 8045],
-  [ 1013,   990,  940, 0]
-]
-
-// 4 groups, so create a vector of 4 colors
-const colors = [ "#440154ff", "#31668dff", "#37b578ff", "#fde725ff"]
-
-// give this matrix to d3.chord(): it will calculates all the info we need to draw arc and ribbon
-const chordGenerator = d3.chord()
+  const chord = d3.chordDirected()
     .padAngle(0.05)
     .sortSubgroups(d3.descending)
+    .sortChords(d3.descending)
 
-const chords = chordGenerator(matrix)
+  const matrix = [
+    [0, 5871, 8916, 2868],
+    [1951, 0, 2060, 6171],
+    [8010, 16145, 0, 8045],
+    [1013, 990, 940, 0]
+  ]
 
-// add the groups on the outer part of the circle
-const outerRadius = outerDiameter / 2
-const margin = 10
-const innerRadius = outerRadius - margin
+  const chords = chord(matrix)
 
-svg
-  .datum(chords)
-  .append("g")
-  .selectAll("g")
-  .data(function(d) { return d.groups; })
-  .join("g")
-  .append("path")
-    .style("fill", (d,i) => colors[i])
-    .style("stroke", "black")
-    .attr("d", d3.arc()
-      .innerRadius(innerRadius)
-      .outerRadius(outerRadius)
-    )
+  const group = svg.append("g")
+      .attr("font-size", 10)
+      .attr("font-family", "sans-serif")
+    .selectAll("g")
+    .data(chords.groups)
+    .join("g")
 
-// Add the links between groups
-const ribbonGenerator = d3.ribbon().radius(innerRadius);
+  // add the groups on the outer part of the circle
+  const outerRadius = outerDiameter / 2
+  const margin = 10
+  const innerRadius = outerRadius - margin
 
-svg
-  .append("g")
-  .selectAll("path")
-  .data(chords)
-  .join("path")
-    .attr("d", ribbonGenerator)
-    .style("fill", d => colors[d.source.index]) // colors depend on the source group. Change to target otherwise.
-    .style("stroke", "black")
+  arc = d3.arc()
+    .innerRadius(innerRadius)
+    .outerRadius(outerRadius)
+
+  const names = ["One", "Two", "Three", "Four"]
+  const color = d3.scaleOrdinal(names, d3.quantize(d3.interpolateRainbow, names.length + 1))
+
+  group.append("path")
+    .style("fill", d => color(names[d.index]))
+    .attr("d", arc)
+
+  group.append("text")
+    .each(d => (d.angle = (d.startAngle + d.endAngle) / 2))
+    .attr("dy", "0.35em")
+    .attr("transform", d => `
+      rotate(${(d.angle * 180 / Math.PI - 90)})
+      translate(${outerRadius + 5})
+      ${d.angle > Math.PI ? "rotate(180)" : ""}
+    `)
+    .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
+    .text(d => names[d.index]);
+
+  group.append("title")
+    .text(d => `${names[d.index]}
+${d3.sum(chords, c => (c.source.index === d.index) * c.source.value)} outgoing →
+${d3.sum(chords, c => (c.target.index === d.index) * c.source.value)} incoming ←`);
+
+  // Add the links between groups
+  const ribbon = d3.ribbonArrow()
+    .radius(innerRadius - 1)
+    .padAngle(1 / innerRadius)
+
+  svg.append("g")
+      .attr("fill-opacity", 0.75)
+    .selectAll("path")
+    .data(chords)
+    .join("path")
+    .style("mix-blend-mode", "multiply")
+      .attr("fill", d => color(names[d.target.index]))
+      .attr("d", ribbon)
+    .append("title")
+      .text(d => `${names[d.source.index]} → ${names[d.target.index]} ${d.source.value}`)
 </script>
