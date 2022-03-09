@@ -160,3 +160,14 @@ csv2json -o viewpatient_coupling.json viewpatient_coupling.csv; \
 csv2json -o hospitalrun_coupling.json hospitalrun_coupling.csv; \
 csv2json -o patient-slice_coupling.json patient-slice_coupling.csv;
 ```
+
+#### Visualize Temporal Coupling
+
+The diagram above was created using a [D3.js chord diagram](https://observablehq.com/@d3/chord-dependency-diagram).
+You can inspect the associated JavaScript here:
+[d3-chord-diagram.html](https://github.com/wonderbird/wonderbird.github.io/blob/main/_includes/d3-chord-diagram.html).
+
+The data from the previously created CSV files is transferred to the JavaScript
+variables `names` and `matrix`. In the `matrix` each line and each column
+represents the files in the `names` array. The numbers specify the coupling
+between the file associated with a line and the file associated with a column.
