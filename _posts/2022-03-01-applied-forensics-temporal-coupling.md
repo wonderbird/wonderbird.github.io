@@ -30,15 +30,16 @@ The column "SoC" in the following table shows how often each file has been commi
 
 #### Coupling of Individual Modules
 
-The following diagram depicts the coupling between hotspots and their dependencies. The percentage gives the amount of coupling and the `revs` value is the average revisions:
+The following diagram depicts the coupling between hotspots and their
+dependencies. Hover over the connection lines to see the percent of coupling,
+i.e. in how many percent of commits the partner is also changed.
 
 <div id="hotspots-overview">
 </div>
 {% include d3-chord-diagram.html %}
 
-![Coupling of Individual Modules](/assets/img/hospitalrun/analysis/coupling.drawio.png)
-
-The basis of the diagram are these coupling tables:
+The basis of the diagram are these coupling tables. The `revs` value
+is the number of revisions considered:
 
 <table>
   <thead>

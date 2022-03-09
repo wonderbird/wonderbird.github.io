@@ -19,11 +19,19 @@
     .sortSubgroups(d3.descending)
     .sortChords(d3.descending)
 
+  const names = ["view/ViewPatient.tsx", "ViewPatient.test.tsx", "Patient.ts", "Patients.tsx", "EditPatient.tsx", "patient-slice.ts", "containers/ViewPatient.tsx", "patient-slice.test.ts", "HospitalRun.tsx", "HospitalRun.test.tsx", "user-slice.tsx"]
   const matrix = [
-    [0, 5871, 8916, 2868],
-    [1951, 0, 2060, 6171],
-    [8010, 16145, 0, 8045],
-    [1013, 990, 940, 0]
+    [ 0, 66, 31, 31, 31, 30,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0, 50, 67,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0, 36, 30],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
   ]
 
   const chords = chord(matrix)
@@ -36,7 +44,8 @@
     .join("g")
 
   // add the groups on the outer part of the circle
-  const outerRadius = outerDiameter / 2
+  const textMargin = outerDiameter / 4
+  const outerRadius = outerDiameter / 2 - textMargin
   const margin = 10
   const innerRadius = outerRadius - margin
 
@@ -44,7 +53,6 @@
     .innerRadius(innerRadius)
     .outerRadius(outerRadius)
 
-  const names = ["One", "Two", "Three", "Four"]
   const color = d3.scaleOrdinal(names, d3.quantize(d3.interpolateRainbow, names.length + 1))
 
   group.append("path")
@@ -62,13 +70,8 @@
     .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
     .text(d => names[d.index]);
 
-  group.append("title")
-    .text(d => `${names[d.index]}
-${d3.sum(chords, c => (c.source.index === d.index) * c.source.value)} outgoing →
-${d3.sum(chords, c => (c.target.index === d.index) * c.source.value)} incoming ←`);
-
   // Add the links between groups
-  const ribbon = d3.ribbonArrow()
+  const ribbon = d3.ribbon()
     .radius(innerRadius - 1)
     .padAngle(1 / innerRadius)
 
@@ -81,5 +84,5 @@ ${d3.sum(chords, c => (c.target.index === d.index) * c.source.value)} incoming �
       .attr("fill", d => color(names[d.target.index]))
       .attr("d", ribbon)
     .append("title")
-      .text(d => `${names[d.source.index]} → ${names[d.target.index]} ${d.source.value}`)
+      .text(d => `${names[d.source.index]} ↔ ${names[d.target.index]}: ${d.source.value}%`)
 </script>
