@@ -3,6 +3,22 @@ layout: post-with-latest-d3
 title:  "Applied Software Forensics - Temporal Coupling in HospitalRun"
 ---
 
+<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-03-01-applied-forensics-temporal-coupling.md -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Results](#results)
+  - [Sum of Coupling (SoC)](#sum-of-coupling-soc)
+  - [Coupling of Individual Modules](#coupling-of-individual-modules)
+  - [Development Cycles for Frontend](#development-cycles-for-frontend)
+- [Performing a Temporal Coupling Analysis](#performing-a-temporal-coupling-analysis)
+  - [Overview: Sum of Coupling (SoC)](#overview-sum-of-coupling-soc)
+  - [Measure Temporal Coupling on File Level](#measure-temporal-coupling-on-file-level)
+  - [Find Development Cycles](#find-development-cycles)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Results
 
 #### Sum of Coupling (SoC)
@@ -37,6 +53,8 @@ i.e. in how many percent of commits the partner is also changed.
 <div id="hotspots-overview">
 </div>
 {% include d3-chord-diagram.html %}
+
+Figure 1: Dependencies of the Selected Main Hotspots
 
 The basis of the diagram are these coupling tables. The `revs` value
 is the number of revisions considered:
@@ -110,6 +128,50 @@ is the number of revisions considered:
   </tbody>
 </table>
 
+#### Development Cycles for Frontend
+
+##### General Overview Over the Entire Project History
+
+![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/alltime-frontend-commits_by_year_month.png)
+
+Figure 2: **Frontend** Commits by Year and Month
+
+![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/alltime-server-commits_by_year_month.png)
+
+Figure 3: **Server** Commits by Year and Month
+
+![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/alltime-components-commits_by_year_month.png)
+
+Figure 4: **Components** Commits by Year and Month
+
+From figure 1 and 2 we clearly see: The `frontend` and the `server` were started at the same time in 2014.
+Until 2019 these two modules were developed in parallel, but the `frontend` clearly had more attention.
+
+In 2019 the `components` repository was created.
+
+##### Development in 2019 and 2020
+
+The diagrams above indicate that there is a yearly rhythm of development lasting from November to November.
+This is emphasised in the commit history of 2020 and 2019 where the number of commits increased much. Thus,
+this section focusses on that time period:
+
+![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/2019-2020-frontend-commits_by_year_month.png)
+
+Figure 5: **Frontend** Commits by Year and Month in 2019 - 2020
+
+![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/2019-2020-server-commits_by_year_month.png)
+
+Figure 6: **Server** Commits by Year and Month in 2019 - 2020
+
+![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/2019-2020-components-commits_by_year_month.png)
+
+Figure 7: **Components** Commits by Year and Month in 2019 - 2020
+
+Analyzing the repositories using gitstat shows, that the development activity
+reached a peak in February 2020. It slowed down in the summer season. For the
+frontend, there was increased activity in September. For all components the
+development activity decreased towards the date of release 2.0.0-alpha.7.
+
 ### Performing a Temporal Coupling Analysis
 
 #### Overview: Sum of Coupling (SoC)
@@ -130,13 +192,13 @@ done
 docker run -v "$PWD":/data -it code-maat-app -l /data/all_evo.log -c git -a soc | head -n 11 > all_sum_of_coupling.csv
 ```
 
-### Measure Temporal Coupling on File Level
+#### Measure Temporal Coupling on File Level
 
 ```sh
 docker run -v "$PWD":/data -it code-maat-app -l /data/all_evo.log -c git -a coupling > all_coupling.csv
 ```
 
-#### Filter By Hotspot
+##### Filter By Hotspot
 
 The [Rainbow CSV Plugin for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) allows experimenting with CSV file filters in a WYSIWIG way.
 
@@ -161,7 +223,7 @@ csv2json -o hospitalrun_coupling.json hospitalrun_coupling.csv; \
 csv2json -o patient-slice_coupling.json patient-slice_coupling.csv;
 ```
 
-#### Visualize Temporal Coupling
+##### Visualize Temporal Coupling
 
 The diagram above was created using a [D3.js chord diagram](https://observablehq.com/@d3/chord-dependency-diagram).
 You can inspect the associated JavaScript here:
@@ -171,3 +233,36 @@ The data from the previously created CSV files is transferred to the JavaScript
 variables `names` and `matrix`. In the `matrix` each line and each column
 represents the files in the `names` array. The numbers specify the coupling
 between the file associated with a line and the file associated with a column.
+
+#### Find Development Cycles
+
+```sh
+# Prerequisite: Get gitstats (requires gnuplot and python)
+brew install gnuplot
+
+# Clone gitstats and export its path to an environment variable
+git clone https://github.com/gktrk/gitstats.git
+export GITSTATS=$HOME/source/gktrk/gitstats
+```
+
+```sh
+# Identify the development cycles for the different modules
+for module in frontend server components; do \
+  rm -vr "analysis/${module}-gitstats"; \
+  cd "$module" || break; \
+  python "$GITSTATS/gitstats" ./ "../analysis/${module}-gitstats"; \
+  cd ".."
+done
+
+# Open the analysis in a browser
+open ../analysis/frontend-gitstats/index.html
+```
+
+If you would like to select a specific start date for the analysis, then pass
+the `-c start-date` parameter to `gitstats`:
+
+```sh
+python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${module}-gitstats"
+```
+
+In the top section I am showing the Analysis &rarr; Commits by Year / Month diagram for each component.
