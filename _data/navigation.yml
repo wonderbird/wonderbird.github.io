@@ -16,7 +16,9 @@ main:
   - title: Leseliste
     url: /pages/leseliste.html
   - title: Online Games
-    url: /pages/online-games.md
+    url: /pages/online-games.html
+  - title: Outdoor Aktivitäten
+    url: /pages/outdoor-activities.html
   - title: Persönlichkeitsentwicklung
     url: /pages/personality-development.html
   - title: rc3 - remote chaos
