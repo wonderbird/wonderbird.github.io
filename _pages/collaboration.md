@@ -11,7 +11,6 @@ layout: default
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Check-In Games](#check-in-games)
-- [Online Meeting Facilitation Platforms](#online-meeting-facilitation-platforms)
 - [Methods](#methods)
 - [Voting and Decision Making Tools](#voting-and-decision-making-tools)
   - [Decision by Chance](#decision-by-chance)
@@ -29,11 +28,6 @@ layout: default
 - [Online Warm-ups](https://www.workshop-spiele.de/category/online-warm-ups/)
 - [Remote Know How](https://qundg.de/remote-know-how/)
 - [tscheck.in](http://tscheck.in/)
-
-## Online Meeting Facilitation Platforms
-
-- [Lean Coffee Table](https://www.leancoffeetable.com/)
-- [Scrumlr.io](https://scrumlr.io) - Tool for moderating Lean Coffees, Retros and other formats.
 
 ## Methods
 
@@ -69,12 +63,13 @@ You can find a collection of timers on the [Mob Programming](software-crafting/m
 
 - [Timeanddate Timer](https://www.timeanddate.com/timer/) - Create a countdown timer for a given time period.
 - [Webcountdown](https://www.webcountdown.de/) - Create a countdown timer for a time and date in the future.
+- [Big Timer](https://www.bigtimer.net)
 - [Würfel / teal dice](http://a.teall.info/dice/)
 - [Select a Person / Wheel of Names](https://wheelofnames.com/)
-- [QR Code Generator](https://www.qrcode-generator.de/) - Create QR codes for URLs, VCards, Images and everything else.
 
 ## Online-Collaboration
 
+- [QR Code Generator](https://www.qrcode-generator.de/) - Create QR codes for URLs, VCards, Images and everything else.
 - [Video Conferencing: Jitsi](https://meet.jit.si/)
 - [Big Blue Button](https://bigbluebutton.org/)
 - [TriCAT spaces](https://www.tricat-spaces.net/) - Avatar-based virtual 3D learning and work world.
