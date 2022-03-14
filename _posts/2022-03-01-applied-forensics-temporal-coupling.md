@@ -149,6 +149,8 @@ Until 2019 these two modules were developed in parallel, but the `frontend` clea
 
 In 2019 the `components` repository was created.
 
+The diagrams show a yearly development cycle stretching roughly from November to November.
+
 ##### Development in 2019 and 2020
 
 The diagrams above indicate that there is a yearly rhythm of development lasting from November to November.
@@ -171,6 +173,10 @@ Analyzing the repositories using gitstat shows, that the development activity
 reached a peak in February 2020. It slowed down in the summer season. For the
 frontend, there was increased activity in September. For all components the
 development activity decreased towards the date of release 2.0.0-alpha.7.
+
+##### Trends of Temporal Coupling for Frontend
+
+TODO Write up trends of temporal coupling for frontend
 
 ### Performing a Temporal Coupling Analysis
 
@@ -236,6 +242,8 @@ between the file associated with a line and the file associated with a column.
 
 #### Find Development Cycles
 
+##### Prerequisites
+
 ```sh
 # Prerequisite: Get gitstats (requires gnuplot and python)
 brew install gnuplot
@@ -244,6 +252,8 @@ brew install gnuplot
 git clone https://github.com/gktrk/gitstats.git
 export GITSTATS=$HOME/source/gktrk/gitstats
 ```
+
+##### Identify Development Cycles
 
 ```sh
 # Identify the development cycles for the different modules
@@ -266,3 +276,7 @@ python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${module}-
 ```
 
 In the top section I am showing the Analysis &rarr; Commits by Year / Month diagram for each component.
+
+#### Investigate Trends
+
+TODO Continue here
