@@ -172,6 +172,15 @@ reached a peak in February 2020. It slowed down in the summer season. For the
 frontend, there was increased activity in September. For all components the
 development activity decreased towards the date of release 2.0.0-alpha.7.
 
+##### Trend of Coupling
+
+TODO: How to deal with this?
+
+On August 6, 2019 the entire project has been reset - all files deleted, restart
+from scratch (at least according to the git history).
+
+https://github.com/HospitalRun/hospitalrun-frontend/commits/8564221bcbfac0b27cfcefa5ed30ef1dc72f5a16
+
 ### Performing a Temporal Coupling Analysis
 
 #### Overview: Sum of Coupling (SoC)
@@ -266,3 +275,15 @@ python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${module}-
 ```
 
 In the top section I am showing the Analysis &rarr; Commits by Year / Month diagram for each component.
+
+#### Explore the Trend of Coupling
+
+Create combined git history files for each component:
+
+```sh
+./create-git-history-per-year.sh
+```
+
+```sh
+./identify-hotspots-per-year.sh
+```
