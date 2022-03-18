@@ -33,3 +33,16 @@ for SUT in $MODULES; do \
   echo "" >> all_evo.log; \
 done
 ```
+
+### Filter CSV Files
+
+During the coupling analysis we are interested in specific entries of a CSV file. We use the
+[Rainbow Query Language (RBQL)](https://github.com/mechatroner/RBQL) (npm module
+[rbql](https://www.npmjs.com/package/rbql)) to filter the CSV file:
+
+```sh
+npm install -g rbql
+
+export QUERY="SELECT * WHERE LIKE(a1, '%view/ViewPatient%') || LIKE(a2, '%view/ViewPatient%') ORDER BY a3, a4 DESC WITH (header)"; \
+rbql-js --delim "," --query "$QUERY" < all_coupling.csv > viewpatient_coupling.csv
+```
