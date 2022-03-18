@@ -2,29 +2,33 @@
 title: Visual Studio Code Plugins
 layout: default
 ---
-# Visual Studio Code Plugins
+## Visual Studio Code Plugins
 
-## Plugins I recommend
+### Plugins I recommend
 
 The following plugins help(ed) me in my daily work.
 
-### Software design and documentation
+#### Software design and documentation
 
 * [AsciiDoc](https://github.com/asciidoctor/asciidoctor-vscode) - Live preview, syntax highlighting and snippets for AsciiDoc.
 * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - Markdown linting and style checking.
 * [PlantUML](https://github.com/qjebbs/vscode-plantuml) - Rich PlantUML support.
 
-### Language agnostic developer tools
+#### Language agnostic developer tools
 
 * [Docker](https://github.com/microsoft/vscode-docker) - Build, manage, deploy containerized appls; one-click debugging of Node.js, Python, and .NET Core inside a container.
-* [ExcelViewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) - View Excel spreadsheets and CSV files in Visual Studio Code and VS Code for the Web.
 * [GitGraph](https://github.com/mhutchie/vscode-git-graph) - View a Git Graph of your repository, and perform Git actions from the graph.
 * [GitLens](https://github.com/eamodio/vscode-gitlens) - Visualize code authorship, explore Git repositories, comparison commands and more.
 * [Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) - Collaborate using Visual Studio Code.
-* [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - Highlight CSV and TSV files, Run SQL-like queries.
+* [Rewrap](https://stkb.github.io/Rewrap/) - Wrap text and code at a specific column, introduce rulers.
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) - Searches workspace for comment tags like TODO and FIXME, and displays them in a tree view in the explorer pane.
 
-### JavaScript and TypeScript based languages
+##### CSV Viewer and Processing Plugins
+
+* [ExcelViewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) - View Excel spreadsheets and CSV files in Visual Studio Code and VS Code for the Web.
+* [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) - Highlight CSV and TSV files, Run SQL-like queries.
+
+#### JavaScript and TypeScript based languages
 
 * [CodeMetrics](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-codemetrics) - Computes complexity in TypeScript / JavaScript / Lua files ([GitHub: CodeMetrics](https://github.com/kisstkondoros/codemetrics)).
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code.
@@ -33,11 +37,11 @@ The following plugins help(ed) me in my daily work.
 * [Mocha Sidebar](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar) - Sidebar easing mocha unit tests.
 * [StandardJS](https://github.com/standard/vscode-standard) - Linter for JavaScript and TypeScript Standard Style with automatic fixing.
 
-### Other languages
+#### Other languages
 
 * [EV3 MicroPython](https://marketplace.visualstudio.com/items?itemName=lego-education.ev3-micropython) - Programming LEGO® MINDSTORMS® EV3 using MicroPython.
 
-## Plugins I might try out some time later
+### Plugins I might try out some time later
 
 These Plugins are interesting, but I have not tried them yet.
 
