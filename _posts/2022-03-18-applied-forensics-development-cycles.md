@@ -1,6 +1,6 @@
 ---
 title:  "Applied Software Forensics - Main Author Profiles and Development Cycles"
-layout: post
+layout: post-with-gallery
 ---
 
 <!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/ -->
@@ -21,9 +21,64 @@ layout: post
 
 ### Results
 
-#### Main Author Profiles in 2019 and 2020
+#### Development Cycles Over the Entire Project History
 
-The following table shows the top 5 contributors and is sorted by number of lines added.
+![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-frontend-commits_by_year_month.png)
+
+Figure 1: **Frontend** Commits by Year and Month
+
+![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-server-commits_by_year_month.png)
+
+Figure 2: **Server** Commits by Year and Month
+
+![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-components-commits_by_year_month.png)
+
+Figure 3: **Components** Commits by Year and Month
+
+From figure 1 and 2 we clearly see: The `frontend` and the `server` were started at the same time in 2014.
+Until 2019 these two modules were developed in parallel, but the `frontend` clearly had more attention.
+
+In 2019 the `components` repository was created.
+
+The diagrams show a yearly development cycle stretching roughly from November to November.
+
+#### Development Cycles in 2019 and 2020
+
+The diagrams above indicate that there is a yearly rhythm of development lasting from November to November.
+This is emphasised in the commit history of 2020 and 2019 where the number of commits increased much. Thus,
+this section focusses on that time period:
+
+![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-frontend-commits_by_year_month.png)
+
+Figure 5: **Frontend** Commits by Year and Month in 2019 - 2020
+
+![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-server-commits_by_year_month.png)
+
+Figure 6: **Server** Commits by Year and Month in 2019 - 2020
+
+![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-components-commits_by_year_month.png)
+
+Figure 7: **Components** Commits by Year and Month in 2019 - 2020
+
+Analyzing the repositories using gitstat shows, that the development activity
+reached a peak in February 2020. It slowed down in the summer season. For the
+frontend, there was increased activity in September. For all components the
+development activity decreased towards the date of release 2.0.0-alpha.7.
+
+#### Author Activity in 2019 and 2020
+
+##### Frontend
+
+{% include gallery.html id="FrontendActivity20192020" folder="hospitalrun/analysis/development-cycles"
+   images="2019-2020-frontend-commits_by_author.png,2019-2020-frontend-loc_by_author.png"
+   captions="Frontend: Commits by Author,Components: Cumulated Added Lines of Code per Author" %}
+
+For the frontend Jack Meyer and Matteo Vivona show constant development activity
+throughout the year. Jack adds significantly more lines of code than any other
+author.
+
+The following table shows the top 5 human contributors along with the bots. It
+is sorted by number of lines added.
 
 <table>
   <thead>
@@ -59,58 +114,29 @@ The following table shows the top 5 contributors and is sorted by number of line
 
 </table>
 
-For frontend code Jack Meyer clearly provided the most churn. He contributed
-about 27.000 lines of code and deleted nearly 14.000 lines in 286 commits.
+The table confirms that for frontend code Jack Meyer clearly provided the most
+churn. He contributed about 27.000 lines of code and deleted nearly 14.000 lines
+in 286 commits.
 
 He is followed by Matthew Dorner and Matteo Vivona. Matthew seems to contribute
 his share in active cycles of a few days while Matteo creates many small
 commits during the entire period.
 
-TODO: Show the diagrams about Commits by Author and Lines of Code added by Author
+##### Components
 
-#### Development Cycles Over the Entire Project History
+{% include gallery.html id="ComponentsActivity20192020" folder="hospitalrun/analysis/development-cycles"
+   images="2019-2020-components-commits_by_author.png,2019-2020-components-loc_by_author.png"
+   captions="Components: Commits by Author,Components: Cumulated Added Lines of Code per Author" %}
 
-![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-frontend-commits_by_year_month.png)
+In the components module Matteo creates a steady stream of commits.
 
-Figure 2: **Frontend** Commits by Year and Month
+In spring 2020, Stefano Casasola has contributed a lot of code. However, this
+seems to have been his only major activity throughout the development cycle.
+ocBruno shows similar activity and Matthew Dorner was mainly active in early
+summer. Other developers show a more steady behaviour.
 
-![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-server-commits_by_year_month.png)
-
-Figure 3: **Server** Commits by Year and Month
-
-![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-components-commits_by_year_month.png)
-
-Figure 4: **Components** Commits by Year and Month
-
-From figure 1 and 2 we clearly see: The `frontend` and the `server` were started at the same time in 2014.
-Until 2019 these two modules were developed in parallel, but the `frontend` clearly had more attention.
-
-In 2019 the `components` repository was created.
-
-The diagrams show a yearly development cycle stretching roughly from November to November.
-
-#### Development Cycles in 2019 and 2020
-
-The diagrams above indicate that there is a yearly rhythm of development lasting from November to November.
-This is emphasised in the commit history of 2020 and 2019 where the number of commits increased much. Thus,
-this section focusses on that time period:
-
-![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-frontend-commits_by_year_month.png)
-
-Figure 5: **Frontend** Commits by Year and Month in 2019 - 2020
-
-![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-server-commits_by_year_month.png)
-
-Figure 6: **Server** Commits by Year and Month in 2019 - 2020
-
-![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-components-commits_by_year_month.png)
-
-Figure 7: **Components** Commits by Year and Month in 2019 - 2020
-
-Analyzing the repositories using gitstat shows, that the development activity
-reached a peak in February 2020. It slowed down in the summer season. For the
-frontend, there was increased activity in September. For all components the
-development activity decreased towards the date of release 2.0.0-alpha.7.
+TODO: Create the main author table for the components
+TODO: Then repeat the section for server
 
 ### Identifying Development Cycles
 
@@ -168,6 +194,29 @@ sorted the file by number of **lines added** and kept the top five contributors.
 In addition I ensured that the top 5 committers stay in the file (as indicated
 by the **rank by commits**). Accordingly I have renamed the file to
 `main-authors.csv`
+
+##### Selecting the Author Contribution Visualisation
+
+In order to show when the main authors work and how frequently they commit, I
+have selected the **Authors &rarr; Commits by Author** diagram for each
+component.
+
+The **Authors &rarr; Cumulated Added Lines of Code per Author** diagrams
+visualize the amount of effort each main author spends.
+
+Note that the diagrams usually have a transparent background. To remove
+transparency and have a white background I use the following command from
+imagemagick:
+
+```sh
+mogrify -background white -alpha remove -alpha off PNGFILE.png
+```
+
+The thumbnails are generated by
+
+```sh
+mogrify -format png -auto-orient -thumbnail 320x -path thumbnails '2019-2020-*by_author.png'
+```
 
 ##### Selecting the Development Cycle Visualization
 
