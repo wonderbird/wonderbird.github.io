@@ -1,21 +1,24 @@
 ---
-title:  "Applied Software Forensics - Main Author Profiles and Development Cycles"
+title:  "Applied Software Forensics - Development Cycles and Main Authors"
 layout: post-with-gallery
 ---
 
-<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/ -->
+<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-03-18-applied-forensics-development-cycles.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Results](#results)
-  - [Sum of Coupling (SoC)](#sum-of-coupling-soc)
-  - [Coupling of Individual Modules](#coupling-of-individual-modules)
-  - [Development Cycles for Frontend](#development-cycles-for-frontend)
-- [Performing a Temporal Coupling Analysis](#performing-a-temporal-coupling-analysis)
-  - [Overview: Sum of Coupling (SoC)](#overview-sum-of-coupling-soc)
-  - [Measure Temporal Coupling on File Level](#measure-temporal-coupling-on-file-level)
-  - [Find Development Cycles](#find-development-cycles)
+  - [Development Cycles Over the Entire Project History](#development-cycles-over-the-entire-project-history)
+  - [Development Cycles in 2019 and 2020](#development-cycles-in-2019-and-2020)
+  - [Author Activity in 2019 and 2020](#author-activity-in-2019-and-2020)
+- [Identifying Development Cycles and Author Contributions](#identifying-development-cycles-and-author-contributions)
+  - [Prerequisites](#prerequisites)
+  - [Collecting the Data](#collecting-the-data)
+  - [Selecting the Development Cycle Visualization](#selecting-the-development-cycle-visualization)
+  - [Focussing on a Development Cycle](#focussing-on-a-development-cycle)
+  - [Selecting the Author Contribution Visualisation](#selecting-the-author-contribution-visualisation)
+  - [Generating the Author Contribution Table](#generating-the-author-contribution-table)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -23,20 +26,13 @@ layout: post-with-gallery
 
 #### Development Cycles Over the Entire Project History
 
-![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-frontend-commits_by_year_month.png)
+{% include gallery.html id="FrontendDevCycles" folder="hospitalrun/analysis/development-cycles"
+   images="alltime-frontend-commits_by_year_month.png,alltime-server-commits_by_year_month.png,alltime-components-commits_by_year_month.png"
+   captions="Frontend: Commits by Year and Month,Server: Commits by Year and Month,Components: Commits by Year and Month" %}
 
-Figure 1: **Frontend** Commits by Year and Month
-
-![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-server-commits_by_year_month.png)
-
-Figure 2: **Server** Commits by Year and Month
-
-![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/alltime-components-commits_by_year_month.png)
-
-Figure 3: **Components** Commits by Year and Month
-
-From figure 1 and 2 we clearly see: The `frontend` and the `server` were started at the same time in 2014.
-Until 2019 these two modules were developed in parallel, but the `frontend` clearly had more attention.
+The `frontend` and the `server` were started at the same time in 2014. Until
+2019 these two modules were developed in parallel, but the `frontend` clearly
+had more attention.
 
 In 2019 the `components` repository was created.
 
@@ -45,25 +41,17 @@ The diagrams show a yearly development cycle stretching roughly from November to
 #### Development Cycles in 2019 and 2020
 
 The diagrams above indicate that there is a yearly rhythm of development lasting from November to November.
-This is emphasised in the commit history of 2020 and 2019 where the number of commits increased much. Thus,
+This is emphasised in the commit history of 2020 and 2019 where the overall number of commits increased much. Thus,
 this section focusses on that time period:
 
-![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-frontend-commits_by_year_month.png)
+{% include gallery.html id="FrontendDevCycles2019" folder="hospitalrun/analysis/development-cycles"
+   images="2019-2020-frontend-commits_by_year_month.png,2019-2020-server-commits_by_year_month.png,2019-2020-components-commits_by_year_month.png"
+   captions="Frontend: Commits by Year and Month in 2019-2020,Server: Commits by Year and Month in 2019-2020,Components: Commits by Year and Month in 2019-2020" %}
 
-Figure 5: **Frontend** Commits by Year and Month in 2019 - 2020
-
-![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-server-commits_by_year_month.png)
-
-Figure 6: **Server** Commits by Year and Month in 2019 - 2020
-
-![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/development-cycles/2019-2020-components-commits_by_year_month.png)
-
-Figure 7: **Components** Commits by Year and Month in 2019 - 2020
-
-Analyzing the repositories using gitstat shows, that the development activity
+Analyzing the repositories using `gitstat` shows, that the development activity
 reached a peak in February 2020. It slowed down in the summer season. For the
-frontend, there was increased activity in September. For all components the
-development activity decreased towards the date of release 2.0.0-alpha.7.
+`frontend`, there was increased activity in September. For all components the
+development activity decreased towards the date of release `2.0.0-alpha.7`.
 
 #### Author Activity in 2019 and 2020
 
@@ -73,48 +61,18 @@ development activity decreased towards the date of release 2.0.0-alpha.7.
    images="2019-2020-frontend-commits_by_author.png,2019-2020-frontend-loc_by_author.png"
    captions="Frontend: Commits by Author,Components: Cumulated Added Lines of Code per Author" %}
 
-For the frontend Jack Meyer and Matteo Vivona show constant development activity
+For the `frontend` Jack Meyer and Matteo Vivona show constant development activity
 throughout the year. Jack adds significantly more lines of code than any other
 author.
 
 The following table shows the top 5 human contributors along with the bots. It
 is sorted by number of lines added.
 
-<table>
-  <thead>
-    <caption>Main Author Contributions in 2019 and 2020</caption>
-    <tr>
-      <th>Author</th>
-      <th>Commits (%)</th>
-      <th>+ lines</th>
-      <th>- lines</th>
-      <th>First commit</th>
-      <th>Last commit</th>
-      <th>Age</th>
-      <th>Active days</th>
-      <th>Rank by commits</th>
-    </tr>
-  </thead>
+{% include hospitalrun/main-authors-table.html
+   component="Frontend"
+   author-data=site.data.hospitalrun.main-authors-2019.frontend %}
 
-  <tbody>
-    {% for author in site.data.hospitalrun.main-authors-2019 %}
-    <tr>
-      <td>{{ author.author }}</td>
-      <td>{{ author.commits }}</td>
-      <td>{{ author.added_lines }}</td>
-      <td>{{ author.removed_lines }}</td>
-      <td>{{ author.first_commit }}</td>
-      <td>{{ author.last_commit }}</td>
-      <td>{{ author.age }}</td>
-      <td>{{ author.active_days }}</td>
-      <td>{{ author.rank_by_commits }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-
-</table>
-
-The table confirms that for frontend code Jack Meyer clearly provided the most
+The table confirms that for `frontend` code Jack Meyer clearly provided the most
 churn. He contributed about 27.000 lines of code and deleted nearly 14.000 lines
 in 286 commits.
 
@@ -128,17 +86,30 @@ commits during the entire period.
    images="2019-2020-components-commits_by_author.png,2019-2020-components-loc_by_author.png"
    captions="Components: Commits by Author,Components: Cumulated Added Lines of Code per Author" %}
 
-In the components module Matteo creates a steady stream of commits.
+In the `components` module Matteo creates a steady stream of commits.
 
-In spring 2020, Stefano Casasola has contributed a lot of code. However, this
+In spring 2020, Stefano Casasola has contributed most code. However, this
 seems to have been his only major activity throughout the development cycle.
 ocBruno shows similar activity and Matthew Dorner was mainly active in early
 summer. Other developers show a more steady behaviour.
 
-TODO: Create the main author table for the components
-TODO: Then repeat the section for server
+{% include hospitalrun/main-authors-table.html
+   component="Components"
+   author-data=site.data.hospitalrun.main-authors-2019.components %}
 
-### Identifying Development Cycles
+##### Server
+
+{% include gallery.html id="ServerActivity20192020" folder="hospitalrun/analysis/development-cycles"
+   images="2019-2020-server-commits_by_author.png,2019-2020-server-loc_by_author.png"
+   captions="Server: Commits by Author,Server: Cumulated Added Lines of Code per Author" %}
+
+{% include hospitalrun/main-authors-table.html
+   component="Server"
+   author-data=site.data.hospitalrun.main-authors-2019.server %}
+
+For the `server` component only Maksim, Matteo and Jack provided significant contributions in 2019.
+
+### Identifying Development Cycles and Author Contributions
 
 #### Prerequisites
 
@@ -151,9 +122,7 @@ git clone https://github.com/gktrk/gitstats.git
 export GITSTATS=$HOME/source/gktrk/gitstats
 ```
 
-#### Identify Development Cycles
-
-##### Collecting the Data
+#### Collecting the Data
 
 ```sh
 # Identify the development cycles for the different modules
@@ -168,34 +137,22 @@ done
 open ../analysis/frontend-gitstats/index.html
 ```
 
-##### Generating the Author Contribution Table
+#### Selecting the Development Cycle Visualization
 
-The table of author contributions shown above has been generated as follows:
+In the top section I am showing the **Analysis &rarr; Commits by Year / Month** diagram for each component.
 
-1. Copy paste the HTML table **Authors &rarr; List of Authors** into a file
-1. Replace all occurrences of the regex `,\s` by ` - `. This will remove the commas from the field **Age**
-1. Remove all `\s*↓` occurrences (cosmetics)
-1. Replace all `\t` tab characters by `,` comma
-1. Save the file as `authors.csv`, if the file covers the entire analysis period or `authors-2019.csv`, if it covers only one development cycle
+#### Focussing on a Development Cycle
 
-If you'd like to generate an HTML table from the file using the [Liquid Template
-Language](/pages/software-crafting/static-websites/jekyll.html#liquid-template-language),
-then the following steps will help:
+If you would like to select a specific start date for the analysis, then pass
+the `-c start-date` parameter to `gitstats`:
 
-1. Replace the `#` character by the word `Rank`
-1. Make all column headers lower case, remove special characters (replace `+` by `added` and `-` by `removed`)
-1. Change the column headers to single words by replacing spaces with underscores
-1. Convert the csv file to json, which was required for this HTML visualization using `csv2json -o authors.json authors.csv`
+```sh
+python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${module}-gitstats"
+```
 
-Note:
+This allows focussing on the time range defined by the start date and the date of the current working directory commit.
 
-If you like, then shorten the csv file. In the analysis shown above, I have
-sorted the file by number of **lines added** and kept the top five contributors.
-In addition I ensured that the top 5 committers stay in the file (as indicated
-by the **rank by commits**). Accordingly I have renamed the file to
-`main-authors.csv`
-
-##### Selecting the Author Contribution Visualisation
+#### Selecting the Author Contribution Visualisation
 
 In order to show when the main authors work and how frequently they commit, I
 have selected the **Authors &rarr; Commits by Author** diagram for each
@@ -218,17 +175,31 @@ The thumbnails are generated by
 mogrify -format png -auto-orient -thumbnail 320x -path thumbnails '2019-2020-*by_author.png'
 ```
 
-##### Selecting the Development Cycle Visualization
+#### Generating the Author Contribution Table
 
-In the top section I am showing the **Analysis &rarr; Commits by Year / Month** diagram for each component.
+The table of author contributions shown above has been generated as follows:
 
-##### Focussing on a Development Cycle
+1. Sort the table by `+ lines`
+1. Copy paste the HTML table **Authors &rarr; List of Authors** into a file
+1. Replace all occurrences of the regex `,\s` by ` - `. This will remove the commas from the field **Age**
+1. Remove all `\s*↓` occurrences (cosmetics)
+1. Replace all `\t` tab characters by `,` comma
+1. Save the file as `authors.csv`, if the file covers the entire analysis period or `authors-2019.csv`, if it covers only one development cycle
 
-If you would like to select a specific start date for the analysis, then pass
-the `-c start-date` parameter to `gitstats`:
+If you'd like to generate an HTML table from the file using the [Liquid Template
+Language](/pages/software-crafting/static-websites/jekyll.html#liquid-template-language),
+then the following steps will help:
 
-```sh
-python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${module}-gitstats"
-```
+1. Remove the ` (%)` suffix in the `Commits (%)` column header
+1. Replace the `#` character by the word `Rank`
+1. Make all column headers lower case, remove special characters (replace `+` by `added` and `-` by `removed`)
+1. Change the column headers to single words by replacing spaces with underscores
+1. Convert the csv file to json, which was required for this HTML visualization using `csv2json -o authors.json authors.csv`
 
-This allows focussing on the time range defined by the start date and the date of the current working directory commit.
+Note:
+
+If you like, then shorten the csv file. In the analysis shown above, I have
+sorted the file by number of **lines added** and kept the top five contributors.
+In addition I ensured that the top 5 committers stay in the file (as indicated
+by the **rank by commits**). Accordingly I have renamed the file to
+`frontend-authors.csv`
