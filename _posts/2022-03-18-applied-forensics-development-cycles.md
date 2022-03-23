@@ -30,9 +30,11 @@ layout: post-with-gallery
    images="alltime-frontend-commits_by_year_month.png,alltime-server-commits_by_year_month.png,alltime-components-commits_by_year_month.png"
    captions="Frontend: Commits by Year and Month,Server: Commits by Year and Month,Components: Commits by Year and Month" %}
 
-The `frontend` and the `server` were started at the same time in 2014. Until
-2019 these two modules were developed in parallel, but the `frontend` clearly
-had more attention.
+The [frontend](https://github.com/HospitalRun/hospitalrun-frontend) and the
+[server](https://github.com/HospitalRun/hospitalrun-server) components were
+started at nearly the same time in spring 2014. Until 2019 these two modules
+were developed in parallel, but the number of commits over time shows that the
+`frontend` clearly had more attention.
 
 In 2019 the `components` repository was created.
 
@@ -40,18 +42,27 @@ The diagrams show a yearly development cycle stretching roughly from November to
 
 #### Development Cycles in 2019 and 2020
 
-The diagrams above indicate that there is a yearly rhythm of development lasting from November to November.
-This is emphasised in the commit history of 2020 and 2019 where the overall number of commits increased much. Thus,
-this section focusses on that time period:
+The diagrams above indicate that there is a yearly rhythm of development lasting
+from November to November. This is emphasised in the commit history of 11/2019
+to 11/2020. In this time period the overall number of commits increased a lot.
+
+Interesting: The changes in the development cycle happened after [Maksim Sinik
+has become the new Maintainer of the HospitalRun
+project](https://hospitalrun.io/blog/a-new-beginning-copy/) - is this merely
+correlation or is the event a cause?
+
+As a consequence, the subsequent sections focus on the time period from 11/2019
+to 11/2020:
 
 {% include gallery.html id="FrontendDevCycles2019" folder="hospitalrun/analysis/development-cycles"
    images="2019-2020-frontend-commits_by_year_month.png,2019-2020-server-commits_by_year_month.png,2019-2020-components-commits_by_year_month.png"
    captions="Frontend: Commits by Year and Month in 2019-2020,Server: Commits by Year and Month in 2019-2020,Components: Commits by Year and Month in 2019-2020" %}
 
-Analyzing the repositories using `gitstat` shows, that the development activity
-reached a peak in February 2020. It slowed down in the summer season. For the
-`frontend`, there was increased activity in September. For all components the
-development activity decreased towards the date of release `2.0.0-alpha.7`.
+Analyzing the repositories using [gitstat](https://github.com/gktrk/gitstats)
+shows, that the development activity reached a peak in February 2020. It slowed
+down in the summer season. For the `frontend`, there was another period of
+increased activity in September. For all components the development activity
+decreased towards the date of release `2.0.0-alpha.7`.
 
 #### Author Activity in 2019 and 2020
 
@@ -59,7 +70,7 @@ development activity decreased towards the date of release `2.0.0-alpha.7`.
 
 {% include gallery.html id="FrontendActivity20192020" folder="hospitalrun/analysis/development-cycles"
    images="2019-2020-frontend-commits_by_author.png,2019-2020-frontend-loc_by_author.png"
-   captions="Frontend: Commits by Author,Components: Cumulated Added Lines of Code per Author" %}
+   captions="Frontend: Commits by Author,Frontend: Cumulated Added Lines of Code per Author" %}
 
 For the `frontend` Jack Meyer and Matteo Vivona show constant development activity
 throughout the year. Jack adds significantly more lines of code than any other
@@ -107,7 +118,33 @@ summer. Other developers show a more steady behaviour.
    component="Server"
    author-data=site.data.hospitalrun.main-authors-2019.server %}
 
-For the `server` component only Maksim, Matteo and Jack provided significant contributions in 2019.
+For the `server` component only Maksim, Matteo and Jack provided significant
+contributions in 2019. However, the overall evolution of this component is
+rather slow when compared to `frontend` and `components`. This is also reflected
+in the earlier post on [Hotspot
+Analysis](/2022/02/21/applied-forensics-hotspots.html).
+
+#### Conclusion
+
+Compared to the earlier years of the project, the development activity was
+increased from 11/2019 to 11/2020. In general, the `frontend` gets most
+attention, followed by the `components` module.
+
+Main contributors are
+
+- Jack Meyer (frontend)
+- Matthew Dorner (frontend, components)
+- Matteo Vivona (frontend, components, server)
+- ocBruno (frontend, components)
+- Maksim Sinik (frontend)
+- Stefano Casasola (components)
+- Bruno Costa (components)
+- Maksim Sinik (server)
+- Jack Meyer (server)
+
+If any contributor feels that I have overlooked her or him, please contact me. I
+took the numbers from GitHub for the evaluation above. I assume there might be
+mistakes in my evaluation.
 
 ### Identifying Development Cycles and Author Contributions
 

@@ -46,3 +46,16 @@ npm install -g rbql
 export QUERY="SELECT * WHERE LIKE(a1, '%view/ViewPatient%') || LIKE(a2, '%view/ViewPatient%') ORDER BY a3, a4 DESC WITH (header)"; \
 rbql-js --delim "," --query "$QUERY" < all_coupling.csv > viewpatient_coupling.csv
 ```
+
+#### Analyse Development Cycles and Author Contributions with Gitstats
+
+```sh
+# Prerequisite: Get gitstats (requires gnuplot and python)
+brew install gnuplot
+
+# Clone gitstats and export its path to an environment variable
+git clone https://github.com/gktrk/gitstats.git
+export GITSTATS=$HOME/source/gktrk/gitstats
+```
+
+Next: Read the corresponding blog post on this site.
