@@ -3,7 +3,7 @@ title:  "Applied Software Forensics - Development Cycles and Main Authors"
 layout: post-with-gallery
 ---
 
-<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-03-18-applied-forensics-development-cycles.md -->
+<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-03-23-applied-forensics-development-cycles.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -12,6 +12,7 @@ layout: post-with-gallery
   - [Development Cycles Over the Entire Project History](#development-cycles-over-the-entire-project-history)
   - [Development Cycles in 2019 and 2020](#development-cycles-in-2019-and-2020)
   - [Author Activity in 2019 and 2020](#author-activity-in-2019-and-2020)
+  - [Conclusion](#conclusion)
 - [Identifying Development Cycles and Author Contributions](#identifying-development-cycles-and-author-contributions)
   - [Prerequisites](#prerequisites)
   - [Collecting the Data](#collecting-the-data)
