@@ -196,6 +196,8 @@ between the file associated with a line and the file associated with a column.
 
 #### Explore the Trend of Coupling
 
+TODO: Continue here ...
+
 Create combined git history files for each component:
 
 ```sh
