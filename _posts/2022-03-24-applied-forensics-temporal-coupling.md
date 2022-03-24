@@ -23,7 +23,10 @@ title:  "Applied Software Forensics - Temporal Coupling in HospitalRun"
 
 #### Sum of Coupling (SoC)
 
-The column "SoC" in the following table shows how often each file has been committed together with other files. Among others this top 10 list includes the hotspots from the previous analyses: `ViewPatient*.tsx`, `HospitalRun*.tsx` and `patient-slice.ts`.
+For the time period of 11/2019 to 11/2020, the column "SoC" in the following
+table shows how often each file has been committed together with other files.
+Among others this top 10 list includes the hotspots from the previous analyses:
+`ViewPatient*.tsx`, `HospitalRun*.tsx` and `patient-slice.ts`.
 
 <table>
   <thead>
@@ -35,7 +38,7 @@ The column "SoC" in the following table shows how often each file has been commi
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.sum-of-coupling %}
+    {% for entry in site.data.hospitalrun.coupling.sum-of-coupling %}
     <tr>
       <td>{{ entry.soc }}</td>
       <td style="text-align: left">{{ entry.entity }}</td>
@@ -48,7 +51,8 @@ The column "SoC" in the following table shows how often each file has been commi
 
 The following diagram depicts the coupling between hotspots and their
 dependencies. Hover over the connection lines to see the percent of coupling,
-i.e. in how many percent of commits the partner is also changed.
+i.e. in how many percent of commits the second file are caused by a change in
+the first one.
 
 <div id="hotspots-overview">
 </div>
@@ -128,61 +132,6 @@ is the number of revisions considered:
   </tbody>
 </table>
 
-#### Development Cycles for Frontend
-
-##### General Overview Over the Entire Project History
-
-![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/alltime-frontend-commits_by_year_month.png)
-
-Figure 2: **Frontend** Commits by Year and Month
-
-![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/alltime-server-commits_by_year_month.png)
-
-Figure 3: **Server** Commits by Year and Month
-
-![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/alltime-components-commits_by_year_month.png)
-
-Figure 4: **Components** Commits by Year and Month
-
-From figure 1 and 2 we clearly see: The `frontend` and the `server` were started at the same time in 2014.
-Until 2019 these two modules were developed in parallel, but the `frontend` clearly had more attention.
-
-In 2019 the `components` repository was created.
-
-The diagrams show a yearly development cycle stretching roughly from November to November.
-
-##### Development in 2019 and 2020
-
-The diagrams above indicate that there is a yearly rhythm of development lasting from November to November.
-This is emphasised in the commit history of 2020 and 2019 where the number of commits increased much. Thus,
-this section focusses on that time period:
-
-![Frontend Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/2019-2020-frontend-commits_by_year_month.png)
-
-Figure 5: **Frontend** Commits by Year and Month in 2019 - 2020
-
-![Server Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/2019-2020-server-commits_by_year_month.png)
-
-Figure 6: **Server** Commits by Year and Month in 2019 - 2020
-
-![Components Commits by Year and Month](/assets/img/hospitalrun/analysis/temporal-coupling/2019-2020-components-commits_by_year_month.png)
-
-Figure 7: **Components** Commits by Year and Month in 2019 - 2020
-
-Analyzing the repositories using gitstat shows, that the development activity
-reached a peak in February 2020. It slowed down in the summer season. For the
-frontend, there was increased activity in September. For all components the
-development activity decreased towards the date of release 2.0.0-alpha.7.
-
-##### Trend of Coupling
-
-TODO: How to deal with this?
-
-On August 6, 2019 the entire project has been reset - all files deleted, restart
-from scratch (at least according to the git history).
-
-https://github.com/HospitalRun/hospitalrun-frontend/commits/8564221bcbfac0b27cfcefa5ed30ef1dc72f5a16
-
 ### Performing a Temporal Coupling Analysis
 
 #### Overview: Sum of Coupling (SoC)
@@ -244,43 +193,6 @@ The data from the previously created CSV files is transferred to the JavaScript
 variables `names` and `matrix`. In the `matrix` each line and each column
 represents the files in the `names` array. The numbers specify the coupling
 between the file associated with a line and the file associated with a column.
-
-#### Find Development Cycles
-
-##### Prerequisites
-
-```sh
-# Prerequisite: Get gitstats (requires gnuplot and python)
-brew install gnuplot
-
-# Clone gitstats and export its path to an environment variable
-git clone https://github.com/gktrk/gitstats.git
-export GITSTATS=$HOME/source/gktrk/gitstats
-```
-
-##### Identify Development Cycles
-
-```sh
-# Identify the development cycles for the different modules
-for module in frontend server components; do \
-  rm -vr "analysis/${module}-gitstats"; \
-  cd "$module" || break; \
-  python "$GITSTATS/gitstats" ./ "../analysis/${module}-gitstats"; \
-  cd ".."
-done
-
-# Open the analysis in a browser
-open ../analysis/frontend-gitstats/index.html
-```
-
-If you would like to select a specific start date for the analysis, then pass
-the `-c start-date` parameter to `gitstats`:
-
-```sh
-python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${module}-gitstats"
-```
-
-In the top section I am showing the Analysis &rarr; Commits by Year / Month diagram for each component.
 
 #### Explore the Trend of Coupling
 
