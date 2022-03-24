@@ -37,7 +37,7 @@ started at nearly the same time in spring 2014. Until 2019 these two modules
 were developed in parallel, but the number of commits over time shows that the
 `frontend` clearly had more attention.
 
-In 2019 the `components` repository was created.
+In November 2019 the `components` repository was created.
 
 The diagrams show a yearly development cycle stretching roughly from November to November.
 
@@ -47,10 +47,17 @@ The diagrams above indicate that there is a yearly rhythm of development lasting
 from November to November. This is emphasised in the commit history of 11/2019
 to 11/2020. In this time period the overall number of commits increased a lot.
 
-Interesting: The changes in the development cycle happened after [Maksim Sinik
-has become the new Maintainer of the HospitalRun
-project](https://hospitalrun.io/blog/a-new-beginning-copy/) - is this merely
-correlation or is the event a cause?
+**No coincidence?** The changes in the development cycle happened after [Maksim
+Sinik has become the new Maintainer of the HospitalRun
+project](https://hospitalrun.io/blog/a-new-beginning-copy/) on August 7, 2019.
+
+Basically at the same time - on August 6, 2019 - Maksim [reset the frontend
+project](https://github.com/HospitalRun/hospitalrun-frontend/commits/8564221bcbfac0b27cfcefa5ed30ef1dc72f5a16).
+A branch named `1.0.0-beta` was created and next, all files were deleted from
+`master`. Matteo Vivona [committed a similar change to the server
+project](https://github.com/HospitalRun/hospitalrun-server/commit/4dfc380e209495cf525201637358e32f48a48f2e)
+on August 7, 2019. I have not checked (yet) whether files or file content was
+transferred from the `1.0.0-beta` branches back to the new `master`.
 
 As a consequence, the subsequent sections focus on the time period from 11/2019
 to 11/2020:
