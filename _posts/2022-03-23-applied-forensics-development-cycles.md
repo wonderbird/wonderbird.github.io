@@ -10,7 +10,7 @@ layout: post-with-gallery
 
 - [Results](#results)
   - [Development Cycles Over the Entire Project History](#development-cycles-over-the-entire-project-history)
-  - [Development Cycles in 2019 and 2020](#development-cycles-in-2019-and-2020)
+  - [Development Activity in 2019 and 2020](#development-activity-in-2019-and-2020)
   - [Author Activity in 2019 and 2020](#author-activity-in-2019-and-2020)
   - [Conclusion](#conclusion)
 - [Identifying Development Cycles and Author Contributions](#identifying-development-cycles-and-author-contributions)
@@ -41,7 +41,7 @@ In November 2019 the `components` repository was created.
 
 The diagrams show a yearly development cycle stretching roughly from November to November.
 
-#### Development Cycles in 2019 and 2020
+#### Development Activity in 2019 and 2020
 
 The diagrams above indicate that there is a yearly rhythm of development lasting
 from November to November. This is emphasised in the commit history of 11/2019
@@ -62,7 +62,7 @@ transferred from the `1.0.0-beta` branches back to the new `master`.
 As a consequence, the subsequent sections focus on the time period from 11/2019
 to 11/2020:
 
-{% include gallery.html id="FrontendDevCycles2019" folder="hospitalrun/analysis/development-cycles"
+{% include gallery.html id="DevCycles2019" folder="hospitalrun/analysis/development-cycles"
    images="2019-2020-frontend-commits_by_year_month.png,2019-2020-server-commits_by_year_month.png,2019-2020-components-commits_by_year_month.png"
    captions="Frontend: Commits by Year and Month in 2019-2020,Server: Commits by Year and Month in 2019-2020,Components: Commits by Year and Month in 2019-2020" %}
 
@@ -138,7 +138,7 @@ Compared to the earlier years of the project, the development activity was
 increased from 11/2019 to 11/2020. In general, the `frontend` gets most
 attention, followed by the `components` module.
 
-Main contributors are
+Main contributors from 11/2019 to 11/2020 were
 
 - Jack Meyer (frontend)
 - Matthew Dorner (frontend, components)
@@ -153,6 +153,25 @@ Main contributors are
 If any contributor feels that I have overlooked her or him, please contact me. I
 took the numbers from GitHub for the evaluation above. I assume there might be
 mistakes in my evaluation.
+
+##### Development Activity in 2020 and 2021
+
+From the development cycle I would have assumed that there was a release in
+November 2020. Because there are no associated tags on the repository, I was
+afraid that the project received less attention in 2020.
+
+{% include gallery.html id="DevCycles2020" folder="hospitalrun/analysis/development-cycles"
+   images="2020-2021-frontend-commits_by_year_month.png,2020-2021-server-commits_by_year_month.png,2020-2021-components-commits_by_year_month.png"
+   captions="Frontend: Commits by Year and Month in 2020-2021,Server: Commits by Year and Month in 2020-2021,Components: Commits by Year and Month in 2020-2021" %}
+
+Note: As of March 25, 2022, the last commit to the [components
+repository](https://github.com/hospitalrun/components) was made on October 22,
+2021.
+
+##### Author Activity in 2020 and 2021
+
+
+TODO: Analyse 2020, 2021, 2022
 
 ### Identifying Development Cycles and Author Contributions
 
@@ -171,10 +190,10 @@ export GITSTATS=$HOME/source/gktrk/gitstats
 
 ```sh
 # Identify the development cycles for the different modules
-for module in frontend server components; do \
-  rm -vr "analysis/${module}-gitstats"; \
-  cd "$module" || break; \
-  python "$GITSTATS/gitstats" ./ "../analysis/${module}-gitstats"; \
+for MODULE in frontend server components; do \
+  rm -vr "analysis/${MODULE}-gitstats"; \
+  cd "$MODULE" || break; \
+  python "$GITSTATS/gitstats" ./ "../analysis/${MODULE}-gitstats"; \
   cd ".."
 done
 
@@ -192,10 +211,25 @@ If you would like to select a specific start date for the analysis, then pass
 the `-c start-date` parameter to `gitstats`:
 
 ```sh
-python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${module}-gitstats"
+MODULE=FRONTEND \
+python "$GITSTATS/gitstats" -c start_date=2019-11-07  ./ "../analysis/${MODULE}-gitstats"
 ```
 
 This allows focussing on the time range defined by the start date and the date of the current working directory commit.
+
+In order to find an appropriate end date, you can search the git history, by
+a desired month:
+
+```sh
+YEAR=2021; \
+MONTH=11; \
+TIMEZONE=+0100; \
+AFTER_DATE=$(date -j -v-1d -f "%4Y-%m-%d %H:%M:%S %z" +%Y-%m-%d "${YEAR}-${MONTH}-01 00:00:00 ${TIMEZONE}"); \
+BEFORE_DATE=$(date -j -f "%4Y-%m-%d %H:%M:%S %z" +%Y-%m-%d "${YEAR}-$((MONTH+1))-01 00:00:00 ${TIMEZONE}"); \
+git log --pretty=format:'[%h] %ad %s' --date=short --after=$AFTER_DATE --before=$BEFORE_DATE
+```
+
+Then you can checkout to the identified commit hash.
 
 #### Selecting the Author Contribution Visualisation
 
