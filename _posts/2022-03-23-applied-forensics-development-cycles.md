@@ -27,8 +27,8 @@ layout: post-with-gallery
 
 #### Development Cycles Over the Entire Project History
 
-{% include gallery.html id="FrontendDevCycles" folder="hospitalrun/analysis/development-cycles"
-   images="alltime-frontend-commits_by_year_month.png,alltime-server-commits_by_year_month.png,alltime-components-commits_by_year_month.png"
+{% include gallery.html id="FrontendDevCycles" folder="hospitalrun/analysis/development-cycles/alltime"
+   images="frontend-commits_by_year_month.png,server-commits_by_year_month.png,components-commits_by_year_month.png"
    captions="Frontend: Commits by Year and Month,Server: Commits by Year and Month,Components: Commits by Year and Month" %}
 
 The [frontend](https://github.com/HospitalRun/hospitalrun-frontend) and the
@@ -62,9 +62,9 @@ transferred from the `1.0.0-beta` branches back to the new `master`.
 As a consequence, the subsequent sections focus on the time period from 11/2019
 to 11/2020:
 
-{% include gallery.html id="DevCycles2019" folder="hospitalrun/analysis/development-cycles"
-   images="2019-2020-frontend-commits_by_year_month.png,2019-2020-server-commits_by_year_month.png,2019-2020-components-commits_by_year_month.png"
-   captions="Frontend: Commits by Year and Month in 2019-2020,Server: Commits by Year and Month in 2019-2020,Components: Commits by Year and Month in 2019-2020" %}
+{% include gallery.html id="DevCycles2019" folder="hospitalrun/analysis/development-cycles/2019-2020"
+   images="frontend-commits_by_year_month.png,server-commits_by_year_month.png,components-commits_by_year_month.png"
+   captions="Frontend: Commits by Year and Month (2019-2020),Server: Commits by Year and Month in (2019-2020),Components: Commits by Year and Month (2019-2020)" %}
 
 Analyzing the repositories using [gitstat](https://github.com/gktrk/gitstats)
 shows, that the development activity reached a peak in February 2020. It slowed
@@ -74,11 +74,11 @@ decreased towards the date of release `2.0.0-alpha.7`.
 
 #### Author Activity in 2019 and 2020
 
-##### Frontend
+##### Frontend (2019-2020)
 
-{% include gallery.html id="FrontendActivity20192020" folder="hospitalrun/analysis/development-cycles"
-   images="2019-2020-frontend-commits_by_author.png,2019-2020-frontend-loc_by_author.png"
-   captions="Frontend: Commits by Author,Frontend: Cumulated Added Lines of Code per Author" %}
+{% include gallery.html id="FrontendActivity20192020" folder="hospitalrun/analysis/development-cycles/2019-2020"
+   images="frontend-commits_by_author.png,frontend-loc_by_author.png"
+   captions="Frontend: Commits by Author (2019-2020),Frontend: Cumulated Added Lines of Code per Author (2019-2020)" %}
 
 For the `frontend` Jack Meyer and Matteo Vivona show constant development activity
 throughout the year. Jack adds significantly more lines of code than any other
@@ -89,6 +89,7 @@ is sorted by number of lines added.
 
 {% include hospitalrun/main-authors-table.html
    component="Frontend"
+   years="2010 and 2020"
    author-data=site.data.hospitalrun.main-authors-2019.frontend %}
 
 The table confirms that for `frontend` code Jack Meyer clearly provided the most
@@ -99,11 +100,11 @@ He is followed by Matthew Dorner and Matteo Vivona. Matthew seems to contribute
 his share in active cycles of a few days while Matteo creates many small
 commits during the entire period.
 
-##### Components
+##### Components (2019-2020)
 
-{% include gallery.html id="ComponentsActivity20192020" folder="hospitalrun/analysis/development-cycles"
-   images="2019-2020-components-commits_by_author.png,2019-2020-components-loc_by_author.png"
-   captions="Components: Commits by Author,Components: Cumulated Added Lines of Code per Author" %}
+{% include gallery.html id="ComponentsActivity20192020" folder="hospitalrun/analysis/development-cycles/2019-2020"
+   images="components-commits_by_author.png,components-loc_by_author.png"
+   captions="Components: Commits by Author (2019-2020),Components: Cumulated Added Lines of Code per Author (2019-2020)" %}
 
 In the `components` module Matteo creates a steady stream of commits.
 
@@ -114,16 +115,18 @@ summer. Other developers show a more steady behaviour.
 
 {% include hospitalrun/main-authors-table.html
    component="Components"
+   years="2010 and 2020"
    author-data=site.data.hospitalrun.main-authors-2019.components %}
 
-##### Server
+##### Server (2019-2020)
 
-{% include gallery.html id="ServerActivity20192020" folder="hospitalrun/analysis/development-cycles"
-   images="2019-2020-server-commits_by_author.png,2019-2020-server-loc_by_author.png"
-   captions="Server: Commits by Author,Server: Cumulated Added Lines of Code per Author" %}
+{% include gallery.html id="ServerActivity20192020" folder="hospitalrun/analysis/development-cycles/2019-2020"
+   images="server-commits_by_author.png,server-loc_by_author.png"
+   captions="Server: Commits by Author (2019-2020),Server: Cumulated Added Lines of Code per Author (2019-2020)" %}
 
 {% include hospitalrun/main-authors-table.html
    component="Server"
+   years="2010 and 2020"
    author-data=site.data.hospitalrun.main-authors-2019.server %}
 
 For the `server` component only Maksim, Matteo and Jack provided significant
@@ -154,24 +157,57 @@ If any contributor feels that I have overlooked her or him, please contact me. I
 took the numbers from GitHub for the evaluation above. I assume there might be
 mistakes in my evaluation.
 
-##### Development Activity in 2020 and 2021
+#### Development Activity in 2020 and 2021
 
 From the development cycle I would have assumed that there was a release in
 November 2020. Because there are no associated tags on the repository, I was
 afraid that the project received less attention in 2020.
 
-{% include gallery.html id="DevCycles2020" folder="hospitalrun/analysis/development-cycles"
-   images="2020-2021-frontend-commits_by_year_month.png,2020-2021-server-commits_by_year_month.png,2020-2021-components-commits_by_year_month.png"
-   captions="Frontend: Commits by Year and Month in 2020-2021,Server: Commits by Year and Month in 2020-2021,Components: Commits by Year and Month in 2020-2021" %}
+{% include gallery.html id="DevCycles2020" folder="hospitalrun/analysis/development-cycles/2020-2021"
+   images="frontend-commits_by_year_month.png,server-commits_by_year_month.png,components-commits_by_year_month.png"
+   captions="Frontend: Commits by Year and Month (2020-2021),Server: Commits by Year and Month (2020-2021),Components: Commits by Year and Month (2020-2021)" %}
 
 Note: As of March 25, 2022, the last commit to the [components
 repository](https://github.com/hospitalrun/components) was made on October 22,
 2021.
 
-##### Author Activity in 2020 and 2021
+#### Author Activity in 2020 and 2021
+
+##### Frontend (2020-2021)
+
+{% include gallery.html id="FrontendActivity20202021" folder="hospitalrun/analysis/development-cycles/2020-2021"
+   images="frontend-commits_by_author.png,frontend-loc_by_author.png"
+   captions="Frontend: Commits by Author (2020-2021),Frontend: Cumulated Added Lines of Code per Author (2020-2021)" %}
+
+{% include hospitalrun/main-authors-table.html
+   component="Frontend"
+   years="2020 and 2021"
+   author-data=site.data.hospitalrun.main-authors-2020.frontend %}
+
+##### Components (2020-2021)
+
+{% include gallery.html id="ComponentsActivity20202021" folder="hospitalrun/analysis/development-cycles/2020-2021"
+   images="components-commits_by_author.png,components-loc_by_author.png"
+   captions="Components: Commits by Author (2020-2021),Components: Cumulated Added Lines of Code per Author (2020-2021)" %}
+
+{% include hospitalrun/main-authors-table.html
+   component="Components"
+   years="2020 and 2021"
+   author-data=site.data.hospitalrun.main-authors-2020.components %}
+
+##### Server (2020-2021)
+
+{% include gallery.html id="ServerActivity20202021" folder="hospitalrun/analysis/development-cycles/2020-2021"
+   images="server-commits_by_author.png,server-loc_by_author.png"
+   captions="Server: Commits by Author (2020-2021),Server: Cumulated Added Lines of Code per Author (2020-2021)" %}
+
+{% include hospitalrun/main-authors-table.html
+   component="Server"
+   years="2020 and 2021"
+   author-data=site.data.hospitalrun.main-authors-2020.server %}
 
 
-TODO: Analyse 2020, 2021, 2022
+TODO: Describe observations for 2020, 2021, 2022
 
 ### Identifying Development Cycles and Author Contributions
 
