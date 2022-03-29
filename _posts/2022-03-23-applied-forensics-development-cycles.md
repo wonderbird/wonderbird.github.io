@@ -10,9 +10,9 @@ layout: post-with-gallery
 
 - [Results](#results)
   - [Development Cycles Over the Entire Project History](#development-cycles-over-the-entire-project-history)
-  - [Development Activity in 2019 and 2020](#development-activity-in-2019-and-2020)
-  - [Author Activity in 2019 and 2020](#author-activity-in-2019-and-2020)
-  - [Conclusion](#conclusion)
+  - [Development Activity From Nov. 2019 - Nov. 2020](#development-activity-from-nov-2019---nov-2020)
+  - [Development Activity From Nov. 2020 - Nov. 2021](#development-activity-from-nov-2020---nov-2021)
+  - [From Nov. 2021 to Mar. 2022: No Significant Activity](#from-nov-2021-to-mar-2022-no-significant-activity)
 - [Identifying Development Cycles and Author Contributions](#identifying-development-cycles-and-author-contributions)
   - [Prerequisites](#prerequisites)
   - [Collecting the Data](#collecting-the-data)
@@ -24,6 +24,13 @@ layout: post-with-gallery
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### Results
+
+When starting to look into the development cycles, I intended to focus only on
+the time period before the latest release `v2.0.0-alpha.7 (Nov. 7, 2020)`.
+
+Later, I decided to include the present into my analysis. However, I did not
+extend the first section, so that the reader can follow my initial thoughts on
+what the development cycle should be.
 
 #### Development Cycles Over the Entire Project History
 
@@ -41,7 +48,7 @@ In November 2019 the `components` repository was created.
 
 The diagrams show a yearly development cycle stretching roughly from November to November.
 
-#### Development Activity in 2019 and 2020
+#### Development Activity From Nov. 2019 - Nov. 2020
 
 The diagrams above indicate that there is a yearly rhythm of development lasting
 from November to November. This is emphasised in the commit history of 11/2019
@@ -72,9 +79,9 @@ down in the summer season. For the `frontend`, there was another period of
 increased activity in September. For all components the development activity
 decreased towards the date of release `2.0.0-alpha.7`.
 
-#### Author Activity in 2019 and 2020
+##### Author Activity
 
-##### Frontend (2019-2020)
+###### Frontend
 
 {% include gallery.html id="FrontendActivity20192020" folder="hospitalrun/analysis/development-cycles/2019-2020"
    images="frontend-commits_by_author.png,frontend-loc_by_author.png"
@@ -89,7 +96,7 @@ is sorted by number of lines added.
 
 {% include hospitalrun/main-authors-table.html
    component="Frontend"
-   years="2010 and 2020"
+   years="2019 and 2020"
    author-data=site.data.hospitalrun.main-authors-2019.frontend %}
 
 The table confirms that for `frontend` code Jack Meyer clearly provided the most
@@ -100,7 +107,7 @@ He is followed by Matthew Dorner and Matteo Vivona. Matthew seems to contribute
 his share in active cycles of a few days while Matteo creates many small
 commits during the entire period.
 
-##### Components (2019-2020)
+###### Components
 
 {% include gallery.html id="ComponentsActivity20192020" folder="hospitalrun/analysis/development-cycles/2019-2020"
    images="components-commits_by_author.png,components-loc_by_author.png"
@@ -115,10 +122,10 @@ summer. Other developers show a more steady behaviour.
 
 {% include hospitalrun/main-authors-table.html
    component="Components"
-   years="2010 and 2020"
+   years="2019 and 2020"
    author-data=site.data.hospitalrun.main-authors-2019.components %}
 
-##### Server (2019-2020)
+###### Server
 
 {% include gallery.html id="ServerActivity20192020" folder="hospitalrun/analysis/development-cycles/2019-2020"
    images="server-commits_by_author.png,server-loc_by_author.png"
@@ -126,7 +133,7 @@ summer. Other developers show a more steady behaviour.
 
 {% include hospitalrun/main-authors-table.html
    component="Server"
-   years="2010 and 2020"
+   years="2019 and 2020"
    author-data=site.data.hospitalrun.main-authors-2019.server %}
 
 For the `server` component only Maksim, Matteo and Jack provided significant
@@ -135,7 +142,7 @@ rather slow when compared to `frontend` and `components`. This is also reflected
 in the earlier post on [Hotspot
 Analysis](/2022/02/21/applied-forensics-hotspots.html).
 
-#### Conclusion
+##### Conclusion
 
 Compared to the earlier years of the project, the development activity was
 increased from 11/2019 to 11/2020. In general, the `frontend` gets most
@@ -157,7 +164,7 @@ If any contributor feels that I have overlooked her or him, please contact me. I
 took the numbers from GitHub for the evaluation above. I assume there might be
 mistakes in my evaluation.
 
-#### Development Activity in 2020 and 2021
+#### Development Activity From Nov. 2020 - Nov. 2021
 
 From the development cycle I would have assumed that there was a release in
 November 2020. Because there are no associated tags on the repository, I was
@@ -171,9 +178,9 @@ Note: As of March 25, 2022, the last commit to the [components
 repository](https://github.com/hospitalrun/components) was made on October 22,
 2021.
 
-#### Author Activity in 2020 and 2021
+##### Author Activity
 
-##### Frontend (2020-2021)
+###### Frontend
 
 {% include gallery.html id="FrontendActivity20202021" folder="hospitalrun/analysis/development-cycles/2020-2021"
    images="frontend-commits_by_author.png,frontend-loc_by_author.png"
@@ -184,7 +191,13 @@ repository](https://github.com/hospitalrun/components) was made on October 22,
    years="2020 and 2021"
    author-data=site.data.hospitalrun.main-authors-2020.frontend %}
 
-##### Components (2020-2021)
+Until June 3, the frontend had some attention of individual developers working
+on individual features. However, I cannot see significant collaboration from the
+git logs. The changes look unrelated and the last change to business logic was
+made on June 3, 2021. From then on, only dependencies and automerge related code
+was changed.
+
+###### Components
 
 {% include gallery.html id="ComponentsActivity20202021" folder="hospitalrun/analysis/development-cycles/2020-2021"
    images="components-commits_by_author.png,components-loc_by_author.png"
@@ -195,7 +208,10 @@ repository](https://github.com/hospitalrun/components) was made on October 22,
    years="2020 and 2021"
    author-data=site.data.hospitalrun.main-authors-2020.components %}
 
-##### Server (2020-2021)
+The last change to business logic was made on Feb. 5, 2021. From then on, only
+dependencies and automerge related code was changed.
+
+###### Server
 
 {% include gallery.html id="ServerActivity20202021" folder="hospitalrun/analysis/development-cycles/2020-2021"
    images="server-commits_by_author.png,server-loc_by_author.png"
@@ -206,8 +222,24 @@ repository](https://github.com/hospitalrun/components) was made on October 22,
    years="2020 and 2021"
    author-data=site.data.hospitalrun.main-authors-2020.server %}
 
+Starting on Nov. 19, 2020, the only changes were related to automatically
+upgrading dependencies.
 
-TODO: Describe observations for 2020, 2021, 2022
+#### From Nov. 2021 to Mar. 2022: No Significant Activity
+
+Looking at the time period from Nov. 2021 to Mar. 29, 2022, there is no
+significant further development visible. Considering that winter and spring were
+the most active seasons in earlier development cycles, it feels like the project
+has fallen asleep.
+
+For the `frontend` the only business logic change after Nov. 7, 2021 was a merge
+commit of work that had been finished in September 2021.
+
+All commits in the `server` module are related to maintenance. There was no
+further development.
+
+Most concern is raised by the fact, there was no commit in the `components`
+repository. This means that the dependencies are not kept up-to-date.
 
 ### Identifying Development Cycles and Author Contributions
 
@@ -297,7 +329,7 @@ The table of author contributions shown above has been generated as follows:
 1. Sort the table by `+ lines`
 1. Copy paste the HTML table **Authors &rarr; List of Authors** into a file
 1. Replace all occurrences of the regex `,\s` by ` - `. This will remove the commas from the field **Age**
-1. Remove all `\s*↓` occurrences (cosmetics)
+1. Remove all `\s*↓` occurrences
 1. Replace all `\t` tab characters by `,` comma
 1. Save the file as `authors.csv`, if the file covers the entire analysis period or `authors-2019.csv`, if it covers only one development cycle
 
