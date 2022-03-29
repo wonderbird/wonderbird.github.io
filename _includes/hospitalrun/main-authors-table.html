@@ -1,9 +1,10 @@
 {% assign component = include.component %}
+{% assign years = include.years %}
 {% assign author-data = include.author-data %}
 
 <table>
     <thead>
-      <caption>{{ component }}: Main Authors in 2019 and 2020</caption>
+      <caption>{{ component }}: Main Authors in {{ years }}</caption>
       <tr>
         <th>Author</th>
         <th>Commits (%)</th>
