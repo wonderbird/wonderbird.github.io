@@ -16,7 +16,9 @@ main:
   - title: Leseliste
     url: /pages/leseliste.html
   - title: Online Games
-    url: /pages/online-games.md
+    url: /pages/online-games.html
+  - title: Outdoor Aktivitäten
+    url: /pages/outdoor-activities.html
   - title: Persönlichkeitsentwicklung
     url: /pages/personality-development.html
   - title: rc3 - remote chaos
@@ -39,6 +41,8 @@ collaboration:
     url: /pages/collaboration/team-collaboration.html
 
 computers:
+  - title: Analyse Hard Disk Health Using  SmartCTL (S.M.A.R.T.)
+    url: /pages/computers-and-technology/analyse-harddisk-health.html
   - title: Android nach Apple iPhone Umzug
     url: /pages/computers-and-technology/android-nach-apple-iphone-umzug.html
   - title: C64
@@ -187,9 +191,13 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/x++.html
 
 software-crafting-static-websites:
+  - title: Automatic Browser Refresh on File Change
+    url: /pages/software-crafting/static-websites/automatic-browser-refresh.html
   - title: GitHub SFTP Publishing
     url: /pages/software-crafting/static-websites/github-sftp-publishing.html
   - title: Hugo
     url: /pages/software-crafting/static-websites/hugo.html
+  - title: Javascript Modules for Static Websites
+    url: /pages/software-crafting/static-websites/javascript-modules.html
   - title: Jekyll
     url: /pages/software-crafting/static-websites/jekyll.html

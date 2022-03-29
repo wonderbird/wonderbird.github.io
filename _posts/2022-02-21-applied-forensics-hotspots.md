@@ -42,7 +42,7 @@ What has been excluded from the analysis?
 
 #### Hotspots Overview
 
-{% include 2022-02-21-hospitalrun-hotspots.html %}
+{% include hospitalrun/hotspots.html %}
 
 This **interactive** diagram shows the hotspots of HospitalRun as large, dark red circles.
 
@@ -61,7 +61,7 @@ The following table shows the top 10 hotspots in HospitalRun.
   </thead>
 
   <tbody>
-    {% for hotspot in site.data.hospitalrun-hotspots %}
+    {% for hotspot in site.data.hospitalrun.hotspots.hotspots %}
     <tr>
       <td>{{ hotspot.revisions }}</td>
       <td>{{ hotspot.code }}</td>
@@ -122,16 +122,6 @@ for FILE in $(cat cloc-exclude-files.txt); do sed -i '' "/$FILE,/d" "${SUT}_freq
 # Set the folder containing your https://github.com/adamtornhill/maat-scripts python3 branch checkout
 export MAAT_SCRIPTS=$HOME/source/learn/your-code-as-a-crime-scene/maat-scripts
 python "$MAAT_SCRIPTS/merge/merge_comp_freqs.py" "${SUT}_freqs.csv" "${SUT}_lines.csv" > hotspots.csv
-```
-
-The output is a csv formatted table of hotspots sorted by criticality.
-
-In the sections above I have generated a JSON file from the csv output and used it as data source for this Jekyll page:
-
-```sh
-# Prerequisite: Install the d3-dsv npm package. It brings the csv2json command
-npm install -g d3-dsv
-csv2json -o hotspots.json hotspots.csv
 ```
 
 #### Visualize hotspots

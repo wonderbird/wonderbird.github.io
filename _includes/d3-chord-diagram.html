@@ -1,0 +1,88 @@
+<!-- This script is based on https://observablehq.com/@d3/chord-dependency-diagram -->
+<script>
+  const targetElementSelector = "#hotspots-overview"
+
+  const parent = document.querySelector(targetElementSelector)
+  const parentWidth = parent.offsetWidth
+  const outerDiameter = parentWidth
+  const center = parentWidth / 2
+
+  const svg = d3.select(targetElementSelector)
+    .append("svg")
+    .attr("width", outerDiameter)
+    .attr("height", outerDiameter)
+    .append("g")
+    .attr("transform", "translate(" + center + "," + center + ")")
+
+  const chord = d3.chordDirected()
+    .padAngle(0.05)
+    .sortSubgroups(d3.descending)
+    .sortChords(d3.descending)
+
+  const names = ["view/ViewPatient.tsx", "ViewPatient.test.tsx", "Patient.ts", "Patients.tsx", "EditPatient.tsx", "patient-slice.ts", "containers/ViewPatient.tsx", "patient-slice.test.ts", "HospitalRun.tsx", "HospitalRun.test.tsx", "user-slice.tsx"]
+  const matrix = [
+    [ 0, 66, 31, 31, 31, 30,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0, 50, 67,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0, 36, 30],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+    [ 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0],
+  ]
+
+  const chords = chord(matrix)
+
+  const group = svg.append("g")
+      .attr("font-size", 10)
+      .attr("font-family", "sans-serif")
+    .selectAll("g")
+    .data(chords.groups)
+    .join("g")
+
+  // add the groups on the outer part of the circle
+  const textMargin = outerDiameter / 4
+  const outerRadius = outerDiameter / 2 - textMargin
+  const margin = 10
+  const innerRadius = outerRadius - margin
+
+  arc = d3.arc()
+    .innerRadius(innerRadius)
+    .outerRadius(outerRadius)
+
+  const color = d3.scaleOrdinal(names, d3.quantize(d3.interpolateRainbow, names.length + 1))
+
+  group.append("path")
+    .style("fill", d => color(names[d.index]))
+    .attr("d", arc)
+
+  group.append("text")
+    .each(d => (d.angle = (d.startAngle + d.endAngle) / 2))
+    .attr("dy", "0.35em")
+    .attr("transform", d => `
+      rotate(${(d.angle * 180 / Math.PI - 90)})
+      translate(${outerRadius + 5})
+      ${d.angle > Math.PI ? "rotate(180)" : ""}
+    `)
+    .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
+    .text(d => names[d.index]);
+
+  // Add the links between groups
+  const ribbon = d3.ribbon()
+    .radius(innerRadius - 1)
+    .padAngle(1 / innerRadius)
+
+  svg.append("g")
+      .attr("fill-opacity", 0.75)
+    .selectAll("path")
+    .data(chords)
+    .join("path")
+    .style("mix-blend-mode", "multiply")
+      .attr("fill", d => color(names[d.target.index]))
+      .attr("d", ribbon)
+    .append("title")
+      .text(d => `${names[d.source.index]} ↔ ${names[d.target.index]}: ${d.source.value}%`)
+</script>
