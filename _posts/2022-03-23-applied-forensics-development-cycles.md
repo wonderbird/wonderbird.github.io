@@ -9,7 +9,7 @@ layout: post-with-gallery
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Results](#results)
-  - [Development Cycles Over the Entire Project History](#development-cycles-over-the-entire-project-history)
+  - [Development Cycles From Start to Nov. 7, 2020](#development-cycles-from-start-to-nov-7-2020)
   - [Development Activity From Nov. 2019 - Nov. 2020](#development-activity-from-nov-2019---nov-2020)
   - [Development Activity From Nov. 2020 - Nov. 2021](#development-activity-from-nov-2020---nov-2021)
   - [From Nov. 2021 to Mar. 2022: No Significant Activity](#from-nov-2021-to-mar-2022-no-significant-activity)
@@ -26,13 +26,13 @@ layout: post-with-gallery
 ### Results
 
 When starting to look into the development cycles, I intended to focus only on
-the time period before the latest release `v2.0.0-alpha.7 (Nov. 7, 2020)`.
+the time period before the latest release `v2.0.0-alpha.7` (Nov. 7, 2020).
 
 Later, I decided to include the present into my analysis. However, I did not
 extend the first section, so that the reader can follow my initial thoughts on
 what the development cycle should be.
 
-#### Development Cycles Over the Entire Project History
+#### Development Cycles From Start to Nov. 7, 2020
 
 {% include gallery.html id="FrontendDevCycles" folder="hospitalrun/analysis/development-cycles/alltime"
    images="frontend-commits_by_year_month.png,server-commits_by_year_month.png,components-commits_by_year_month.png"
@@ -51,7 +51,7 @@ The diagrams show a yearly development cycle stretching roughly from November to
 #### Development Activity From Nov. 2019 - Nov. 2020
 
 The diagrams above indicate that there is a yearly rhythm of development lasting
-from November to November. This is emphasised in the commit history of 11/2019
+from November to November. This is emphasised in the commit history from 11/2019
 to 11/2020. In this time period the overall number of commits increased a lot.
 
 **No coincidence?** The changes in the development cycle happened after [Maksim
