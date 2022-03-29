@@ -35,7 +35,7 @@ The column "SoC" in the following table shows how often each file has been commi
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.sum-of-coupling %}
+    {% for entry in site.data.hospitalrun.coupling.sum %}
     <tr>
       <td>{{ entry.soc }}</td>
       <td style="text-align: left">{{ entry.entity }}</td>
@@ -71,7 +71,7 @@ is the number of revisions considered:
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.viewpatient_coupling %}
+    {% for entry in site.data.hospitalrun.coupling.viewpatient %}
     <tr>
       <td style="text-align: left">{{ entry.entity }}</td>
       <td style="text-align: left">{{ entry.coupled }}</td>
@@ -94,7 +94,7 @@ is the number of revisions considered:
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.hospitalrun_coupling %}
+    {% for entry in site.data.hospitalrun.coupling.hospitalrun %}
     <tr>
       <td style="text-align: left">{{ entry.entity }}</td>
       <td style="text-align: left">{{ entry.coupled }}</td>
@@ -117,7 +117,7 @@ is the number of revisions considered:
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.patient-slice_coupling %}
+    {% for entry in site.data.hospitalrun.coupling.patient-slice %}
     <tr>
       <td style="text-align: left">{{ entry.entity }}</td>
       <td style="text-align: left">{{ entry.coupled }}</td>
