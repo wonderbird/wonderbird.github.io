@@ -42,7 +42,7 @@ What has been excluded from the analysis?
 
 #### Hotspots Overview
 
-{% include 2022-02-21-hospitalrun-hotspots.html %}
+{% include hospitalrun/hotspots.html %}
 
 This **interactive** diagram shows the hotspots of HospitalRun as large, dark red circles.
 
@@ -61,7 +61,7 @@ The following table shows the top 10 hotspots in HospitalRun.
   </thead>
 
   <tbody>
-    {% for hotspot in site.data.hospitalrun-hotspots %}
+    {% for hotspot in site.data.hospitalrun.hotspots.hotspots %}
     <tr>
       <td>{{ hotspot.revisions }}</td>
       <td>{{ hotspot.code }}</td>
