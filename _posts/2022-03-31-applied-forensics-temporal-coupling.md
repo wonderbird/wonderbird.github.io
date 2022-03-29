@@ -38,7 +38,7 @@ Among others this top 10 list includes the hotspots from the previous analyses:
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.coupling.sum-of-coupling %}
+    {% for entry in site.data.hospitalrun.coupling.sum %}
     <tr>
       <td>{{ entry.soc }}</td>
       <td style="text-align: left">{{ entry.entity }}</td>
@@ -51,8 +51,7 @@ Among others this top 10 list includes the hotspots from the previous analyses:
 
 The following diagram depicts the coupling between hotspots and their
 dependencies. Hover over the connection lines to see the percent of coupling,
-i.e. in how many percent of commits the second file are caused by a change in
-the first one.
+i.e. in how many percent of commits the partner is also changed.
 
 <div id="hotspots-overview">
 </div>
@@ -75,7 +74,7 @@ is the number of revisions considered:
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.viewpatient_coupling %}
+    {% for entry in site.data.hospitalrun.coupling.viewpatient %}
     <tr>
       <td style="text-align: left">{{ entry.entity }}</td>
       <td style="text-align: left">{{ entry.coupled }}</td>
@@ -98,7 +97,7 @@ is the number of revisions considered:
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.hospitalrun_coupling %}
+    {% for entry in site.data.hospitalrun.coupling.hospitalrun %}
     <tr>
       <td style="text-align: left">{{ entry.entity }}</td>
       <td style="text-align: left">{{ entry.coupled }}</td>
@@ -121,7 +120,7 @@ is the number of revisions considered:
   </thead>
 
   <tbody>
-    {% for entry in site.data.hospitalrun.patient-slice_coupling %}
+    {% for entry in site.data.hospitalrun.coupling.patient-slice %}
     <tr>
       <td style="text-align: left">{{ entry.entity }}</td>
       <td style="text-align: left">{{ entry.coupled }}</td>
