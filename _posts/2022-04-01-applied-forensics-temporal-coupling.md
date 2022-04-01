@@ -3,7 +3,7 @@ layout: post-with-latest-d3
 title:  "Applied Software Forensics - Temporal Coupling in HospitalRun"
 ---
 
-<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-03-01-applied-forensics-temporal-coupling.md -->
+<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_posts/2022-04-01-applied-forensics-temporal-coupling.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -11,11 +11,9 @@ title:  "Applied Software Forensics - Temporal Coupling in HospitalRun"
 - [Results](#results)
   - [Sum of Coupling (SoC)](#sum-of-coupling-soc)
   - [Coupling of Individual Modules](#coupling-of-individual-modules)
-  - [Development Cycles for Frontend](#development-cycles-for-frontend)
 - [Performing a Temporal Coupling Analysis](#performing-a-temporal-coupling-analysis)
   - [Overview: Sum of Coupling (SoC)](#overview-sum-of-coupling-soc)
   - [Measure Temporal Coupling on File Level](#measure-temporal-coupling-on-file-level)
-  - [Find Development Cycles](#find-development-cycles)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -192,17 +190,3 @@ The data from the previously created CSV files is transferred to the JavaScript
 variables `names` and `matrix`. In the `matrix` each line and each column
 represents the files in the `names` array. The numbers specify the coupling
 between the file associated with a line and the file associated with a column.
-
-#### Explore the Trend of Coupling
-
-TODO: Continue here ...
-
-Create combined git history files for each component:
-
-```sh
-./create-git-history-per-year.sh
-```
-
-```sh
-./identify-hotspots-per-year.sh
-```
