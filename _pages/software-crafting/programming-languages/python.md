@@ -24,15 +24,20 @@ layout: default
 
 Note, that macOS comes with Python 2.7 pre-installed. If you are new to Python, I recommend using version 3 instead.
 
+Further note, that I am managing my python installations using [pyenv](https://github.com/pyenv/pyenv) and I am
+developing code using [JetBrains PyCharm](https://www.jetbrains.com/de-de/pycharm/). This combination leads to
+using `pyenv` in parallel with the Python built in [venv](https://docs.python.org/3/library/venv.html) ...
+and looks strange to me. Probably I'll find a better solution later.
+
 To install Python 3 on macOS the following steps are recommended:
 
 1. Install [pyenv](https://github.com/pyenv/pyenv#installation)
    - Follow the instructions in [Homebrew in macOS](https://github.com/pyenv/pyenv#homebrew-in-macos)
    - Pay special attention to the [verification step](https://github.com/pyenv/pyenv/wiki#how-to-verify-that-i-have-set-up-pyenv-correctly) of [Build Environment einrichten](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
 
-1. The installation instructions end with installing a python version. Choose the [version number of the latest stable Python build](https://www.python.org/downloads/) here (at the time of writing this was version `3.10`): `pyenv install 3.10-dev`.
+1. The installation instructions end with installing a python version. Choose the [version number of the latest stable Python build](https://www.python.org/downloads/) here (at the time of writing this was version `3.10`): `pyenv install 3.10.3`.
 
-1. Now you can switch the global python version to the installed one: `pyenv global 3.10-dev`
+1. Now you can switch the global python version to the installed one: `pyenv global 3.10.3`
 
 1. Restart your shell and verify the `python --version`
 
@@ -41,3 +46,7 @@ To install Python 3 on macOS the following steps are recommended:
 To re-activate the pre-installed python use `pyenv global system`
 
 Please note that when using `pip` for installing Python applications, you may need to add `$HOME/.local/bin` to your `$PATH`.
+
+### Pyenv Commands
+
+... are described in the [Command Reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md).
