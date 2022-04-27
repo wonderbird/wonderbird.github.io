@@ -50,3 +50,18 @@ Please note that when using `pip` for installing Python applications, you may ne
 ### Pyenv Commands
 
 ... are described in the [Command Reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md).
+
+### Style Guides
+
+- [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/)
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
+#### Documenting Python Code
+
+- [Python Developer's Guide: Documenting Python](https://devguide.python.org/documenting/)
+- [PEP 257 - Docstring Conventions](https://peps.python.org/pep-0257/)
+
+- [JetBrains PyCharm Guide: Documenting Code](https://www.jetbrains.com/pycharm/guide/tutorials/sphinx_sites/documentation/)
+- [Google Python Styleguide: Docstrings](https://google.github.io/styleguide/pyguide.html#s3.8-comments-and-docstrings)
+- [numpy Styleguide: Docstring Standard](https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard)
+- [sphinx.ext.napoleon: Support for NumPy and Google style docstrings](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html)
