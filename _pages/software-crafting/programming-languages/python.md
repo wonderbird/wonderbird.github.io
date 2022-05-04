@@ -4,6 +4,19 @@ layout: default
 ---
 ## Python
 
+<!-- doctoc --maxlevel 4 $HOME/source/wonderbird/wonderbird.github.io/_pages/software-crafting/programming-languages/python.md -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Links](#links)
+- [Installing Python on macOS](#installing-python-on-macos)
+- [Pyenv Commands](#pyenv-commands)
+- [Style Guides](#style-guides)
+  - [Documenting Python Code](#documenting-python-code)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Links
 
 - [pytest](https://docs.pytest.org/) - newer unit testing framework.
@@ -65,3 +78,7 @@ Please note that when using `pip` for installing Python applications, you may ne
 - [Google Python Styleguide: Docstrings](https://google.github.io/styleguide/pyguide.html#s3.8-comments-and-docstrings)
 - [numpy Styleguide: Docstring Standard](https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard)
 - [sphinx.ext.napoleon: Support for NumPy and Google style docstrings](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html)
+
+### Interesting Packages
+
+- GitHub: [JulienPalard / Pipe](https://github.com/JulienPalard/Pipe) - Pipelines / stream processing for python.
