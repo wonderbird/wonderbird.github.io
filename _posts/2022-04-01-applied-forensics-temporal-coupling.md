@@ -138,15 +138,31 @@ The analysis is based on the git history for all repositories making up the syst
 ```sh
 cd ../analysis
 
-# Combine all git history files into one
-rm all_evo.log;  \
+# Prepend the component path to all changed files in each evo log
 for SUT in frontend server components; do \
-  cat ${SUT}_evo.log | awk -F '\t' "{ if (NF == 3) { print \$1 \"\\t\" \$2 \"\\t\" \"$SUT/\" \$3 } else { print \$0 } }" >> all_evo.log; \
-  echo "" >> all_evo.log; \
+  TARGET="${SUT}_evo_with_extra_path.log"; \
+  rm $TARGET; \
+  cat ${SUT}_evo.log | awk -F '\t' "{ if (NF == 3) { print \$1 \"\\t\" \$2 \"\\t\" \"$SUT/\" \$3 } else { print \$0 } }" >> $TARGET; \
 done
 
+# Combine all logs into a single log
+python $MAAT_SCRIPTS/combine-repos/combine_repos.py frontend_evo_with_extra_path.log \
+                                                    server_evo_with_extra_path.log \
+                                                    components_evo_with_extra_path.log \
+                                                    --output all_evo.log
+
+
 # Sum of Coupling
-docker run -v "$PWD":/data -it code-maat-app -l /data/all_evo.log -c git -a soc | head -n 11 > all_sum_of_coupling.csv
+docker run -v "$PWD":/data -it code-maat-app -l /data/all_evo.log -c git -a soc > all_sum_of_coupling.csv
+
+# Remove excluded files from evo.log
+for FILE in $(cat cloc-exclude-files.txt); do sed -i '' "/$FILE/d" all_sum_of_coupling.csv; done
+
+# Use only the top 10 files
+head -n 11 all_sum_of_coupling.csv > all_sum_of_coupling_top10.csv
+
+# Convert the csv files to json for processing them with jekyll (just for this website)
+csv2json -o sum.json all_sum_of_coupling_top10.csv
 ```
 
 #### Measure Temporal Coupling on File Level
