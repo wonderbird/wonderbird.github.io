@@ -13,8 +13,14 @@ The following plugins help(ed) me in my daily work.
 
 ### Language agnostic developer tools
 
+* [IntelliJ AsciiDoc Plugin](https://intellij-asciidoc-plugin.ahus1.de/) - Support for the AsciiDoc markup language (and Antora).
+* [PlantUML Integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration) - Render plantuml code to graphics.
 * [Base64 Helper](https://plugins.jetbrains.com/plugin/7372-base64-helper) - Encode/decode hex string, based on Base64 algorithm.
 * [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) - Learn essential shortcuts while you are working.
+
+### Coding Assistance
+
+* [GitHub Copilot](https://copilot.github.com/) - Suggestions for whole lines or entire functions right inside your editor.
 
 ### Code Metrics
 
@@ -25,6 +31,7 @@ The following plugins help(ed) me in my daily work.
 ### Java / JavaScript
 
 * [SonarLint](https://plugins.jetbrains.com/plugin/7973-sonarlint) - Find and fix bugs, vulnerabilities and code smells as you write code.
+* [Spring Initializr and Assistant](https://plugins.jetbrains.com/plugin/18622-spring-initializr-and-assistant) - Assist in Spring application development.
 
 ### Rider (C#)
 
