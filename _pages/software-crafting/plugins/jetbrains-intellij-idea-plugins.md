@@ -15,6 +15,8 @@ The following plugins help(ed) me in my daily work.
 
 * [IntelliJ AsciiDoc Plugin](https://intellij-asciidoc-plugin.ahus1.de/) - Support for the AsciiDoc markup language (and Antora).
 * [PlantUML Integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration) - Render plantuml code to graphics.
+  * [GitHub: esteinberg / plantuml4idea](https://github.com/esteinberg/plantuml4idea#plantuml4idea) - Documentation and GitHub project.
+  * Note: To configure the `dot` path, click the wrench 🔧 icon in the toolbar of the plantuml preview window and   hselect **Settings**.
 * [Base64 Helper](https://plugins.jetbrains.com/plugin/7372-base64-helper) - Encode/decode hex string, based on Base64 algorithm.
 * [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) - Learn essential shortcuts while you are working.
 
