@@ -35,6 +35,19 @@ Folge der Anleitung der [Chip: Google Maps: Route exportieren - so geht's](https
 1. Aktiviere **Als KML-Datei statt als KMZ-Datei exportieren. Dabei werden nicht alle Symbole unterstützt.**
 1. Konvertiere die Datei unter [KML2GPX](https://kml2gpx.com/), wähle dabei nur **Waypoints** und **Tracks** aus, **nicht** Zip Archive
 
+### GPX Dateien (Routen) mit QGis und dem Open Route Service erstellen (Open Street Map)
+
+Benötigt werden die folgenden Werkzeuge:
+
+- [QGIS](https://www.qgis.org/) - Open-Source-Geographisches-Informationssystem.
+- [ORS Tools](https://plugins.qgis.org/plugins/ORStools/) - Plugin für [QGis](https://www.qgis.org/).
+  - [ORS Tools Help](https://github.com/GIScience/orstools-qgis-plugin/wiki/ORS-Tools-Help) - Installation, Setup, Usage.
+- [openroute service](https://openrouteservice.org/dev/#/home?tab=1) - OpenRoute Service API Verwaltung.
+
+Weiterführende Links:
+
+- [Routing on OpenStreetMap.org](https://blog.openstreetmap.org/2015/02/16/routing-on-openstreetmap-org/)
+
 ### Garmin eTrex 30x und Basecamp
 
 Um das Garmin eTrex 30x mit Basecamp zu verbinden, muss das Gerät im ''USB Mode / File Transfer'' sein
