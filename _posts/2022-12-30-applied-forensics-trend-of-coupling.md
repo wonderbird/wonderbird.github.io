@@ -3,6 +3,123 @@ layout: post-with-latest-d3
 title:  "Applied Software Forensics - Trend of Coupling in HospitalRun"
 ---
 
+### Results
+
+#### Trend of Coupling for Hotspot view/ViewPatient.tsx
+
+The temporal coupling was measured the time period of Nov. 6, 2019 to Nov. 5, 2020. The year was split into three
+phases of 3 months each. For each phase, the temporal coupling for the hotspot was investigated.
+
+TODO Extract the code producing the tables into an include. Finally the include only needs the caption and the input data.
+
+<table>
+  <thead>
+    <caption>Coupling of view/ViewPatient.tsx from Nov. 6, 2019 to Feb. 5, 2020</caption>
+    <tr>
+      <th style="text-align: left">entity</th>
+      <th style="text-align: left">coupled</th>
+      <th>degree</th>
+      <th>average-revs</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for entry in site.data.hospitalrun.coupling.viewpatient-201911P3M %}
+    <tr>
+      <td style="text-align: left">{{ entry.entity }}</td>
+      <td style="text-align: left">{{ entry.coupled }}</td>
+      <td>{{ entry.degree }}</td>
+      <td>{{ entry.average-revs }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <caption>Coupling of view/ViewPatient.tsx from Feb. 6, 2020 to May 5, 2020</caption>
+    <tr>
+      <th style="text-align: left">entity</th>
+      <th style="text-align: left">coupled</th>
+      <th>degree</th>
+      <th>average-revs</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for entry in site.data.hospitalrun.coupling.viewpatient-202002P3M %}
+    <tr>
+      <td style="text-align: left">{{ entry.entity }}</td>
+      <td style="text-align: left">{{ entry.coupled }}</td>
+      <td>{{ entry.degree }}</td>
+      <td>{{ entry.average-revs }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <caption>Coupling of view/ViewPatient.tsx from May 6, 2020 to Aug. 5, 2020</caption>
+    <tr>
+      <th style="text-align: left">entity</th>
+      <th style="text-align: left">coupled</th>
+      <th>degree</th>
+      <th>average-revs</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for entry in site.data.hospitalrun.coupling.viewpatient-202005P3M %}
+    <tr>
+      <td style="text-align: left">{{ entry.entity }}</td>
+      <td style="text-align: left">{{ entry.coupled }}</td>
+      <td>{{ entry.degree }}</td>
+      <td>{{ entry.average-revs }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <caption>Coupling of view/ViewPatient.tsx from Aug. 6, 2020 to Nov. 5, 2020</caption>
+    <tr>
+      <th style="text-align: left">entity</th>
+      <th style="text-align: left">coupled</th>
+      <th>degree</th>
+      <th>average-revs</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for entry in site.data.hospitalrun.coupling.viewpatient-202008P3M %}
+    <tr>
+      <td style="text-align: left">{{ entry.entity }}</td>
+      <td style="text-align: left">{{ entry.coupled }}</td>
+      <td>{{ entry.degree }}</td>
+      <td>{{ entry.average-revs }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+#### Conclusion
+
+For the selected hotspot, the temporal coupling is reduced over time. This is a good trend.
+
+There may be different reasons:
+
+- As shown in the [development cycles analysis](/2022/03/23/applied-forensics-development-cycles.html), the overall
+  development speed was reduced in the second half of the time period of interest,
+  - 2019-11: 1x refactor, 21x feature, 1x test
+TODO Continue: Analyze how many commits touching the hotspot were related to { feature, test, refactor }
+  - 2020-08: 5x refactor, 6x feature
+
+- The coupling might have been reduced by refactoring,
+
+- The features delivered during the later periods had fewer dependencies on other modules
+
 ### Explore the Trend of Coupling
 
 To generate a coupling file for each development period of interest
@@ -13,9 +130,13 @@ To generate a coupling file for each development period of interest
 
 ```sh
 # Analyze Coupling for a development cycle
+cd $HOME/source/hospitalrun
+
+# Configuration
+export MAAT_SCRIPTS=$HOME/source/learn/your-code-as-a-crime-scene/maat-scripts
 
 # Specify start date and development cycles
-AFTER=2019-11-06; \
+AFTER=2020-08-06; \
 MONTHS=3; \
 TIMEZONE=+0100
 
@@ -40,15 +161,16 @@ for SUT in "${MODULES[@]}"; do \
   cd ..; \
 done
 
-### TODO: Continue here: combine the correct history files into one
-### Next step: find out how to create the argument list for combine_repos
-
 # Combine the git history files of all modules into one
-cd ../analysis; \
-python $MAAT_SCRIPTS/combine-repos/combine_repos.py frontend_evo_with_extra_path.log \
-                                                    server_evo_with_extra_path.log \
-                                                    components_evo_with_extra_path.log \
-                                                    --output all_evo.log
+FRONTEND_EVO="frontend_evo_${YEARMONTH}P${MONTHS}M_with_extra_path.log"; \
+SERVER_EVO="server_evo_${YEARMONTH}P${MONTHS}M_with_extra_path.log"; \
+COMPONENTS_EVO="components_evo_${YEARMONTH}P${MONTHS}M_with_extra_path.log"; \
+\
+cd analysis; \
+python $MAAT_SCRIPTS/combine-repos/combine_repos.py "$FRONTEND_EVO" \
+                                                    "$SERVER_EVO" \
+                                                    "$COMPONENTS_EVO" \
+                                                    --output all_evo_${YEARMONTH}P${MONTHS}M.log
 
 # Perform the coupling analysis for each combined history file
 SUT=all; \
@@ -59,32 +181,25 @@ docker run -v "$PWD":/data -it code-maat-app -l /data/$EVO_FILE -c git -a coupli
 cd ..
 ```
 
-ATTENTION: Coupling results depend on the order of modules above!
-
-TODO: Combining git history files does not work this way! Does coupling analysis expect sorted files?
-
 Filter the files such that only your hotspot of choice is considered in the coupling analysis:
 
 ```sh
-cd analysis
-
-COUPLING_FILE="frontend_coupling_201911P${MONTHS}M.csv"; \
-HOTSPOT=view/ViewPatient; \
+AFTER=2019-11-06; \
+MONTHS=3; \
+YEARMONTH=$(date -j -f "%4Y-%m-%d %H:%M:%S %z" +%Y%m "${AFTER} 00:00:00 ${TIMEZONE}"); \
+\
+HOTSPOT=view/ViewPatient.tsx; \
 COUPLING_PREFIX=viewpatient; \
+SUT=all; \
+\
+cd analysis; \
+\
+COUPLING_CSV="${SUT}_coupling_${YEARMONTH}P${MONTHS}M.csv"; \
+COUPLING_JSON="${SUT}_coupling_${YEARMONTH}P${MONTHS}M.json"; \
+\
 export QUERY="SELECT * WHERE LIKE(a1, '%${HOTSPOT}%') || LIKE(a2, '%${HOTSPOT}%') ORDER BY a3, a4 DESC WITH (header)"; \
-rbql-js --delim "," --query "$QUERY" < "$COUPLING_FILE" > "${COUPLING_PREFIX}_${COUPLING_FILE}"
-```
-
-### Earlier Ideas
-
-TODO: Continue transforming the shell code below to python maat-scripts / TrendOfCouplingTest
-
-Create combined git history files for each component:
-
-```sh
-./create-git-history-per-year.sh
-```
-
-```sh
-./identify-hotspots-per-year.sh
+rbql-js --delim "," --query "$QUERY" < "$COUPLING_CSV" > "${COUPLING_PREFIX}_${COUPLING_CSV}"; \
+\
+csv2json -o "${COUPLING_PREFIX}_${COUPLING_JSON}" "${COUPLING_PREFIX}_${COUPLING_CSV}"
+cd ..
 ```
