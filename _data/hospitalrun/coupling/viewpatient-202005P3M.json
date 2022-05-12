@@ -1,0 +1,1 @@
+[{"entity":"frontend/src/__tests__/patients/view/ViewPatient.test.tsx","coupled":"frontend/src/patients/view/ViewPatient.tsx","degree":"66","average-revs":"8"},{"entity":"frontend/src/patients/view/ViewPatient.tsx","coupled":"frontend/src/user/user-slice.ts","degree":"41","average-revs":"12"}]
