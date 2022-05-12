@@ -112,13 +112,13 @@ There may be different reasons:
 
 - As shown in the [development cycles analysis](/2022/03/23/applied-forensics-development-cycles.html), the overall
   development speed was reduced in the second half of the time period of interest,
-  - 2019-11: 1x refactor, 21x feature, 1x test
-TODO Continue: Analyze how many commits touching the hotspot were related to { feature, test, refactor }
-  - 2020-08: 5x refactor, 6x feature
 
-- The coupling might have been reduced by refactoring,
-
-- The features delivered during the later periods had fewer dependencies on other modules
+- There was fewer reason for coupling in the second half year: Checking the commit messages reveals that in the first
+  half of development time the number of feature related commits touching the hotspot was significantly higher than in
+  the second half (21+14 vs. 6+6).
+  
+- The coupling might have been reduced: The number of refactoring related commits for that file was lower in the first
+  half of the development period than in the second hav (1+2 vs. 4+5).
 
 ### Explore the Trend of Coupling
 
