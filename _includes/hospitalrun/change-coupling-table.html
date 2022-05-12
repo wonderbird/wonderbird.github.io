@@ -1,0 +1,25 @@
+{% assign caption = include.caption %}
+{% assign coupling-data = include.coupling-data %}
+
+<table>
+    <thead>
+      <caption>{{ caption }}</caption>
+      <tr>
+        <th style="text-align: left">entity</th>
+        <th style="text-align: left">coupled</th>
+        <th>degree</th>
+        <th>average-revs</th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      {% for entry in coupling-data %}
+      <tr>
+        <td style="text-align: left">{{ entry.entity }}</td>
+        <td style="text-align: left">{{ entry.coupled }}</td>
+        <td>{{ entry.degree }}</td>
+        <td>{{ entry.average-revs }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
