@@ -66,21 +66,27 @@ As of Feb. 16, 2022 the [HospitalRun Homepage](https://hospitalrun.io/) lists th
 
 ### Building Block View
 
-#### HospitalRun Composite Structure
-
-The following diagram is based on the results of the [Applied Software Forensics](/2022/02/18/applied-forensics-announcement.html) analysis I conducted at the beginning of 2022.
+The following diagrams are based on the results of the [Applied Software Forensics](/2022/02/18/applied-forensics-announcement.html) analysis I conducted in 2022.
 
 Caveat:
 
 The data considered for the architecture diagrams is taken from late 2020 (releases 2.0.0-alpha.7 and 2.0.0-alpha.5, respectively). So these diagrams and the associated text **might be outdated**.
+
+#### HospitalRun Composite Structure
 
 ![Composite Structure of the HospitalRun System](/assets/img/hospitalrun/architecture/composite-structure.drawio.png)
 
 | Repository | Description |
 | --         | --- |
 | [frontend](https://github.com/HospitalRun/hospitalrun-frontend) | User interface of the HospitalRun application |
-| [server](https://github.com/HospitalRun/hospitalrun-server)     | Backend services for the frontend |
+| [server](https://github.com/HospitalRun/hospitalrun-server)     | CouchDB storage and and services operating on the DB |
 | [components](https://github.com/HospitalRun/components)         | Typescript component library used by the frontend |
+
+#### Frontend - Whitebox Level 2
+
+![Whitebox Level 2 Diagram of the Frontend Component](/assets/img/hospitalrun/architecture/whitebox-frontend-level-2.drawio.png)
+
+At the time of creating this diagram I had no further information on the responsibilities of the individual modules.
 
 ### Concepts
 
