@@ -45,9 +45,15 @@ This guide shows how one can learn a new programming language systematically
 
 #### Communities and User Groups
 
-- [Java User Group Saxony](https://jugsaxony.org/)
+- [Softwarecrafters.slack.com](https://softwarecrafters.slack.com/)
+  - [Einladung anfragen](http://slack.softwarecraftsmanship.org/)
 - [Softwerkskammer (German)](https://www.softwerkskammer.org/)
+  - [Softwerkskammer Köln](https://www.softwerkskammer.org/groups/cologne) ([Meetup Link](https://www.meetup.com/de-DE/Softwerkskammer-Koln/))
+  - [Softwerkskammer Wien](https://www.softwerkskammer.org/groups/wien)
+  - [Softwerkskammer Köln](https://www.softwerkskammer.org/groups/chemnitz) ([Meetup Link](https://www.meetup.com/de-DE/Softwerkskammer-Chemnitz/))
 - [Limited WIP Society](https://www.limitedwip.org/)
+  - [Limited WIP Society Cologne](https://lwscologne.wordpress.com/)
+- [Java User Group Saxony](https://jugsaxony.org/)
 
 #### Registered Associations
 
