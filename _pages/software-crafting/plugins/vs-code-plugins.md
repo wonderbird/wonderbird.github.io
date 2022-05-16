@@ -8,6 +8,10 @@ layout: default
 
 The following plugins help(ed) me in my daily work.
 
+#### General helpers
+
+* [shift shift](https://marketplace.visualstudio.com/items?itemName=ahgood.shift-shift) - Provide shortcuts `shift+shift` and `ctrl+ctrl` to call `quick open` and `command palette` without editing `keybindings.json`.
+
 #### Software design and documentation
 
 * [AsciiDoc](https://github.com/asciidoctor/asciidoctor-vscode) - Live preview, syntax highlighting and snippets for AsciiDoc.
