@@ -22,18 +22,71 @@ title:  "Applied Software Forensics - HospitalRun Architecture Safety Net"
 
 #### Level 1: Coupling on System Level
 
-For the time period of Nov. 2019 to Nov. 2020 there is no significant temporal coupling across the repositories
+For the time period of Nov. 2019 to Nov. 2020 Code Maat does not report any temporal coupling across the repositories
 [frontend](https://github.com/HospitalRun/hospitalrun-frontend/tree/v2.0.0-alpha.7),
 [server](https://github.com/HospitalRun/hospitalrun-server/tree/v2.0.0-alpha.5) and
 [components](https://github.com/HospitalRun/components/tree/v3.0.3).
 
-#### Level 2: Coupling for the Top Level Modules of the Frontend
+#### Level 2: Coupling in the Frontend
 
-##### Observation
+Because the `frontend` is the largest subsystem and it shows the most active development, the remaining analyses focus
+on that subsystem.
 
-Analyzing the coupling for the top level frontend modules reveals 51% coupling for `patients` and `__tests__`. Other significant coupling is not shown.
+##### Coupling of Top Level Frontend Modules
 
-##### Coupling of Module and Associated Tests
+Code Maat does not report significant coupling among the top level modules of the `frontend`.
+
+However, reducing the minimum coupling considered by Code Maat to 10% shows some modules with a small amount of
+coupling. The numbers below 30% indicate a healthy code base.
+
+TODO Refactor: Extract coupling table as an include
+
+<table>
+    <thead>
+        <caption>Coupling of Top Level Frontend Modules</caption>
+        <tr>
+        <th style="text-align: left">entity</th>
+        <th style="text-align: left">coupled</th>
+        <th>degree</th>
+        <th>average-revs</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for entry in site.data.hospitalrun.coupling.frontend %}
+        <tr>
+        <td style="text-align: left">{{ entry.entity }}</td>
+        <td style="text-align: left">{{ entry.coupled }}</td>
+        <td>{{ entry.degree }}</td>
+        <td>{{ entry.average-revs }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+#### Coupling of Frontend Code and Tests
+
+For the entire period from November 2019 to November 2020 the overall coupling of code and test was 37%. Of the 2204
+commits in the git history file, 633 referred to a module file and a test file at the same time.
+
+According to Section "Differentiate Between the Level of Tests" in
+[Your Code as a Crime Scene](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/) (pp. 94), 37% should be
+a healthy value.
+
+#### Trend of Coupling of Frontend Code and Tests
+
+Inspecting how the coupling between frontend and test code evolved on a quarterly basis shows that it stays basically
+constant. I consider that a good sign.
+
+In the following "Trend of Coupling of Frontend Code and Tests" diagram, the quarter is shown on the horizontal axis
+while the percent of coupling is shown on the vertical axis.
+
+![Trend of Coupling of Frontend Code and Tests](/assets/img/hospitalrun/coupling/frontend_code_test_trend.png)
+
+#### Detailed View of Coupling Between Frontend Modules and Associated Tests
+
+When the `__tests__` and `__mocks__` folders are included in the top level analysis, then a quite strong value of 51%
+is shown for `__tests__` and the `patients` module. Other significant coupling is not shown.
 
 Digging deeper shows that several top level frontend modules are coupled to their associated tests:
 
@@ -64,17 +117,9 @@ The **number of revisions** column shows the highest development activity for th
 
 In general, the table above looks fine to me. It shows the modules with development activity and it shows, that tests are maintained for those modules.
 
-As I do not know the code base well enough, I cannot judge whether coupling values above 50% indicate too tight coupling.
-
-##### Coupling Across Components
-
-TODO Idea: Remove the tests from the analysis for now. The test coupling might overshadow coupling across modules.
-
-#### Coupling of Frontend Code and Tests
+As I do not know the code base well enough, I cannot judge whether coupling values above 50% indicate too tight coupling or just a "test first" coding style.
 
 ### Analyze Coupling on an Architectural Level
-
-#### Trend of Coupling of Frontend Code and Tests
 
 #### Configuration
 
@@ -100,11 +145,144 @@ EOF
 docker run -v "$PWD":/data -it code-maat-app -l /data/all_evo.log -c git -a coupling -g /data/hospitalrun_boundaries.txt
 ```
 
-For me, the output is empty. I assume that there is no significant coupling on the top level :-)
+For me, the output is empty. There is no significant coupling on the top level :-)
+Even reducing the minimum coupling considered by Code Maat to 0 does not show any coupling (use the parameter
+`--min-coupling 0`):
 
-#### Analyze Level 2: Coupling for the Top Level of the Frontend
+```sh
+docker run -v "$PWD":/data -it code-maat-app -l /data/all_evo.log -c git -a coupling --min-coupling 0 -g /data/hospitalrun_boundaries.txt
+```
 
-The top level modules making up the `frontend` are described in `frontend_boundaries.txt`:
+#### Analyze Level 2: Coupling in the Frontend
+
+##### Analyze Coupling of Top Level Frontend Modules
+
+The following statement produces the `frontend_boundaries.txt` file containing only the modules on the top level of
+`frontend`. For the moment, the `__tests__` and `__mocks__` directories are ignored.
+
+```sh
+# Run the following command from the "analysis" folder
+#
+# Create a boundaries file from all module folders within a directory.
+#
+# Algorithm:
+#   Find all directories below ../frontend/src
+#     skip the directories ../frontend/src, ../frontend/src/__tests__ and ../frontend/src/__mocks__
+#     let \1 be the parent directory of the module
+#     let \2 be the module directory
+#     remove leading '../frontend/'
+#     print \1\2 => \1
+find ../frontend/src -type d -maxdepth 1 \
+  | grep -E --invert-match '(^.*\/src$)|(__)' \
+  | sed 's/^\.\.\/frontend\/\(.*\/\)\(.*\)/\1\2 => \2/' \
+  > frontend_boundaries.txt
+
+# Analyse coupling
+# (note: the frontend_evo.log contains the development from Nov. 2019 - Nov. 2020)
+docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo.log -c git -a coupling -g /data/frontend_boundaries.txt
+```
+
+Again, there is no significant coupling.
+
+This time, reducing the minimum coupling considered by Code Maat, shows that there is a bit of coupling between some
+modules (this time the output is redirected to the file `frontend_coupling.csv`):
+
+```sh
+docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo.log -c git -a coupling --min-coupling 10 -g /data/frontend_boundaries.txt > frontend_coupling.csv
+```
+
+Check the output file `frontend_coupling.csv` to see:
+
+```text
+entity,coupled,degree,average-revs
+shared,user,18,43
+labs,scheduling,18,43
+patients,scheduling,17,118
+labs,shared,16,48
+incidents,labs,16,36
+incidents,shared,15,51
+patients,shared,13,123
+imagings,shared,13,37
+```
+
+The table in the section [Results](#results) above is based on the `json` version of the `csv` file:
+
+```sh
+csv2json -o frontend_coupling.json frontend_coupling.csv
+```
+
+#### Analyze Coupling of Frontend Code and Tests
+
+To find out how strong the coupling between the code and the tests is, create the following
+`frontend_code_test_boundaries.txt`:
+
+```sh
+cat << EOF > frontend_code_test_boundaries.txt
+^((?!__tests__)(?!__mocks__).)*$ => Code
+^(.*__tests__.*)|(.*__mocks__.*)$ => Tests
+EOF
+
+# Analyse coupling
+# (note: the all_evo.log contains the development from Nov. 2019 - Nov. 2020)
+docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt
+```
+
+For Nov. 2019 - Nov. 2020 the overall coupling of code and test was
+
+```text
+entity,coupled,degree,average-revs
+Code,Tests,37,633
+```
+
+#### Analyze the Trend of Coupling of Frontend Code and Tests
+
+Use the git history files created in the
+[Trend of Coupling Analysis](2022/05/10/applied-forensics-trend-of-coupling.html)
+to find the trend of coupling in quarterly intervals:
+
+```sh
+docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_201911P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt; \
+docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_202002P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt; \
+docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_202005P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt; \
+docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_202008P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt
+```
+
+Output:
+
+```text
+entity,coupled,degree,average-revs
+Code,Tests,34,266
+entity,coupled,degree,average-revs
+Code,Tests,42,249
+entity,coupled,degree,average-revs
+Code,Tests,39,200
+entity,coupled,degree,average-revs
+Code,Tests,41,130
+```
+
+For the section [Results](#results), the output was converted to a csv file `frontend_code_test_coupling_trend.csv` and
+a plot was created using the `plot` tool from
+[maat-scripts](https://github.com/adamtornhill/maat-scripts/tree/python3/plot):
+
+`frontend_code_test_coupling_trend.csv`:
+
+```csv
+entity,coupled,degree,average-revs
+Code,Tests,34,266
+Code,Tests,42,249
+Code,Tests,39,200
+Code,Tests,41,130
+```
+
+```sh
+python "$MAAT_SCRIPTS/plot/plot.py" --column 3 --file "frontend_code_test_coupling_trend.csv"
+```
+
+#### Get a Detailed View of Coupling Between Frontend Modules and Associated Tests
+
+TODO Change the file names!
+
+The top level modules making up the `frontend` are described in `frontend_boundaries.txt` (including `__tests__` and `__mocks__`):
 
 ```sh
 # Run the following command from the "analysis" folder
@@ -166,53 +344,4 @@ The associated json file for this website is created by
 
 ```sh
 csv2json -o frontend_modules_tests_coupling.json frontend_modules_tests_coupling.csv
-```
-
-#### Analyze Coupling of Frontend Code and Tests
-
-To find out how strong the coupling between the code and the tests is, create the following
-`frontend_code_test_boundaries.txt`:
-
-```sh
-cat << EOF > frontend_code_test_boundaries.txt
-^((?!__tests__)(?!__mocks__).)*$ => Code
-^(.*__tests__.*)|(.*__mocks__.*)$ => Tests
-EOF
-
-# Analyse coupling
-# (note: the all_evo.log contains the development from Nov. 2019 - Nov. 2020)
-docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt
-```
-
-#### Analyze the Trend of Coupling of Frontend Code and Tests
-
-For Nov. 2019 - Nov. 2020 the overall coupling of code and test was
-
-```text
-entity,coupled,degree,average-revs
-Code,Tests,37,633
-```
-
-Use the git history files created in the
-[Trend of Coupling Analysis](2022/05/10/applied-forensics-trend-of-coupling.html)
-to find the trend of coupling in quarterly intervals:
-
-```sh
-docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_201911P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt; \
-docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_202002P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt; \
-docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_202005P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt; \
-docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo_202008P3M.log -c git -a coupling -g /data/frontend_code_test_boundaries.txt
-```
-
-Output:
-
-```text
-entity,coupled,degree,average-revs
-Code,Tests,34,266
-entity,coupled,degree,average-revs
-Code,Tests,42,249
-entity,coupled,degree,average-revs
-Code,Tests,39,200
-entity,coupled,degree,average-revs
-Code,Tests,41,130
 ```
