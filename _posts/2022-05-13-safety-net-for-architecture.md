@@ -10,12 +10,18 @@ title:  "Applied Software Forensics - HospitalRun Architecture Safety Net"
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Results](#results)
-- [Analyzing Coupling on an Architectural Level](#analyzing-coupling-on-an-architectural-level)
-  - [Configuration](#configuration)
   - [Level 1: Coupling on System Level](#level-1-coupling-on-system-level)
-  - [Level 2: Coupling for the Top Level of the Frontend](#level-2-coupling-for-the-top-level-of-the-frontend)
+  - [Level 2: Coupling in the Frontend](#level-2-coupling-in-the-frontend)
   - [Coupling of Frontend Code and Tests](#coupling-of-frontend-code-and-tests)
   - [Trend of Coupling of Frontend Code and Tests](#trend-of-coupling-of-frontend-code-and-tests)
+  - [Detailed View of Coupling Between Frontend Modules and Associated Tests](#detailed-view-of-coupling-between-frontend-modules-and-associated-tests)
+- [Analyze Coupling on an Architectural Level](#analyze-coupling-on-an-architectural-level)
+  - [Configuration](#configuration)
+  - [Analyze Level 1: Coupling on System Level](#analyze-level-1-coupling-on-system-level)
+  - [Analyze Level 2: Coupling in the Frontend](#analyze-level-2-coupling-in-the-frontend)
+  - [Analyze Coupling of Frontend Code and Tests](#analyze-coupling-of-frontend-code-and-tests)
+  - [Analyze the Trend of Coupling of Frontend Code and Tests](#analyze-the-trend-of-coupling-of-frontend-code-and-tests)
+  - [Get a Detailed View of Coupling Between Frontend Modules and Associated Tests](#get-a-detailed-view-of-coupling-between-frontend-modules-and-associated-tests)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ### Results
@@ -31,6 +37,17 @@ For the time period of Nov. 2019 to Nov. 2020 Code Maat does not report any temp
 
 Because the `frontend` is the largest subsystem and it shows the most active development, the remaining analyses focus
 on that subsystem.
+
+##### Advice: Separate Inter-Module Coupling Analysis from Module-Test Coupling Analysis
+
+My first analysis of top level module coupling included the `__tests__` folder. Code Maat showed only one entry: The
+degree of coupling between `patients` and `__tests__` is 51 %.
+
+This is quite expected, because in a project with solid tests, a feature file will always be coupled to the assoicated
+test to some degree. Whether the value of 51 % is good, can be debated.
+
+What puzzled me first, was the absence of other coupling entries. I suspected that the module-test coupling overshadowed
+inter-module coupling. To avoid this confusion, I decided to analyze inter-module coupling separately from module-test.
 
 ##### Coupling of Top Level Frontend Modules
 
@@ -280,40 +297,7 @@ python "$MAAT_SCRIPTS/plot/plot.py" --column 3 --file "frontend_code_test_coupli
 
 #### Get a Detailed View of Coupling Between Frontend Modules and Associated Tests
 
-TODO Change the file names!
-
-The top level modules making up the `frontend` are described in `frontend_boundaries.txt` (including `__tests__` and `__mocks__`):
-
-```sh
-# Run the following command from the "analysis" folder
-#
-# Create a boundaries file from all module folders within a directory.
-#
-# Algorithm:
-#   Find all directories below ../frontend/src
-#     skip the ../frontend/src directory
-#     let \1 be the parent directory of the module
-#     let \2 be the module directory
-#     remove leading '../frontend/'
-#     print \1\2 => \1
-find ../frontend/src -type d -maxdepth 1 \
-  | grep -E --invert-match '^.*\/src$' \
-  | sed 's/^\.\.\/frontend\/\(.*\/\)\(.*\)/\1\2 => \2/' \
-  > frontend_boundaries.txt
-
-# Analyse coupling
-# (note: the frontend_evo.log contains the development from Nov. 2019 - Nov. 2020)
-docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo.log -c git -a coupling -g /data/frontend_boundaries.txt
-```
-
-The output is
-
-```text
-entity,coupled,degree,average-revs
-__tests__,patients,51,246
-```
-
-To dig deeper, map the tests for each module to the module itself:
+To dig deeper into module-test coupling, map the tests for each module to the module itself:
 
 ```sh
 find ../frontend/src -type d -maxdepth 1 \
