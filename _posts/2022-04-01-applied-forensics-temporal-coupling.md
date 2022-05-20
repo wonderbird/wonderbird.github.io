@@ -60,74 +60,17 @@ Figure 1: Dependencies of the Selected Main Hotspots
 The basis of the diagram are these coupling tables. The `revs` value
 is the number of revisions considered:
 
-<table>
-  <thead>
-    <caption>Coupling of view/ViewPatient.tsx</caption>
-    <tr>
-      <th style="text-align: left">entity</th>
-      <th style="text-align: left">coupled</th>
-      <th>degree</th>
-      <th>average-revs</th>
-    </tr>
-  </thead>
+{% include hospitalrun/change-coupling-table.html
+   caption="Coupling of view/ViewPatient.tsx"
+   coupling-data=site.data.hospitalrun.coupling.viewpatient %}
 
-  <tbody>
-    {% for entry in site.data.hospitalrun.coupling.viewpatient %}
-    <tr>
-      <td style="text-align: left">{{ entry.entity }}</td>
-      <td style="text-align: left">{{ entry.coupled }}</td>
-      <td>{{ entry.degree }}</td>
-      <td>{{ entry.average-revs }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% include hospitalrun/change-coupling-table.html
+   caption="Coupling of src/HospitalRun.tsx"
+   coupling-data=site.data.hospitalrun.coupling.hospitalrun %}
 
-<table>
-  <thead>
-    <caption>Coupling of src/HospitalRun.tsx</caption>
-    <tr>
-      <th style="text-align: left">entity</th>
-      <th style="text-align: left">coupled</th>
-      <th>degree</th>
-      <th>average-revs</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    {% for entry in site.data.hospitalrun.coupling.hospitalrun %}
-    <tr>
-      <td style="text-align: left">{{ entry.entity }}</td>
-      <td style="text-align: left">{{ entry.coupled }}</td>
-      <td>{{ entry.degree }}</td>
-      <td>{{ entry.average-revs }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <caption>Coupling of patient-slice.ts</caption>
-    <tr>
-      <th style="text-align: left">entity</th>
-      <th style="text-align: left">coupled</th>
-      <th>degree</th>
-      <th>average-revs</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    {% for entry in site.data.hospitalrun.coupling.patient-slice %}
-    <tr>
-      <td style="text-align: left">{{ entry.entity }}</td>
-      <td style="text-align: left">{{ entry.coupled }}</td>
-      <td>{{ entry.degree }}</td>
-      <td>{{ entry.average-revs }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% include hospitalrun/change-coupling-table.html
+   caption="Coupling of patient-slice.ts"
+   coupling-data=site.data.hospitalrun.coupling.patient-slice %}
 
 ### Performing a Temporal Coupling Analysis
 

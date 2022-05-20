@@ -56,30 +56,9 @@ Code Maat does not report significant coupling among the top level modules of th
 However, reducing the minimum coupling considered by Code Maat to 10% shows some modules with a small amount of
 coupling. The numbers below 30% indicate a healthy code base.
 
-TODO Refactor: Extract coupling table as an include
-
-<table>
-    <thead>
-        <caption>Coupling of Top Level Frontend Modules</caption>
-        <tr>
-        <th style="text-align: left">entity</th>
-        <th style="text-align: left">coupled</th>
-        <th>degree</th>
-        <th>average-revs</th>
-        </tr>
-    </thead>
-
-    <tbody>
-        {% for entry in site.data.hospitalrun.coupling.frontend %}
-        <tr>
-        <td style="text-align: left">{{ entry.entity }}</td>
-        <td style="text-align: left">{{ entry.coupled }}</td>
-        <td>{{ entry.degree }}</td>
-        <td>{{ entry.average-revs }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+{% include hospitalrun/change-coupling-table.html
+   caption="Coupling of Top Level Frontend Modules"
+   coupling-data=site.data.hospitalrun.coupling.frontend %}
 
 #### Coupling of Frontend Code and Tests
 
@@ -107,28 +86,9 @@ is shown for `__tests__` and the `patients` module. Other significant coupling i
 
 Digging deeper shows that several top level frontend modules are coupled to their associated tests:
 
-<table>
-    <thead>
-        <caption>Coupling Between Components and Associated Tests</caption>
-        <tr>
-        <th style="text-align: left">entity</th>
-        <th style="text-align: left">coupled</th>
-        <th>degree</th>
-        <th>average-revs</th>
-        </tr>
-    </thead>
-
-    <tbody>
-        {% for entry in site.data.hospitalrun.coupling.frontend-modules-tests %}
-        <tr>
-        <td style="text-align: left">{{ entry.entity }}</td>
-        <td style="text-align: left">{{ entry.coupled }}</td>
-        <td>{{ entry.degree }}</td>
-        <td>{{ entry.average-revs }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+{% include hospitalrun/change-coupling-table.html
+   caption="Coupling Between Components and Associated Tests"
+   coupling-data=site.data.hospitalrun.coupling.frontend-modules-tests %}
 
 The **number of revisions** column shows the highest development activity for the `patients` module. This explains why the previous higher level coupling analysis showed only coupling between `patients` and `__tests__`.
 
