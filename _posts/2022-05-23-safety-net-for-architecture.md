@@ -35,26 +35,27 @@ For the time period of Nov. 2019 to Nov. 2020 Code Maat does not report any temp
 
 #### Level 2: Coupling in the Frontend
 
-Because the `frontend` is the largest subsystem and it shows the most active development, the remaining analyses focus
-on that subsystem.
+The remaining analyses focus on the `frontend`, because it is the largest subsystem and it shows the most active
+development.
 
 ##### Advice: Separate Inter-Module Coupling Analysis from Module-Test Coupling Analysis
 
 My first analysis of top level module coupling included the `__tests__` folder. Code Maat showed only one entry: The
 degree of coupling between `patients` and `__tests__` is 51 %.
 
-This is quite expected, because in a project with solid tests, a feature file will always be coupled to the assoicated
+This is expected, because in a project with solid tests, a feature file will always be coupled to the assoicated
 test to some degree. Whether the value of 51 % is good, can be debated.
 
-What puzzled me first, was the absence of other coupling entries. I suspected that the module-test coupling overshadowed
-inter-module coupling. To avoid this confusion, I decided to analyze inter-module coupling separately from module-test.
+However, the absence of other coupling entries puzzled me first. I was expecting to see coupling between the top level
+`frontend` modules as well. So, I suspected that the module-test coupling overshadowed inter-module coupling. To avoid
+this confusion, I decided to analyze inter-module coupling separately from module-test coupling.
 
 ##### Coupling of Top Level Frontend Modules
 
 Code Maat does not report significant coupling among the top level modules of the `frontend`.
 
-However, reducing the minimum coupling considered by Code Maat to 10% shows some modules with a small amount of
-coupling. The numbers below 30% indicate a healthy code base.
+In order to see whether I configured Code Maat correctly, I reduced the minimum coupling considered by Code Maat to 10
+%. Now some modules with a small amount of coupling are listed. Numbers below 30 % are ok for a healthy code base.
 
 {% include hospitalrun/change-coupling-table.html
    caption="Coupling of Top Level Frontend Modules"
@@ -62,12 +63,10 @@ coupling. The numbers below 30% indicate a healthy code base.
 
 #### Coupling of Frontend Code and Tests
 
-For the entire period from November 2019 to November 2020 the overall coupling of code and test was 37%. Of the 2204
-commits in the git history file, 633 referred to a module file and a test file at the same time.
-
-According to Section "Differentiate Between the Level of Tests" in
-[Your Code as a Crime Scene](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/) (pp. 94), 37% should be
-a healthy value.
+For the entire period from November 2019 to November 2020 the overall coupling of code and tests was 37 %. Of the 2204
+commits in the git history file, 633 referred to a module file and a test file at the same time. According to Section
+"Differentiate Between the Level of Tests" in [Your Code as a Crime
+Scene](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/) (pp. 94), this is a healthy value.
 
 #### Trend of Coupling of Frontend Code and Tests
 
@@ -90,11 +89,14 @@ Digging deeper shows that several top level frontend modules are coupled to thei
    caption="Coupling Between Components and Associated Tests"
    coupling-data=site.data.hospitalrun.coupling.frontend-modules-tests %}
 
-The **number of revisions** column shows the highest development activity for the `patients` module. This explains why the previous higher level coupling analysis showed only coupling between `patients` and `__tests__`.
+The **average-revs** column shows the highest development activity for the `patients` module. This explains why the
+previous higher level coupling analysis showed only coupling between `patients` and `__tests__`.
 
-In general, the table above looks fine to me. It shows the modules with development activity and it shows, that tests are maintained for those modules.
+In general, the table above looks ok to me. It shows the modules with development activity and it shows, that tests are
+maintained for those modules.
 
-As I do not know the code base well enough, I cannot judge whether coupling values above 50% indicate too tight coupling or just a "test first" coding style.
+As I do not know the code base well enough, I cannot judge whether coupling values above 50 % indicate too tight coupling
+or just a "test first" coding style.
 
 ### Analyze Coupling on an Architectural Level
 
@@ -148,7 +150,7 @@ The following statement produces the `frontend_boundaries.txt` file containing o
 #     let \1 be the parent directory of the module
 #     let \2 be the module directory
 #     remove leading '../frontend/'
-#     print \1\2 => \1
+#     print \1\2 => \2
 find ../frontend/src -type d -maxdepth 1 \
   | grep -E --invert-match '(^.*\/src$)|(__)' \
   | sed 's/^\.\.\/frontend\/\(.*\/\)\(.*\)/\1\2 => \2/' \
@@ -162,7 +164,7 @@ docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo.log -c git -a
 Again, there is no significant coupling.
 
 This time, reducing the minimum coupling considered by Code Maat, shows that there is a bit of coupling between some
-modules (this time the output is redirected to the file `frontend_coupling.csv`):
+modules (note that output is redirected to the file `frontend_coupling.csv`):
 
 ```sh
 docker run -v "$PWD":/data -it code-maat-app -l /data/frontend_evo.log -c git -a coupling --min-coupling 10 -g /data/frontend_boundaries.txt > frontend_coupling.csv
@@ -182,7 +184,7 @@ patients,shared,13,123
 imagings,shared,13,37
 ```
 
-The table in the section [Results](#results) above is based on the `json` version of the `csv` file:
+The table in section [Results](#results) above is based on the `json` version of the `csv` file:
 
 ```sh
 csv2json -o frontend_coupling.json frontend_coupling.csv
@@ -260,11 +262,13 @@ python "$MAAT_SCRIPTS/plot/plot.py" --column 3 --file "frontend_code_test_coupli
 To dig deeper into module-test coupling, map the tests for each module to the module itself:
 
 ```sh
+# Print modules and __mocks__
 find ../frontend/src -type d -maxdepth 1 \
   | grep -E --invert-match '(^.*\/src$)|(^.*\/src/__tests__$)' \
   | sed 's/^\.\.\/frontend\/\(.*\/\)\(.*\)/\1\2 => \2/' \
   > frontend_modules_tests_boundaries.txt; \
 \
+# Add directories below src/__tests__
 find ../frontend/src/__tests__ -type d -maxdepth 1 \
   | grep -E --invert-match '^.*\/src/__tests__$' \
   | sed 's/^\.\.\/frontend\/\(.*\/\)\(.*\)/\1\2 => \2 tests/' \
@@ -284,7 +288,7 @@ labs,labs tests,49,27
 incidents,incidents tests,40,30
 ```
 
-The associated json file for this website is created by
+The associated json file for this website is created with
 
 ```sh
 csv2json -o frontend_modules_tests_coupling.json frontend_modules_tests_coupling.csv
