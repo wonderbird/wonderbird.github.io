@@ -54,6 +54,7 @@ This guide shows how one can learn a new programming language systematically
 - [Limited WIP Society](https://www.limitedwip.org/)
   - [Limited WIP Society Cologne](https://lwscologne.wordpress.com/)
 - [Java User Group Saxony](https://jugsaxony.org/)
+- [Python User Group Austria](https://www.meetup.com/de-DE/PYUGAT/)
 
 #### Registered Associations
 

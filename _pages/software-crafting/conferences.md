@@ -59,6 +59,10 @@ dotnet-developer-conference.de/)
 
 * May: [JetBrains: .NET Days](https://blog.jetbrains.com/?s=.net+day)
 
+* May: [Code/Crafts Vienna](https://code-crafts.com/)
+
+* May: [Sofware Quality Days](https://www.software-quality-days.com/)
+
 * June: [gotopia;](https://gotopia.tech/events)
 
 * June: [Apple wwdc](https://developer.apple.com/wwdc20/)
@@ -75,6 +79,8 @@ dotnet-developer-conference.de/)
 
 * August: [NDC Minnesota](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
+* September: [Agile Meets Architecture](https://www.agile-meets-architecture.com/)
+
 * September: [NDC Oslo](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
 * September: [Software Architecture Summit](https://software-architecture-summit.de/programm/)
@@ -88,6 +94,8 @@ dotnet-developer-conference.de/)
 * October: [XP Days](http://www.xpdays.de/)
 
 * October: [code.talks](https://www.codetalks.de/de)
+
+* November: [Software Architecture Gathering (iSAQB)](https://conferences.isaqb.org/software-architecture-gathering/)
 
 * November: [Devoxx UK](https://devoxx.com/)
 
