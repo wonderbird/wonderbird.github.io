@@ -46,6 +46,9 @@ layout: default
 - Christian Clausen: [five-lines](https://github.com/thedrlambda/five-lines) - A difficult refactoring kata addressed in the book "5 Lines of Code".
 - Emily Bache: [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 - Gregor Riegler: [Expense Report](https://github.com/gregorriegler/expensereport)
+- Roland Germ: [DataValidator Refactoring Kata](https://github.com/rolger/DataValidator-Refactoring-Kata)
+- Johann Martinsson: [Lift pass pricing](https://github.com/martinsson/Refactoring-Kata-Lift-Pass-Pricing) - Hexagonal architecture refactoring kata.
+- Peter Kofler: [Bank OCR Refactoring](https://github.com/codecop/BankOCR-Refactoring-Kata) - Primitive Obsession -> Erzeuge Klassen
 
 #### Miscellaneous
 

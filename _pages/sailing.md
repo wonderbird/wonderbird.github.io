@@ -1,11 +1,9 @@
 ---
-title: Segeln
+title: Redirection
 layout: default
 ---
-# Sailing
+# Redirection
 
-## Sailing Areas in Europe
+This page has moved.
 
-* [Segelclub Möhnesee Süd, NRW, Germany](http://www.s-c-m-s.de/)
-* [Marina Oolderhuuske, Roermond, Netherlands](https://goo.gl/maps/3byNoZmKHu4MELGJ7)
-* [Waterpark Terherne, Netherlands](https://www.ferienfrieslandterherne.de/)
+If you are not redirected automatically, then please [click here](segeln-kajak-kanu-paddeln.html).
