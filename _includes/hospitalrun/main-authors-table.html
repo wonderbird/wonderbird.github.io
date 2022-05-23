@@ -2,36 +2,38 @@
 {% assign years = include.years %}
 {% assign author-data = include.author-data %}
 
+<p>
 <table>
-    <thead>
-      <caption>{{ component }}: Main Authors in {{ years }}</caption>
-      <tr>
-        <th>Author</th>
-        <th>Commits (%)</th>
-        <th>+ lines</th>
-        <th>- lines</th>
-        <th>First commit</th>
-        <th>Last commit</th>
-        <th>Age</th>
-        <th>Active days</th>
-        <th>Rank by commits</th>
-      </tr>
-    </thead>
-  
-    <tbody>
-      {% for author in author-data %}
-      <tr>
-        <td>{{ author.author }}</td>
-        <td>{{ author.commits }}</td>
-        <td>{{ author.added_lines }}</td>
-        <td>{{ author.removed_lines }}</td>
-        <td>{{ author.first_commit }}</td>
-        <td>{{ author.last_commit }}</td>
-        <td>{{ author.age }}</td>
-        <td>{{ author.active_days }}</td>
-        <td>{{ author.rank_by_commits }}</td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  
-  </table>
+  <thead>
+    <caption>{{ component }}: Main Authors in {{ years }}</caption>
+    <tr>
+      <th>Author</th>
+      <th>Commits (%)</th>
+      <th>+ lines</th>
+      <th>- lines</th>
+      <th>First commit</th>
+      <th>Last commit</th>
+      <th>Age</th>
+      <th>Active days</th>
+      <th>Rank by commits</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for author in author-data %}
+    <tr>
+      <td>{{ author.author }}</td>
+      <td>{{ author.commits }}</td>
+      <td>{{ author.added_lines }}</td>
+      <td>{{ author.removed_lines }}</td>
+      <td>{{ author.first_commit }}</td>
+      <td>{{ author.last_commit }}</td>
+      <td>{{ author.age }}</td>
+      <td>{{ author.active_days }}</td>
+      <td>{{ author.rank_by_commits }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
+</p>
