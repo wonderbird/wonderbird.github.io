@@ -82,3 +82,4 @@ Please note that when using `pip` for installing Python applications, you may ne
 ### Interesting Packages
 
 - GitHub: [JulienPalard / Pipe](https://github.com/JulienPalard/Pipe) - Pipelines / stream processing for python.
+- [Monkeypatching/mocking modules and environments](https://docs.pytest.org/en/6.2.x/monkeypatch.html) - safely set/delete an attribute, dictionary item or environment variable, or to modify sys.path for importing.

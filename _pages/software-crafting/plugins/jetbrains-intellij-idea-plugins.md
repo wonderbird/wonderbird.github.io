@@ -19,11 +19,12 @@ The following plugins help(ed) me in my daily work.
   * Note: To configure the `dot` path, click the wrench 🔧 icon in the toolbar of the plantuml preview window and   hselect **Settings**.
 * [Base64 Helper](https://plugins.jetbrains.com/plugin/7372-base64-helper) - Encode/decode hex string, based on Base64 algorithm.
 * [Wrap to Column](https://plugins.jetbrains.com/plugin/7234-wrap-to-column) - Wraps text to the specified column width.
-* [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) - Learn essential shortcuts while you are working.
 
 #### Coding Assistance
 
 * [GitHub Copilot](https://copilot.github.com/) - Suggestions for whole lines or entire functions right inside your editor.
+* [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) - Learn essential shortcuts while you are working.
+* [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant) - Shows shortcuts you use to your audience so that they can learn.
 
 #### Code Metrics
 
