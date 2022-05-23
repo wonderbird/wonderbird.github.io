@@ -65,7 +65,7 @@ To watch your changes while editing:
 bundle exec jekyll serve --livereload
 ```
 
-### Troubleshooting
+### Troubleshooting - Upgrading Bundler and Gems
 
 If you encounter an error like
 
