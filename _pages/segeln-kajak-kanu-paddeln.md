@@ -8,6 +8,7 @@ layout: default
 * [Unterbacher See, NRW, Germany](https://unterbachersee.de/segelschule/)
 * [Marina Oolderhuuske, Roermond, Netherlands](https://goo.gl/maps/3byNoZmKHu4MELGJ7)
 * [Waterpark Terherne, Netherlands](https://www.ferienfrieslandterherne.de/)
+* [Sail Charter Friesland](https://sailcharterfriesland.de/)
 
 ## Kajak / Kanu / Paddeln
 
