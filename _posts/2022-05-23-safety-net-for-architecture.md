@@ -13,16 +13,16 @@ title:  "Applied Software Forensics - HospitalRun Architecture Safety Net"
   - [Level 1: Coupling on System Level](#level-1-coupling-on-system-level)
   - [Level 2: Coupling in the Frontend](#level-2-coupling-in-the-frontend)
   - [Coupling of Frontend Code and Tests](#coupling-of-frontend-code-and-tests)
-  - [Trend of Frontend and Test Coupling](#trend-of-frontend-and-test-coupling)
   - [Trend of Frontend and Test Growth](#trend-of-frontend-and-test-growth)
+  - [Trend of Frontend and Test Coupling](#trend-of-frontend-and-test-coupling)
   - [Detailed View of Coupling Between Frontend Modules and Associated Tests](#detailed-view-of-coupling-between-frontend-modules-and-associated-tests)
 - [Analyze Coupling on an Architectural Level](#analyze-coupling-on-an-architectural-level)
   - [Configuration](#configuration)
   - [Analyze Level 1: Coupling on System Level](#analyze-level-1-coupling-on-system-level)
   - [Analyze Level 2: Coupling in the Frontend](#analyze-level-2-coupling-in-the-frontend)
   - [Analyze Coupling of Frontend Code and Tests](#analyze-coupling-of-frontend-code-and-tests)
-  - [Analyze the Trend of Frontend and Tests Coupling](#analyze-the-trend-of-frontend-and-tests-coupling)
   - [Analyze Trend of Frontend and Test Growth](#analyze-trend-of-frontend-and-test-growth)
+  - [Analyze the Trend of Frontend and Tests Coupling](#analyze-the-trend-of-frontend-and-tests-coupling)
   - [Get a Detailed View of Coupling Between Frontend Modules and Associated Tests](#get-a-detailed-view-of-coupling-between-frontend-modules-and-associated-tests)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -70,19 +70,24 @@ commits in the git history file, 633 referred to a module file and a test file a
 "Differentiate Between the Level of Tests" in [Your Code as a Crime
 Scene](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/) (pp. 94), this is a healthy value.
 
+#### Trend of Frontend and Test Growth
+
+The following diagram compares the number of `frontend` application code changes to the number of changes made to the
+tests:
+
+![Frontend Code Growth vs. Test Code Growth](/assets/img/hospitalrun/frontend_code_test_growth.png)
+
+The plot shows a rather constant ratio of 2 code commits : 1 test commit. This indicates that the tests are stable.
+
 #### Trend of Frontend and Test Coupling
 
 Inspecting how the coupling between frontend and test code evolved on a quarterly basis shows that it stays basically
-constant. I consider that a good sign.
+constant. This goes in line with the trend of effort analysis above.
 
 In the following "Trend of Coupling of Frontend Code and Tests" diagram, the quarter is shown on the horizontal axis
 while the percent of coupling is shown on the vertical axis.
 
 ![Trend of Coupling of Frontend Code and Tests](/assets/img/hospitalrun/coupling/frontend_code_test_trend.png)
-
-#### Trend of Frontend and Test Growth
-
-TODO Write section
 
 #### Detailed View of Coupling Between Frontend Modules and Associated Tests
 
@@ -219,11 +224,51 @@ entity,coupled,degree,average-revs
 Code,Tests,37,633
 ```
 
+#### Analyze Trend of Frontend and Test Growth
+
+Use the git history files created in the [Trend of Coupling
+Analysis](2022/05/10/applied-forensics-trend-of-coupling.html) to analyze the number of commits to the code and to the
+tests per development quarter:
+
+```sh
+for EVO_FILE in frontend_evo_201911P3M.log frontend_evo_202002P3M.log frontend_evo_202005P3M.log frontend_evo_202008P3M.log; do
+  docker run -v "$PWD":/data -it code-maat-app -l "/data/$EVO_FILE" -c git -a revisions -g /data/frontend_code_test_boundaries.txt; \
+done
+```
+
+Output:
+
+```text
+entity,n-revs
+Code,1202
+Tests,277
+entity,n-revs
+Code,1137
+Tests,540
+entity,n-revs
+Code,1228
+Tests,553
+entity,n-revs
+Code,538
+Tests,257
+```
+
+Transform these values to a csv table in `frontend_code_test_growth.csv`:
+
+```csv
+Date, Delta Code Growth [Commits], Delta Test Growth [Commits]
+Q4/2019, 1202, 277
+Q1/2020, 1137, 540
+Q2/2020, 1228, 553
+Q3/2020, 538, 257
+```
+
+This time the plot was created using a spreadsheet application. First two columns were added to sum up the incremental
+values. Then these columns were plotted.
+
 #### Analyze the Trend of Frontend and Tests Coupling
 
-Use the git history files created in the
-[Trend of Coupling Analysis](2022/05/10/applied-forensics-trend-of-coupling.html)
-to find the trend of coupling in quarterly intervals:
+Analyze the trend of coupling in quarterly intervals:
 
 ```sh
 for EVO_FILE in frontend_evo_201911P3M.log frontend_evo_202002P3M.log frontend_evo_202005P3M.log frontend_evo_202008P3M.log; do
@@ -261,45 +306,6 @@ Code,Tests,41,130
 ```sh
 python "$MAAT_SCRIPTS/plot/plot.py" --column 3 --file "frontend_code_test_coupling_trend.csv"
 ```
-
-#### Analyze Trend of Frontend and Test Growth
-
-Analyze the number of commits to the code and to the tests: `-a revisions`
-
-```sh
-for EVO_FILE in frontend_evo_201911P3M.log frontend_evo_202002P3M.log frontend_evo_202005P3M.log frontend_evo_202008P3M.log; do
-  docker run -v "$PWD":/data -it code-maat-app -l "/data/$EVO_FILE" -c git -a revisions -g /data/frontend_code_test_boundaries.txt; \
-done
-```
-
-Output:
-
-```text
-entity,n-revs
-Code,1202
-Tests,277
-entity,n-revs
-Code,1137
-Tests,540
-entity,n-revs
-Code,1228
-Tests,553
-entity,n-revs
-Code,538
-Tests,257
-```
-
-Transform these values to a csv table:
-
-```csv
-date, code-growth, test-growth
-Q4/2019, 1202, 277
-Q1/2020, 1137, 540
-Q2/2020, 1228, 553
-Q3/2020, 538, 257
-```
-
-TODO Create Plot and Convert Data to JSON
 
 #### Get a Detailed View of Coupling Between Frontend Modules and Associated Tests
 
