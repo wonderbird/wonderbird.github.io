@@ -17,6 +17,11 @@ layout: default
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+### Communities
+
+- [PyData](https://pydata.org/) - A community for developers and users of open source data tools.
+- [Python User Group Austria](https://www.meetup.com/de-DE/PYUGAT/)
+
 ### Links
 
 - [pytest](https://docs.pytest.org/) - newer unit testing framework.
