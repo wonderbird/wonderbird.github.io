@@ -5,14 +5,21 @@ layout: default
 
 ## Miscellaneous Git Topics
 
+<!-- doctoc --maxlevel 4 _pages/software-crafting/git/miscellaneous.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Cheat Sheet](#cheat-sheet)
 - [Getting Started](#getting-started)
-- [Links](#links)
+- [Writing Commit Messages](#writing-commit-messages)
+- [Cleaning up (Remote) Branches](#cleaning-up-remote-branches)
 - [Transfer Uncommited Changes Via Patch File](#transfer-uncommited-changes-via-patch-file)
+  - [Quick Solution](#quick-solution)
+  - [Special Cases](#special-cases)
+  - [References Regarding Patch File Transfer](#references-regarding-patch-file-transfer)
 - [Merge With An Other Git Repository](#merge-with-an-other-git-repository)
+  - [References Regarding Merging With An Other Git Repository](#references-regarding-merging-with-an-other-git-repository)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -34,6 +41,20 @@ As an introduction I recommend chapters 1 (Overview, History), 2 (Basics) and 3 
 - [Conventional Commits](conventional-commits.html)
 - [Using Git Commit Message Templates to Write Better Commit Messages](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733)
 - [Creating a commit with multiple authors](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors)
+
+## Cleaning up (Remote) Branches
+
+After merging, remote branches may still show up in `git branch -a`, in [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+or in other visual git tools.
+
+```sh
+# Cleanup merged branches in the remote repository (origin)
+git fetch --prune
+````
+
+The above command will `git fetch --all && git remote prune`. This will delete all merged and otherwise orphaned remote branches.
+
+For a detailed explanation, see [Atlassian BitBucket Tutorials: Git Prune](https://www.atlassian.com/git/tutorials/git-prune).
 
 ## Transfer Uncommited Changes Via Patch File
 
