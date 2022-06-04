@@ -4,10 +4,16 @@ layout: default
 ---
 ## Segelgebiete und Segelclubs in Europa
 
+### Hier waren wir schon ...
+
+* [Marina Oolderhuuske, Roermond, Netherlands](https://goo.gl/maps/3byNoZmKHu4MELGJ7)
+  * [De Roerganger Bootsverleih und Segelschule](https://roerganger.com/)
+* [Waterpark Terherne, Netherlands](https://www.ferienfrieslandterherne.de/)
+
+### Diese haben wir noch nicht ausprobiert ...
+
 * [Segelclub Möhnesee Süd, NRW, Germany](http://www.s-c-m-s.de/)
 * [Unterbacher See, NRW, Germany](https://unterbachersee.de/segelschule/)
-* [Marina Oolderhuuske, Roermond, Netherlands](https://goo.gl/maps/3byNoZmKHu4MELGJ7)
-* [Waterpark Terherne, Netherlands](https://www.ferienfrieslandterherne.de/)
 * [Sail Charter Friesland](https://sailcharterfriesland.de/)
 
 ## Kajak / Kanu / Paddeln
