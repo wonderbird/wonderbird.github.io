@@ -155,6 +155,15 @@ Apart from that, refer to the language agnostic extensions in [Visual Studio Cod
 
 After installation you can access TestInsight in the IDE by selecting **View &rarr; TestInsight Explorer**.
 
+##### Bug: TestInsight Explorer does not consider `--include` and `--exclude` filters.
+
+Stefan Glienke has provided a workaround here: [TestInsights seems to not recognize runParam to exclude DUnitX Tests by
+category](https://bitbucket.org/sglienke/testinsight/issues/160/testinsights-seems-to-not-recognize).
+
+Apply the suggested fix in the file(s)
+`C:\Users\<your-user-name>\AppData\Local\Programs\TestInsight\Source\TestInsight.DUnit*.pas` matching your test
+framework.
+
 ##### Adapting your Project
 
 In order to make TestInsight work with your project it needs to have the `TESTINSIGHT` compiler directive 
