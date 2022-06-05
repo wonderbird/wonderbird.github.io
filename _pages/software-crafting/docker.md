@@ -9,6 +9,7 @@ layout: default
 
 * [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
 * [Getting Started](https://docs.docker.com/get-started/)
+* [Docker katas](https://github.com/eficode-academy/docker-katas) - Workshop from "Hello Docker" to deploying a containerized web application to a server.
 
 ## Docker Container unter Apple Silicon (M1 Chip, ARM64 Plattform)
 
