@@ -133,6 +133,15 @@ Please check the list of [IntelliJ IDEA Plugins](../plugins/jetbrains-intellij-i
    jenv local 17
    ```
 
+### API Services and Web Applications
+
+- [Hot Swapping](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#howto.hotswapping) - Live reload classes and web content.
+- [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/) - Guide to creating a simple MVC web application.
+  - [Testing the Web Layer](https://spring.io/guides/gs/testing-web/) - Guide to testing a simple MVC web application.
+  - [Spring Docs: Testing](https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html) - Reference manual for testing spring applications.
+- [HtmlUnit](https://htmlunit.sourceforge.io/) - GUI-Less browser for Java programs.
+  - [HtmlUnit 2.60.0 API Documentation](https://htmlunit.sourceforge.io/apidocs/index.html) - JavaDoc for all HtmlUnit classes.
+
 ### Links
 
 - [Adoptium](https://adoptium.net/index.html?variant=openjdk16&jvmVariant=hotspot) - Prebuilt OpenJDK Binaries for Free.
