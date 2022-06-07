@@ -85,6 +85,10 @@ The Object Pascal Handbook is a good read [[1](#ref-1)].
 
 - [RADStudio IDE Keyboard Shortcuts Guide](https://blogs.embarcadero.com/radstudio-ide-keyboard-shortcuts-guide/) - with printable keyboard cheat sheet.
 
+### Changing the Default Window Layouts
+
+- [Setting the default and startup layouts in RAD Studio 10.2](https://cppthingsblog.wordpress.com/2018/02/07/setting-the-default-and-startup-layouts-in-rad-studio/)
+
 ### Static Code Analysis
 
 - [Robust and Powerful Pascal Analyzer for Delphi on Windows](https://blogs.embarcadero.com/robust-and-powerful-pascal-analyzer-for-delphi-on-windows/) - Product presentation for Pascal Analyzer (PAL).
