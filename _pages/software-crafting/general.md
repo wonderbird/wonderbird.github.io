@@ -146,6 +146,8 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Kent Beck: [Test Driven Development](https://www.oreilly.com/library/view/test-driven-development/0321146530/) - By Example.
 
+- Saleem Siddiqui: [Learning Test-Driven Development](https://www.oreilly.com/library/view/learning-test-driven-development/9781098106461/)
+
 - Kent Beck: [Extreme Programming Explained](https://www.oreilly.com/library/view/extreme-programming-explained/0321278658/)
 
 - Michael Feathers: [Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/)
