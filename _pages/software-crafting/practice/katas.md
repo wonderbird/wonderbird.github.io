@@ -29,6 +29,7 @@ layout: default
 ### Kata Catalogues
 
 - Pietro Di Bello: [A curated list of programming kata](https://hackmd.io/@pierodibello/A-curated-list-of-programming-kata) - Curated list, categorized and with difficulty rating.
+- [Katalyst](https://katalyst.codurance.com/browse) - many small programming problems known as Katas.
 - Emily Bache: [github://emilybache](https://github.com/emilybache) - many katas, front page lists refactoring katas.
 - Steve Smith (aka ardalis): [Coding Kata Catalog](https://github.com/ardalis/kata-catalog)
 - Coding Dojo: [Kata Catalogue](https://codingdojo.org/KataCatalogue/)
