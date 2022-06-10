@@ -65,6 +65,25 @@ To re-activate the pre-installed python use `pyenv global system`
 
 Please note that when using `pip` for installing Python applications, you may need to add `$HOME/.local/bin` to your `$PATH`.
 
+### Display the Current venv in Command Prompt
+
+I am using Oh my ZSH with the Powerlevel9k theme. This allows printing the current venv as a part of the command prompt:
+
+![Python Environment on the Right of Command Prompt](/assets/img/python-venv-command-prompt.png)
+
+To set this up, do this in your `~/.zshrc` (adopted from [Stackoverflow](https://stackoverflow.com/a/47016995)):
+
+```text
+plugins=(virtualenv)
+
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv)
+```
+
+Caveats:
+
+1. Add that plugin in addition to other plugins you have.
+2. Requires the POWERLEVEL9K theme
+
 ### Pyenv Commands
 
 ... are described in the [Command Reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md).
