@@ -68,6 +68,19 @@ This collection of katas helps you learn some Design Patterns [[1](#ref-1), [2](
 - [Decorator - Bicycle Inventory](https://github.com/wonderbird/kata-gof-decorator-bicycle-inventory)
 - [EventAggregator - IRC](https://github.com/wonderbird/kata-gof-pattern-eventaggregator-irc)
 
+Katas addressing other things than programming
+
+- [Eficode Academy](https://github.com/eficode-academy/) - Exercises and best practices for everyone!
+  - [Git Katas](https://github.com/eficode-academy/git-katas) - a collection of Git exercise.
+  - [Docker Katas](https://github.com/eficode-academy/docker-katas) - This workshop will take you from "Hello Docker" to deploying a containerized web application to a server.
+
 ### Kata Constraints: Harden the Exercises
 
 - [Code Calistenics](https://williamdurand.fr/2013/06/03/object-calisthenics/)
+
+To add TDD Flavour, do one or more of ...
+
+- Pair programming and TDD
+  - Baby steps: Switch roles after 3(!) minutes; revert on red test after 3 min, i.e. hand over only green test state
+- TDD as if you meant it (= [Rules of Simple Design](https://martinfowler.com/bliki/BeckDesignRules.html) + TDD above, especially: minimal code)
+- Handover on red test
