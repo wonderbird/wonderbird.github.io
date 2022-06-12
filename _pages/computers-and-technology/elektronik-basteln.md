@@ -30,12 +30,20 @@ layout: default
 
 ### Spielerei mit LEDs
 
-- [Soldering Tutorial: Heart DiP](https://github.com/Binary-Kitchen/SolderingTutorial/tree/master/HeartDIP)
-  - [AntiKippenLights-Atmel](https://wiki.blinkenarea.org/index.php/AntiKippenLights-Atmel)
-  - [AntiKippenLights-AtmelEnglish](https://wiki.blinkenarea.org/index.php/AntiKippenLights-AtmelEnglish)
+- [Binary Kitchen Soldering Tutorial](https://github.com/Binary-Kitchen/SolderingTutorial) - Jede Menge Lötprojekte für Kinder und Erwachsene.
+  - [Heart DiP](https://github.com/Binary-Kitchen/SolderingTutorial/tree/master/HeartDIP)
+- [AntiKippenLights-Atmel](https://wiki.blinkenarea.org/index.php/AntiKippenLights-Atmel)
+- [AntiKippenLights-AtmelEnglish](https://wiki.blinkenarea.org/index.php/AntiKippenLights-AtmelEnglish)
 - [DuckEnglish](https://wiki.blinkenarea.org/index.php/DuckEnglish)
 - [RC3 Kits](https://wiki.blinkenarea.org/index.php/RC3-Kits)
 - [LED Rainbow Touch](https://github.com/orithena/Lamp_Simple1Button)
+
+### PCB Design und PCB Art
+
+- [KiCad](https://www.kicad.org/) - Cross Platform and Open Source Electronics Design Automation Suite.
+
+- [Svg2Shenzen](https://github.com/badgeek/svg2shenzhen) - PCB Layers zu Inkscape SVG hinzufügen und nach KiCAD exportieren.
+  - [Understanding and Making PCB Art (mrtwinkletwinkle)](https://www.youtube.com/watch?v=Sbkvza8cKQE) - 1,5 h Video über PCB Art und Grundlagen zur Platinen-Fertigung in chinesischen Fabriken.
 
 ### Drohnen und Quadcopter
 
