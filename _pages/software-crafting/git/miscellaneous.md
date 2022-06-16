@@ -29,11 +29,18 @@ layout: default
 # Which files have changed after a special date?
 # This is actually also the input format for code maat (https://github.com/adamtornhill/code-maat)
 git log --pretty=format:'[%h] %an %ad %s' --date=short --numstat --after="2022-01-21 10:00"
+
+# Show tags together with the first line of their annotation messages
+git tag -l -n
 ```
 
 ## Getting Started
 
 As an introduction I recommend chapters 1 (Overview, History), 2 (Basics) and 3 (Branching, Merging) of the [Pro Git Book](https://git-scm.com/book/en/v2).
+
+Udacity has a free online course on git: [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123).
+
+To deepen your knowledge, perform the exercises in [GitHub: eficode-academy / git-katas](https://github.com/eficode-academy/git-katas).
 
 ## Writing Commit Messages
 
