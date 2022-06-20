@@ -107,3 +107,8 @@ Caveats:
 
 - GitHub: [JulienPalard / Pipe](https://github.com/JulienPalard/Pipe) - Pipelines / stream processing for python.
 - [Monkeypatching/mocking modules and environments](https://docs.pytest.org/en/6.2.x/monkeypatch.html) - safely set/delete an attribute, dictionary item or environment variable, or to modify sys.path for importing.
+
+### Creating Packages
+
+- Rogier van der Geer: [A Practical Guide to Setuptools and Pyproject.toml](https://godatadriven.com/blog/a-practical-guide-to-setuptools-and-pyproject-toml/) - The "new" way of setting up python projects.
+- Rogier van der Geer: [A Practical Guide to Using Setup.py](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/) - An older way of setting up python projects.
