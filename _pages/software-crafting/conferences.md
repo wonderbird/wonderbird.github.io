@@ -79,6 +79,8 @@ dotnet-developer-conference.de/)
 
 * August: [NDC Minnesota](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
+* August: [SoCraTes (Germany)](https://www.socrates-conference.de/) - international non-profit and community-run (un)conference about all things related to Software Craft. And at the same time it is so much more.
+
 * September: [Agile Meets Architecture](https://www.agile-meets-architecture.com/)
 
 * September: [NDC Oslo](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
