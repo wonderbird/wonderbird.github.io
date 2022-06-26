@@ -101,6 +101,8 @@ software-crafting:
     url: /pages/software-crafting/conferences.html
   - title: Docker
     url: /pages/software-crafting/docker.html
+  - title: docToolchain, docs-as-co.de, arc42 and asciidoctor reveal.js
+    url: /pages/software-crafting/doctoolchain.html
   - title: Events
     url: /pages/software-crafting/events.html
   - title: Funding and Getting Funded
