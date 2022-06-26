@@ -50,7 +50,7 @@ sdk env
 docToolchain . downloadTemplate
 ```
 
-Now answer all the questions, the tool prints. Make sure to reed the highlighted lines - they are printed in between the
+Now answer all the questions, the tool prints. Make sure to read the highlighted lines - they are printed in between the
 other output of the `docToolchain` command.
 
 ```text
@@ -70,12 +70,11 @@ docToolchain . generateHTML
 open open build/html5/arc42/arc42.html
 ```
 
-### 3 Create the AsciiDoctor reveal.js Presentation
+### 3 Create the AsciiDoctor Reveal.js Presentation
 
 1. Create a `presentation.adoc` file
 
    ```shell
-   mkdir src/docs
    cat << EOF >> src/docs/presentation.adoc
    = Title Slide
 
