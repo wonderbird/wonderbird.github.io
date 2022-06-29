@@ -17,6 +17,7 @@ The following plugins help(ed) me in my daily work.
 * [PlantUML Integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration) - Render plantuml code to graphics.
   * [GitHub: esteinberg / plantuml4idea](https://github.com/esteinberg/plantuml4idea#plantuml4idea) - Documentation and GitHub project.
   * Note: To configure the `dot` path, click the wrench 🔧 icon in the toolbar of the plantuml preview window and   hselect **Settings**.
+* [Diagrams.net integration](https://plugins.jetbrains.com/plugin/15635-diagrams-net-integration)
 * [Base64 Helper](https://plugins.jetbrains.com/plugin/7372-base64-helper) - Encode/decode hex string, based on Base64 algorithm.
 * [Wrap to Column](https://plugins.jetbrains.com/plugin/7234-wrap-to-column) - Wraps text to the specified column width.
 
