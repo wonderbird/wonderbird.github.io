@@ -19,11 +19,13 @@ meetup at [Softwerkskammer Karlsruhe](https://www.softwerkskammer.org/wiki/karls
 ### Produktivität
 
 * [How Developers and Managers Define and Trade Productivity for Quality](https://arxiv.org/abs/2111.04302v1)
-* [](https://www.amazon.de/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113/)
-  * [](https://www.amazon.de/Wien-wartet-auf-Dich-Produktive/dp/3446438955/) (German)
+* [Peopleware: Productive Projects and Teams](https://www.amazon.de/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113/)
+  * [Wien wartet auf Dich!: Produktive Projekte und Teams](https://www.amazon.de/Wien-wartet-auf-Dich-Produktive/dp/3446438955/) (German)
+
+### Mob/Ensemble Programming
 
 * [Mob Mentality Show](https://www.youtube.com/channel/UCgt1lVMrdwlZKBaerxxp2iQ) - podcast on mob/ensemble.
-* [(Webinar: Mob Programming 101)](https://youtu.be/fdpmfOfd4FY)
+* [Webinar: Mob Programming 101](https://youtu.be/fdpmfOfd4FY)
 
 ### DevOps & CI/CD
 

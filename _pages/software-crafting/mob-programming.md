@@ -5,8 +5,13 @@ layout: default
 
 ## Mob Programming
 
+### About Mob Programming
+
+* [Mob Mentality Show](https://www.youtube.com/channel/UCgt1lVMrdwlZKBaerxxp2iQ) - podcast on mob/ensemble.
+
 ### Instructions
 
+* [Webinar: Mob Programming 101](https://youtu.be/fdpmfOfd4FY)
 * [Remote Mob Programming](https://www.remotemobprogramming.org) - Introduction to (remote) mob programming.
 * [Mob Programming Guidebook](http://www.mobprogrammingguidebook.com)
 * [Mob Programming RPG](https://github.com/willemlarsen/mobprogrammingrpg)
@@ -48,6 +53,7 @@ layout: default
 * [Gitpod](https://www.gitpod.io/) - describe your dev environments as code.
 * [JetBrains Code With Me](https://blog.jetbrains.com/de/blog/2020/10/01/code-with-me-eap/) - code together in a JetBrain IDEs.
 * [Visual Studio Live Share](https://visualstudio.microsoft.com/de/services/live-share/) - code together in VS Code and Visual Studio.
+* [JetBrains Projector](https://lp.jetbrains.com/projector/) - an Online-IDE.
 
 #### Sharing mechanisms I have not tried yet
 
