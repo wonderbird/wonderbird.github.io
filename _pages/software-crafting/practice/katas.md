@@ -28,6 +28,7 @@ layout: default
 
 ### Kata Catalogues
 
+- (Pragmatic) Dave Thomas: [CodeKata](http://codekata.com/) - Introduction to "Kata" and a list of Katas.
 - Pietro Di Bello: [A curated list of programming kata](https://hackmd.io/@pierodibello/A-curated-list-of-programming-kata) - Curated list, categorized and with difficulty rating.
 - [Katalyst](https://katalyst.codurance.com/browse) - many small programming problems known as Katas.
 - Emily Bache: [github://emilybache](https://github.com/emilybache) - many katas, front page lists refactoring katas.
@@ -47,10 +48,19 @@ layout: default
 - David Denton: [Refactoring Golf](https://github.com/daviddenton/refactoring-golf)
 - Christian Clausen: [five-lines](https://github.com/thedrlambda/five-lines) - A difficult refactoring kata addressed in the book "5 Lines of Code".
 - Emily Bache: [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)
+- Emily Bache: [Supermarket Receipt Refactoring Kata](https://github.com/emilybache/SupermarketReceipt-Refactoring-Kata)
 - Gregor Riegler: [Expense Report](https://github.com/gregorriegler/expensereport)
 - Roland Germ: [DataValidator Refactoring Kata](https://github.com/rolger/DataValidator-Refactoring-Kata)
 - Johann Martinsson: [Lift pass pricing](https://github.com/martinsson/Refactoring-Kata-Lift-Pass-Pricing) - Hexagonal architecture refactoring kata.
 - Peter Kofler: [Bank OCR Refactoring](https://github.com/codecop/BankOCR-Refactoring-Kata) - Primitive Obsession -> Erzeuge Klassen
+
+#### Software Design
+
+- [Kata01: Supermarket Pricing](http://codekata.com/kata/kata01-supermarket-pricing/) - Software design kata (not necessarily code).
+  - Chris F Carroll: [Code Kata One as Code – Supermarket
+    Pricing](https://www.cafe-encounter.net/p569/code-kata-supermarket-pricing) - Kata01 with instructions for coding.
+  - Samman Technical Coaching Society: [Supermarket
+    Receipt](https://sammancoaching.org/kata_descriptions/supermarket_receipt.html) - Different variations of Kata01.
 
 #### Miscellaneous
 
@@ -76,7 +86,18 @@ Katas addressing other things than programming
 
 ### Kata Constraints: Harden the Exercises
 
-- [Code Calistenics](https://williamdurand.fr/2013/06/03/object-calisthenics/)
+#### Object Calisthenics
+
+- Jeff Bay: [Object Calisthenics](https://bolcom.github.io/student-dojo/legacy-code/DevelopersAnonymous-ObjectCalisthenics.pdf) - PDF presentation.
+- Jeff Bay: [Object Calisthenics](https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf) - Conference Paper (PDF).
+- William Durand: [Object Calistenics](https://williamdurand.fr/2013/06/03/object-calisthenics/) - Blog Post.
+
+#### Functional Calisthenics
+
+- Ian Johnson: [Introducing functional calisthenics](https://blog.ninjaferret.co.uk/2015/06/05/Introducing-Functional-Calisthenics.html) - Write up after SoCraTes UK 2015.
+- Jorge Gueorguiev Garcia: [Functional Calisthenics](https://www.codurance.com/publications/2017/10/12/functional-calisthenics)
+
+#### TDD Flavour
 
 To add TDD Flavour, do one or more of ...
 
