@@ -154,11 +154,19 @@ For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - 
 
 - Martin Fowler: [Refactoring](https://martinfowler.com/books/refactoring.html)
 
+- Joshua Kerievski: [Refactoring to Patterns](https://isbnsearch.org/isbn/9780321213358) - how to evolve most of the popular Gang of Four patterns.
+
 - Robert C. Martin: [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/)
 
--  E. Gamma, R. Helm, R. E. Johnson, J. Vlissides: [Design Patterns. Elements of Reusable Object-Oriented Software.](https://dl.acm.org/doi/book/10.5555/186897)
+- E. Gamma, R. Helm, R. E. Johnson, J. Vlissides: [Design Patterns. Elements of Reusable Object-Oriented Software.](https://dl.acm.org/doi/book/10.5555/186897)
 
 - Martin Fowler: [Patterns of Enterprise Application Architecture](https://dl.acm.org/doi/10.5555/579257)
+
+- Sandi Metz: [Practical Object Oriented Design](https://www.poodr.com/) - a programmers tale about how to write object-oriented code.
+
+- Adam Tornhill: [Your Code as a Crime Scene](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/) - this book teaches you strategies to predict the future of your codebase, assess refactoring direction, and understand how your team influences the design.
+
+- Adam Tornhill: [Software Design X-Rays](https://pragprog.com/titles/atevol/software-design-x-rays/) - identify and prioritize technical debt, based on behavioral data from how developers work with code.
 
 - Nicole Forsgen, Jez Humble and Gene Kim: [Accelerate: The Science of DevOps](https://itrevolution.com/book/accelerate/), IT Revolution Press, 2018. ISBN 9781942788331.
 

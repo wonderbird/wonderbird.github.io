@@ -50,6 +50,8 @@ layout: default
 
 ### Development Environments enabling Collaboration
 
+* [PubMob](https://pubmob.com) - PubMob is a marketplace for remote training, coaching, and development, with a strong social emphasis.+
+
 * [Gitpod](https://www.gitpod.io/) - describe your dev environments as code.
 * [JetBrains Code With Me](https://blog.jetbrains.com/de/blog/2020/10/01/code-with-me-eap/) - code together in a JetBrain IDEs.
 * [Visual Studio Live Share](https://visualstudio.microsoft.com/de/services/live-share/) - code together in VS Code and Visual Studio.
