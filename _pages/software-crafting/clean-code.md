@@ -4,13 +4,15 @@ layout: default
 ---
 ## Clean Code
 
-### Style Guide Collections
+### Style Guide and Coding Standards Collections
 
-The following list shows style guides for multiple languages.
-Regardings style guides for individual languages, please refer to the individual
+The following list shows style guides and coding standards for multiple languages.
+Regarding style guides for individual languages, please refer to the individual
 language page in the [Programming Languages](programming-languages/index.html) overview.
 
 - [Google Style Guides](https://google.github.io/styleguide/)
+- [TIOBE Coding Standards](https://www.tiobe.com/coding-standards/)
+- [TIOBE Quality Indicator Quality Model](https://www.tiobe.com/quality-models/tqi/)
 
 ### Code Smells
 
