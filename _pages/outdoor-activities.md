@@ -37,14 +37,25 @@ Folge der Anleitung der [Chip: Google Maps: Route exportieren - so geht's](https
 
 ### GPX Dateien (Routen) mit QGis und dem Open Route Service erstellen (Open Street Map)
 
-Benötigt werden die folgenden Werkzeuge:
+#### Voraussetzungen
 
 - [QGIS](https://www.qgis.org/) - Open-Source-Geographisches-Informationssystem.
 - [ORS Tools](https://plugins.qgis.org/plugins/ORStools/) - Plugin für [QGis](https://www.qgis.org/).
   - [ORS Tools Help](https://github.com/GIScience/orstools-qgis-plugin/wiki/ORS-Tools-Help) - Installation, Setup, Usage.
 - [openroute service](https://openrouteservice.org/dev/#/home?tab=1) - OpenRoute Service API Verwaltung.
 
-Weiterführende Links:
+#### Workflow
+
+1. Lege ein neues Projekt an
+2. Blende OpenStreetMap ein: Web -> QuickMapServices -> OSM -> OSM Standard
+3. Suche den Ausgangspunkt im OSM place search Panel
+4. Öffne die ORS Tools: Web -> ORS Tools -> ORS Tools
+5. Füge Punkte hinzu (Doppelclick = letzter Punkt)
+6. Apply -> Die Route wird berechnet und als neuer Layer eingezeichnet
+7. Attributtabelle des Layer enthält die Distanz
+8. Export als GPX - alle Attribute abwählen
+
+#### Weiterführende Links
 
 - [Routing on OpenStreetMap.org](https://blog.openstreetmap.org/2015/02/16/routing-on-openstreetmap-org/)
 
