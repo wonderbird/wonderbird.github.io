@@ -1,0 +1,47 @@
+---
+title: Clojure
+layout: default
+---
+
+## Clojure
+
+### Getting Started
+
+1. Follow Daniel Higginbotham's book [CLOJURE for the BRAVE and TRUE](https://www.braveclojure.com/clojure-for-the-brave-and-true/) to learn the ultimate language and become a better programmer.
+
+### Important Commands
+
+```sh
+# Create a new clojure application
+lein new app clojure-noob
+
+cd clojure-noob
+
+# Run the application
+lein run
+
+# Create a distributable JAR for the Java Virtual Machine
+lein uberjar
+
+# Run the JAR
+java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar
+
+# Start the REPL - read eval print loop
+lein repl
+```
+
+### References
+
+The following list shows the tools and reading materials I have encountered while reading [CLOJURE for the BRAVE and
+TRUE](https://www.braveclojure.com/clojure-for-the-brave-and-true/).
+
+#### Tools
+
+- [sdkman: Leiningen](https://sdkman.io/sdks#leiningen) - a leiningen sdk for installing with the [sdkman](https://sdkman.io/) package manager.
+- [Cursive](https://cursive-ide.com/index.html) - The Clojure(Script) IDE that understands your code - a plugin for [JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/).
+  - [Cursive: User Guide](https://cursive-ide.com/userguide/) - Getting started with Cursive.
+
+#### Reading Material
+
+- [Leiningen](https://leiningen.org/) - the build system automating Clojure projects without setting your hair on fire.
+- [Clojure Documentation](https://clojure-doc.org/) - community-driven documentation site for the Clojure programming language.
