@@ -32,7 +32,7 @@ language page in the [Programming Languages](programming-languages/index.html) o
 
 #### Talk on Refactoring
 
-- J.B. Rainsberger: [Unlocking the Awesome Power of Refactoring](https://invidious.snopyta.org/watch?v=hGSde7whUyY&local=true&subtitles=en%2Cde)) - deliberate practice, psychology, communication and how to start your personal refactoring training.
+- J.B. Rainsberger: [Unlocking the Awesome Power of Refactoring](https://www.youtube.com/watch?v=hGSde7whUyY)) - deliberate practice, psychology, communication and how to start your personal refactoring training.
 
 #### Reading Materials on Refactoring
 
