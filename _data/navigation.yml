@@ -169,6 +169,8 @@ software-crafting-programming-languages:
     url: /pages/software-crafting/programming-languages/awk.html
   - title: C#
     url: /pages/software-crafting/programming-languages/csharp.html
+  - title: Clojure
+    url: /pages/software-crafting/programming-languages/clojure.html
   - title: Delphi
     url: /pages/software-crafting/programming-languages/delphi.html
   - title: Go
