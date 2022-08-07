@@ -30,6 +30,23 @@ java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar
 lein repl
 ```
 
+### Language and API References
+
+- [Clojure.org](https://clojure.org/) - Main page for Clojure.
+- [Clojure Cheat Sheet](https://clojure.org/api/cheatsheet) - Overview of built-ins, data structures etc.
+- [ClojureScript Cheat Sheet](https://cljs.info/cheatsheet/) - Cheat Sheet for ClojureScript.
+- [ClojureDocs](https://clojuredocs.org/) - documentation and examples repository for Clojure.
+
+### Exercises Specifically for Clojure
+
+- [4ever-clojure](https://4clojure.oxal.org/) - An interactive problem website for learning Clojure.
+  - GitHub: [oxalorg / 4ever-clojure](https://github.com/oxalorg/4ever-clojure)
+  - GitHub: [4clojure / 4clojure](https://github.com/4clojure/4clojure) - Original 4clojure site can be self-hosted.
+
+### Interesting Clojure Projects
+
+- [SCI - Small Clojure Interpreter](https://github.com/babashka/sci) - limited dialect of Clojure for a single-purpose, scripted application.
+
 ### References
 
 The following list shows the tools and reading materials I have encountered while reading [CLOJURE for the BRAVE and
