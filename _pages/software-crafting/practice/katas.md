@@ -38,6 +38,7 @@ layout: default
 - [CodeKata.com](http://codekata.com/)
 - [Advent of Code](https://adventofcode.com/) - Advent calendar of small programming puzzles.
   - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
+- [Project Euler](https://projecteuler.net/) - a series of challenging mathematical/computer programming problems.
 - [Peter Kofler (Code Cop)](https://github.com/codecop) - Code Cop's repositories have some katas.
   - [GitHub: Unit Testing Koans](https://github.com/codecop/Unit-Testing-Koans) - [Testing Koans](https://blog.code-cop.org/2015/12/testing-koans.html) to learn new programming languages.
 
