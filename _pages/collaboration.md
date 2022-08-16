@@ -23,6 +23,14 @@ layout: default
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Coordinating a Meeting
+
+The following utilities let you coordinate meetings with multiple participants:
+
+- [Bitpoll](https://bitpoll.de/) - totally free, GDPR compliant, Open Source, hosted by University of Hamburg.
+- [Vytein](https://www.vyte.in/) - allows to connect calendars, integrates a chat feature.
+- [Doodle](https://doodle.com/)
+
 ## Check-In Games
 
 - [Online Warm-ups](https://www.workshop-spiele.de/category/online-warm-ups/)
