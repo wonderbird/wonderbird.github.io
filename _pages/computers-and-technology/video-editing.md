@@ -70,6 +70,17 @@ ffmpeg -i input.mov -vcodec libx264 -crf 24 -vf scale=320:288  output.avi
 ffmpeg -i input.mov -vcodec libx264 -crf 24 -vf scale=480:270  output.avi
 ```
 
+### 5. Extract Audio Track as MP3
+
+```shell
+# -q:a 0    Variable bit rate -- see https://trac.ffmpeg.org/wiki/Encode/MP3
+# -map a    Exclude video subtitles and grab only audio
+ffmpeg -i sample.avi -q:a 0 -map a sample.mp3
+
+# Constant bitrate
+ffmpeg -i sample.avi -b:a 128k -map a sample.mp3
+```
+
 ## Links
 
 * [Overview about frame rates and PAL vs. NTSC (in German)](https://gwegner.de/know-how/verwirrung-um-die-frameraten-24-fps-25-fps-30-fps-pal-ntsc-wann-nimmt-man-was/)
