@@ -11,6 +11,9 @@ Für jede Espresso Sorte habe ich das vom Händer angegebene Geschmacksprofil ü
   * [Mombuca Espresso](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=189) - Praline, Nougat, Schokolade
   * [Adado Espresso](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=210) - Beeren, Schokolade, Wein
 
+* [Cologne's Roastery](https://colognes-roastery.de/)
+  * [Espresso Arabica Apollo](https://colognes-roastery.de/espresso/17/espresso-arabica-apollo?c=7) - großzügige Würze und kräftige Fruchtnote.
+
 * [Langeooger Kaffeerösterei](https://www.langeooger.shop/)
   * [Strandmischung](https://www.langeooger.shop/p/langeooger-strandmischung) - Feine Schokoladennote und ein kräftiger Körper
   * [Wattmischung](https://www.langeooger.shop/p/langeooger-wattmischung) - Feine Schokoladennote und ein kräftiger Körper
