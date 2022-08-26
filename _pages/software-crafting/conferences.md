@@ -51,6 +51,8 @@ dotnet-developer-conference.de/)
 
 * April: [SEACON digital](https://www.sea-con.de/) - Software Engineering and Architecture.
 
+* May: [dotnet Cologne](https://dotnet-cologne.de/) - dotnet community conference.
+
 * May: Registration starts for [SoCraTes (Germany)](https://www.socrates-conference.de/) - international non-profit and community-run (un)conference about all things related to Software Craft. And at the same time it is so much more.
 
 * May: [QCon](https://qconferences.com/)
