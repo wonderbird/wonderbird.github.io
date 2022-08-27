@@ -35,7 +35,14 @@ As of today this is just a list of ressources.
 - [Let's Code Minecraft](https://games.jff.de/lets-code-minecraft/) - Webinar: Programmieren Lernen mit Minecraft (Redstone, ComputerCraft and Lua).
 - [Programmieren mit der Maus](https://programmieren.wdrmaus.de/welcome) - Mit der Maus Programmieren lernen.
 - [Dein Programm](https://www.deinprogramm.de/) - Lerne die absoluten Grundlagen des Programmierens mit einer funktionalen Programmiersprache.
+- Pixelflood
+  - [Pixel-Competition at rc3](https://www.pixel-competition.de)
+  - [Wiki of mag.lab related to Pixel-Competition](https://wiki.maglab.space/wiki/PixelCompetition)
+  - [Pixelflut Seite des CCC Göttingen (in German)](https://cccgoe.de/wiki/Pixelflut)
+- [Wikipedia: Niki - der Roboter (Wikipedia)](https://de.wikipedia.org/wiki/Niki_%E2%80%93_der_Roboter) - Einfache Roboter-Programmierung.
 
 #### Multiple Languages
 
 - [Code.org](https://code.org/) - Learn computer science - from 4 years to 18+ years.
+- [Little Hackers: Learning to Code for Early Readers](https://www.kickstarter.com/projects/littlehackers/little-hackers-learning-to-code-for-early-readers?lang=de) - Kickstarter project for kids aged 6 and above.
+- [WebTigerJython Turtle Grafik](https://webtigerjython.ethz.ch/?prog=https://www.tjgroup.ch/progs/tu/TuEx3.py) - Turtle graphics in python in the browser.

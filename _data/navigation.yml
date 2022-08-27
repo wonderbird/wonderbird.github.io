@@ -39,8 +39,6 @@ main:
 tech-for-kids:
   - title: Elektronik und andere Basteleien
     url: /pages/computers-and-technology/elektronik-basteln.html
-  - title: Jugend und IT
-    url: /pages/computers-and-technology/jugend-it.html
   - title: Learning to Program
     url: /pages/tech-for-kids/learning-to-program.html
   - title: Lego, Lego Technics and Mindstorms (Programming)
