@@ -33,6 +33,20 @@ main:
     url: /pages/software-crafting/
   - title: Solaranlagen
     url: /pages/solaranlagen.html
+  - title: Tech for Kids
+    url: /pages/tech-for-kids/
+
+tech-for-kids:
+  - title: Elektronik und andere Basteleien
+    url: /pages/computers-and-technology/elektronik-basteln.html
+  - title: Jugend und IT
+    url: /pages/computers-and-technology/jugend-it.html
+  - title: Learning to Program
+    url: /pages/tech-for-kids/learning-to-program.html
+  - title: Lego, Lego Technics and Mindstorms (Programming)
+    url: /pages/tech-for-kids/lego.html
+  - title: Minecraft (Programming)
+    url: /pages/computers-and-technology/minecraft.html
 
 collaboration:
   - title: Online Collaboration

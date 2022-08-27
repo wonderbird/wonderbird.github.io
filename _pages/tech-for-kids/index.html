@@ -1,0 +1,15 @@
+---
+title: Tech for Kids
+layout: default
+---
+<h1>Tech for Kids</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.tech-for-kids %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
