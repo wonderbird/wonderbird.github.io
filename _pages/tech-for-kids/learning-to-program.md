@@ -10,6 +10,7 @@ As of today this is just a list of ressources.
 ### Things My Kids Liked
 
 - [Scratch](https://scratch.mit.edu) - Create and share stories, games and animations.
+  - [FizzBuzz TDD on Scratch](https://scratch.mit.edu/projects/725700870/editor/) - for software developing parents: How to TDD a kata.
 - [Lego Mindstorms](/pages/tech-for-kids/lego.html) - How to program Lego Mindstorms in Scratch, Java and Python.
 - [Minecraft Mods](/pages/computers-and-technology/minecraft.html) - Links regarding Minecraft programming.
 - [Roblox Developer](https://developer.roblox.com/en-us/) - Roblox Developer Portal.
