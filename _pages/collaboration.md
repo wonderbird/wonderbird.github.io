@@ -76,6 +76,7 @@ You can find a collection of timers on the [Mob Programming](software-crafting/m
 - [Select a Person / Wheel of Names](https://wheelofnames.com/)
 - [Scrumlr](https://scrumlr.io) - Facilitate SCRUM Retrospectives, Lean Coffee Meetings and others
 - [LeanCoffee Table](https://www.leancoffeetable.com/)
+- [Timetable for OpenSpace and Workshops](https://github.com/OpenSpaceOrg/jbe) - Spreadsheet to Timetable web service (GitHub Repo).
 
 ## Online-Collaboration
 
