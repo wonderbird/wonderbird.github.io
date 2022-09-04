@@ -15,8 +15,6 @@ main:
     url: /pages/leseliste.html
   - title: Online Games
     url: /pages/online-games.html
-  - title: Outdoor Aktivitäten
-    url: /pages/outdoor-activities.html
   - title: Persönlichkeitsentwicklung
     url: /pages/personality-development.html
   - title: rc3 - remote chaos
@@ -41,6 +39,8 @@ aktivitaeten:
     url: /pages/aktivitaeten/geocaching/
   - title: Köln erleben
     url: /pages/aktivitaeten/koeln-erleben.html
+  - title: Outdoor Aktivitäten
+    url: /pages/aktivitaeten/outdoor-activities.html
 
 tech-for-kids:
   - title: Elektronik und andere Basteleien
