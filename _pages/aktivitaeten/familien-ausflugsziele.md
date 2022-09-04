@@ -25,7 +25,8 @@ Alle Entfernungen beziehen sich auf Rösrath als Startpunkt.
 
 ### Nord-Westen
 
-* Gasometer: [Ausstellung "Wunder der Natur"](http://www.gasometer.de/de/ausstellungen/aktuelle-ausstellung/34-mehrsprachig/mehrsprachig-ausstellungen/264-wunder-der-natur)
+* [Gasometer im Landschaftspark Duisburg Nord](https://www.landschaftspark.de/rundweg-industriegeschichte/gasometer/), 80 km von Rösrath
+* [Tiger and Turtle – die einzige begehbare Achterbahn der Welt](https://www.deutschlandmalanders.com/tiger-and-turtle/), 80 km von Rösrath
 * [Zoo Duisburg](http://www.zoo-duisburg.de/), 80 km von Rösrath
 
 ### Nord-Osten
