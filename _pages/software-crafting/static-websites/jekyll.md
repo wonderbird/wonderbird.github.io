@@ -71,28 +71,27 @@ If you encounter an error like
 
 ```sh
 $ bundle exec jekyll serve --livereload
-/usr/local/opt/ruby/bin/bundle:23:in `load': cannot load such file -- /usr/local/lib/ruby/gems/3.0.0/gems/bundler-2.2.20/exe/bundle (LoadError)
-        from /usr/local/opt/ruby/bin/bundle:23:in `<main>'
+/opt/homebrew/opt/ruby/bin/bundle:25:in `load': cannot load such file -- /opt/homebrew/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/exe/bundle (LoadError)
+        from /opt/homebrew/opt/ruby/bin/bundle:25:in `<main>'
 ```
 
 and
 
 ```sh
 $ ruby -v     
-ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-darwin20]
-
-$ ls -l /usr/local/lib/ruby/gems/3.0.0/gems/bundler-*
-zsh: no matches found: /usr/local/lib/ruby/gems/3.0.0/gems/bundler-*
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]
 ```
 
-you need to re-install the bundler
+you might need to re-install the bundler
 
 ```sh
 $ gem install bundler
-Fetching bundler-2.2.33.gem
-Successfully installed bundler-2.2.33
-Parsing documentation for bundler-2.2.33
-Installing ri documentation for bundler-2.2.33
+Fetching bundler-2.3.21.gem
+Successfully installed bundler-2.3.21
+Parsing documentation for bundler-2.3.21
+Installing ri documentation for bundler-2.3.21
+Done installing documentation for bundler after 0 seconds
+1 gem installed
 ```
 
 delete the `Gemfile.lock`
