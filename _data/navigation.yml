@@ -19,8 +19,6 @@ main:
     url: /pages/personality-development.html
   - title: rc3 - remote chaos
     url: /pages/rc3-remote-chaos.html
-  - title: Segeln, Kajak, Kanu, Paddeln
-    url: /pages/segeln-kajak-kanu-paddeln.html
   - title: Schule
     url: /pages/schule.html
   - title: Shadowrun
@@ -41,6 +39,8 @@ aktivitaeten:
     url: /pages/aktivitaeten/koeln-erleben.html
   - title: Outdoor Aktivitäten
     url: /pages/aktivitaeten/outdoor-activities.html
+  - title: Segeln, Kajak, Kanu, Paddeln
+    url: /pages/aktivitaeten/segeln-kajak-kanu-paddeln.html
 
 tech-for-kids:
   - title: Elektronik und andere Basteleien

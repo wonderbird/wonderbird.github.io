@@ -2,8 +2,8 @@
 title: Redirection
 layout: default
 ---
-# Redirection
+## Redirection
 
 This page has moved.
 
-If you are not redirected automatically, then please [click here](segeln-kajak-kanu-paddeln.html).
+If you are not redirected automatically, then please [click here](/pages/aktivitaeten/segeln-kajak-kanu-paddeln.html).
