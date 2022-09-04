@@ -9,8 +9,6 @@ main:
     url: /pages/computers-and-technology/
   - title: COVID-2019
     url: /pages/covid-2019.html
-  - title: Geocaching
-    url: /pages/geocaching/
   - title: Kaffee
     url: /pages/kaffee.html
   - title: Köln erleben
@@ -41,6 +39,8 @@ main:
 aktivitaeten:
   - title: Ausflugsziele für Familien
     url: /pages/aktivitaeten/familien-ausflugsziele.html
+  - title: Geocaching
+    url: /pages/aktivitaeten/geocaching/
 
 tech-for-kids:
   - title: Elektronik und andere Basteleien
@@ -104,9 +104,9 @@ computers:
 
 geocaching:
   - title: Überblick
-    url: /pages/geocaching/ueberblick.html
+    url: /pages/aktivitaeten/geocaching/ueberblick.html
   - title: Schritt für Schritt
-    url: /pages/geocaching/schritt-fuer-schritt.html
+    url: /pages/aktivitaeten/geocaching/schritt-fuer-schritt.html
 
 software-crafting:
   - title: Clean Code

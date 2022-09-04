@@ -2,8 +2,8 @@
 title: Redirection
 layout: default
 ---
-# Redirection
+## Redirection
 
 This page has moved.
 
-If you are not redirected automatically, then please [click here](geocaching/).
+If you are not redirected automatically, then please [click here](aktivitaeten/geocaching/).
