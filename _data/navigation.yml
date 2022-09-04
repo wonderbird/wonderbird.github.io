@@ -1,4 +1,6 @@
 main:
+  - title: Aktivitäten
+    url: /pages/aktivitaeten/
   - title: Climate Change
     url: /pages/climate-change.html
   - title: Collaboration
@@ -35,6 +37,10 @@ main:
     url: /pages/solaranlagen.html
   - title: Tech for Kids
     url: /pages/tech-for-kids/
+
+aktivitaeten:
+  - title: Ausflugsziele für Familien
+    url: /pages/aktivitaeten/familien-ausflugsziele.html
 
 tech-for-kids:
   - title: Elektronik und andere Basteleien

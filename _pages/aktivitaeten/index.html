@@ -1,0 +1,15 @@
+---
+title: Aktivitäten
+layout: default
+---
+<h1>Aktivitäten</h1>
+
+<ul>
+    {% for menuEntry in site.data.navigation.aktivitaeten %}
+      <li>
+        <a href="{{ menuEntry.url }}">
+          {{ menuEntry.title }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
