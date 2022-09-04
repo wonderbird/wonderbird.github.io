@@ -11,8 +11,6 @@ main:
     url: /pages/covid-2019.html
   - title: Kaffee
     url: /pages/kaffee.html
-  - title: Köln erleben
-    url: /pages/koeln-erleben.html
   - title: Leseliste
     url: /pages/leseliste.html
   - title: Online Games
@@ -41,6 +39,8 @@ aktivitaeten:
     url: /pages/aktivitaeten/familien-ausflugsziele.html
   - title: Geocaching
     url: /pages/aktivitaeten/geocaching/
+  - title: Köln erleben
+    url: /pages/aktivitaeten/koeln-erleben.html
 
 tech-for-kids:
   - title: Elektronik und andere Basteleien
