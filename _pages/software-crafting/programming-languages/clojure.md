@@ -39,6 +39,7 @@ lein repl
 
 ### Exercises Specifically for Clojure
 
+- [ClojureScript Koans](http://clojurescriptkoans.com/) - learn clojure from scratch by a series of interactive exercises in your web browser.
 - [4ever-clojure](https://4clojure.oxal.org/) - An interactive problem website for learning Clojure.
   - GitHub: [oxalorg / 4ever-clojure](https://github.com/oxalorg/4ever-clojure)
   - GitHub: [4clojure / 4clojure](https://github.com/4clojure/4clojure) - Original 4clojure site can be self-hosted.
