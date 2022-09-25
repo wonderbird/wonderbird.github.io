@@ -93,6 +93,8 @@ dotnet-developer-conference.de/)
 
 * September: [JUG Saxony Day](https://jug-saxony-day.org/)
 
+* October: [Agile Cologne](https://agilecologne.de/) - Un-Konferenz rund um die Fragen „Wie und wozu wollen wir zusammen arbeiten?“ und „Wie wollen wir dafür Verantwortung übernehmen?“.
+
 * October: [Strange Loop](https://www.thestrangeloop.com/)
 
 * October: [API Conference](https://apiconference.net/)
