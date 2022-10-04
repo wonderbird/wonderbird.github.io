@@ -2,9 +2,9 @@
 title: Conferences
 layout: default
 ---
-# Conferences
+## Conferences
 
-## Conference Recordings
+### Conference Recordings
 
 Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helper](https://www.downloadhelper.net/).
 
@@ -20,18 +20,17 @@ Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helpe
 
 * [Remote Chaos Experience rC3](https://media.ccc.de/c/rc3)
 
-## 365 Conferences
+### 365 Conferences
 
 * January / All Year: [RSA Conference on Cybersecurity](https://www.rsaconference.com/)
 
-## Conference Dates
+### Conference Dates
 
 * January: [NDC London](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
 
 * February: [FOSDEM](https://fosdem.org/) - Developers of free and open source software gather at the event in Brussels.
 
 * February: [OOP Konferenz](https://www.oop-konferenz.de/)
-dotnet-developer-conference.de/)
 
 * February: [gotopia;](https://gotopia.tech/events)
 
@@ -41,6 +40,7 @@ dotnet-developer-conference.de/)
 
 * Spring: [Agile Meets Architecture](https://www.agile-meets-architecture.com/)
 
+* March: [BOB Konferenz](https://bobkonf.de/) - BOB is the forum for developers, architects and builders to explore and discover the best tools available today for building software.
 * March: [Javaland](https://www.javaland.eu/de/home/)
 
 * March: [Software Architecture Summit](https://software-architecture-summit.de/programm/)
@@ -122,5 +122,7 @@ dotnet-developer-conference.de/)
 * December: [Tools for agile Teams](https://www.tools4agileteams.com/agenda/) - Agility for Teams and Businesses on all levels.
 
 * December: [IT Tage](https://www.ittage.informatik-aktuell.de/konferenz/einfuehrung.html)
+
+* December: [DDC .NET Developer Conference](dotnet-developer-conference.de/) - Vorträge, DevSessions und Workshops bieten sich ProgrammiererInnen vielfältige Möglichkeiten, sich zu wichtigen Themen im .NET-Bereich fortzubilden.
 
 * December: [Chaos Communication Congress](https://events.ccc.de/)
