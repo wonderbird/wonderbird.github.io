@@ -50,7 +50,7 @@ Folge der Anleitung der [Chip: Google Maps: Route exportieren - so geht's](https
 2. Blende OpenStreetMap ein: Web -> QuickMapServices -> OSM -> OSM Standard
 3. Suche den Ausgangspunkt im OSM place search Panel
 4. Öffne die ORS Tools: Web -> ORS Tools -> ORS Tools
-5. Füge Punkte hinzu (Doppelclick = letzter Punkt)
+5. Füge Punkte hinzu (Doppelclick = letzter Punkt). Man muss die Route als Ganzes eingeben und den letzten Punkt mit Doppelclick abschließen. Leider löscht ein Click auf "+" die zuvor aufgenommenen Punkte.
 6. Apply -> Die Route wird berechnet und als neuer Layer eingezeichnet
 7. Attributtabelle des Layer enthält die Distanz
 8. Export als GPX - alle Attribute abwählen
