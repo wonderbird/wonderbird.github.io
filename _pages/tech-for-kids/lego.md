@@ -51,7 +51,9 @@ You might want to dive much deeper into Java development for the EV3. These book
 
 Installation Instructions (as of May 2020)
 
-1. If starting from scratch, ''Follow the instructions'' by Christoph Bartneck: [Tutorial on how to install and run Java on Lego Mindstorms EV3 using Eclipse on Mac OS X](http://www.bartneck.de/2017/06/04/tutorial-on-how-to-install-and-run-java-on-lego-mindstorms-ev3-using-eclipse-on-mac-os-x/) **but** install **OpenRoberta** onto the SD Card (see step 3)
+1. If starting from scratch, ''Follow the instructions'' by Christoph Bartneck: [Tutorial on how to install and run Java on Lego Mindstorms EV3 using Eclipse on Mac OS X](http://www.bartneck.de/2017/06/04/tutorial-on-how-to-install-and-run-java-on-lego-mindstorms-ev3-using-eclipse-on-mac-os-x/) **but** install **OpenRoberta** onto the SD Card (see step 3 below on this page)
+
+    - I have installed [MINDSTORMS Home 1.5.0 (1.5.0.226781)](https://www.lego.com/de-de/themes/mindstorms/downloads) on macOS 12.6
 
 1. Next try out the debugger: [Developing with leJOS](https://sourceforge.net/p/lejos/wiki/Developing%20with%20leJOS/)
 
