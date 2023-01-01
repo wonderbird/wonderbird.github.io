@@ -15,6 +15,7 @@ These sites offer general sponsorship for individuals and ideas. There is no con
 - [Ko-fi](https://ko-fi.com/)
 - [Flattr](https://flattr.com/)
 - [Paypal Fundraiser](https://www.paypal.com/us/digital-wallet/send-receive-money/giving)
+- [Gumroad](https://gumroad.com/)
 
 ### Sponsorship For Creative Ideas and Projects
 
