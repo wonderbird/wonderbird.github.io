@@ -112,8 +112,12 @@ Tue 10 Feb 12:13:58 CET 2015
 ```shell
 KEY_ID=0x<fingerprint>
 gpg --edit-key "$KEY_ID"
+
+# Extend the main key
 gpg> expire
 ...
+
+# Extend the first sub key (ssb)
 gpg> key 1
 gpg> expire
 ...
