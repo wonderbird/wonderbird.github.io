@@ -71,7 +71,9 @@ You can find a collection of timers on the [Mob Programming](software-crafting/m
 
 - [Timeanddate Timer](https://www.timeanddate.com/timer/) - Create a countdown timer for a given time period.
 - [Webcountdown](https://www.webcountdown.de/) - Create a countdown timer for a time and date in the future.
-- [Big Timer](https://www.bigtimer.net)
+- [Big Timer](https://www.bigtimer.net) - Countdown timer with sharable URL
+- [E.ggTimer](https://e.ggtimer.com) - Countdown timer
+- [Pomofocus](https://pomofocus.io) - Pomodoro Timer with task list
 - [Würfel / teal dice](http://a.teall.info/dice/)
 - [Select a Person / Wheel of Names](https://wheelofnames.com/)
 - [Scrumlr](https://scrumlr.io) - Facilitate SCRUM Retrospectives, Lean Coffee Meetings and others
