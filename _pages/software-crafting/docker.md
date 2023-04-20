@@ -63,6 +63,14 @@ In der Emulation läuft der Build Prozess langsamer als auf einem Gerät mit ent
 * [portainer/portainer](https://hub.docker.com/r/portainer/portainer) Making Docker management easy. https://portainer.io
 * [dorowu/ubuntu-desktop-lxde-vnc](https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc) Provide HTML5 VNC interface to access Ubuntu LXDE and LXQt desktop environment (XWindows, HTTP). [GitHub Repository](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
 
+## Bind Mount Performance
+
+Sowohl unter Windows als auch unter macOS ist die performance von bind mounts deutlich schlechter als von volumes.
+Grundsätzlich sind [Docker Volumes](https://docs.docker.com/storage/volumes/) die performantere Alternative.
+
+Unter macOS habe ich so eine 2,25 Stunden dauernde Analyse mit CodeScene dadurch auf 5 min verkürzt. Dabei wurden
+1,7 GB Daten verarbeitet.
+
 ## Windows WSL2 Empfehlungen - Performance
 
 Docker Container sollten unter Windows aus einer WSL2 Linux Distribution gestartet werden. Außerdem ist es wichtig, dass WSL2, Docker und die Linux Distribution korrekt zusammenarbeiten - siehe [Docker Desktop WSL2 backend](https://docs.docker.com/desktop/windows/wsl/).
