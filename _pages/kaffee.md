@@ -9,9 +9,8 @@ Die folgende Liste ist nach unserer aktuellen Präferenz absteigend sortiert, d.
 Für jede Espresso Sorte habe ich das vom Händer angegebene Geschmacksprofil übernommen. Die Mischungen enthalten keine Zusatzstoffe sondern erhalten ihr Aroma aus den Bohnen und der Röstung.
 
 * [Vee's Kaffee und Bohnen GmbH (Taufkirchen)](https://shop.vees-kaffee.com/de/index.html)
-  * Die Kaffeesorten wechseln regelmäßig. Deshalb kann es sein, dass die hier angegebenen Produkte nicht im Shop gefunden werden
-  * Vee Italienische Röstung d'Oro Espresso/Cappuccino und After-Dinner-Kaffee, mild und samstig mit Anklängen von Schokolade
-  * Vee Italienische Röstung d'Oro Extra Espresso/Cappuccino mit komplexen lang anhaltenden Aromen von gerösteten Nüssen und Schokolade
+  * [Vee's Espresso Italienische Röstung d'Oro](https://vees-coffee.com/de/espresso-und-cappuccino/8-464-vee-s-espresso-italienische-roestung-d-oro-4260338291082.html) - Espresso mit edler, nahezu vollkommener Fülle und einem intensiven Geschmack nach Zartbitterschokolade. Full body.
+  * [Vee's Espresso Italienische Röstung d'Oro Extra](https://vees-coffee.com/de/espresso-und-cappuccino/9-vee-s-espresso-italienische-roestung-d-oro-extra-4260338291099.html) - Espresso, mit edler nahezu vollkommener Fülle und einem intensiven Geschmack nach Waldboden (Wilde Pilze, Herbstblätter, Moos) und Zartbitterschokolade. Full body.
 
 * [Ernst Kaffeerösterei (Köln)](https://www.ernst-kaffee.de/)
   * [House Blend](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=86) - Schokolade, Mandel, Beeren
