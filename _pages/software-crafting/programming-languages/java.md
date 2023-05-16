@@ -31,11 +31,39 @@ layout: default
 
 ### Installing Java on Windows
 
-(Just some links for now:)
+#### One Java Version Only
 
 - [Chocolatey: temurin](https://community.chocolatey.org/packages/temurin) - Eclipse Temurin is a part of the Adoptium Enterprise Java Platform replacing AdopOpenJDK.
 
 - [Chocolatey: maven](https://community.chocolatey.org/packages/maven)
+
+#### Switching Between Multiple Versions of Java using SDKMAN
+
+You can install either in a GitBaSH or into Ubuntu on WSL-2.
+
+For GitBaSH you need MinGW-x64 and the zip (and unzip) tools. I am installing them using Chocolatey:
+
+```shell
+choco install git mingw zip
+```
+
+For Ubuntu in WSL-2 you need zip and unzip:
+
+```bash
+sudo apt install unzip zip
+```
+
+Next, install [SDKMAN](https://sdkman.io)
+
+Finally, install the desired java version(s):
+
+```bash
+sdk list java
+...
+sdk install java 17.0.7-tem
+```
+
+If you are using JetBrains IntelliJ IDEA, then you can add your Java SDKs via the **File -> Project Structure** dialog on the **Project** or **Platform Settings/SDKs** views. The base folder for the SDK is in `C:\Users\yourname\.sdkman\candidates\java\17.0.7-tem` (as an example for java 17 temurin).
 
 ### Installing Java on macOS
 
