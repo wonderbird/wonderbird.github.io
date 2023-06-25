@@ -82,7 +82,7 @@ layout: default
 
 * Vimeo: [David J Anderson: Working with Triage Tables Webinar Recording](https://vimeo.com/4406745389)
 * YouTube: [Klaus Leopold: Ship Building Simulation](https://www.youtube.com/watch?v=iIc9ttGurUo)
-* YouTube: [#FlightClub](https://www.youtube.com/playlist?list=PLacsUAvpF9E-rhGW_-KffqwsUYwjdfV-m)
+* YouTube: [FlightClub](https://www.youtube.com/playlist?list=PLacsUAvpF9E-rhGW_-KffqwsUYwjdfV-m)
 * YouTube: [Flight Levels Academy](https://www.youtube.com/channel/UCapV3U6lXcd4sy0iCOK9mug)
 
 ### People
