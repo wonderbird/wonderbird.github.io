@@ -8,8 +8,7 @@ layout: default
 ## Software
 
 * [Kdenlive](https://kdenlive.org/en/) - Open Source Video Editor.
-* [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) - Professional Editing, Color,
-Effects and Audio Post!
+* [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) - Professional Editing, Color, Effects and Audio Post!
 
 ## My editing workflow
 
@@ -20,7 +19,7 @@ Effects and Audio Post!
 
 ### 1. Record the video and store it in a "raw" folder
 
-* Usually I am using screen resolution of 1400 x 900 pixels
+- For my process, the resolution should be larger than 1280 x 720 (HD 720p)
 
 ### 2. Edit the video in DaVinci Resolve
 
@@ -38,7 +37,7 @@ Because I have quite low resolution demands and I want to support PAL, my config
 
 #### Correcting the Scale and Position of Screen Recordings
 
-After having inserted a video into the timeline apply the following transofrmation in the timeline:
+After having inserted a video into the timeline apply the following transformation in the timeline:
 
 * Zoom X und Y: 1.020
 * Position X: 14.000 Position Y: -2.000
@@ -90,4 +89,4 @@ ffmpeg -i sample.avi -b:a 128k -map a sample.mp3
 ## Some Personal Notes
 
 * My camera profile: 1920 x 1080, H.265 Linear PCM
-* Keywords: MP4 MPG MPEG AVI Movie Filme Videoschnitt Export DaVinci Resolve
+* Keywords: MP4 MPG FFMPEG AVI Movie Filme Videoschnitt Export DaVinci Resolve
