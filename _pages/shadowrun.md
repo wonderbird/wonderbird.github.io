@@ -46,13 +46,8 @@ At this point you have a map. If you have added walls, doors and windows in Dung
   - [PDFoundry](https://github.com/Djphoenix719/PDFoundry) - PDF viewer allowing to use the links in imported Chummer5e items to Shadowrun source books.
   - [Trigger Happy](https://foundryvtt.com/packages/trigger-happy/) - Trigger events when your players interact with the scene.
 
-- [Chummer 5a](https://github.com/chummer5a/chummer5a) - Character generator, carreer management, rule book quick access tool.
-
-```bash
-# Rename all files in a folder:
-# replace ' ' by '-' and convert all to lowercase
-OLDIFS=$IFS; IFS=$'\n'; for FILE in $(ls -1); do LCFILE=$(echo $FILE | sed 's/\ /-/g' | tr '[:upper:]' '[:lower:]'); mv "$FILE" "$LCFILE"; done; IFS=$OLDIFS
-```
+- [Chummer 5a](https://github.com/chummer5a/chummer5a) - SR5 character generator, carreer management, rule book quick access tool.
+- [Omae v2](https://heyomae.github.io/) - SR5 character generator
 
 ### Tools for Game Masters
 
