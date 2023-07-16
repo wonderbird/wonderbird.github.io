@@ -51,7 +51,7 @@ The following utilities let you coordinate meetings with multiple participants:
 
 - [Kopf oder Zahl?](https://zufallsgenerator.org/kopf-oder-zahl/) - Head or tails
 - [Streichholz ziehen](https://www.streichholzziehen.de/) - Who draws the shortest match, random choice of 1 of 2 - 8 players.
-- [teal dice](http://a.teall.info/dice/) - 3D dice roller.
+- [teal dice](https://www.darkshade.homeip.net/dice/) - 3D dice roller.
 
 ### Systematic Group Decision Finding
 
