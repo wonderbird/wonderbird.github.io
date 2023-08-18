@@ -95,6 +95,10 @@ see separate page [Conferences](conferences.html).
 - [.NET Rocks](https://dotnetrocks.com/)
 - [INNOQ Security Podcast (German)](https://www.innoq.com/en/security-podcast/)
 
+### Video Streams
+
+- [.NET Live TV](https://dotnet.microsoft.com/en-us/live)
+
 ### Blogs
 
 For Blogs related to **Lean and Kanban** see the section **Blogs** in [Kanban - Impulses and Ideas](kanban.html).
