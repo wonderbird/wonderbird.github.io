@@ -6,7 +6,7 @@ layout: default
 
 Die folgende Liste ist nach unserer aktuellen Präferenz absteigend sortiert, d.h. die allerbesten Kaffees sind oben. Insgesamt finden wir alle hier gelisteten Kaffeesorten klasse.
 
-Für jede Espresso Sorte habe ich das vom Händer angegebene Geschmacksprofil übernommen. Die Mischungen enthalten keine Zusatzstoffe sondern erhalten ihr Aroma aus den Bohnen und der Röstung.
+Für jede Espresso Sorte habe ich das vom Händler angegebene Geschmacksprofil übernommen. Die Mischungen enthalten keine Zusatzstoffe sondern erhalten ihr Aroma aus den Bohnen und der Röstung.
 
 * [Vee's Kaffee und Bohnen GmbH (Taufkirchen)](https://shop.vees-kaffee.com/de/index.html)
   * [Vee's Espresso Italienische Röstung d'Oro](https://vees-coffee.com/de/espresso-und-cappuccino/8-464-vee-s-espresso-italienische-roestung-d-oro-4260338291082.html) - Espresso mit edler, nahezu vollkommener Fülle und einem intensiven Geschmack nach Zartbitterschokolade. Full body.
@@ -36,6 +36,11 @@ Für jede Espresso Sorte habe ich das vom Händer angegebene Geschmacksprofil ü
 
 * [Public Coffee Roasters (Hamburg)](https://publiccoffeeroasters.com/produkte/)
   * [BIO Espresso Blend Public a FAIR](https://publiccoffeeroasters.com/produkt/espresso-blend-public-a-fair/) - Schokolade, geröstete Haselnuss und Akzente von Ahornsirup.
+
+## Für AeroPress und Kaffee-Filter
+
+- [24 Grad Kaffee](https://www.24grad.net/kaffeeshop/)
+    - [Nuances Pink Bourbon](https://www.24grad.net/kaffeeshop/kaffee/suedamerika/kolumbien-nuances-pink-bourbon/) - habe ich bei der [SoCraTes Konferenz 2023](https://www.socrates-conference.de/home) in der [AeroPress](https://aeropress.com/) gebraut.
 
 ## Tipps
 
