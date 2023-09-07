@@ -41,6 +41,6 @@ layout: default
 
 ### Sonstiges
 
-* [WebIRC Client / #rc3-chaoszone](https://webirc.hackint.org/#ircs://irc.hackint.org/#rc3-chaoszone)
+* [WebIRC Client / `#rc3-chaoszone`](https://webirc.hackint.org/#ircs://irc.hackint.org/#rc3-chaoszone)
 * Podcast [CRM056: Digitalisierung in der Schule](https://radio.muc.ccc.de/radio:56)
 * [Chaos macht Schule](https://www.ccc.de/schule)

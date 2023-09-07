@@ -7,7 +7,7 @@ layout: default
 ## Short Guidelines
 
 - [Der Unbekannte Bekannte](https://cards42.org/#unbekannte) - Beschreibe einen Stakeholder.
-- [Vermeide den #Shitstorm](https://cards42.org/#shitstorm) - Finde Stakeholder, deren Interessen, Einfluss und kläre wie sie einzubeziehen sind.
+- [Vermeide den Shitstorm](https://cards42.org/#shitstorm) - Finde Stakeholder, deren Interessen, Einfluss und kläre wie sie einzubeziehen sind.
 
 ## Some Details about Stakeholder Management
 
