@@ -56,6 +56,8 @@ In der Emulation läuft der Build Prozess langsamer als auf einem Gerät mit ent
 * `docker run ... --network="mynetwork"` startet den Container im angegebenen Docker Netzwerk
 * `docker run ... --memory="4096m"` weißt dem Container beim Start 4GB RAM zu
 * `docker network list` zeigt alle Docker Netzwerke an
+* `docker inspect imagename` zeigt detaillierte Infos über das Image an
+    * `docker inspect ubuntu | jq '.[0].Author,.[0].Config.Labels'`
 
 ## Interessante Docker Container
 
