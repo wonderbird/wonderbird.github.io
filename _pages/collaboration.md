@@ -5,15 +5,17 @@ layout: default
 
 ## Collaboration
 
-<!-- doctoc --maxlevel 4 /Users/stefan/source/wonderbird/wonderbird.github.io/_pages/collaboration.md -->
+<!-- doctoc --maxlevel 4 /Users/stefan/source/rhodos/my-obsidian-vault/wonderbird.github.io/_pages/collaboration.md -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Coordinating a Meeting](#coordinating-a-meeting)
 - [Check-In Games](#check-in-games)
 - [Methods](#methods)
-- [Voting and Decision Making Tools](#voting-and-decision-making-tools)
+- [Interaction, Feedback, Voting and Decision Making Tools](#interaction-feedback-voting-and-decision-making-tools)
   - [Decision by Chance](#decision-by-chance)
+  - [Surveys, Polls, Interaction, Feedback](#surveys-polls-interaction-feedback)
   - [Systematic Group Decision Finding](#systematic-group-decision-finding)
 - [Moderator Tools](#moderator-tools)
 - [Online-Collaboration](#online-collaboration)
@@ -45,7 +47,7 @@ The following utilities let you coordinate meetings with multiple participants:
 - [Retromat](https://retromat.org/)
 - [The Fearless Journey Game](https://fearlessjourney.info/) - highlights your Team’s hard-to-reach Goal and inspires new strategies to reach it.
 
-## Voting and Decision Making Tools
+## Interaction, Feedback, Voting and Decision Making Tools
 
 ### Decision by Chance
 
@@ -53,16 +55,21 @@ The following utilities let you coordinate meetings with multiple participants:
 - [Streichholz ziehen](https://www.streichholzziehen.de/) - Who draws the shortest match, random choice of 1 of 2 - 8 players.
 - [teal dice](https://www.darkshade.homeip.net/dice/) - 3D dice roller.
 
+### Surveys, Polls, Interaction, Feedback
+
+- [Easy Feedback](https://easy-feedback.de/) - Surveys
+- [Mentimeter](https://www.mentimeter.com/) - Live polls, quizzes, word clouds, Q&A and more.
+- [AhaSlides](https://ahaslides.com/de/) - Interactive presentations with surveys, quizzes, Q&A, brainstorming
+- [slido](https://sli.do) - Q&A, quizzes, word clouds
+- [Swipe](https://www.swipe.to/) - Polls, Q&A, slide and presentation sharing.
+- [VOXR - Smart Conferencing](https://voxr.org/de) - Conference management platform including Q&A and polls.
+- [Voting / Polling Module of TEDME](https://tedme.com/home/voting) - Live polls.
+- [Poll Everywhere](https://www.polleverywhere.com/) - Q&A, polls, feedback, integration into presentations.
+
 ### Systematic Group Decision Finding
 
-- [slido](https://sli.do) - Q&A and polls.
-- [VOXR - Smart Conferencing](https://voxr.org/de) - Conference management platform including Q&A and polls.
-- [Mentimeter](https://www.mentimeter.com/) - Live polls, quizzes, word clouds, Q&A and more.
-- [Voting / Polling Module of TEDME](https://tedme.com/home/voting) - Live polls.
-- [Swipe](https://www.swipe.to/) - Polls, Q&A, slide and presentation sharing.
-- [Poll Everywhere](https://www.polleverywhere.com/) - Q&A, fpolls, feedback, integration into presentations.
 - Netzwerkknoten GmbH: [Entscheiden in selbstorganisierten Teams – systemisches Konsensieren](https://www.netzwerkknoten.com/entscheiden-in-selbstorganisierten-teams-systemisches-konsensieren) (German) - This method measures resistance and may be better than strict democracy in a team or company setting.
-  - [Acceptify.net](https://www.acceptify.at/de/start) - Implements systemic consensing as a web service.
+- [Acceptify.net](https://www.acceptify.at/de/start) - Implements systemic consensing as a web service.
 
 Many thanks to [Carsten Scholz](https://www.scholz-management.de/) for your contribution :-)
 
