@@ -23,6 +23,7 @@ layout: default
   - [Cyber Dojo start-points](https://github.com/cyber-dojo-start-points) - on GitHub.
 - [HackerRank](https://www.hackerrank.com/)
 - [CodinGame](https://www.codingame.com) - Challenges in the shape of game programming.
+- [Code Golf](https://code.golf/) - solve problems in the least number of characters
 - [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code) - Solutions to programming problems in many different languages.
 - [The International Obfuscated C Code Contest](http://www.ioccc.org/)
 
