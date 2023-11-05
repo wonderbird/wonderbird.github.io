@@ -58,6 +58,12 @@ nvm install node --reinstall-packages-from=$(nvm current)
 
 # remove the old version
 nvm uninstall OLD_VERSION
+
+# set the LTS version as default for all shells
+nvm alias default 'lts/*'
+
+# ... or set LATEST as default
+nvm alias default 'node'
 ```
 
 ### Links
