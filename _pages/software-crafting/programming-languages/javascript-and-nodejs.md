@@ -25,11 +25,15 @@ npm init
 
 Usage examples and basic instructions are given on the [Github: nvm](https://github.com/nvm-sh/nvm) page.
 
-#### Upgrade nvm
+#### Install or upgrade nvm
 
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ````
+
+This will detect whether you are running ZSH and adapt.
+
+The default installation directory is `$HOME/.nvm`. It can be overwritten by the environment variable `XDG_CONFIG_HOME`.
 
 #### Upgrade Your Node.js Version(s)
 
@@ -46,11 +50,11 @@ nvm current
 # install a newer version
 nvm install NEW_VERSION --reinstall-packages-from=OLD_VERSION
 
-# e.g. to upgrade your LATEST version
-nvm install node --reinstall-packages-from=$(nvm current)
-
 # e.g. to upgrade your LTS version
 nvm install 'lts/*' --reinstall-packages-from="$(nvm current)"
+
+# e.g. to upgrade your LATEST version
+nvm install node --reinstall-packages-from=$(nvm current)
 
 # remove the old version
 nvm uninstall OLD_VERSION
