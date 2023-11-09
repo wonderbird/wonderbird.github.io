@@ -23,7 +23,9 @@ These sites offer general sponsorship for individuals and ideas. There is no con
 
 - [Start Next](https://www.startnext.com/) - Crowd funding platform for creators, inventors and entrepreneurs (a Benefit Corporation).
 
-- [Patreon](https://www.patreon.com/) - Crowd fundtion platform for video creators, podcasters, musicians, writers, gamers, and more.
+- [Patreon](https://www.patreon.com/) - Crowd fundation platform for video creators, podcasters, musicians, writers, gamers, and more.
+
+- [Open Collective](https://opencollective.com/) - Enables groups to quickly set up a collective, raise funds and manage them transparently.
 
 ### Sponsorships For Business Ideas About a Product or Service
 
