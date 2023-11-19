@@ -56,6 +56,10 @@ layout: default
 - Johann Martinsson: [Lift pass pricing](https://github.com/martinsson/Refactoring-Kata-Lift-Pass-Pricing) - Hexagonal architecture refactoring kata.
 - Peter Kofler: [Bank OCR Refactoring](https://github.com/codecop/BankOCR-Refactoring-Kata) - Primitive Obsession -> Erzeuge Klassen
 
+#### Algorithms
+
+- Codewars: [Page replacement algorithms: clock](https://www.codewars.com/kata/62f23d84eb2533004be50c0d/) (6 kyu)
+
 #### Software Design
 
 - [Kata01: Supermarket Pricing](http://codekata.com/kata/kata01-supermarket-pricing/) - Software design kata (not necessarily code).
