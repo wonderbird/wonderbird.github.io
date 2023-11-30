@@ -48,16 +48,20 @@ At this point you have a map. If you have added walls, doors and windows in Dung
 
 - [Chummer 5a](https://github.com/chummer5a/chummer5a) - SR5 character generator, carreer management, rule book quick access tool.
 - [Omae v2](https://heyomae.github.io/) - SR5 character generator
+- [Hero Lab](https://herolab.online/) - SR6 (and other systems) character generator and character library
 
 ### Tools for Game Masters
 
 - [Fake Name Generator](https://www.fakenamegenerator.com/) - Allows to select name and home by country.
 
+#### Generate NPCs (i.e. Grunts, Pregens)
+
 - [Shadowrun Mob Master](https://toktic.github.io/sr_gmt/) - A generator for NPCs and mobs of NPCs (SR5e).
+- [Shadowrun Grunts](http://antagonistes.com/sr5/grunts.php)
+
+#### Miscellaneous
 
 - [Cyberpunk Generator Shadowrun Edition](https://rpgenerator.net/cyberpunk/runners)
-
-- [Shadowrun Grunts](http://antagonistes.com/sr5/grunts.php)
 
 - [RPTools Wiki](https://wiki.rptools.info/index.php/Main_Page) - Role Playing Tools.
   - [MapTool](https://github.com/RPTools/maptool/wiki)
@@ -89,6 +93,10 @@ At this point you have a map. If you have added walls, doors and windows in Dung
 - [SR5 Grundregelwerk Deutsch](https://www.pegasusdigital.de/product/123269/Shadowrun-5-Grundregelwerk)
 
 - [Maps and plans (German)](https://www.shadowrun6.de/index.php/fanstuff-2/plaene-und-karten.html)
+
+### Forum
+
+- [Invitation to the Chummer5e Discord channel](https://www.reddit.com/r/Shadowrun/comments/lkf7mv/npcs_database_on_chummer/?rdt=60939)
 
 ### My Favourite YouTube Role Play Parties
 
