@@ -66,6 +66,21 @@ nvm alias default 'lts/*'
 nvm alias default 'node'
 ```
 
+#### Upgrade global npm packages
+
+```shell
+# show global packages requiring update
+npm outdated -g --depth=0
+
+# Updating a single global package
+npm update -g <package_name>
+
+# Updating all globally-installed packages
+npm update -g
+```
+
+from E. Thomson und L. Karrys, „Updating packages downloaded from the registry | npm Docs“. Zugegriffen: 1. Dezember 2023. [Online]. Available at: [https://docs.npmjs.com/updating-packages-downloaded-from-the-registry](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
+
 ### Links
 
 - [Node.js Releases](https://nodejs.org/en/about/releases/) - shows the release cycle of Node.js.
