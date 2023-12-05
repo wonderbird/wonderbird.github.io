@@ -24,6 +24,7 @@ layout: default
 - [HackerRank](https://www.hackerrank.com/)
 - [CodinGame](https://www.codingame.com) - Challenges in the shape of game programming.
 - [Code Golf](https://code.golf/) - solve problems in the least number of characters
+- [Python Challenge](http://www.pythonchallenge.com/) - a game in which each level can be solved by a bit of ([Python](http://www.python.org/)) programming.
 - [Rosetta Code](https://rosettacode.org/wiki/Rosetta_Code) - Solutions to programming problems in many different languages.
 - [The International Obfuscated C Code Contest](http://www.ioccc.org/)
 
