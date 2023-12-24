@@ -13,6 +13,7 @@ The following plugins help(ed) me in my daily work.
 
 #### Language agnostic developer tools
 
+- [Commit Message Template](https://plugins.jetbrains.com/plugin/9364-commit-message-template) - Button to load commit message template
 * [IntelliJ AsciiDoc Plugin](https://intellij-asciidoc-plugin.ahus1.de/) - Support for the AsciiDoc markup language (and Antora).
 * [PlantUML Integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration) - Render plantuml code to graphics.
   * [GitHub: esteinberg / plantuml4idea](https://github.com/esteinberg/plantuml4idea#plantuml4idea) - Documentation and GitHub project.
@@ -24,6 +25,7 @@ The following plugins help(ed) me in my daily work.
 #### Coding Assistance
 
 * [GitHub Copilot](https://copilot.github.com/) - Suggestions for whole lines or entire functions right inside your editor.
+    * [JetBrains AI Assistance](https://plugins.jetbrains.com/plugin/22282-ai-assistant) - Suggestions for whole lines or entire functions right inside your editor.
 * [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) - Learn essential shortcuts while you are working.
 * [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant) - Shows shortcuts you use to your audience so that they can learn.
 
