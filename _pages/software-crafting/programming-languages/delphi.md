@@ -147,6 +147,8 @@ The following extensions are useful:
 - [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal) - Note the extension's instructions on installing dependencies.
 - [Pascal-Formatter](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal-formatter) - installs automatically together with [Pascal](https://marketplace.visualstudio.com/items?itemName=alefragnani.pascal).
 
+Check the [Pascal plugin GitHub page](https://github.com/alefragnani/vscode-language-pascal#code-navigation) on how to install the [GNU Global](https://www.gnu.org/software/global/global.html) source code tagging system dependencies. For Windows there is a [GNU Global mingw package](https://packages.msys2.org/package/global) as part of the [MSYS2](https://www.msys2.org/) / [MinGW](https://www.mingw-w64.org/) suite. On macOS, GNU Global it is distributed via Homebrew and MacPorts.
+
 Apart from that, refer to the language agnostic extensions in [Visual Studio Code Plugins](../plugins/vs-code-plugins.html)
 
 ## Techniques
