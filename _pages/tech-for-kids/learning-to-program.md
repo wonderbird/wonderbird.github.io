@@ -44,6 +44,13 @@ As of today this is just a list of ressources.
 
 #### Multiple Languages
 
-- [Code.org](https://code.org/) - Learn computer science - from 4 years to 18+ years.
+- [code.org](https://code.org/) - Nonprofit organisation giving access to computer science to young students from 4 to 18+ years (supported by Microsoft, Google, Amazon and many others)
+
 - [Little Hackers: Learning to Code for Early Readers](https://www.kickstarter.com/projects/littlehackers/little-hackers-learning-to-code-for-early-readers?lang=de) - Kickstarter project for kids aged 6 and above.
+
 - [WebTigerJython Turtle Grafik](https://webtigerjython.ethz.ch/?prog=https://www.tjgroup.ch/progs/tu/TuEx3.py) - Turtle graphics in python in the browser.
+
+- [What is MakeCode](https://learn.adafruit.com/makecode/) - introduction and documentation of MakeCode for Circuit Playground Express
+- [Microsoft MakeCode](https://www.microsoft.com/de-de/makecode?rtc=1) - Online learning platform for programmers, game devs, device programmers and minecraft mods
+
+- [adafruit & Microsoft MakeCode](https://makecode.adafruit.com/) - beginners projects and tutorials for Circuit Playground Express
