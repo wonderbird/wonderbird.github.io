@@ -9,12 +9,24 @@ As of today this is just a list of ressources.
 
 ### Things My Kids Liked
 
+#### ... at about 6 - 8 years
+
 - [Scratch](https://scratch.mit.edu) - Create and share stories, games and animations.
   - [FizzBuzz TDD on Scratch](https://scratch.mit.edu/projects/725700870/editor/) - for software developing parents: How to TDD a kata.
 - [Lego Mindstorms](/pages/tech-for-kids/lego.html) - How to program Lego Mindstorms in Scratch, Java and Python.
+
+#### ... at about 8 - 14 years
+
 - [Minecraft Mods](/pages/computers-and-technology/minecraft.html) - Links regarding Minecraft programming.
 - [Roblox Developer](https://developer.roblox.com/en-us/) - Roblox Developer Portal.
   - [Learn Roblox Studio](https://developer.roblox.com/en-us/onboarding) - Onboarding - Getting started as a Roblox game developer.
+- [Microsoft Unity and C#](https://unity.com/de/learn) - Game development
+
+#### ... at about 14+ years
+
+- [Godot Engine and Python](https://godotengine.org/) - Game development
+- [CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython) on an ESP32 micro controller - Hardware hacking, USB keyboard and mouse emulation, WLAN penetration testing (see also: [adafruit / learn](https://learn.adafruit.com/))
+- [C++ on an Arduino Uno micro controller](https://www.arduino.cc/education) - Assembling and programming hardware (see also: [adafruit / learn](https://learn.adafruit.com/))
 
 ### Workshops My Kids Took (In German)
 
@@ -23,6 +35,7 @@ As of today this is just a list of ressources.
 - [Lukas Schneider (MrLuchs): Deine eigenen Games erstellen](https://www.mrluchs.de/) - MrLuchs zeigt Spiele-Programmierung mit C# und Unity.
   - [MrLuchs Youtube Channel](https://www.youtube.com/c/MrLuchs) - MrLuchs spielt Eure Spiele und veröffentlich Tipps und Tricks.
   - [MrLuchs Spieleentwickler Challenge](https://www.youtube.com/watch?v=QQq6M6DfGTM) - Challenge für Kinder mit Preisgeld.
+- [Hardware Hacking Area at 37th Chaos Communication Congress](https://events.ccc.de/congress/2023/hub/en/assembly/HHA/) - Getting started with electronics, soldering electronic circuits, assembling and programming micro controllers, performing penetration testing with micro controller based devices
 
 ### Challenges for Kids
 
