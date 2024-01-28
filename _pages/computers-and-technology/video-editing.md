@@ -48,7 +48,8 @@ When exporting HD videos I use the vimeo preset.
 
 As an alternative, for slow screen recordings in 720p I use the following settings:
 
-* vimeo 720p Format
+* vimeo 720p Format (1080p also works)
+* Framerate: 25
 * Container: MP4
 * Max. Bitrate: 1000 kbps
 * Audio Bitrate: 160 kbps
