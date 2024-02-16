@@ -25,6 +25,12 @@ npm init
 
 Usage examples and basic instructions are given on the [Github: nvm](https://github.com/nvm-sh/nvm) page.
 
+#### Use a specific node version in the current shell
+
+```shell
+nvm use v18.19.1
+```
+
 #### Install or upgrade nvm
 
 ```sh
