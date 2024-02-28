@@ -27,7 +27,7 @@ The following plugins help(ed) me in my daily work.
 * [GitHub Copilot](https://copilot.github.com/) - Suggestions for whole lines or entire functions right inside your editor.
     * [JetBrains AI Assistance](https://plugins.jetbrains.com/plugin/22282-ai-assistant) - Suggestions for whole lines or entire functions right inside your editor.
 * [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) - Learn essential shortcuts while you are working.
-* [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant) - Shows shortcuts you use to your audience so that they can learn.
+* [Presentation Assistant](https://www.jetbrains.com/help/idea/presentation-assistant.html) - Shows shortcuts you use to your audience so that they can learn.
 
 #### Code Metrics
 
