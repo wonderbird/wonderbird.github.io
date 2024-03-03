@@ -55,6 +55,19 @@ gpg --keyserver pool.sks-keyservers.net --recv-keys
 
 See also: [Question on Superuser.com](https://unix.stackexchange.com/questions/334912/how-to-import-keys-from-a-keyserver-using-gpg-in-debian)
 
+#### Verify Keys
+
+```shell
+KEY_ID=<fingerprint>
+gpg --edit-key "$KEY_ID"
+fpr
+...
+trust
+...
+```
+
+See also: [The GNU Privacy Handbook: Validating other keys on your public keyring](https://www.gnupg.org/gph/en/manual/x334.html)
+
 #### Send Keys
 
 ```shell
@@ -73,12 +86,12 @@ gpg --export "$KEY_ID" | gpg --list-packets | grep revocation
 
 Source: [GPG Revocation Reasons](https://debian-administration.org/article/450/Generating_a_revocation_certificate_with_gpg)
 
-| ----- | -----------              |
 | Value | Description              |
-|   0   | No reason specified      |
-|   1   | Key has been compromised |
-|   2   | Key is superseded        |
-|   3   | Key is no longer used    |
+| ----- | ------------------------ |
+| 0     | No reason specified      |
+| 1     | Key has been compromised |
+| 2     | Key is superseded        |
+| 3     | Key is no longer used    |
 
 ##### Original Article
 
