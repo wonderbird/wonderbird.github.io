@@ -94,6 +94,8 @@ Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helpe
 
 * September: [JUG Saxony Day](https://jug-saxony-day.org/)
 
+- September / October: [Software Architecture Alliance - Architektur Ohne Tellerrand](https://www.software-architecture-alliance.de/)
+
 * October: [Agile Cologne](https://agilecologne.de/) - Un-Konferenz rund um die Fragen „Wie und wozu wollen wir zusammen arbeiten?“ und „Wie wollen wir dafür Verantwortung übernehmen?“.
 
 * October: [Strange Loop](https://www.thestrangeloop.com/)
