@@ -37,21 +37,27 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 
 ### Koffeinfreie und koffeinarme Sorten
 
-* [Kaffeesaurus DECAF Espresso / Filter](https://kaffeesaurus.com/produkt/decaf-espresso-filter) - Dunkle Schokolade, Bourbon ([Raimo's AeroPress Guide](https://brewguide.acaia.co/Y20AuGD7zO))
+Koffeinfreien Kaffee bereite ich mit der Aeropress nach [Raimos Anleitung](https://brewguide.acaia.co/Y20AuGD7zO) zu.
 
-- [24 Grad Kaffee](https://www.24grad.net/kaffeeshop/): [Nuances Pink Bourbon](https://www.24grad.net/kaffeeshop/kaffee/suedamerika/kolumbien-nuances-pink-bourbon/) ([Raimo's AeroPress Guide](https://brewguide.acaia.co/Y20AuGD7zO))
+* [Kaffeesaurus DECAF Espresso / Filter](https://kaffeesaurus.com/produkt/decaf-espresso-filter) - Dunkle Schokolade, Bourbon
+
+- [Ernst Kaffeerösterei: Colombia Galeras Decaf Espresso](https://www.ernst-kaffee.de/products/colombia-galeras-decaf-espresso) - Milchschokolade, Karamell, Orange
+
+- [24 Grad Kaffee](https://www.24grad.net/kaffeeshop/): [Nuances Pink Bourbon](https://www.24grad.net/kaffeeshop/kaffee/suedamerika/kolumbien-nuances-pink-bourbon/)
 
 ## Spezialitäten
 
 - [True Beans: Bio-Cascara Kaffeekirschen-Tee](https://truebeans.de/products/altstadt-rosterei-bio-cascara-kaffeekirschentee)
+
 - [Kaffeerösterei Mahou: Handgemachte Schokopralinés](https://www.mahou-coffeehouse.com/product-page/handgemachte-schokotr%C3%BCffel)
 
 ## Weitere Röstereien
 
 In den folgenden Röstereien haben wir vor Ort leckeren Kaffee genossen. Bisher haben wir aber noch nicht dort bestellt.
 
-- [Matico Kaffeerösterei](https://matico-kaffeeroesterei.de/)
-- [True Beans](https://truebeans.de/)
+- [Matico Kaffeerösterei (Neustadt in Holstein)](https://matico-kaffeeroesterei.de/)
+
+- [True Beans (Köln)](https://truebeans.de/)
 
 ## Tipps
 
