@@ -79,10 +79,10 @@ and
 
 ```sh
 $ ruby -v     
-ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]
+ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [arm64-darwin23]
 ```
 
-you might need to re-install the bundler
+You might need to re-install the bundler
 
 ```sh
 $ gem install bundler
@@ -94,7 +94,9 @@ Done installing documentation for bundler after 0 seconds
 1 gem installed
 ```
 
-delete the `Gemfile.lock`
+If you see a message announcing a new release of RubyGems, then run the given update command and repeat the `gem install bundler` step.
+
+Next, delete the `Gemfile.lock`
 
 ```sh
 $ rm Gemfile.lock
