@@ -1,8 +1,6 @@
 main:
   - title: Aktivitäten, Ausflugsziele, Outdoor
     url: /pages/aktivitaeten/
-  - title: Climate Change
-    url: /pages/climate-change.html
   - title: Collaboration
     url: /pages/collaboration.html
   - title: Computers and technology
