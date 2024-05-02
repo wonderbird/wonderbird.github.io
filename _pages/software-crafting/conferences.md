@@ -68,7 +68,9 @@ Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helpe
 
 * May: [Sofware Quality Days](https://www.software-quality-days.com/)
 
-* June: [gotopia;](https://gotopia.tech/events)
+* May/June: [gotopia;](https://gotopia.tech/events)
+
+* June: [Karlsruher Entwicklertag](https://entwicklertag.de/)
 
 * June: [Apple wwdc](https://developer.apple.com/wwdc20/)
 
