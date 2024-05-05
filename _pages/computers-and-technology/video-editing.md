@@ -53,6 +53,7 @@ As an alternative, for slow screen recordings in 720p I use the following settin
 * Container: MP4
 * Max. Bitrate: 1000 kbps
 * Audio Bitrate: 160 kbps
+* Multipass encoding (optional)
 
 ### 4. Compress the video using ffmpeg
 
