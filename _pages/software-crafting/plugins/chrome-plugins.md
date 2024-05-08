@@ -18,5 +18,6 @@ The following plugins help me in my daily work.
 
 * [1Password](https://1password.com/) - Password manager.
 * [Dark Reader](https://darkreader.org/) - Dark mode everywhere (incl. custom fonts).
+* [Grepper](https://chromewebstore.google.com/detail/grepper/amaaokahonnfjjemodnpmeenfpnnbkco) - Shows code answers first for Google searches; [docs and screenshots](https://www.grepper.com/documentation.php)
 * [Nimbus Screenshot & Screen Video Recorder](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en-US) - Screen capture for full web page or any part.
 * [Zotero](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc) - Save references to Zotero from your web browser.
