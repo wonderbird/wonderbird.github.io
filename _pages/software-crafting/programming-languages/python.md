@@ -88,6 +88,14 @@ Caveats:
 
 ... are described in the [Command Reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md).
 
+```shell
+# list currently installed versions
+pyenv versions
+
+# list common 2.x versions available (excludes other vendors)
+pyenv install -l | grep '^\s*2\.' | sort -g
+```
+
 ### Style Guides
 
 - [PEP 8 - Style Guide for Python Code](https://peps.python.org/pep-0008/)
