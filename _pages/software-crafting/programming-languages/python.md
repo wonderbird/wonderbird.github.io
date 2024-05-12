@@ -94,6 +94,9 @@ pyenv versions
 
 # list common 2.x versions available (excludes other vendors)
 pyenv install -l | grep '^\s*2\.' | sort -g
+
+# activate a python version globally
+pyenv global 3.10.3
 ```
 
 ### Style Guides
