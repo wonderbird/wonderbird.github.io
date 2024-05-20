@@ -8,7 +8,7 @@ Die folgende Liste ist nach unserer aktuellen Präferenz absteigend sortiert, d.
 
 Für jede Espresso Sorte habe ich das vom Händler angegebene Geschmacksprofil übernommen. Die Mischungen enthalten keine Zusatzstoffe sondern erhalten ihr Aroma aus den Bohnen und der Röstung.
 
-Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso gleichmäßig lecker wird. Ich gebe diese Einstellungen in Klammern hinter der Sorte an: (Durchlaufzeit in Sekunden; Menge Espresso; Art der Zubereitung). Dabei unterscheide ich die Zubereitung in der "AeroPress" von der Zubereitung mit der Siebträger Maschine ("Espresso").
+Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso gleichmäßig lecker wird. Ich gebe diese Einstellungen in Klammern hinter der Sorte an: (Durchlaufzeit in Sekunden; Menge Espresso; Art der Zubereitung; Gewicht des Mahlguts). Dabei unterscheide ich die Zubereitung in der "AeroPress" von der Zubereitung mit meiner Siebträger Maschine bei 9 bar ("Siebträger").
 
 ### Koffeinhaltige Sorten
 
@@ -18,7 +18,7 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 
 - [Ernst Kaffeerösterei (Köln)](https://www.ernst-kaffee.de/)
   - [House Blend](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=86) - Schokolade, Mandel, Beeren
-  - [Ethiopia Shantawene Espresso](https://www.ernst-kaffee.de/products/ethiopia-shantawene-espresso) - Wilde Beere, Pfirsich, Bergamotte (35 - 40 s, 11.5 g, Espresso)
+  - [Ethiopia Shantawene Espresso](https://www.ernst-kaffee.de/products/ethiopia-shantawene-espresso) - Wilde Beere, Pfirsich, Bergamotte (35 - 40 s, 35-45 ml, Siebträger, 11.5 g)
   - [Mombuca Espresso](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=189) - Praline, Nougat, Schokolade
   - [Adado Espresso](https://www.ernst-kaffee.de/produktdetail/?wpsg_action=showProdukt&produkt_id=210) - Beeren, Schokolade, Wein
 
@@ -26,7 +26,7 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 
 - [Langeooger Kaffeerösterei](https://www.langeooger.shop/)
   - [Strandmischung](https://www.langeooger.shop/p/langeooger-strandmischung) - Feine Schokoladennote und ein kräftiger Körper
-  - [Wattmischung](https://www.langeooger.shop/p/langeooger-wattmischung) - Feine Schokoladennote und ein kräftiger Körper (25s; 30 - 40 ml; Siebträger @9 bar)
+  - [Wattmischung](https://www.langeooger.shop/p/langeooger-wattmischung) - Feine Schokoladennote und ein kräftiger Körper (25s; 30 - 40 ml; Siebträger, 11.5 g)
 
 - [Kaffeesaurus: Saurus Blend](https://kaffeesaurus.com/produkt/saurus-blend) - Stark und cremig, dunkle Schokolade, Bourbon
 
@@ -38,11 +38,11 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 
 ### Koffeinfreie und koffeinarme Sorten
 
-Koffeinfreien Kaffee bereite ich mit der Aeropress nach [Raimos Anleitung](https://brewguide.acaia.co/Y20AuGD7zO) zu.
+Koffeinfreien Kaffee bereite ich mit der Aeropress nach der klassischen Methode zu ([Raimos Anleitung](https://brewguide.acaia.co/Y20AuGD7zO)). In Klammern gebe ich die Summe aus Blooming Phase (30 s) und anschließender Extraktionszeit an.
 
 - [Kaffeesaurus DECAF Espresso / Filter](https://kaffeesaurus.com/produkt/decaf-espresso-filter) - Dunkle Schokolade, Bourbon
 
-- [Ernst Kaffeerösterei: Colombia Galeras Decaf Espresso](https://www.ernst-kaffee.de/products/colombia-galeras-decaf-espresso) - Milchschokolade, Karamell, Orange (16 g, 90 s, Aeropress)
+- [Ernst Kaffeerösterei: Colombia Galeras Decaf Espresso](https://www.ernst-kaffee.de/products/colombia-galeras-decaf-espresso) - Milchschokolade, Karamell, Orange (90 s, 235 ml, Aeropress, 16 g)
 
 - [24 Grad Kaffee](https://www.24grad.net/kaffeeshop/): [Nuances Pink Bourbon](https://www.24grad.net/kaffeeshop/kaffee/suedamerika/kolumbien-nuances-pink-bourbon/)
 
