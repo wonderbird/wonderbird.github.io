@@ -80,6 +80,12 @@ ffmpeg -i sample.avi -q:a 0 -map a sample.mp3
 
 # Constant bitrate
 ffmpeg -i sample.avi -b:a 128k -map a sample.mp3
+
+# Set ID3 Tag
+# -g is the genre - id3v2 --list-genres
+# -g 101 is "Speech"
+# -t is the track number in format "1/10", track count is optional
+id3v2 -a "Artist" -A "Album" -t "Track" -g 101 -y YEAR -T 1/1 sample.mp3
 ```
 
 ## Links
