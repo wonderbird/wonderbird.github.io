@@ -32,6 +32,7 @@ The following utilities let you coordinate meetings with multiple participants:
 - [Bitpoll](https://bitpoll.de/) - totally free, GDPR compliant, Open Source, hosted by University of Hamburg.
 - [Vytein](https://www.vyte.in/) - allows to connect calendars, integrates a chat feature.
 - [Doodle](https://doodle.com/)
+- [Microsoft Outlook Date Polls (YouTube Video)](https://www.youtube.com/watch?v=bMmOjJrlqPA)
 
 ## Check-In Games
 
