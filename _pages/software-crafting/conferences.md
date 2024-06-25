@@ -24,6 +24,8 @@ Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helpe
 
 * January / All Year: [RSA Conference on Cybersecurity](https://www.rsaconference.com/)
 
+* Regularly: [InfoDays - Konferenzen zur professionellen Softwareentwicklung](https://www.infodays.de/) by SIGS DATACOM
+
 ### Conference Dates
 
 * January: [NDC London](https://ndcconferences.com/) - NDC Conferences delivers high-end events for software developers.
