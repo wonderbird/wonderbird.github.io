@@ -19,7 +19,7 @@ layout: default
 
 ### 1. Record the video and store it in a "raw" folder
 
-- For my process, the resolution should be larger than 1280 x 720 (HD 720p)
+For my process, the resolution should be equal to or larger than 1920x1080 (HD 1080p)
 
 ### 2. Edit the video in DaVinci Resolve
 
@@ -28,7 +28,7 @@ layout: default
 Because I have quite low resolution demands and I want to support PAL, my configuration is as follows:
 
 * Master Settings
-  * Timeline Resolution: 1280 x 720 HD 720p
+  * Timeline Resolution: 1920x1080 (HD 1080p)
   * Timeline Framerate: 25 fps
   * Playback Framerate: 25 fps
 
@@ -46,12 +46,12 @@ After having inserted a video into the timeline apply the following transformati
 
 When exporting HD videos I use the vimeo preset.
 
-As an alternative, for slow screen recordings in 720p I use the following settings:
+As an alternative, for slow screen recordings in 1080p I use the following settings:
 
-* vimeo 720p Format (1080p also works)
+* vimeo 1080p Format
 * Framerate: 25
-* Container: MP4
-* Max. Bitrate: 1000 kbps
+* Format: MP4
+* Max. Bitrate: 3000 kbps (for 720p videos I use 1000 kbps)
 * Audio Bitrate: 160 kbps
 * Multipass encoding (optional)
 
@@ -61,7 +61,10 @@ FFMPEG can shrink videos significantly. The following command reduces the video 
 
 ```
 # Optimum quality : size ratio for screen recordings
-# (for iTunes und iPhone: 720p 10:9 format, high compression)
+# for iTunes und iPhone: 1080p 16:9 format, high compression
+VIDEO="somefile.mp4"; TARGETDIR="small"; mkdir -p "$TARGETDIR" && ffmpeg -i "$VIDEO" -crf 24 -vf scale=1920:1080 "$TARGETDIR/$VIDEO"
+
+# for iTunes und iPhone: 720p 16:9 format, high compression
 VIDEO="somefile.mp4"; TARGETDIR="small"; mkdir -p "$TARGETDIR" && ffmpeg -i "$VIDEO" -crf 24 -vf scale=1280:720 "$TARGETDIR/$VIDEO"
 
 # Strong compression - convert to 320x288 10:9 format for mobile
