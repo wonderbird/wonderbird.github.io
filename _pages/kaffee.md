@@ -12,6 +12,9 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 
 ### Koffeinhaltige Sorten
 
+- [Matico Kaffeerösterei (Neustadt in Holstein)](https://matico-kaffeeroesterei.de/)
+  - [Espresso Guatemala "Golden Flakes of Jumay"](https://matico-kaffeeroesterei.de/collections/espresso/products/espresso-guatemala-golden-flakes-of-jumay) -  Projektkaffee von vulkanischem Boden sortenrein, 100% Arabica. Schokolade, Kakao, Zimt, Süße Traube
+
 - [Vee's Kaffee und Bohnen GmbH (Taufkirchen)](https://shop.vees-kaffee.com/de/index.html)
   - [Vee's Espresso Italienische Röstung d'Oro](https://vees-coffee.com/de/espresso-und-cappuccino/8-464-vee-s-espresso-italienische-roestung-d-oro-4260338291082.html) - Espresso mit edler, nahezu vollkommener Fülle und einem intensiven Geschmack nach Zartbitterschokolade. Full body.
   - [Vee's Espresso Italienische Röstung d'Oro Extra](https://vees-coffee.com/de/espresso-und-cappuccino/9-vee-s-espresso-italienische-roestung-d-oro-extra-4260338291099.html) - Espresso, mit edler nahezu vollkommener Fülle und einem intensiven Geschmack nach Waldboden (Wilde Pilze, Herbstblätter, Moos) und Zartbitterschokolade. Full body.
@@ -55,8 +58,6 @@ Koffeinfreien Kaffee bereite ich mit der Aeropress nach der klassischen Methode 
 ## Weitere Röstereien
 
 In den folgenden Röstereien haben wir vor Ort leckeren Kaffee genossen. Bisher haben wir aber noch nicht dort bestellt.
-
-- [Matico Kaffeerösterei (Neustadt in Holstein)](https://matico-kaffeeroesterei.de/)
 
 - [True Beans (Köln)](https://truebeans.de/)
 
