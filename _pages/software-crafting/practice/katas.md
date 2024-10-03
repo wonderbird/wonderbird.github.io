@@ -38,6 +38,7 @@ layout: default
 - Coding Dojo: [Kata Catalogue](https://codingdojo.org/KataCatalogue/)
 - CCD School: [Coding Dojo](https://ccd-school.de/coding-dojo/) - various katas of different categories.
 - [CodeKata.com](http://codekata.com/)
+- Gabe Montalvo: [Awesome Katas](https://github.com/gamontal/awesome-katas)
 - [Advent of Code](https://adventofcode.com/) - Advent calendar of small programming puzzles.
   - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
 - [Project Euler](https://projecteuler.net/) - a series of challenging mathematical/computer programming problems.
