@@ -48,12 +48,17 @@ When exporting HD videos I use the vimeo preset.
 
 As an alternative, for slow screen recordings in 1080p I use the following settings:
 
-* vimeo 1080p Format
-* Framerate: 25
+* First select **vimeo 1080p** Format, then switch to **Custom Export** based on the vimeo settings
 * Format: MP4
+* Enable **Network Optimization**
+* Framerate: 25
 * Max. Bitrate: 3000 kbps (for 720p videos I use 1000 kbps)
+* Enable Multipass-encode (optional; extends video rendering time)
+
+In the Audio tab configure
+
+- Codec: AAC
 * Audio Bitrate: 160 kbps
-* Multipass encoding (optional)
 
 ### 4. Compress the video using ffmpeg
 
@@ -61,7 +66,8 @@ FFMPEG can shrink videos significantly. The following command reduces the video 
 
 ```
 # Optimum quality : size ratio for screen recordings
-# for iTunes und iPhone: 1080p 16:9 format, high compression
+# for iTunes und iPhone: 1080p 16:9 format (HD 1920x1080),
+# high compression
 VIDEO="somefile.mp4"; TARGETDIR="small"; mkdir -p "$TARGETDIR" && ffmpeg -i "$VIDEO" -crf 24 -vf scale=1920:1080 "$TARGETDIR/$VIDEO"
 
 # for iTunes und iPhone: 720p 16:9 format, high compression
