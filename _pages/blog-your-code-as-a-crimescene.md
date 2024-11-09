@@ -6,8 +6,11 @@ layout: default
 
 <h2>Your Code as a Crime Scene</h2>
 
+<!-- show all posts written in 2022 -->
+{% assign posts = site.posts | where: "date", "2022" %}
+
 <ul>
-  {% for post in site.posts %}
+  {% for post in posts %}
     <li>
       {{ post.date | date_to_string}}: <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
