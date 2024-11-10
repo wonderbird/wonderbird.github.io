@@ -2,6 +2,7 @@
 layout: post
 title:  "Relevante Gedanken entdecken"
 ---
+English version: [Discover relevant thoughts](/2024/11/10/discover-relevant-thoughts.html)
 
 ### Technische Lösung: Änderungshäufigkeit in Git ermitteln
 
