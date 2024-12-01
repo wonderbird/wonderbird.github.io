@@ -52,6 +52,7 @@ To install Python 3 on macOS the following steps are recommended:
 1. Install [pyenv](https://github.com/pyenv/pyenv#installation)
    - Follow the instructions in [Homebrew in macOS](https://github.com/pyenv/pyenv#homebrew-in-macos)
    - Pay special attention to the [verification step](https://github.com/pyenv/pyenv/wiki#how-to-verify-that-i-have-set-up-pyenv-correctly) of [Build Environment einrichten](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
+   - Install the Python build dependencies linked in section D of  [Homebrew in macOS](https://github.com/pyenv/pyenv#homebrew-in-macos)
 
 1. The installation instructions end with installing a python version. Choose the [version number of the latest stable Python build](https://www.python.org/downloads/) here (at the time of writing this was version `3.12`): `pyenv install 3.12`.
 
@@ -89,6 +90,9 @@ Caveats:
 ... are described in the [Command Reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md).
 
 ```shell
+# Install the latest version 3.* (keep the existing installations)
+pyenv install 3
+
 # list currently installed versions
 pyenv versions
 
@@ -97,6 +101,12 @@ pyenv install -l | grep '^\s*2\.' | sort -g
 
 # activate a python version globally
 pyenv global 3.10.3
+
+# activate a python version just for this shell
+pyenv shell 3.10.3
+
+# activate a python version always for current folder
+pyenv local 3.10.3
 ```
 
 ### Style Guides
