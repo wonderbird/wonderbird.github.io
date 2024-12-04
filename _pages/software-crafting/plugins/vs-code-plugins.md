@@ -44,6 +44,7 @@ The following plugins help(ed) me in my daily work.
 
 #### Other languages
 
+- [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) - Solution explorer, code editing support, test discovery.
 * [EV3 MicroPython](https://marketplace.visualstudio.com/items?itemName=lego-education.ev3-micropython) - Programming LEGO® MINDSTORMS® EV3 using MicroPython.
 
 ### Plugins I might try out some time later
