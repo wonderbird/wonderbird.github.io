@@ -58,6 +58,7 @@ At this point you have a map. If you have added walls, doors and windows in Dung
 
 - [Shadowrun Mob Master](https://toktic.github.io/sr_gmt/) - A generator for NPCs and mobs of NPCs (SR5e).
 - [Shadowrun Grunts](http://antagonistes.com/sr5/grunts.php)
+- [Reply #5: Shadowrun 6 Archetypes](https://forums.shadowruntabletop.com/index.php?topic=30450.0) - SR6 variants of some archetypes
 
 #### Miscellaneous
 
