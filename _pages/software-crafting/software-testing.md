@@ -111,6 +111,8 @@ Engineering, vol. 43, no. 7, pp. 597-614, 1 July 2017, DOI:https://doi.org/10.11
 
 #### Property Based Testing
 
+- Romeu Moura: [Property-Based Testing for everyone](https://www.youtube.com/watch?v=5pwv3cuo3Qk)
+
 - Koen Claessen: [QuickCheck: Automatic testing of Haskell programs](https://hackage.haskell.org/package/QuickCheck) - Property based testing for Haskell ([associated GitHub project](https://github.com/nick8325/quickcheck))
 
 - David R. MacIver: [HypothesisWorks / hypothesis](https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python) - Property based testing for python.
