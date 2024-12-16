@@ -19,6 +19,7 @@ layout: default
 ### Organizations and Official Challenges
 
 - [codewars](https://www.codewars.com) - Train your skills by solving katas.
+- [CodeCrafters.io](https://codecrafters.io/) and [CodeCrafters.io/Catalog](https://app.codecrafters.io/catalog) - Challenges for experts.
 - [Cyber Dojo](https://cyber-dojo.org/creator/home) - a platform to host and facilitate coding dojos for solo, group and classroom adventures.
   - [Cyber Dojo start-points](https://github.com/cyber-dojo-start-points) - on GitHub.
 - [HackerRank](https://www.hackerrank.com/)
