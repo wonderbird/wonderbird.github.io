@@ -64,7 +64,7 @@ In the Audio tab configure
 
 FFMPEG can shrink videos significantly. The following command reduces the video to a size suited for mobile phone:
 
-```
+```shell
 # Optimum quality : size ratio for screen recordings
 # for iTunes und iPhone: 1080p 16:9 format (HD 1920x1080),
 # high compression
@@ -79,6 +79,8 @@ ffmpeg -i input.mov -vcodec libx264 -crf 24 -vf scale=320:288  output.avi
 # Compress and convert to 480x270 16:9 format
 ffmpeg -i input.mov -vcodec libx264 -crf 24 -vf scale=480:270  output.avi
 ```
+
+Note: To keep the aspect ratio and scale only horizontally, use `-vf "scale=1920:trunc(ow/a/2)*2"`.
 
 ### 5. Extract Audio Track as MP3
 
