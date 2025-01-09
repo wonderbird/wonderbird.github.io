@@ -32,6 +32,7 @@ layout: default
 ### Kata Catalogues
 
 - (Pragmatic) Dave Thomas: [CodeKata](http://codekata.com/) - Introduction to "Kata" and a list of Katas.
+- Anghel Leonhard: [Java Coding Problems](https://www.packtpub.com/en-us/product/java-coding-problems-9781837637614) - a book containing many katas by topic
 - Pietro Di Bello: [A curated list of programming kata](https://hackmd.io/@pierodibello/A-curated-list-of-programming-kata) - Curated list, categorized and with difficulty rating.
 - [Katalyst](https://katalyst.codurance.com/browse) - many small programming problems known as Katas.
 - Emily Bache: [github://emilybache](https://github.com/emilybache) - many katas, front page lists refactoring katas.
