@@ -46,6 +46,7 @@ In der Emulation läuft der Build Prozess langsamer als auf einem Gerät mit ent
 * `docker ps -a` zeigt alle laufenden und beendeten Docker Prozesse an
 * `docker run -it container /bin/bash` startet den Container im interaktiven Modus, verbindet ein Terminal und läd eine ~BaSH
 * `docker run -it -p 8080:80 --rm --name mycontainer container` startet den Container im interaktiven Modus (-i), verbindet ein Terminal (-t) und führt das im Dockerfile angegebene Programm aus. Port 80 wird an localhost:8080 weitergeleitet. Sobald das ausgeführte Programm beendet wird, wird der laufende Container aufgeräumt. Der Container kann durch den Namen mycontainer identifiziert werden.
+* `docker start mycontainer` started einen `exited` Container im Hintergrund. Anschließend kann man den Container mit `docker exec` "betreten".
 * `docker build -t friendlyhello .` baut das Dockerfile im Verzeichnis "." und gibt dem Image das Tag (-t) "friendlyhello"
 * `docker exec -it foo /bin/bash` verbindet eine Bash mit dem Container foo
 * `docker cp` kopiert eine Datei vom Docker Container auf den Host
