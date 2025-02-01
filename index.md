@@ -9,9 +9,12 @@
   <dd>
     In 2022 I analyzed the software system <a href="https://github.com/HospitalRun/hospitalrun">HospitalRun</a> using practices from <a href="https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/">Adam Tornhill: Your Code as a Crime Scene</a>. This blog post series describes the major steps in a hopefully reproducible way.
   </dd>
-    <dt>
-        <a href="2024/11/09/relevante-gedanken-entdecken.html">Relevante Gedanken entdecken</a>
-    </dt>
+  <dt>
+    <a href="2024/11/09/relevante-gedanken-entdecken.html">Relevante Gedanken entdecken</a>
+  </dt>
+  <dt>
+    <a href="2025/02/01/eink-notizbuecher.html">eInk Notizbücher</a>
+  </dt>
 </dl>
 
 <h2>Link Collection</h2>
