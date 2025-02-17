@@ -75,6 +75,9 @@ nvm alias default 'node'
 #### Upgrade global npm packages
 
 ```shell
+# show all installed global npm packages
+npm -g list
+
 # show global packages requiring update
 npm outdated -g --depth=0
 
