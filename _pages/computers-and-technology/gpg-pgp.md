@@ -55,6 +55,12 @@ gpg --keyserver pool.sks-keyservers.net --recv-keys
 
 See also: [Question on Superuser.com](https://unix.stackexchange.com/questions/334912/how-to-import-keys-from-a-keyserver-using-gpg-in-debian)
 
+#### List Key ID and Details
+
+```shell
+gpg --list-keys pgpCA@ct.heise.de
+```
+
 #### Verify Keys
 
 ```shell
