@@ -122,7 +122,7 @@ Hint: For offline viewing use the Chrome or Firefox plugin [Video Download Helpe
 
 * November: [Kanban Community Days - KCD](https://kcd21.eu/)
 
-* November: [DDC Dotnet Developer Conference](https://www.dotnet-developer-conference.de/)
+* November: [DDC Dotnet Developer Conference](https://www.dotnet-developer-conference.de/), Köln
 
 * November: [W-JAX](https://jax.de/) - Meeting spot for Java and software architecture enthusiasts.
 
