@@ -12,6 +12,9 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 
 ### Koffeinhaltige Sorten
 
+- [Kaffeerösterei Deathpresso (Hamburg)](https://shop.deathpresso.de/)
+  - [St. Pauli Deathpresso](https://shop.deathpresso.de/deathpresso) -  würziger und kräftiger Washed Robusta (40%) mit verschiedenen Arabica-Sorten (60%)
+
 - [Matico Kaffeerösterei (Neustadt in Holstein)](https://matico-kaffeeroesterei.de/)
   - [Espresso Guatemala "Golden Flakes of Jumay"](https://matico-kaffeeroesterei.de/collections/espresso/products/espresso-guatemala-golden-flakes-of-jumay) -  Projektkaffee von vulkanischem Boden sortenrein, 100% Arabica. Schokolade, Kakao, Zimt, Süße Traube
 
@@ -42,6 +45,8 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 ### Koffeinfreie und koffeinarme Sorten
 
 Koffeinfreien Kaffee bereite ich mit der Aeropress nach der klassischen Methode zu ([Raimos Anleitung](https://brewguide.acaia.co/Y20AuGD7zO)). In Klammern gebe ich die Summe aus Blooming Phase (30 s) und anschließender Extraktionszeit an.
+
+- [Espresso Perfetto / Espresso International: Lucaffé Decaffeinato](https://www.espresso-international.de/lucaffe-entkoffeiniert-espresso-arabica-bohnen) - feines, leicht schokoladiges Aroma und einer lang anhaltende und füllige Crema
 
 - [Kaffeesaurus DECAF Espresso / Filter](https://kaffeesaurus.com/produkt/decaf-espresso-filter) - Dunkle Schokolade, Bourbon
 
