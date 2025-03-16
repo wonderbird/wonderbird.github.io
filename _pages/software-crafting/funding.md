@@ -13,7 +13,6 @@ These sites offer general sponsorship for individuals and ideas. There is no con
 
 - [Buy Me a Coffee](https://www.buymeacoffee.com/)
 - [Ko-fi](https://ko-fi.com/)
-- [Flattr](https://flattr.com/)
 - [Paypal Fundraiser](https://www.paypal.com/us/digital-wallet/send-receive-money/giving)
 - [Gumroad](https://gumroad.com/)
 
