@@ -53,6 +53,9 @@ nvm ls-remote
 # show the version you are currently using
 nvm current
 
+# install latest LTS version
+nvm install 'lts/*'
+
 # install a newer version
 nvm install NEW_VERSION --reinstall-packages-from=OLD_VERSION
 
