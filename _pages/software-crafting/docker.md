@@ -41,24 +41,52 @@ In der Emulation läuft der Build Prozess langsamer als auf einem Gerät mit ent
 
 ## Häufig genutzte Befehle
 
-* `docker images` zeigt alle geladenen Images an
-* `docker stats` Monitoring der laufenden Docker Prozesse incl. CPU und Speicherbedarf
-* `docker ps -a` zeigt alle laufenden und beendeten Docker Prozesse an
+### Container ausführen
+
+#### Container interaktiv starten und mit dem lokalen Terminal verbinden
+
 * `docker run -it container /bin/bash` startet den Container im interaktiven Modus, verbindet ein Terminal und läd eine ~BaSH
 * `docker run -it -p 8080:80 --rm --name mycontainer container` startet den Container im interaktiven Modus (-i), verbindet ein Terminal (-t) und führt das im Dockerfile angegebene Programm aus. Port 80 wird an localhost:8080 weitergeleitet. Sobald das ausgeführte Programm beendet wird, wird der laufende Container aufgeräumt. Der Container kann durch den Namen mycontainer identifiziert werden.
+
+#### Container im Hintergrund starten
+
+- `docker run -d fedora /bin/bash -c "tail -f /dev/null"` startet den Container im Hintergrund und ersetzt den Hauptprozess durch einen unendlich lange laufenden `tail` Prozess. Dadurch beendet sich der Container nicht sofort selbst, nachdem er vollständig gestartet wurde. Er bleibt stattdessen idle und kann mit `docker exec` betreten werden (s.u.) [[kravel19862021]]
+
 * `docker start mycontainer` started einen `exited` Container im Hintergrund. Anschließend kann man den Container mit `docker exec` "betreten".
-* `docker build -t friendlyhello .` baut das Dockerfile im Verzeichnis "." und gibt dem Image das Tag (-t) "friendlyhello"
+
+#### Im Hintergrund laufende Container mit dem Terminal verbinden
+
 * `docker exec -it foo /bin/bash` verbindet eine Bash mit dem Container foo
-* `docker cp` kopiert eine Datei vom Docker Container auf den Host
-* `docker logs --follow codescene` hängt sich an die logs des containers "codescene" an
-* `docker logs -t myprometheus` zeigt die letzten logs des containers "myprometheus" (auch dann, wenn der container beendet wurde).
+
+#### Weitere Parameter zum Start von Docker Containern
+
 * `docker run ... -v /some/path/file.txt:/target/in/container/file.txt ...` macht file.txt im container verfügbar
 * `docker run ... --env MYVARIABLE=value` run a container with environment variable configured
 * `docker run ... --network="mynetwork"` startet den Container im angegebenen Docker Netzwerk
 * `docker run ... --memory="4096m"` weißt dem Container beim Start 4GB RAM zu
+
+### Status und Informationen über den Docker Host abfragen
+
+* `docker ps -a` zeigt alle laufenden und beendeten Docker Prozesse an
+* `docker images` zeigt alle geladenen Images an
+* `docker stats` Monitoring der laufenden Docker Prozesse incl. CPU und Speicherbedarf
 * `docker network list` zeigt alle Docker Netzwerke an
+
+### Logs lesen
+
+* `docker logs --follow codescene` hängt sich an die logs des containers "codescene" an
+* `docker logs -t myprometheus` zeigt die letzten logs des containers "myprometheus" (auch dann, wenn der container beendet wurde).
+
+### Container erstellen und untersuchen
+
+* `docker build -t friendlyhello .` baut das Dockerfile im Verzeichnis "." und gibt dem Image das Tag (-t) "friendlyhello"
+
 * `docker inspect imagename` zeigt detaillierte Infos über das Image an
     * `docker inspect ubuntu | jq '.[0].Author,.[0].Config.Labels'`
+
+### Sonstiges
+
+* `docker cp chapter3_db1_1745740310:/etc/ssh/ssh_host_ecdsa_key .` kopiert den privaten ECDSA Host Key vom laufenden Docker Container in das aktuelle Verzeichnis auf dem Host
 
 ## Interessante Docker Container
 
