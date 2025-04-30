@@ -20,7 +20,7 @@ The following plugins help(ed) me in my daily work.
 
 #### Language agnostic developer tools
 
-* [Docker](https://github.com/microsoft/vscode-docker) - Build, manage, deploy containerized appls; one-click debugging of Node.js, Python, and .NET Core inside a container.
+* [Container Tools](https://marketplace.visualstudio.com/items/?itemName=ms-azuretools.vscode-containers) - Build, manage, deploy containerized appls; one-click debugging of Node.js, Python, and .NET Core inside a container (seems to be a newer version of the [Docker](https://github.com/microsoft/vscode-docker) extension)
 * [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - Static code analysis
 * [GitGraph](https://github.com/mhutchie/vscode-git-graph) - View a Git Graph of your repository, and perform Git actions from the graph.
 * [GitLens](https://github.com/eamodio/vscode-gitlens) - Visualize code authorship, explore Git repositories, comparison commands and more.
