@@ -84,6 +84,9 @@ npm -g list
 # show global packages requiring update
 npm outdated -g --depth=0
 
+# update npm itself
+npm update -g npm
+
 # Updating a single global package
 npm update -g <package_name>
 
