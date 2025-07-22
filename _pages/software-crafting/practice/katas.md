@@ -35,6 +35,7 @@ layout: default
 - Anghel Leonhard: [Java Coding Problems](https://www.packtpub.com/en-us/product/java-coding-problems-9781837637614) - a book containing many katas by topic
 - Pietro Di Bello: [A curated list of programming kata](https://hackmd.io/@pierodibello/A-curated-list-of-programming-kata) - Curated list, categorized and with difficulty rating.
 - L. Falco, [Learn With Llew,](https://github.com/LearnWithLlew) - Curated list with categories
+- pinage404: [Exercises / Katas](https://pinage404.gitlab.io/nix-sandboxes/exercices_katas.html) - A list of kata catalogs
 - [Katalyst](https://katalyst.codurance.com/browse) - many small programming problems known as Katas.
 - Emily Bache: [github://emilybache](https://github.com/emilybache) - many katas, front page lists refactoring katas.
 - Steve Smith (aka ardalis): [Coding Kata Catalog](https://github.com/ardalis/kata-catalog)
