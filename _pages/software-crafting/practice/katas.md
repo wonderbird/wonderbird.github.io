@@ -45,6 +45,8 @@ layout: default
 - Gabe Montalvo: [Awesome Katas](https://github.com/gamontal/awesome-katas)
 - [Advent of Code](https://adventofcode.com/) - Advent calendar of small programming puzzles.
   - The New Stack: [‘Advent of Code’ Builds a Programming Community Around Puzzles](https://thenewstack.io/advent-of-code-builds-a-programming-community-around-puzzles/)
+  - [Difficulty Chart Day by Day 2018 - 2023](https://imgur.com/gGf1YHq) - [associated reddit post](https://www.reddit.com/r/adventofcode/comments/18epnnv/difficulty_chart_by_day_20182023/)
+  - [2024 Day 25: Code Chronicle & Puzzle Difficulty Ranking](https://forum.ada-lang.io/t/2024-day-25-code-chronicle-puzzle-difficulty-ranking/1690)
 - [Project Euler](https://projecteuler.net/) - a series of challenging mathematical/computer programming problems.
 - [Peter Kofler (Code Cop)](https://github.com/codecop) - Code Cop's repositories have some katas.
   - [GitHub: Unit Testing Koans](https://github.com/codecop/Unit-Testing-Koans) - [Testing Koans](https://blog.code-cop.org/2015/12/testing-koans.html) to learn new programming languages.
