@@ -18,11 +18,16 @@ layout: default
 
 - [Signing a File](#signing-a-file)
 - [Encrypting a Message](#encrypting-a-message)
+- [Using GPG with MailMate](#using-gpg-with-mailmate)
 - [Administrating GPG Keys](#administrating-gpg-keys)
   - [Receive Keys](#receive-keys)
+  - [List Key ID and Details](#list-key-id-and-details)
+  - [Verify Keys](#verify-keys)
   - [Send Keys](#send-keys)
   - [Revoke Keys](#revoke-keys)
+  - [Export Keys to ASCII Armored File](#export-keys-to-ascii-armored-file)
   - [Extend an Expired Key](#extend-an-expired-key)
+  - [Delete a key](#delete-a-key)
 - [Links and References](#links-and-references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -41,11 +46,21 @@ gpg --encrypt --recipient you@example.com --recipient me@example.com --armor fil
 gpg --decrypt filename.txt.asc > filename.txt
 ```
 
+### Using GPG with MailMate
+
+Install the GPG Suite (Support for Apple Mail is not required):
+
+```shell
+brew install gpg-suite-no-mail
+```
+
+More details: Section **OpenPGP and S/MIME** in the [MailMate Manual : Preferences](https://manual.mailmate-app.com/preferences) chapter.
+
 ### Administrating GPG Keys
 
 #### Receive Keys
 
-1. Find a key on the keyserver (e.g. [pgp.mit.edu](https://pgp.mit.edu/)) and write down the **full fingerprint**
+1. Find a key on the keyserver (e.g. [pgp.mit.edu](https://pgp.mit.edu/) or [keys.openpgp.org](https://keys.openpgp.org)) and write down the **full fingerprint**
 
 ```shell
 gpg --keyserver pool.sks-keyservers.net --recv-keys 
@@ -60,6 +75,8 @@ See also: [Question on Superuser.com](https://unix.stackexchange.com/questions/3
 ```shell
 gpg --list-keys pgpCA@ct.heise.de
 ```
+
+This document describes the details of the listed record, e.g. the key sub types like `sec`, `ssb`, `pub`, etc.: [GnuPG Details](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob_plain;f=doc/DETAILS)
 
 #### Verify Keys
 
@@ -126,6 +143,20 @@ Tue 10 Feb 12:13:58 CET 2015
 
 > The RFC clearly states "key superseded" doesn't invalidate old signatures
 
+#### Export Keys to ASCII Armored File
+
+Export a public key so that you can give it to friends:
+
+```shell
+gpg --output public.gpg.asc --armor --export username@email
+```
+
+Export the private key as **unencrypted** file:
+
+```shell
+gpg --output private.gpg.asc --armor --export-secret-key username@email
+```
+
 #### Extend an Expired Key
 
 ```shell
@@ -148,8 +179,23 @@ See:
 - [GnuPG: Gültigkeit eines Schlüssels verlängern](https://stephan-nix.de/2020/10/06/gnupg-gultigkeit-eines-schlussels-verlangern/)
 - [How to renew an expired keypair with gpg](https://unix.stackexchange.com/questions/177291/how-to-renew-an-expired-keypair-with-gpg)
 
+#### Delete a key
+
+Delete a public key from your keyring:
+
+```shell
+gpg --delete-key "User Name"
+```
+
+Delete a private key
+
+```shell
+gpg --delete-secret-key "User Name"
+```
+
 ### Links and References
 
+- [The GNU Privacy Handbook](https://gnupg.org/gph/en/manual.html)
 - [GnuPG](https://gnupg.org/download/)
 - [GPG Suite for Mac](https://gpgtools.org)
 - [Secure my email - encryption and digital signatures](http://www.secure-my-email.com/)
