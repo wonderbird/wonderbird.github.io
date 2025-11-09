@@ -46,6 +46,10 @@ Seit Kurzem notiere ich die Einstellungen meiner Maschine, sodass der Espresso g
 
 Koffeinfreien Kaffee bereite ich mit der Aeropress nach der klassischen Methode zu ([Raimos Anleitung](https://brewguide.acaia.co/Y20AuGD7zO)). In Klammern gebe ich die Summe aus Blooming Phase (30 s) und anschließender Extraktionszeit an.
 
+- [Vee's Italiensche Röstung d'Oro - entkoffeiniert](https://vees-coffee.com/de/entkoffeinierte-kaffees/44-1978-vee-s-italiensche-roestung-d-oro-entkoffeiniert-4260338291440.html#/1-gewicht-250g/5-mahlwunsch-ganze_bohnen) - Zartbitterschokolade
+
+- [Wildkaffee: Entkoffeiniert](https://wild-kaffee.com/products/entkoffeiniert?_pos=1&_si) - Haselnuss, Milchschokolade
+
 - [Espresso Perfetto / Espresso International: Lucaffé Decaffeinato](https://www.espresso-international.de/lucaffe-entkoffeiniert-espresso-arabica-bohnen) - feines, leicht schokoladiges Aroma und einer lang anhaltende und füllige Crema
 
 - [Kaffeesaurus DECAF Espresso / Filter](https://kaffeesaurus.com/produkt/decaf-espresso-filter) - Dunkle Schokolade, Bourbon
