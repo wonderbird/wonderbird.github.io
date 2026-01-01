@@ -1,3 +1,7 @@
+---
+title: Stefan Boos' Home
+layout: default
+---
 <p>Welcome at Stefan Boos' personal home page.</p>
 
 <h2>Blog Posts</h2>

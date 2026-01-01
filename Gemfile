@@ -8,3 +8,5 @@ gem "jekyll"
 gem "github-pages", group: :jekyll_plugins
 
 gem "webrick", "~> 1.7"
+gem "jekyll-theme-architect"
+gem "logger"
