@@ -2,6 +2,25 @@
 title: Hard Links and Symbolic Links on Windows
 layout: default
 ---
+# Junctions and Symbolic Links
+
+From a practical aspect, symbolic links and junctions are similar.
+
+Junctions only work for targets on local volumes but work for a normal user. Symbolic links are more flexible but require elevated privileges or Developer Mode.
+
+To create a junction:
+
+```shell
+mklink /j "TARGET" "SOURCE"
+```
+
+To create a symbolic link to a directory
+
+```shell
+mklink /d "TARGET" "SOURCE"
+```
+
+Example: [wonderbird / ai-agent-workspace / scripts / create-skills-links-in-home-win.sh](https://github.com/wonderbird/ai-agent-workspace/blob/main/scripts/create-skills-links-in-home-win.sh)
 
 # Hard Links and Symbolic Links on Windows
 
