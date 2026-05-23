@@ -63,7 +63,8 @@ More details: Section **OpenPGP and S/MIME** in the [MailMate Manual : Preferenc
 1. Find a key on the keyserver (e.g. [pgp.mit.edu](https://pgp.mit.edu/) or [keys.openpgp.org](https://keys.openpgp.org)) and write down the **full fingerprint**
 
 ```shell
-gpg --keyserver pool.sks-keyservers.net --recv-keys 
+gpg --keyserver pool.sks-keyservers.net --recv-keys KEY-ID
+gpg --keyserver keyserver.ubuntu.com --recv-key KEY-ID
 ```
 
 **Important:** Always use the full fingerprint for receiving the key. Otherwise hackers can spoof the key.
