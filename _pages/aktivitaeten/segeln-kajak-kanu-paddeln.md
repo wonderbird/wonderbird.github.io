@@ -13,8 +13,10 @@ layout: default
 ### Diese haben wir noch nicht ausprobiert ...
 
 * [Segelclub Möhnesee Süd, NRW, Germany](http://www.s-c-m-s.de/)
-* [Unterbacher See, NRW, Germany](https://unterbachersee.de/segelschule/)
+* [Unterbacher See, NRW, Germany (Segelschule)](https://unterbachersee.de/segelschule/)
+* [Unterbacher See, NRW, Germany (Hafen)](https://unterbachersee.de/hafen/)
 * [Sail Charter Friesland](https://sailcharterfriesland.de/)
+- [sail-a-way Sneeker Meer](https://www.sail-a-way.nl/zeilboot-verhuur/tirion-21)
 
 ## Kajak / Kanu / Paddeln
 
