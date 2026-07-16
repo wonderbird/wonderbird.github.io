@@ -4,8 +4,27 @@ Guide for developers who just cloned this repo and want to preview the Jekyll si
 
 ## Prerequisites
 
-- Ruby (tested with 3.2.3)
+- Ruby 3.4.x recommended (tested with 3.4.10; 3.2.3 also works)
 - Bundler
+
+Note: Ruby 4.x does not work — the `github-pages` gem depends on `commonmarker` 0.23.x, which requires Ruby < 4.0.
+
+### Installing Ruby 3.4
+
+If your system Ruby is older (Ubuntu 24.04 ships 3.2.3), install Ruby 3.4 with [mise](https://mise.jdx.dev/) — it keeps the version local to this repo and leaves your system Ruby untouched:
+
+```bash
+sudo apt install -y build-essential libssl-dev libyaml-dev zlib1g-dev libffi-dev rustc
+curl https://mise.run | sh
+echo 'eval "$(~/.local/bin/mise activate bash)"' >> ~/.bashrc
+exec bash
+
+cd <repo-root>
+mise use ruby@3.4    # compiles from source, takes 5-10 minutes
+ruby -v              # should show 3.4.x
+```
+
+This creates a `mise.toml` file in the repo root that pins the Ruby version for this directory.
 
 Check if Bundler is installed:
 
@@ -88,4 +107,5 @@ bundle outdated
 - **`bundle: command not found`** — Bundler installed but not on `PATH`. See the Prerequisites section above.
 - **Native extension build fails (e.g. `bigdecimal`)** — install `build-essential` (see Prerequisites).
 - **Port 4000 already in use** — pass a different port: `bundle exec jekyll serve --livereload --port 4001`.
+- **Weird gem errors after switching Ruby versions** — native extensions in `vendor/bundle` were compiled for the old Ruby. Delete `vendor/bundle` and run `bundle install` again.
 - **First `bundle` command hangs or fails with no network** — Bundler auto-detects the `BUNDLED WITH` version in `Gemfile.lock` and transparently installs/re-execs that exact version if it differs from the one you have. This needs network access to rubygems.org on first run, even if you already installed a different Bundler version yourself.
